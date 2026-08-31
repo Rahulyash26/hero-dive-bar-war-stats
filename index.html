@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hero Dive Bar — War Stats</title>
+<style>
+:root{
+  --bg:#0c1118;--panel:#151c26;--panel2:#1b2431;--line:#2b3544;
+  --text:#edf2f7;--muted:#8fa0b5;--accent:#8b5cf6;--good:#37c96b;
+  --warn:#f2bd4c;--bad:#ff6b6b
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif}
+header{background:#0c1118ee;position:sticky;top:0;border-bottom:1px solid var(--line);z-index:10}
+.wrap{max-width:1100px;margin:auto;padding:18px 20px}
+.brand{display:flex;gap:12px;align-items:center}
+.logo{width:42px;height:42px;border-radius:11px;display:grid;place-items:center;background:linear-gradient(135deg,#8b5cf6,#4f46e5);font-size:22px}
+h1{font-size:30px;margin:0 0 18px} h2{font-size:21px;margin:28px 0 12px}
+.muted{color:var(--muted)} .small{font-size:12px}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+nav button{border:0;background:transparent;color:var(--muted);padding:9px 12px;border-radius:8px;cursor:pointer;font-weight:650}
+nav button.active,nav button:hover{background:var(--panel);color:var(--text)}
+main{max-width:1100px;margin:auto;padding:22px 20px 60px}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px}
+.s12{grid-column:span 12}.s8{grid-column:span 8}.s6{grid-column:span 6}.s4{grid-column:span 4}.s3{grid-column:span 3}
+.kicker{text-transform:uppercase;letter-spacing:.09em;color:var(--muted);font-size:11px;font-weight:800}
+.big{font-size:31px;font-weight:850;margin-top:5px}.score{font-size:42px;font-weight:900}
+.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.between{justify-content:space-between}
+.pill{display:inline-block;padding:4px 8px;border-radius:999px;background:var(--panel2);font-size:12px}
+.good{color:var(--good)} .bad{color:var(--bad)}
+table{width:100%;border-collapse:collapse} th,td{padding:11px 10px;border-bottom:1px solid var(--line);text-align:left;font-size:14px}
+th{font-size:11px;text-transform:uppercase;color:var(--muted);letter-spacing:.05em} tr:last-child td{border-bottom:0}
+.hide{display:none}
+.error{padding:14px;background:#321b1b;border:1px solid #693434;border-radius:10px}
+@media(max-width:760px){.s8,.s6,.s4,.s3{grid-column:span 12}.score{font-size:34px}table{display:block;overflow-x:auto}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+  <div class="row between">
+    <div class="brand"><div class="logo">⚔</div><div><b>Hero Dive Bar</b><div class="muted small">Public War Dashboard</div></div></div>
+    <div id="updated" class="muted small">Loading…</div>
+  </div>
+  <nav>
+    <button class="active" data-tab="home">Dashboard</button>
+    <button data-tab="wars">Regular Wars</button>
+    <button data-tab="players">Players</button>
+    <button data-tab="cwl">CWL</button>
+  </nav>
+</div>
+</header>
+<main>
+<div id="error"></div>
+<section id="home"></section>
+<section id="wars" class="hide"></section>
+<section id="players" class="hide"></section>
+<section id="cwl" class="hide"></section>
+</main>
+<script>
+const esc = s => String(s ?? '').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+const stars = n => '★'.repeat(Number(n||0)) + '☆'.repeat(Math.max(0,3-Number(n||0)));
+let DATA=null;
+
+document.querySelectorAll('nav button').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('nav button').forEach(x=>x.classList.remove('active'));
+  document.querySelectorAll('main section').forEach(x=>x.classList.add('hide'));
+  b.classList.add('active'); document.getElementById(b.dataset.tab).classList.remove('hide');
+}));
+
+function render(d){
+  DATA=d;
+  document.getElementById('updated').textContent = d.generated_at ? `Updated ${new Date(d.generated_at).toLocaleString()}` : 'Updated';
+  const w=d.current_war;
+  let home='<h1>Dashboard</h1>';
+  if(w){
+    home+=`<div class="grid">
+      <div class="card s8">
+        <div class="kicker">${esc(w.state_label)} · ${w.team_size}v${w.team_size}</div>
+        <h2 style="margin-top:8px">${esc(w.clan_name)} <span class="muted">vs</span> ${esc(w.opponent_name)}</h2>
+        <div class="row"><div><div class="score">${w.clan_stars} ★</div><div class="muted">${Number(w.clan_destruction).toFixed(2)}%</div></div>
+        <div class="muted">—</div>
+        <div><div class="score">${w.opponent_stars} ★</div><div class="muted">${Number(w.opponent_destruction).toFixed(2)}%</div></div></div>
+      </div>
+      <div class="card s4"><div class="kicker">Clan attacks used</div><div class="big">${w.attacks_used} / ${w.max_attacks}</div>
+      <div class="muted">Raw war maximum. Filler status is private.</div></div>
+    </div>`;
+  } else home+='<div class="card">No current war stored.</div>';
+
+  home+='<h2>Recent Results</h2><div class="card"><table><thead><tr><th>Opponent</th><th>Size</th><th>Score</th><th>Result</th></tr></thead><tbody>';
+  for(const x of d.recent_wars||[]){
+    const cls=x.result==='win'?'good':x.result==='loss'?'bad':'';
+    home+=`<tr><td>${esc(x.opponent_name)}</td><td>${x.team_size}v${x.team_size}</td><td>${x.clan_stars}–${x.opponent_stars}</td><td class="${cls}">${esc((x.result||x.state_label).toUpperCase())}</td></tr>`;
+  }
+  home+='</tbody></table></div>';
+  document.getElementById('home').innerHTML=home;
+
+  let wars='<h1>Regular Wars</h1><div class="card"><table><thead><tr><th>Date</th><th>Opponent</th><th>Size</th><th>Stars</th><th>Destruction</th><th>Result</th></tr></thead><tbody>';
+  for(const x of d.wars||[]){
+    wars+=`<tr><td>${esc(x.date)}</td><td>${esc(x.opponent_name)}</td><td>${x.team_size}v${x.team_size}</td><td>${x.clan_stars}–${x.opponent_stars}</td><td>${Number(x.clan_destruction).toFixed(1)}%–${Number(x.opponent_destruction).toFixed(1)}%</td><td>${esc((x.result||x.state_label).toUpperCase())}</td></tr>`;
+  }
+  wars+='</tbody></table></div>';
+  document.getElementById('wars').innerHTML=wars;
+
+  let players='<h1>Players</h1><div class="card"><table><thead><tr><th>Player</th><th>TH</th><th>Attacks</th><th>3★</th><th>Triple Rate</th><th>Avg Stars</th><th>Avg Destruction</th></tr></thead><tbody>';
+  for(const p of d.players||[]){
+    players+=`<tr><td><b>${esc(p.name)}</b></td><td>TH${p.th}</td><td>${p.attacks}</td><td>${p.triples}</td><td>${Number(p.triple_rate).toFixed(1)}%</td><td>${Number(p.avg_stars).toFixed(2)}</td><td>${Number(p.avg_destruction).toFixed(1)}%</td></tr>`;
+  }
+  players+='</tbody></table><div class="muted small" style="margin-top:14px">Missed attacks, filler designations, targeting warnings and management notes are intentionally not published.</div></div>';
+  document.getElementById('players').innerHTML=players;
+
+  document.getElementById('cwl').innerHTML='<h1>CWL</h1><div class="card">CWL public statistics will appear here once the separate CWL collector is enabled.</div>';
+}
+
+fetch('data.json?ts='+Date.now(),{cache:'no-store'})
+ .then(r=>{if(!r.ok)throw new Error(`HTTP ${r.status}`);return r.json()})
+ .then(render)
+ .catch(e=>document.getElementById('error').innerHTML=`<div class="error">Could not load dashboard data: ${esc(e.message)}</div>`);
+</script>
+</body>
+</html>
