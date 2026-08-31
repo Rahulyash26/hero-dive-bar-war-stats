@@ -1,6 +1,6 @@
 {
-  "schema_version": 5,
-  "generated_at": "2026-08-31T18:40:32.184565+00:00",
+  "schema_version": 6,
+  "generated_at": "2026-08-31T18:42:22.968948+00:00",
   "clan": {
     "name": "Hero Dive Bar",
     "tag": "#2G2LRY0JQ",
@@ -14,6 +14,9 @@
     "state": "preparation",
     "state_label": "Preparation Day",
     "team_size": 20,
+    "preparation_start_time": "2026-08-31T02:14:42.000Z",
+    "start_time": "2026-09-01T01:14:42.000Z",
+    "end_time": "2026-09-02T01:14:42.000Z",
     "clan_name": "Hero Dive Bar",
     "opponent_name": "WaymansWarriors",
     "clan_stars": 0,
