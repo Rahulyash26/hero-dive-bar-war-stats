@@ -1,0 +1,468 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-31T06:31:49.495535+00:00",
+  "clan": {
+    "name": "Hero Dive Bar",
+    "tag": "#2G2LRY0JQ"
+  },
+  "current_war": {
+    "state": "preparation",
+    "state_label": "Preparation Day",
+    "team_size": 20,
+    "clan_name": "Hero Dive Bar",
+    "opponent_name": "WaymansWarriors",
+    "clan_stars": 0,
+    "opponent_stars": 0,
+    "clan_destruction": 0.0,
+    "opponent_destruction": 0.0,
+    "attacks_used": 0,
+    "max_attacks": 40
+  },
+  "recent_wars": [
+    {
+      "date": "20260901",
+      "opponent_name": "WaymansWarriors",
+      "team_size": 20,
+      "clan_stars": 0,
+      "opponent_stars": 0,
+      "clan_destruction": 0.0,
+      "opponent_destruction": 0.0,
+      "state": "preparation",
+      "state_label": "Preparation Day",
+      "result": null
+    }
+  ],
+  "wars": [
+    {
+      "date": "20260901",
+      "opponent_name": "WaymansWarriors",
+      "team_size": 20,
+      "clan_stars": 0,
+      "opponent_stars": 0,
+      "clan_destruction": 0.0,
+      "opponent_destruction": 0.0,
+      "state": "preparation",
+      "state_label": "Preparation Day",
+      "result": null
+    }
+  ],
+  "players": [
+    {
+      "name": "+Alon2000+",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Amor con Fuego",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Avi the best",
+      "th": 16,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Avinash",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Boj.o.Boj",
+      "th": 17,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "ChagoWitaBullet",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Chriter7",
+      "th": 15,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "CmALPHA_RY",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Daman",
+      "th": 17,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "DarkSoulz",
+      "th": 17,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "DEEPAK",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Deepak",
+      "th": 17,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "freakazoid",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "frozenchocolate",
+      "th": 17,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Globin Barrel",
+      "th": 17,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Hero Starsky 78",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Hollowclient765",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Jasper",
+      "th": 15,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Jerry",
+      "th": 17,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Jk <3",
+      "th": 16,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "John 3:16™",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Josh",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Maximus",
+      "th": 15,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "miniaturepest",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Murvion",
+      "th": 16,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Neini",
+      "th": 16,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "ossygirl1",
+      "th": 13,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "PARki",
+      "th": 17,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "PATHAN",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Pep",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Pester",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Sandhu",
+      "th": 17,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Sandhu__z",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Scottimus",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Seaummelier",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "shaik",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "shaik2",
+      "th": 14,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "SimarGill",
+      "th": 17,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Sky",
+      "th": 14,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "Souls",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "taymonayyyy",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "That guy",
+      "th": 17,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "tinynuisance",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "TkHuNdOWaH",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "UNIS",
+      "th": 18,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    },
+    {
+      "name": "ymcmb",
+      "th": 16,
+      "attacks": 0,
+      "triples": 0,
+      "triple_rate": 0.0,
+      "avg_stars": 0.0,
+      "avg_destruction": 0.0
+    }
+  ],
+  "cwl": {
+    "enabled": false
+  }
+}
