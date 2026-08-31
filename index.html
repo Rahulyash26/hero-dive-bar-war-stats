@@ -55,6 +55,13 @@ select{width:100%;background:var(--panel2);color:var(--text);border:1px solid va
 .compare-stat:first-child{border-top:0}.compare-stat .mid{text-align:center;color:var(--muted);font-size:12px;text-transform:uppercase}
 .compare-stat .right{text-align:right}
 .record-note{font-size:12px;color:var(--muted);margin-top:8px}
+.countdown-card{overflow:hidden;position:relative}
+.countdown-card:after{content:"";position:absolute;right:-35px;bottom:-55px;width:125px;height:125px;border:20px solid var(--line);border-radius:50%;opacity:.35}
+.countdown-value{font-size:34px;font-weight:900;letter-spacing:.02em;margin-top:7px;position:relative;z-index:1}
+.countdown-sub{margin-top:5px;color:var(--muted);font-size:13px;position:relative;z-index:1}
+.countdown-live{display:inline-flex;align-items:center;gap:6px}
+.countdown-live:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--good);display:inline-block}
+
 @media(max-width:760px){
   .s8,.s6,.s4,.s3{grid-column:span 12}.score{font-size:34px}
   table{display:block;overflow-x:auto}
@@ -140,6 +147,72 @@ function renderTimeline(w){
   return h;
 }
 
+
+let WAR_COUNTDOWN_TIMER=null;
+
+function formatCountdown(ms){
+  if(!Number.isFinite(ms) || ms<=0) return '00h 00m 00s';
+  let total=Math.floor(ms/1000);
+  const days=Math.floor(total/86400); total%=86400;
+  const hours=Math.floor(total/3600); total%=3600;
+  const minutes=Math.floor(total/60);
+  const seconds=total%60;
+  const hh=String(hours).padStart(2,'0');
+  const mm=String(minutes).padStart(2,'0');
+  const ss=String(seconds).padStart(2,'0');
+  return days>0 ? `${days}d ${hh}h ${mm}m ${ss}s` : `${hh}h ${mm}m ${ss}s`;
+}
+
+function localDateTime(iso){
+  if(!iso) return '';
+  const d=new Date(iso);
+  if(Number.isNaN(d.getTime())) return '';
+  return d.toLocaleString([],{
+    weekday:'short',month:'short',day:'numeric',
+    hour:'numeric',minute:'2-digit'
+  });
+}
+
+function updateWarCountdown(){
+  const w=DATA?.current_war;
+  const label=document.getElementById('warCountdownLabel');
+  const value=document.getElementById('warCountdownValue');
+  const sub=document.getElementById('warCountdownSub');
+  const phase=document.getElementById('warCountdownPhase');
+  if(!w||!label||!value||!sub||!phase) return;
+
+  const now=Date.now();
+  const start=w.start_time ? new Date(w.start_time).getTime() : NaN;
+  const end=w.end_time ? new Date(w.end_time).getTime() : NaN;
+
+  if(Number.isFinite(start) && now < start){
+    label.textContent='Battle Day Starts In';
+    value.textContent=formatCountdown(start-now);
+    sub.textContent=`Battle Day starts ${localDateTime(w.start_time)}`;
+    phase.textContent='Preparation Day';
+    return;
+  }
+
+  if(Number.isFinite(end) && now < end){
+    label.textContent='War Ends In';
+    value.textContent=formatCountdown(end-now);
+    sub.textContent=`Battle Day ends ${localDateTime(w.end_time)}`;
+    phase.textContent='Battle Day';
+    return;
+  }
+
+  label.textContent='War Status';
+  value.textContent='War Ended';
+  sub.textContent=w.end_time ? `Ended ${localDateTime(w.end_time)}` : '';
+  phase.textContent='War Ended';
+}
+
+function startWarCountdown(){
+  if(WAR_COUNTDOWN_TIMER) clearInterval(WAR_COUNTDOWN_TIMER);
+  updateWarCountdown();
+  WAR_COUNTDOWN_TIMER=setInterval(updateWarCountdown,1000);
+}
+
 function render(d){
   DATA=d;
   document.getElementById('updated').textContent=d.generated_at?`Updated ${new Date(d.generated_at).toLocaleString()}`:'Updated';
@@ -155,6 +228,17 @@ function render(d){
       <div class="muted">—</div><div><div class="score">${w.opponent_stars} ★</div><div class="muted">${Number(w.opponent_destruction).toFixed(2)}%</div></div></div></div>
       <div class="card s4"><div class="kicker">Expected clan attacks</div><div class="big">${w.attacks_used} / ${w.expected_attacks}</div>
       <div class="muted">${w.fillers} filler${w.fillers===1?'':'s'} excluded.</div><div style="margin-top:10px"><b>${w.remaining_attacks}</b> expected attacks remaining</div></div>
+
+      <div class="card s12 countdown-card">
+        <div class="row between">
+          <div>
+            <div class="kicker countdown-live" id="warCountdownLabel">War Timer</div>
+            <div class="countdown-value" id="warCountdownValue">Calculating…</div>
+            <div class="countdown-sub" id="warCountdownSub"></div>
+          </div>
+          <div class="muted small" id="warCountdownPhase">${esc(w.state_label)}</div>
+        </div>
+      </div>
     </div>`;
   }
 
@@ -202,6 +286,7 @@ function render(d){
   document.getElementById('cwl').innerHTML='<h1>CWL</h1><div class="card">CWL stays separate and will be added next.</div>';
   bindPlayerLinks();
   routeFromHash();
+  startWarCountdown();
 }
 
 function compareRow(label,a,b,format=x=>x){
