@@ -1,6 +1,6 @@
 {
   "schema_version": 9,
-  "generated_at": "2026-09-01T21:01:38.546156+00:00",
+  "generated_at": "2026-09-01T22:29:11.361712+00:00",
   "clan": {
     "name": "Hero Dive Bar",
     "tag": "#2G2LRY0JQ",
@@ -22,7 +22,7 @@
     "clan_stars": 60,
     "opponent_stars": 53,
     "clan_destruction": 100.0,
-    "opponent_destruction": 93.8,
+    "opponent_destruction": 95.2,
     "attacks_used": 29,
     "expected_attacks": 38,
     "volunteer_attacks": 2,
@@ -1165,6 +1165,21 @@
         "new_stars": 1,
         "our_score_after": 60,
         "their_score_after": 53
+      },
+      {
+        "order": 62,
+        "side": "opponent",
+        "attacker_public_id": null,
+        "attacker_name": "Drupe",
+        "attacker_position": 3,
+        "defender_name": "ChagoWitaBullet",
+        "defender_position": 2,
+        "stars": 2,
+        "destruction": 94.0,
+        "attack_type": "cleanup",
+        "new_stars": 0,
+        "our_score_after": 60,
+        "their_score_after": 53
       }
     ]
   },
@@ -1177,7 +1192,7 @@
       "clan_stars": 60,
       "opponent_stars": 53,
       "clan_destruction": 100.0,
-      "opponent_destruction": 93.8,
+      "opponent_destruction": 95.2,
       "state": "inWar",
       "state_label": "Battle Day",
       "result": null,
