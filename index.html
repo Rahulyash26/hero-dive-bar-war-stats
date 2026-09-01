@@ -55,6 +55,14 @@ select{width:100%;background:var(--panel2);color:var(--text);border:1px solid va
 .compare-stat:first-child{border-top:0}.compare-stat .mid{text-align:center;color:var(--muted);font-size:12px;text-transform:uppercase}
 .compare-stat .right{text-align:right}
 .record-note{font-size:12px;color:var(--muted);margin-top:8px}
+.player-toolbar{display:flex;gap:12px;align-items:end;flex-wrap:wrap;margin-bottom:14px}
+.player-toolbar label{display:block;font-size:11px;text-transform:uppercase;color:var(--muted);letter-spacing:.05em;font-weight:800;margin-bottom:5px}
+.player-toolbar select{min-width:190px}
+.member-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.member-tabs button{border:1px solid var(--line);background:var(--panel2);color:var(--muted);padding:9px 12px;border-radius:9px;cursor:pointer;font-weight:700}
+.member-tabs button.active{color:var(--text);border-color:var(--accent2)}
+.status-former{color:var(--warn)}
+
 .countdown-card{overflow:hidden;position:relative}
 .countdown-card:after{content:"";position:absolute;right:-35px;bottom:-55px;width:125px;height:125px;border:20px solid var(--line);border-radius:50%;opacity:.35}
 .countdown-value{font-size:34px;font-weight:900;letter-spacing:.02em;margin-top:7px;position:relative;z-index:1}
@@ -281,12 +289,7 @@ function render(d){
   wars+='</tbody></table></div>';
   document.getElementById('wars').innerHTML=wars;
 
-  let players='<h1>Players</h1><div class="card"><table><thead><tr><th>Player</th><th>TH</th><th>Wars</th><th>Attacks</th><th>Missed</th><th>3★</th><th>Triple Rate</th><th>No-Miss Streak</th><th>Triple Streak</th><th>Volunteer</th></tr></thead><tbody>';
-  for(const p of d.players||[]){
-    players+=`<tr><td>${playerLink(p.name,p.public_id)}</td><td>TH${p.th}</td><td>${p.wars}</td><td>${p.attacks}</td><td class="${p.missed_attacks>0?'bad':''}">${p.missed_attacks}</td><td>${p.triples}</td><td>${pct(p.triple_rate)}%</td><td>${p.current_no_miss_war_streak}</td><td>${p.current_triple_streak}</td><td>${p.volunteer_attacks}</td></tr>`;
-  }
-  players+='</tbody></table><div class="record-note">Streaks and records are based only on data collected by this tracker.</div></div>';
-  document.getElementById('players').innerHTML=players;
+  renderPlayersTable();
 
   renderCompare();
   document.getElementById('cwl').innerHTML='<h1>CWL</h1><div class="card">CWL stays separate and will be added next.</div>';
@@ -298,8 +301,99 @@ function render(d){
 function compareRow(label,a,b,format=x=>x){
   return `<div class="compare-stat"><div><b>${format(a)}</b></div><div class="mid">${esc(label)}</div><div class="right"><b>${format(b)}</b></div></div>`;
 }
+
+let PLAYER_VIEW='current';
+let PLAYER_SORT='th_desc';
+
+function sortedPlayers(list,key){
+  const a=[...(list||[])];
+  const n=v=>Number(v||0);
+  const name=(x,y)=>String(x.name||'').localeCompare(String(y.name||''),undefined,{sensitivity:'base'});
+  const f={
+    th_desc:(x,y)=>n(y.th)-n(x.th)||n(y.attacks)-n(x.attacks)||name(x,y),
+    th_asc:(x,y)=>n(x.th)-n(y.th)||name(x,y),
+    attacks_desc:(x,y)=>n(y.attacks)-n(x.attacks)||name(x,y),
+    attacks_asc:(x,y)=>n(x.attacks)-n(y.attacks)||name(x,y),
+    wars_desc:(x,y)=>n(y.wars)-n(x.wars)||name(x,y),
+    triples_desc:(x,y)=>n(y.triples)-n(x.triples)||name(x,y),
+    triple_rate_desc:(x,y)=>n(y.triple_rate)-n(x.triple_rate)||n(y.attacks)-n(x.attacks)||name(x,y),
+    missed_asc:(x,y)=>n(x.missed_attacks)-n(y.missed_attacks)||name(x,y),
+    missed_desc:(x,y)=>n(y.missed_attacks)-n(x.missed_attacks)||name(x,y),
+    no_miss_desc:(x,y)=>n(y.current_no_miss_war_streak)-n(x.current_no_miss_war_streak)||name(x,y),
+    triple_streak_desc:(x,y)=>n(y.current_triple_streak)-n(x.current_triple_streak)||n(y.triples)-n(x.triples)||name(x,y),
+    best_triple_streak_desc:(x,y)=>n(y.best_triple_streak)-n(x.best_triple_streak)||n(y.triples)-n(x.triples)||name(x,y),
+    name_asc:name
+  };
+  return a.sort(f[key]||f.th_desc);
+}
+
+function renderPlayersTable(){
+  const current=DATA?.players||[];
+  const former=DATA?.former_players||[];
+  const source=PLAYER_VIEW==='former'?former:current;
+  const list=sortedPlayers(source,PLAYER_SORT);
+
+  let h=`<h1>Players</h1>
+  <div class="member-tabs">
+    <button type="button" id="currentMembersBtn" class="${PLAYER_VIEW==='current'?'active':''}">Current Members (${current.length})</button>
+    <button type="button" id="formerMembersBtn" class="${PLAYER_VIEW==='former'?'active':''}">Former Members (${former.length})</button>
+  </div>
+  <div class="card">
+    <div class="player-toolbar">
+      <div>
+        <label for="playerSort">Sort By</label>
+        <select id="playerSort">
+          <option value="th_desc">Town Hall — High to Low</option>
+          <option value="th_asc">Town Hall — Low to High</option>
+          <option value="attacks_desc">Attacks — Most to Least</option>
+          <option value="attacks_asc">Attacks — Least to Most</option>
+          <option value="wars_desc">Wars — Most to Least</option>
+          <option value="triples_desc">Triples — Most to Least</option>
+          <option value="triple_rate_desc">Triple Rate — High to Low</option>
+          <option value="missed_asc">Missed Attacks — Least to Most</option>
+          <option value="missed_desc">Missed Attacks — Most to Least</option>
+          <option value="no_miss_desc">No-Miss Streak — Longest</option>
+          <option value="triple_streak_desc">Current Triple Streak — Longest</option>
+          <option value="best_triple_streak_desc">Best Triple Streak — Longest</option>
+          <option value="name_asc">Name — A to Z</option>
+        </select>
+      </div>
+      <div class="muted small">${PLAYER_VIEW==='former'
+        ?'Former members keep their complete recorded history.'
+        :'Current clan members.'}</div>
+    </div>`;
+
+  if(!list.length){
+    h+=`<div class="empty">${PLAYER_VIEW==='former'?'No former members yet.':'No current members found.'}</div>`;
+  }else{
+    h+='<table><thead><tr><th>Player</th><th>TH</th><th>Wars</th><th>Attacks</th><th>Missed</th><th>3★</th><th>Triple Rate</th><th>No-Miss Streak</th><th>Triple Streak</th><th>Volunteer</th></tr></thead><tbody>';
+    for(const p of list){
+      h+=`<tr>
+        <td>${playerLink(p.name,p.public_id)}${PLAYER_VIEW==='former'?' <span class="pill">Former</span>':''}</td>
+        <td>TH${p.th}</td><td>${p.wars}</td><td>${p.attacks}</td>
+        <td class="${p.missed_attacks>0?'bad':''}">${p.missed_attacks}</td>
+        <td>${p.triples}</td><td>${pct(p.triple_rate)}%</td>
+        <td>${p.current_no_miss_war_streak}</td><td>${p.current_triple_streak}</td>
+        <td>${p.volunteer_attacks}</td>
+      </tr>`;
+    }
+    h+='</tbody></table>';
+  }
+  h+='</div>';
+  document.getElementById('players').innerHTML=h;
+
+  const sort=document.getElementById('playerSort');
+  if(sort){
+    sort.value=PLAYER_SORT;
+    sort.addEventListener('change',()=>{PLAYER_SORT=sort.value;renderPlayersTable();});
+  }
+  document.getElementById('currentMembersBtn')?.addEventListener('click',()=>{PLAYER_VIEW='current';renderPlayersTable();});
+  document.getElementById('formerMembersBtn')?.addEventListener('click',()=>{PLAYER_VIEW='former';renderPlayersTable();});
+  bindPlayerLinks();
+}
+
 function renderCompare(){
-  const ps=DATA?.players||[];
+  const ps=DATA?.all_players||DATA?.players||[];
   let h='<h1>Player vs Player</h1><div class="card">';
   if(ps.length<2){h+='<div class="empty">Need at least two players.</div></div>';document.getElementById('compare').innerHTML=h;return;}
   const opts=ps.map(p=>`<option value="${esc(p.public_id)}">${esc(p.name)}</option>`).join('');
@@ -335,7 +429,7 @@ function renderPlayerProfile(id){
   const p=(DATA.player_profiles||{})[id];
   if(!p){showSection('players');return;}
   let profile=`<a class="back-link" href="#" id="backPlayers">← Back to Players</a>
-  <h1 style="margin-bottom:5px">${esc(p.name)}</h1><div class="muted">TH${p.th} · Regular War History</div>
+  <h1 style="margin-bottom:5px">${esc(p.name)}</h1><div class="muted">TH${p.th} · Regular War History · <span class="${p.currently_in_clan?'good':'status-former'}">${esc(p.membership_status||'Member')}</span></div>
   <div class="grid" style="margin-top:18px">
     <div class="card s3"><div class="kicker">Wars</div><div class="big">${p.wars}</div></div>
     <div class="card s3"><div class="kicker">Attacks</div><div class="big">${p.attacks}</div></div>
