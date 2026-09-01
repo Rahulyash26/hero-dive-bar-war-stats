@@ -1,6 +1,6 @@
 {
   "schema_version": 9,
-  "generated_at": "2026-09-01T18:13:38.082973+00:00",
+  "generated_at": "2026-09-01T18:19:40.839760+00:00",
   "clan": {
     "name": "Hero Dive Bar",
     "tag": "#2G2LRY0JQ",
@@ -1073,6 +1073,21 @@
         "destruction": 100.0,
         "attack_type": "cleanup",
         "new_stars": 1,
+        "our_score_after": 60,
+        "their_score_after": 50
+      },
+      {
+        "order": 56,
+        "side": "opponent",
+        "attacker_public_id": null,
+        "attacker_name": "Vinod Deore",
+        "attacker_position": 4,
+        "defender_name": "shaik",
+        "defender_position": 3,
+        "stars": 2,
+        "destruction": 57.0,
+        "attack_type": "cleanup",
+        "new_stars": 0,
         "our_score_after": 60,
         "their_score_after": 50
       }
