@@ -227,7 +227,7 @@ function render(d){
       <div class="row"><div><div class="score">${w.clan_stars} ★</div><div class="muted">${Number(w.clan_destruction).toFixed(2)}%</div></div>
       <div class="muted">—</div><div><div class="score">${w.opponent_stars} ★</div><div class="muted">${Number(w.opponent_destruction).toFixed(2)}%</div></div></div></div>
       <div class="card s4"><div class="kicker">Expected clan attacks</div><div class="big">${w.attacks_used} / ${w.expected_attacks}</div>
-      <div class="muted">${w.fillers} filler${w.fillers===1?'':'s'} excluded.</div><div style="margin-top:10px"><b>${w.remaining_attacks}</b> expected attacks remaining</div></div>
+      <div class="muted">${w.fillers} filler${w.fillers===1?'':'s'} excluded.</div><div style="margin-top:10px"><b>${w.remaining_attacks}</b> required attacks remaining</div><div class="muted small" style="margin-top:5px">Volunteer filler attacks: ${w.volunteer_attacks||0}</div></div>
 
       <div class="card s12 countdown-card">
         <div class="row between">
@@ -261,11 +261,17 @@ function render(d){
     home+=renderTimeline(w);
   }
 
-  home+='<h2>Recent Results</h2><div class="card"><table><thead><tr><th>Opponent</th><th>Size</th><th>Score</th><th>Fillers</th><th>Missed</th><th>Result</th></tr></thead><tbody>';
+  home+='<h2>Recent Results</h2><div class="card">';
+  if(!(d.recent_wars||[]).length){
+    home+='<div class="empty">No completed regular wars recorded yet.</div>';
+  } else {
+    home+='<table><thead><tr><th>Opponent</th><th>Size</th><th>Score</th><th>Fillers</th><th>Missed</th><th>Result</th></tr></thead><tbody>';
+  }
   for(const x of d.recent_wars||[]){
     home+=`<tr><td>${esc(x.opponent_name)}</td><td>${x.team_size}v${x.team_size}</td><td>${x.clan_stars}–${x.opponent_stars}</td><td>${x.filler_count}</td><td>${x.missed_attacks}</td><td class="${resultClass(x.result)}">${esc((x.result||x.state_label).toUpperCase())}</td></tr>`;
   }
-  home+='</tbody></table></div>';
+  if((d.recent_wars||[]).length) home+='</tbody></table>';
+  home+='</div>';
   document.getElementById('home').innerHTML=home;
 
   let wars='<h1>Regular Wars</h1><div class="card"><table><thead><tr><th>Date</th><th>Opponent</th><th>Size</th><th>Stars</th><th>Destruction</th><th>Fillers</th><th>Missed</th><th>Result</th></tr></thead><tbody>';
@@ -380,10 +386,22 @@ function routeFromHash(){
 }
 window.addEventListener('hashchange',routeFromHash);
 
-fetch('data.json?ts='+Date.now(),{cache:'no-store'})
-.then(r=>{if(!r.ok)throw new Error(`HTTP ${r.status}`);return r.json();})
-.then(render)
-.catch(e=>document.getElementById('error').innerHTML=`<div class="error">Could not load dashboard data: ${esc(e.message)}</div>`);
+let LAST_DATA_VERSION=null;
+function refreshPublicData(){
+  fetch('data.json?ts='+Date.now(),{cache:'no-store'})
+    .then(r=>{if(!r.ok)throw new Error(`HTTP ${r.status}`);return r.json();})
+    .then(d=>{
+      document.getElementById('error').innerHTML='';
+      const version=d.generated_at||JSON.stringify(d.current_war||{});
+      if(DATA===null || version!==LAST_DATA_VERSION){
+        LAST_DATA_VERSION=version;
+        render(d);
+      }
+    })
+    .catch(e=>document.getElementById('error').innerHTML=`<div class="error">Could not refresh dashboard data: ${esc(e.message)}</div>`);
+}
+refreshPublicData();
+setInterval(refreshPublicData,60000);
 </script>
 </body>
 </html>
