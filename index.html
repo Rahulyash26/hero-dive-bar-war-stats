@@ -74,6 +74,17 @@ select{width:100%;background:var(--panel2);color:var(--text);border:1px solid va
 .countdown-live{display:inline-flex;align-items:center;gap:6px}
 .countdown-live:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--good);display:inline-block}
 
+
+.miss-link{border:0;background:transparent;color:var(--bad);font:inherit;font-weight:800;cursor:pointer;padding:0;text-decoration:underline;text-underline-offset:3px}
+.miss-link.zero{color:var(--text);text-decoration:none;cursor:default}
+.modal-backdrop{position:fixed;inset:0;background:#0009;z-index:50;display:grid;place-items:center;padding:20px}
+.modal{width:min(520px,100%);max-height:80vh;overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 24px 70px #0008}
+.modal-close{border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:9px;padding:8px 11px;cursor:pointer}
+.cwl-banner{border-color:#56458f;background:linear-gradient(135deg,#211936,#151c26)}
+.cwl-us{background:#1a2a22}
+.attack-table td:first-child{white-space:nowrap}
+.click-note{font-size:11px;color:var(--muted);margin-top:4px}
+
 @media(max-width:760px){
   .s8,.s6,.s4,.s3{grid-column:span 12}.score{font-size:34px}
   table{display:block;overflow-x:auto}
@@ -113,6 +124,9 @@ const pct=n=>Number(n||0).toFixed(1);
 const avg=n=>Number(n||0).toFixed(2);
 const stars=n=>'★'.repeat(Number(n||0))+'☆'.repeat(Math.max(0,3-Number(n||0)));
 let DATA=null;
+let MISSED_BY_KEY={};
+let ACTIVE_COUNTDOWN_WAR=null;
+let WAR_COUNTDOWN_TIMER=null;
 
 function showSection(id){
   document.querySelectorAll('main section').forEach(x=>x.classList.add('hide'));
@@ -120,427 +134,144 @@ function showSection(id){
   document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('active',x.dataset.tab===id));
 }
 document.querySelectorAll('nav button').forEach(b=>b.addEventListener('click',()=>{
-  history.replaceState(null,'',location.pathname);
-  showSection(b.dataset.tab);
+  history.replaceState(null,'',location.pathname);showSection(b.dataset.tab);
 }));
 
 const playerLink=(name,id)=>`<a class="player-link" href="#player=${encodeURIComponent(id)}" data-player-id="${esc(id)}">${esc(name)}</a>`;
 function bindPlayerLinks(){
   document.querySelectorAll('[data-player-id]').forEach(a=>a.addEventListener('click',e=>{
-    e.preventDefault();location.hash=`player=${encodeURIComponent(a.dataset.playerId)}`;renderPlayerProfile(a.dataset.playerId);
+    e.preventDefault();document.getElementById('missModal')?.remove();location.hash=`player=${encodeURIComponent(a.dataset.playerId)}`;renderPlayerProfile(a.dataset.playerId);
   }));
 }
 function prettyDate(v){return (!v||v.length<8)?(v||'—'):`${v.slice(4,6)}/${v.slice(6,8)}/${v.slice(0,4)}`;}
 function resultClass(r){return r==='win'?'good':r==='loss'?'bad':'';}
 
+function registerMissed(x){if(x?.war_key)MISSED_BY_KEY[x.war_key]={title:`vs ${x.opponent_name||'Opponent'}`,players:x.missed_players||[]};}
+function missedCell(x){
+  registerMissed(x);
+  const n=Number(x?.missed_attacks||0);
+  if(!n)return '<span>0</span>';
+  return `<button class="miss-link" data-missed-key="${esc(x.war_key)}">${n}</button>`;
+}
+function bindMissLinks(){document.querySelectorAll('[data-missed-key]').forEach(b=>b.addEventListener('click',()=>showMissed(b.dataset.missedKey)));}
+function showMissed(key){
+  const info=MISSED_BY_KEY[key]||{title:'War',players:[]};
+  let rows='';
+  for(const p of info.players)rows+=`<tr><td>${playerLink(p.name,p.public_id)}</td><td>TH${p.th??'—'}</td><td>${p.map_position?`#${p.map_position}`:'—'}</td><td class="bad"><b>${p.missed_attacks}</b></td></tr>`;
+  if(!rows)rows='<tr><td colspan="4" class="muted">No missed attacks recorded.</td></tr>';
+  const el=document.createElement('div');el.className='modal-backdrop';el.id='missModal';
+  el.innerHTML=`<div class="modal"><div class="row between"><div><div class="kicker">Missed attacks</div><h2 style="margin:5px 0 0">${esc(info.title)}</h2></div><button class="modal-close" id="closeMiss">Close</button></div><div class="card" style="margin-top:16px;padding:8px 12px"><table><thead><tr><th>Player</th><th>TH</th><th>War #</th><th>Missed</th></tr></thead><tbody>${rows}</tbody></table></div></div>`;
+  document.body.appendChild(el);document.getElementById('closeMiss').onclick=()=>el.remove();el.addEventListener('click',e=>{if(e.target===el)el.remove();});bindPlayerLinks();
+}
+
 function renderTimeline(w){
-  const t=w?.timeline||[];
-  let h='<h2>War Timeline</h2><div class="card">';
-  if(!t.length){
-    h+='<div class="empty">No attacks yet. The timeline will build automatically during Battle Day.</div></div>';
-    return h;
-  }
+  const t=w?.timeline||[];let h='<h2>War Timeline</h2><div class="card">';
+  if(!t.length)return h+'<div class="empty">No attacks yet. The timeline will build automatically during Battle Day.</div></div>';
   h+='<div class="timeline">';
   for(const e of t){
-    const ours=e.side==='clan';
-    const who=ours&&e.attacker_public_id?playerLink(e.attacker_name,e.attacker_public_id):esc(e.attacker_name);
-    h+=`<div class="timeline-item ${ours?'ours':'theirs'}">
-      <div class="timeline-dot"></div>
-      <div class="row between">
-        <div><span class="pill ${ours?'us':'them'}">${ours?'Hero Dive Bar':'Opponent'}</span>
-        <b style="margin-left:7px">${who}</b> <span class="muted">#${e.attacker_position} → #${e.defender_position}</span></div>
-        <div class="timeline-score">${e.our_score_after}–${e.their_score_after}</div>
-      </div>
-      <div style="margin-top:6px">${stars(e.stars)} <b>${pct(e.destruction)}%</b>
-      <span class="muted">· ${esc(e.attack_type)}${e.new_stars?` · +${e.new_stars} war star${e.new_stars===1?'':'s'}`:''}</span></div>
-    </div>`;
+    const ours=e.side==='clan';const who=ours&&e.attacker_public_id?playerLink(e.attacker_name,e.attacker_public_id):esc(e.attacker_name);
+    h+=`<div class="timeline-item ${ours?'ours':'theirs'}"><div class="timeline-dot"></div><div class="row between"><div><span class="pill ${ours?'us':'them'}">${ours?'Hero Dive Bar':'Opponent'}</span><b style="margin-left:7px">${who}</b> <span class="muted">#${e.attacker_position} → #${e.defender_position}</span></div><div class="timeline-score">${e.our_score_after}–${e.their_score_after}</div></div><div style="margin-top:6px">${stars(e.stars)} <b>${pct(e.destruction)}%</b><span class="muted"> · ${esc(e.attack_type)}${e.new_stars?` · +${e.new_stars} war star${e.new_stars===1?'':'s'}`:''}</span></div></div>`;
   }
-  h+='</div></div>';
-  return h;
+  return h+'</div></div>';
 }
-
-
-let WAR_COUNTDOWN_TIMER=null;
-
-function formatCountdown(ms){
-  if(!Number.isFinite(ms) || ms<=0) return '00h 00m 00s';
-  let total=Math.floor(ms/1000);
-  const days=Math.floor(total/86400); total%=86400;
-  const hours=Math.floor(total/3600); total%=3600;
-  const minutes=Math.floor(total/60);
-  const seconds=total%60;
-  const hh=String(hours).padStart(2,'0');
-  const mm=String(minutes).padStart(2,'0');
-  const ss=String(seconds).padStart(2,'0');
-  return days>0 ? `${days}d ${hh}h ${mm}m ${ss}s` : `${hh}h ${mm}m ${ss}s`;
-}
-
-function localDateTime(iso){
-  if(!iso) return '';
-  const d=new Date(iso);
-  if(Number.isNaN(d.getTime())) return '';
-  return d.toLocaleString([],{
-    weekday:'short',month:'short',day:'numeric',
-    hour:'numeric',minute:'2-digit'
-  });
-}
-
+function formatCountdown(ms){if(!Number.isFinite(ms)||ms<=0)return'00h 00m 00s';let t=Math.floor(ms/1000),d=Math.floor(t/86400);t%=86400;const h=Math.floor(t/3600);t%=3600;const m=Math.floor(t/60),s=t%60;return`${d?d+'d ':''}${String(h).padStart(2,'0')}h ${String(m).padStart(2,'0')}m ${String(s).padStart(2,'0')}s`;}
+function localDateTime(v){if(!v)return'—';const d=new Date(v);return Number.isNaN(d.getTime())?v:d.toLocaleString();}
+function countdownCard(w){if(!w)return'';return `<div class="card s12 countdown-card"><div class="row between"><div><div class="kicker countdown-live" id="warCountdownLabel">War Timer</div><div class="countdown-value" id="warCountdownValue">Calculating…</div><div class="countdown-sub" id="warCountdownSub"></div></div><div class="muted small" id="warCountdownPhase">${esc(w.state_label)}</div></div></div>`;}
 function updateWarCountdown(){
-  const w=DATA?.current_war;
-  const label=document.getElementById('warCountdownLabel');
-  const value=document.getElementById('warCountdownValue');
-  const sub=document.getElementById('warCountdownSub');
-  const phase=document.getElementById('warCountdownPhase');
-  if(!w||!label||!value||!sub||!phase) return;
+  const w=ACTIVE_COUNTDOWN_WAR,label=document.getElementById('warCountdownLabel'),value=document.getElementById('warCountdownValue'),sub=document.getElementById('warCountdownSub'),phase=document.getElementById('warCountdownPhase');if(!w||!label||!value)return;
+  const now=Date.now(),start=new Date(w.start_time||'').getTime(),end=new Date(w.end_time||'').getTime();
+  if(Number.isFinite(start)&&now<start){label.textContent='Battle Day Starts In';value.textContent=formatCountdown(start-now);sub.textContent=`Battle Day starts ${localDateTime(w.start_time)}`;phase.textContent='Preparation Day';return;}
+  if(Number.isFinite(end)&&now<end){label.textContent='War Ends In';value.textContent=formatCountdown(end-now);sub.textContent=`Battle Day ends ${localDateTime(w.end_time)}`;phase.textContent='Battle Day';return;}
+  label.textContent='War Status';value.textContent='War Ended';sub.textContent=w.end_time?`Ended ${localDateTime(w.end_time)}`:'';phase.textContent='War Ended';
+}
+function startWarCountdown(){if(WAR_COUNTDOWN_TIMER)clearInterval(WAR_COUNTDOWN_TIMER);updateWarCountdown();WAR_COUNTDOWN_TIMER=setInterval(updateWarCountdown,1000);}
 
-  const now=Date.now();
-  const start=w.start_time ? new Date(w.start_time).getTime() : NaN;
-  const end=w.end_time ? new Date(w.end_time).getTime() : NaN;
-
-  if(Number.isFinite(start) && now < start){
-    label.textContent='Battle Day Starts In';
-    value.textContent=formatCountdown(start-now);
-    sub.textContent=`Battle Day starts ${localDateTime(w.start_time)}`;
-    phase.textContent='Preparation Day';
-    return;
-  }
-
-  if(Number.isFinite(end) && now < end){
-    label.textContent='War Ends In';
-    value.textContent=formatCountdown(end-now);
-    sub.textContent=`Battle Day ends ${localDateTime(w.end_time)}`;
-    phase.textContent='Battle Day';
-    return;
-  }
-
-  label.textContent='War Status';
-  value.textContent='War Ended';
-  sub.textContent=w.end_time ? `Ended ${localDateTime(w.end_time)}` : '';
-  phase.textContent='War Ended';
+function rosterTable(w,isCwl=false){
+  if(!w)return'';let h=`<h2>${isCwl?'Selected Roster':'Current War Roster'}</h2><div class="card"><table><thead><tr><th>#</th><th>Player</th><th>TH</th>${isCwl?'':'<th>Status</th>'}<th>Used</th><th>Expected</th><th>${w.state==='warEnded'?'Missed':'Remaining'}</th></tr></thead><tbody>`;
+  for(const p of w.roster||[]){const status=p.is_filler?'<span class="pill filler">Filler</span>':'<span class="pill">Normal</span>';const finalCol=w.state==='warEnded'?p.missed_attacks:p.remaining_attacks;const cls=finalCol>0&&!p.is_filler?(w.state==='warEnded'?'bad':'warn'):'';h+=`<tr><td>#${p.map_position}</td><td>${playerLink(p.name,p.public_id)}</td><td>TH${p.th}</td>${isCwl?'':`<td>${status}</td>`}<td>${p.attacks_used}</td><td>${p.expected_attacks}</td><td class="${cls}">${finalCol}</td></tr>`;}
+  return h+'</tbody></table></div>';
 }
 
-function startWarCountdown(){
-  if(WAR_COUNTDOWN_TIMER) clearInterval(WAR_COUNTDOWN_TIMER);
-  updateWarCountdown();
-  WAR_COUNTDOWN_TIMER=setInterval(updateWarCountdown,1000);
+function renderRegularDashboard(d){
+  const w=d.current_war,rec=d.clan?.records||{};let h='<h1>Dashboard</h1>';
+  if(w){h+=`<div class="grid"><div class="card s8"><div class="kicker">${esc(w.state_label)} · ${w.team_size}v${w.team_size}</div><h2 style="margin-top:8px">${esc(w.clan_name)} <span class="muted">vs</span> ${esc(w.opponent_name)}</h2><div class="row"><div><div class="score">${w.clan_stars} ★</div><div class="muted">${Number(w.clan_destruction).toFixed(2)}%</div></div><div class="muted">—</div><div><div class="score">${w.opponent_stars} ★</div><div class="muted">${Number(w.opponent_destruction).toFixed(2)}%</div></div></div></div><div class="card s4"><div class="kicker">Expected clan attacks</div><div class="big">${w.attacks_used} / ${w.expected_attacks}</div><div class="muted">${w.fillers} filler${w.fillers===1?'':'s'} excluded.</div><div style="margin-top:10px"><b>${w.remaining_attacks}</b> required attacks remaining</div><div class="muted small" style="margin-top:5px">Volunteer filler attacks: ${w.volunteer_attacks||0}</div></div>${countdownCard(w)}</div>`;}
+  else h+='<div class="card">No active regular war stored.</div>';
+  h+=`<h2>Clan Streaks</h2><div class="grid"><div class="card s6"><div class="kicker">Longest Win Streak</div><div class="big">${rec.longest_win_streak||0}</div><div class="record-note">Consecutive completed regular-war wins since tracking began.</div></div><div class="card s6"><div class="kicker">Current Win Streak</div><div class="big">${rec.current_win_streak||0}</div><div class="record-note">${rec.completed_wars_tracked||0} completed regular wars tracked.</div></div></div>`;
+  if(w){h+=rosterTable(w,false)+renderTimeline(w);}
+  h+='<h2>Recent Results</h2><div class="card">';
+  if(!(d.recent_wars||[]).length)h+='<div class="empty">No completed regular wars recorded yet.</div>';else h+='<table><thead><tr><th>Opponent</th><th>Size</th><th>Score</th><th>Fillers</th><th>Missed</th><th>Result</th></tr></thead><tbody>';
+  for(const x of d.recent_wars||[])h+=`<tr><td>${esc(x.opponent_name)}</td><td>${x.team_size}v${x.team_size}</td><td>${x.clan_stars}–${x.opponent_stars}</td><td>${x.filler_count}</td><td>${missedCell(x)}</td><td class="${resultClass(x.result)}">${esc((x.result||x.state_label).toUpperCase())}</td></tr>`;
+  if((d.recent_wars||[]).length)h+='</tbody></table>';return h+'</div>';
+}
+
+function cwlStandingsTable(c){
+  let h='<div class="card"><table><thead><tr><th>#</th><th>Clan</th><th>W-L</th><th>League Stars</th><th>Battle Stars</th><th>Avg Destruction</th></tr></thead><tbody>';
+  for(const s of c.standings||[])h+=`<tr class="${s.is_us?'cwl-us':''}"><td><b>${s.position}</b></td><td>${s.is_us?'<b>':''}${esc(s.name)}${s.is_us?' · US</b>':''}</td><td>${s.wins}-${s.losses}${s.ties?`-${s.ties}`:''}</td><td><b>${s.league_stars}</b></td><td>${s.battle_stars}</td><td>${pct(s.avg_destruction)}%</td></tr>`;
+  return h+'</tbody></table><div class="record-note">League Stars include the 10-star CWL win bonus for completed rounds.</div></div>';
+}
+function cwlRoundsTable(c){
+  let h='<div class="card"><table><thead><tr><th>Round</th><th>Opponent</th><th>State</th><th>Stars</th><th>Destruction</th><th>Missed</th><th>Result</th></tr></thead><tbody>';
+  for(const r of c.rounds||[]){h+=`<tr><td>R${r.round}</td><td>${esc(r.opponent_name||'TBD')}</td><td>${esc(r.state_label||'Not Started')}</td><td>${r.clan_stars!=null?`${r.clan_stars}–${r.opponent_stars}`:'—'}</td><td>${r.clan_destruction!=null?`${pct(r.clan_destruction)}%–${pct(r.opponent_destruction)}%`:'—'}</td><td>${r.war_key?missedCell(r):'—'}</td><td class="${resultClass(r.result)}">${esc((r.result||'—').toUpperCase())}</td></tr>`;}
+  return h+'</tbody></table></div>';
+}
+function renderCwlDashboard(c){
+  let h='<h1>CWL Dashboard</h1>';
+  h+=`<div class="card cwl-banner"><div class="row between"><div><div class="kicker">${esc(c.season||'Current Season')} · ${esc(c.league_name||'CWL')}</div><h2 style="margin:6px 0">Hero Dive Bar — Clan War League</h2><div class="muted">Regular-war and CWL statistics are kept completely separate.</div></div><div style="text-align:right"><div class="kicker">Group Position</div><div class="big">${c.position?`#${c.position}`:'—'}</div></div></div></div>`;
+  const r=c.record||{};h+=`<div class="grid" style="margin-top:14px"><div class="card s3"><div class="kicker">Record</div><div class="big">${r.wins||0}-${r.losses||0}${r.ties?`-${r.ties}`:''}</div></div><div class="card s3"><div class="kicker">League</div><div class="big" style="font-size:22px">${esc(c.league_name||'CWL')}</div></div><div class="card s3"><div class="kicker">Current Round</div><div class="big">${c.current_war?.round?`R${c.current_war.round}`:'—'}</div></div><div class="card s3"><div class="kicker">Position</div><div class="big">${c.position?`#${c.position}`:'—'}</div></div></div>`;
+  const w=c.current_war;
+  if(w){h+=`<h2>Round ${w.round}</h2><div class="grid"><div class="card s8"><div class="kicker">${esc(w.state_label)} · ${w.team_size}v${w.team_size}</div><h2 style="margin-top:8px">Hero Dive Bar <span class="muted">vs</span> ${esc(w.opponent_name)}</h2><div class="row"><div><div class="score">${w.clan_stars} ★</div><div class="muted">${pct(w.clan_destruction)}%</div></div><div class="muted">—</div><div><div class="score">${w.opponent_stars} ★</div><div class="muted">${pct(w.opponent_destruction)}%</div></div></div></div><div class="card s4"><div class="kicker">Selected attacks</div><div class="big">${w.attacks_used} / ${w.expected_attacks}</div><div class="muted">One attack per selected player.</div><div style="margin-top:10px"><b>${w.remaining_attacks}</b> remaining</div></div>${countdownCard(w)}</div>`+rosterTable(w,true)+renderTimeline(w);}else h+='<h2>Current Round</h2><div class="card"><div class="empty">CWL group found. Waiting for the current round matchup to become available.</div></div>';
+  h+='<h2>Group Standings</h2>'+cwlStandingsTable(c)+'<h2>Rounds</h2>'+cwlRoundsTable(c);return h;
+}
+function renderCwlTab(c){
+  if(!c?.enabled)return `<h1>CWL</h1><div class="card cwl-banner"><h2 style="margin-top:0">CWL Search / Matchmaking</h2><div class="muted">${esc(c?.message||'Waiting for the CWL league group. Once matchmaking finishes, this page will populate automatically.')}</div><div class="record-note">As soon as the API returns an active CWL group, the main Dashboard automatically switches to the CWL dashboard.</div></div>`;
+  let h=`<h1>CWL — ${esc(c.season||'Current Season')}</h1><div class="grid"><div class="card s4"><div class="kicker">League</div><div class="big" style="font-size:24px">${esc(c.league_name)}</div></div><div class="card s4"><div class="kicker">Group Position</div><div class="big">${c.position?`#${c.position}`:'—'}</div></div><div class="card s4"><div class="kicker">Record</div><div class="big">${c.record?.wins||0}-${c.record?.losses||0}</div></div></div><h2>Group Standings</h2>${cwlStandingsTable(c)}<h2>Rounds</h2>${cwlRoundsTable(c)}<h2>CWL Players</h2><div class="card">`;
+  if(!(c.players||[]).length)h+='<div class="empty">No selected players stored yet.</div>';else{h+='<table><thead><tr><th>Player</th><th>TH</th><th>Selected</th><th>Attacks</th><th>Missed</th><th>Stars</th><th>3★</th><th>Avg Destruction</th></tr></thead><tbody>';for(const p of c.players)h+=`<tr><td>${playerLink(p.name,p.public_id)}</td><td>TH${p.th}</td><td>${p.selected_rounds}</td><td>${p.attacks}</td><td class="${p.missed_attacks?'bad':''}">${p.missed_attacks}</td><td>${p.stars}</td><td>${p.triples}</td><td>${pct(p.avg_destruction)}%</td></tr>`;h+='</tbody></table>';}
+  return h+'</div>';
 }
 
 function render(d){
-  DATA=d;
-  document.getElementById('updated').textContent=d.generated_at?`Updated ${new Date(d.generated_at).toLocaleString()}`:'Updated';
-  const w=d.current_war;
-  const rec=d.clan?.records||{};
-  let home='<h1>Dashboard</h1>';
-
-  if(w){
-    home+=`<div class="grid">
-      <div class="card s8"><div class="kicker">${esc(w.state_label)} · ${w.team_size}v${w.team_size}</div>
-      <h2 style="margin-top:8px">${esc(w.clan_name)} <span class="muted">vs</span> ${esc(w.opponent_name)}</h2>
-      <div class="row"><div><div class="score">${w.clan_stars} ★</div><div class="muted">${Number(w.clan_destruction).toFixed(2)}%</div></div>
-      <div class="muted">—</div><div><div class="score">${w.opponent_stars} ★</div><div class="muted">${Number(w.opponent_destruction).toFixed(2)}%</div></div></div></div>
-      <div class="card s4"><div class="kicker">Expected clan attacks</div><div class="big">${w.attacks_used} / ${w.expected_attacks}</div>
-      <div class="muted">${w.fillers} filler${w.fillers===1?'':'s'} excluded.</div><div style="margin-top:10px"><b>${w.remaining_attacks}</b> required attacks remaining</div><div class="muted small" style="margin-top:5px">Volunteer filler attacks: ${w.volunteer_attacks||0}</div></div>
-
-      <div class="card s12 countdown-card">
-        <div class="row between">
-          <div>
-            <div class="kicker countdown-live" id="warCountdownLabel">War Timer</div>
-            <div class="countdown-value" id="warCountdownValue">Calculating…</div>
-            <div class="countdown-sub" id="warCountdownSub"></div>
-          </div>
-          <div class="muted small" id="warCountdownPhase">${esc(w.state_label)}</div>
-        </div>
-      </div>
-    </div>`;
-  }
-
-  home+=`<h2>Clan Streaks</h2><div class="grid">
-    <div class="card s6"><div class="kicker">Longest Win Streak</div><div class="big">${rec.longest_win_streak||0}</div><div class="record-note">Consecutive completed regular-war wins since tracking began.</div></div>
-    <div class="card s6"><div class="kicker">Current Win Streak</div><div class="big">${rec.current_win_streak||0}</div><div class="record-note">${rec.completed_wars_tracked||0} completed regular wars tracked.</div></div>
-  </div>`;
-
-  if(w){
-    home+='<h2>Current War Roster</h2><div class="card"><table><thead><tr><th>#</th><th>Player</th><th>TH</th><th>Status</th><th>Used</th><th>Expected</th><th>';
-    home+=w.state==='warEnded'?'Missed':'Remaining';
-    home+='</th></tr></thead><tbody>';
-    for(const p of w.roster||[]){
-      const status=p.is_filler?'<span class="pill filler">Filler</span>':'<span class="pill">Normal</span>';
-      const finalCol=w.state==='warEnded'?p.missed_attacks:p.remaining_attacks;
-      const cls=finalCol>0&&!p.is_filler?(w.state==='warEnded'?'bad':'warn'):'';
-      home+=`<tr><td>#${p.map_position}</td><td>${playerLink(p.name,p.public_id)}</td><td>TH${p.th}</td><td>${status}</td><td>${p.attacks_used}</td><td>${p.expected_attacks}</td><td class="${cls}">${finalCol}</td></tr>`;
-    }
-    home+='</tbody></table></div>';
-    home+=renderTimeline(w);
-  }
-
-  home+='<h2>Recent Results</h2><div class="card">';
-  if(!(d.recent_wars||[]).length){
-    home+='<div class="empty">No completed regular wars recorded yet.</div>';
-  } else {
-    home+='<table><thead><tr><th>Opponent</th><th>Size</th><th>Score</th><th>Fillers</th><th>Missed</th><th>Result</th></tr></thead><tbody>';
-  }
-  for(const x of d.recent_wars||[]){
-    home+=`<tr><td>${esc(x.opponent_name)}</td><td>${x.team_size}v${x.team_size}</td><td>${x.clan_stars}–${x.opponent_stars}</td><td>${x.filler_count}</td><td>${x.missed_attacks}</td><td class="${resultClass(x.result)}">${esc((x.result||x.state_label).toUpperCase())}</td></tr>`;
-  }
-  if((d.recent_wars||[]).length) home+='</tbody></table>';
-  home+='</div>';
-  document.getElementById('home').innerHTML=home;
-
+  DATA=d;MISSED_BY_KEY={};document.getElementById('updated').textContent=d.generated_at?`Updated ${new Date(d.generated_at).toLocaleString()}`:'Updated';
+  ACTIVE_COUNTDOWN_WAR=(d.dashboard_mode==='cwl'&&d.cwl?.active)?d.cwl.current_war:d.current_war;
+  document.getElementById('home').innerHTML=d.dashboard_mode==='cwl'&&d.cwl?.enabled?renderCwlDashboard(d.cwl):renderRegularDashboard(d);
   let wars='<h1>Regular Wars</h1><div class="card"><table><thead><tr><th>Date</th><th>Opponent</th><th>Size</th><th>Stars</th><th>Destruction</th><th>Fillers</th><th>Missed</th><th>Result</th></tr></thead><tbody>';
-  for(const x of d.wars||[]){
-    wars+=`<tr><td>${prettyDate(x.date)}</td><td>${esc(x.opponent_name)}</td><td>${x.team_size}v${x.team_size}</td><td>${x.clan_stars}–${x.opponent_stars}</td><td>${pct(x.clan_destruction)}%–${pct(x.opponent_destruction)}%</td><td>${x.filler_count}</td><td>${x.missed_attacks}</td><td class="${resultClass(x.result)}">${esc((x.result||x.state_label).toUpperCase())}</td></tr>`;
-  }
-  wars+='</tbody></table></div>';
-  document.getElementById('wars').innerHTML=wars;
-
-  renderPlayersTable();
-
-  renderCompare();
-  document.getElementById('cwl').innerHTML='<h1>CWL</h1><div class="card">CWL stays separate and will be added next.</div>';
-  bindPlayerLinks();
-  routeFromHash();
-  startWarCountdown();
+  for(const x of d.wars||[])wars+=`<tr><td>${prettyDate(x.date)}</td><td>${esc(x.opponent_name)}</td><td>${x.team_size}v${x.team_size}</td><td>${x.clan_stars}–${x.opponent_stars}</td><td>${pct(x.clan_destruction)}%–${pct(x.opponent_destruction)}%</td><td>${x.filler_count}</td><td>${missedCell(x)}</td><td class="${resultClass(x.result)}">${esc((x.result||x.state_label).toUpperCase())}</td></tr>`;
+  document.getElementById('wars').innerHTML=wars+'</tbody></table><div class="click-note">Click a red missed-attack number to see exactly who missed.</div></div>';
+  renderPlayersTable();renderCompare();document.getElementById('cwl').innerHTML=renderCwlTab(d.cwl);bindPlayerLinks();bindMissLinks();routeFromHash();startWarCountdown();
 }
 
-function compareRow(label,a,b,format=x=>x){
-  return `<div class="compare-stat"><div><b>${format(a)}</b></div><div class="mid">${esc(label)}</div><div class="right"><b>${format(b)}</b></div></div>`;
-}
-
-let PLAYER_VIEW='current';
-let PLAYER_SORT_FIELD='th';
-let PLAYER_SORT_DIR='desc';
-
-const SORT_FIELDS={
-  th:{label:'TH',defaultDir:'desc'},
-  attacks:{label:'Attacks',defaultDir:'desc'},
-  wars:{label:'Wars',defaultDir:'desc'},
-  triples:{label:'3★',defaultDir:'desc'},
-  avg_destruction:{label:'Avg Destruction',defaultDir:'desc'},
-  missed_attacks:{label:'Missed',defaultDir:'asc'},
-  current_no_miss_war_streak:{label:'No-Miss Streak',defaultDir:'desc'},
-  current_triple_streak:{label:'Triple Streak',defaultDir:'desc'},
-  best_triple_streak:{label:'Best Triple',defaultDir:'desc'},
-  name:{label:'Name',defaultDir:'asc'}
-};
-
-function sortedPlayers(list){
-  const a=[...(list||[])];
-  const n=v=>Number(v||0);
-  const byName=(x,y)=>String(x.name||'').localeCompare(String(y.name||''),undefined,{sensitivity:'base'});
-
-  a.sort((x,y)=>{
-    let cmp=0;
-
-    if(PLAYER_SORT_FIELD==='name'){
-      cmp=byName(x,y);
-    }else{
-      cmp=n(x[PLAYER_SORT_FIELD])-n(y[PLAYER_SORT_FIELD]);
-    }
-
-    if(PLAYER_SORT_DIR==='desc') cmp=-cmp;
-
-    // Stable/reasonable tie breakers.
-    if(cmp===0 && PLAYER_SORT_FIELD!=='attacks'){
-      cmp=n(y.attacks)-n(x.attacks);
-    }
-    if(cmp===0) cmp=byName(x,y);
-
-    return cmp;
-  });
-
-  return a;
-}
-
-function setPlayerSort(field){
-  const cfg=SORT_FIELDS[field];
-  if(!cfg) return;
-
-  if(PLAYER_SORT_FIELD===field){
-    PLAYER_SORT_DIR=PLAYER_SORT_DIR==='desc'?'asc':'desc';
-  }else{
-    PLAYER_SORT_FIELD=field;
-    PLAYER_SORT_DIR=cfg.defaultDir;
-  }
-
-  renderPlayersTable();
-}
-
-function sortArrow(field){
-  if(PLAYER_SORT_FIELD!==field) return '';
-  return PLAYER_SORT_DIR==='desc'?' ↓':' ↑';
-}
-
+function compareRow(label,a,b,format=x=>x){return `<div class="compare-stat"><div><b>${format(a)}</b></div><div class="mid">${esc(label)}</div><div class="right"><b>${format(b)}</b></div></div>`;}
+let PLAYER_VIEW='current',PLAYER_SORT_FIELD='th',PLAYER_SORT_DIR='desc';
+const SORT_FIELDS={th:{label:'TH',defaultDir:'desc'},attacks:{label:'Attacks',defaultDir:'desc'},wars:{label:'Wars',defaultDir:'desc'},triples:{label:'3★',defaultDir:'desc'},avg_destruction:{label:'Avg Destruction',defaultDir:'desc'},missed_attacks:{label:'Missed',defaultDir:'asc'},current_no_miss_war_streak:{label:'No-Miss Streak',defaultDir:'desc'},current_triple_streak:{label:'Triple Streak',defaultDir:'desc'},best_triple_streak:{label:'Best Triple',defaultDir:'desc'},name:{label:'Name',defaultDir:'asc'}};
+function sortedPlayers(list){const a=[...(list||[])],n=v=>Number(v||0),byName=(x,y)=>String(x.name||'').localeCompare(String(y.name||''),undefined,{sensitivity:'base'});a.sort((x,y)=>{let cmp=PLAYER_SORT_FIELD==='name'?byName(x,y):n(x[PLAYER_SORT_FIELD])-n(y[PLAYER_SORT_FIELD]);if(PLAYER_SORT_DIR==='desc')cmp=-cmp;if(cmp===0&&PLAYER_SORT_FIELD!=='attacks')cmp=n(y.attacks)-n(x.attacks);if(cmp===0)cmp=byName(x,y);return cmp;});return a;}
+function setPlayerSort(field){const cfg=SORT_FIELDS[field];if(!cfg)return;if(PLAYER_SORT_FIELD===field)PLAYER_SORT_DIR=PLAYER_SORT_DIR==='desc'?'asc':'desc';else{PLAYER_SORT_FIELD=field;PLAYER_SORT_DIR=cfg.defaultDir;}renderPlayersTable();}
+function sortArrow(field){if(PLAYER_SORT_FIELD!==field)return'';return PLAYER_SORT_DIR==='desc'?' ↓':' ↑';}
 function renderPlayersTable(){
-  const current=DATA?.players||[];
-  const former=DATA?.former_players||[];
-  const source=PLAYER_VIEW==='former'?former:current;
-  const list=sortedPlayers(source);
-
-  const chips=Object.entries(SORT_FIELDS).map(([key,cfg])=>
-    `<button type="button" class="sort-chip ${PLAYER_SORT_FIELD===key?'active':''}" data-sort-field="${key}">${esc(cfg.label)}${sortArrow(key)}</button>`
-  ).join('');
-
-  let h=`<h1>Players</h1>
-  <div class="player-topbar">
-    <div class="member-tabs">
-      <button type="button" id="currentMembersBtn" class="${PLAYER_VIEW==='current'?'active':''}">Current Members (${current.length})</button>
-      <button type="button" id="formerMembersBtn" class="${PLAYER_VIEW==='former'?'active':''}">Former Members (${former.length})</button>
-    </div>
-    <div class="sort-divider"></div>
-    <div class="sort-label">Sort</div>
-    <div class="sort-chips">${chips}</div>
-  </div>
-
-  <div class="card">
-    <div class="muted small" style="margin-bottom:12px">${PLAYER_VIEW==='former'
-      ?'Former members keep their complete recorded history.'
-      :'Current clan members.'}</div>`;
-
-  if(!list.length){
-    h+=`<div class="empty">${PLAYER_VIEW==='former'?'No former members yet.':'No current members found.'}</div>`;
-  }else{
-    h+='<table><thead><tr><th>Player</th><th>TH</th><th>Wars</th><th>Attacks</th><th>Missed</th><th>3★</th><th>Avg Destruction</th><th>No-Miss Streak</th><th>Triple Streak</th><th>Volunteer</th></tr></thead><tbody>';
-    for(const p of list){
-      h+=`<tr>
-        <td>${playerLink(p.name,p.public_id)}${PLAYER_VIEW==='former'?' <span class="pill">Former</span>':''}</td>
-        <td>TH${p.th}</td>
-        <td>${p.wars}</td>
-        <td>${p.attacks}</td>
-        <td class="${p.missed_attacks>0?'bad':''}">${p.missed_attacks}</td>
-        <td>${p.triples}</td>
-        <td>${pct(p.avg_destruction)}%</td>
-        <td>${p.current_no_miss_war_streak}</td>
-        <td>${p.current_triple_streak}</td>
-        <td>${p.volunteer_attacks}</td>
-      </tr>`;
-    }
-    h+='</tbody></table>';
-  }
-
-  h+='</div>';
-  document.getElementById('players').innerHTML=h;
-
-  document.getElementById('currentMembersBtn')?.addEventListener('click',()=>{
-    PLAYER_VIEW='current';
-    renderPlayersTable();
-  });
-
-  document.getElementById('formerMembersBtn')?.addEventListener('click',()=>{
-    PLAYER_VIEW='former';
-    renderPlayersTable();
-  });
-
-  document.querySelectorAll('[data-sort-field]').forEach(btn=>{
-    btn.addEventListener('click',()=>setPlayerSort(btn.dataset.sortField));
-  });
-
-  bindPlayerLinks();
+  const current=DATA?.players||[],former=DATA?.former_players||[],source=PLAYER_VIEW==='former'?former:current,list=sortedPlayers(source);const chips=Object.entries(SORT_FIELDS).map(([key,cfg])=>`<button type="button" class="sort-chip ${PLAYER_SORT_FIELD===key?'active':''}" data-sort-field="${key}">${esc(cfg.label)}${sortArrow(key)}</button>`).join('');
+  let h=`<h1>Players</h1><div class="player-topbar"><div class="member-tabs"><button type="button" id="currentMembersBtn" class="${PLAYER_VIEW==='current'?'active':''}">Current Members (${current.length})</button><button type="button" id="formerMembersBtn" class="${PLAYER_VIEW==='former'?'active':''}">Former Members (${former.length})</button></div><div class="sort-divider"></div><div class="sort-label">Sort</div><div class="sort-chips">${chips}</div></div><div class="card">`;
+  if(!list.length)h+=`<div class="empty">${PLAYER_VIEW==='former'?'No former members yet.':'No current members found.'}</div>`;else{h+='<table><thead><tr><th>Player</th><th>TH</th><th>Wars</th><th>Attacks</th><th>Missed</th><th>3★</th><th>Avg Destruction</th><th>No-Miss Streak</th><th>Triple Streak</th><th>Volunteer</th></tr></thead><tbody>';for(const p of list)h+=`<tr><td>${playerLink(p.name,p.public_id)}${PLAYER_VIEW==='former'?' <span class="pill">Former</span>':''}</td><td>TH${p.th}</td><td>${p.wars}</td><td>${p.attacks}</td><td class="${p.missed_attacks>0?'bad':''}">${p.missed_attacks}</td><td>${p.triples}</td><td>${pct(p.avg_destruction)}%</td><td>${p.current_no_miss_war_streak}</td><td>${p.current_triple_streak}</td><td>${p.volunteer_attacks}</td></tr>`;h+='</tbody></table>';}
+  document.getElementById('players').innerHTML=h+'</div>';document.getElementById('currentMembersBtn')?.addEventListener('click',()=>{PLAYER_VIEW='current';renderPlayersTable();});document.getElementById('formerMembersBtn')?.addEventListener('click',()=>{PLAYER_VIEW='former';renderPlayersTable();});document.querySelectorAll('[data-sort-field]').forEach(btn=>btn.addEventListener('click',()=>setPlayerSort(btn.dataset.sortField)));bindPlayerLinks();
 }
-
 function renderCompare(){
-  const ps=DATA?.all_players||DATA?.players||[];
-  let h='<h1>Player vs Player</h1><div class="card">';
-  if(ps.length<2){h+='<div class="empty">Need at least two players.</div></div>';document.getElementById('compare').innerHTML=h;return;}
-  const opts=ps.map(p=>`<option value="${esc(p.public_id)}">${esc(p.name)}</option>`).join('');
-  h+=`<div class="compare-controls"><div><div class="kicker">Player 1</div><select id="compareA">${opts}</select></div><div class="compare-vs">VS</div><div><div class="kicker">Player 2</div><select id="compareB">${opts}</select></div></div><div id="compareResult" style="margin-top:20px"></div></div>`;
-  document.getElementById('compare').innerHTML=h;
-  const a=document.getElementById('compareA'),b=document.getElementById('compareB');
-  if(ps.length>1)b.selectedIndex=1;
-  const draw=()=>{
-    const pa=ps.find(x=>x.public_id===a.value),pb=ps.find(x=>x.public_id===b.value);
-    let x=`<div class="row between"><div class="compare-name">${playerLink(pa.name,pa.public_id)}</div><div class="muted">Compared objectively — no overall winner score</div><div class="compare-name">${playerLink(pb.name,pb.public_id)}</div></div><div style="margin-top:15px">`;
-    x+=compareRow('Wars',pa.wars,pb.wars);
-    x+=compareRow('Attacks',pa.attacks,pb.attacks);
-    x+=compareRow('Triple Rate',pa.triple_rate,pb.triple_rate,v=>pct(v)+'%');
-    x+=compareRow('Avg Stars',pa.avg_stars,pb.avg_stars,v=>avg(v));
-    x+=compareRow('Avg Destruction',pa.avg_destruction,pb.avg_destruction,v=>pct(v)+'%');
-    x+=compareRow('Missed Attacks',pa.missed_attacks,pb.missed_attacks);
-    x+=compareRow('Current No-Miss Streak',pa.current_no_miss_war_streak,pb.current_no_miss_war_streak);
-    x+=compareRow('Best No-Miss Streak',pa.best_no_miss_war_streak,pb.best_no_miss_war_streak);
-    x+=compareRow('Current Triple Streak',pa.current_triple_streak,pb.current_triple_streak);
-    x+=compareRow('Best Triple Streak',pa.best_triple_streak,pb.best_triple_streak);
-    x+=compareRow('Perfect Wars',pa.perfect_wars,pb.perfect_wars);
-    x+=compareRow('Filler Wars',pa.filler_wars,pb.filler_wars);
-    x+=compareRow('Volunteer Attacks',pa.volunteer_attacks,pb.volunteer_attacks);
-    x+=compareRow('Volunteer Triples',pa.volunteer_triples,pb.volunteer_triples);
-    x+='</div>';
-    document.getElementById('compareResult').innerHTML=x;bindPlayerLinks();
-  };
-  a.addEventListener('change',draw);b.addEventListener('change',draw);draw();
+  const ps=DATA?.all_players||DATA?.players||[];let h='<h1>Player vs Player</h1><div class="card">';if(ps.length<2){document.getElementById('compare').innerHTML=h+'<div class="empty">Need at least two players.</div></div>';return;}const opts=ps.map(p=>`<option value="${esc(p.public_id)}">${esc(p.name)}</option>`).join('');h+=`<div class="compare-controls"><div><div class="kicker">Player 1</div><select id="compareA">${opts}</select></div><div class="compare-vs">VS</div><div><div class="kicker">Player 2</div><select id="compareB">${opts}</select></div></div><div id="compareResult" style="margin-top:20px"></div><div class="record-note">Comparison uses Regular War stats only. CWL stays separate.</div></div>`;document.getElementById('compare').innerHTML=h;const a=document.getElementById('compareA'),b=document.getElementById('compareB');if(ps.length>1)b.selectedIndex=1;const draw=()=>{const pa=ps.find(x=>x.public_id===a.value),pb=ps.find(x=>x.public_id===b.value);let x=`<div class="row between"><div class="compare-name">${playerLink(pa.name,pa.public_id)}</div><div class="muted">No overall winner score</div><div class="compare-name">${playerLink(pb.name,pb.public_id)}</div></div><div style="margin-top:15px">`;x+=compareRow('Wars',pa.wars,pb.wars)+compareRow('Attacks',pa.attacks,pb.attacks)+compareRow('Triple Rate',pa.triple_rate,pb.triple_rate,v=>pct(v)+'%')+compareRow('Avg Stars',pa.avg_stars,pb.avg_stars,v=>avg(v))+compareRow('Avg Destruction',pa.avg_destruction,pb.avg_destruction,v=>pct(v)+'%')+compareRow('Missed Attacks',pa.missed_attacks,pb.missed_attacks)+compareRow('Current No-Miss Streak',pa.current_no_miss_war_streak,pb.current_no_miss_war_streak)+compareRow('Best No-Miss Streak',pa.best_no_miss_war_streak,pb.best_no_miss_war_streak)+compareRow('Current Triple Streak',pa.current_triple_streak,pb.current_triple_streak)+compareRow('Best Triple Streak',pa.best_triple_streak,pb.best_triple_streak)+compareRow('Perfect Wars',pa.perfect_wars,pb.perfect_wars)+compareRow('Filler Wars',pa.filler_wars,pb.filler_wars)+compareRow('Volunteer Attacks',pa.volunteer_attacks,pb.volunteer_attacks)+compareRow('Volunteer Triples',pa.volunteer_triples,pb.volunteer_triples)+'</div>';document.getElementById('compareResult').innerHTML=x;bindPlayerLinks();};a.addEventListener('change',draw);b.addEventListener('change',draw);draw();
 }
-
+function attackRows(attacks,isCwl=false){
+  if(!(attacks||[]).length)return'<div class="empty">No attacks recorded yet.</div>';let h='<table class="attack-table"><thead><tr><th>Date</th><th>War</th><th>Attack</th><th>Stars</th><th>Destruction</th><th>Type</th></tr></thead><tbody>';for(const a of attacks)h+=`<tr><td>${prettyDate(a.date)}</td><td>${isCwl&&a.round?`R${a.round} · `:''}vs ${esc(a.opponent_name)}</td><td>#${a.attacker_position??'—'} → #${a.defender_position??'—'}<div class="muted small">${a.attacker_th?`TH${a.attacker_th}`:''}${a.defender_th?` → TH${a.defender_th}`:''}</div></td><td><b>${stars(a.stars)}</b></td><td><b>${pct(a.destruction)}%</b></td><td>${esc(a.attack_type||'')}</td></tr>`;return h+'</tbody></table>';
+}
 function renderPlayerProfile(id){
-  if(!DATA)return;
-  const p=(DATA.player_profiles||{})[id];
-  if(!p){showSection('players');return;}
-  let profile=`<a class="back-link" href="#" id="backPlayers">← Back to Players</a>
-  <h1 style="margin-bottom:5px">${esc(p.name)}</h1><div class="muted">TH${p.th} · Regular War History · <span class="${p.currently_in_clan?'good':'status-former'}">${esc(p.membership_status||'Member')}</span></div>
-  <div class="grid" style="margin-top:18px">
-    <div class="card s3"><div class="kicker">Wars</div><div class="big">${p.wars}</div></div>
-    <div class="card s3"><div class="kicker">Attacks</div><div class="big">${p.attacks}</div></div>
-    <div class="card s3"><div class="kicker">Triples</div><div class="big">${p.triples}</div><div class="muted">${pct(p.triple_rate)}%</div></div>
-    <div class="card s3"><div class="kicker">Missed</div><div class="big">${p.missed_attacks}</div></div>
-  </div>
-  <h2>Current Streaks</h2><div class="grid">
-    <div class="card s6"><div class="kicker">Wars Without a Miss</div><div class="big">${p.current_no_miss_war_streak}</div></div>
-    <div class="card s6"><div class="kicker">Consecutive Triples</div><div class="big">${p.current_triple_streak}</div></div>
-  </div>
-  <h2>Personal Bests</h2><div class="grid">
-    <div class="card s3"><div class="kicker">Longest No-Miss Streak</div><div class="big">${p.best_no_miss_war_streak}</div></div>
-    <div class="card s3"><div class="kicker">Longest Triple Streak</div><div class="big">${p.best_triple_streak}</div></div>
-    <div class="card s3"><div class="kicker">Perfect 6★ Wars</div><div class="big">${p.perfect_wars}</div></div>
-    <div class="card s3"><div class="kicker">Best War Stars</div><div class="big">${p.best_war_stars}</div></div>
-  </div>
-  <div class="record-note">Filler wars count as clean no-miss wars because fillers have no attack obligation. Volunteer attacks are tracked separately and also remain part of normal career stats. Records are since tracking began.</div>
-  <h2>Filler Contributions</h2><div class="grid">
-    <div class="card s3"><div class="kicker">Filler Wars</div><div class="big">${p.filler_wars}</div></div>
-    <div class="card s3"><div class="kicker">Volunteer Attacks</div><div class="big">${p.volunteer_attacks}</div></div>
-    <div class="card s3"><div class="kicker">Volunteer Triples</div><div class="big">${p.volunteer_triples}</div><div class="muted">${pct(p.volunteer_triple_rate)}%</div></div>
-    <div class="card s3"><div class="kicker">Volunteer Stars</div><div class="big">${p.volunteer_stars}</div></div>
-  </div>
-  <div class="record-note">Volunteer attacks are attacks made while designated as a filler. They are appreciated contributions, not required attacks.</div>
-  <h2>Career</h2><div class="grid">
-    <div class="card s4"><div class="kicker">Average Stars</div><div class="big">${avg(p.avg_stars)}</div></div>
-    <div class="card s4"><div class="kicker">Avg Destruction</div><div class="big">${pct(p.avg_destruction)}%</div></div>
-    <div class="card s4"><div class="kicker">Star Distribution</div><div style="margin-top:10px">3★ ${p.triples} &nbsp; 2★ ${p.twos} &nbsp; 1★ ${p.ones} &nbsp; 0★ ${p.zeros}</div></div>
-  </div><h2>War-by-War History</h2><div class="card">`;
-
-  if(!(p.war_history||[]).length)profile+='<div class="empty">No history stored yet.</div>';
-  for(const w of p.war_history||[]){
-    const role=w.is_filler?'<span class="pill filler">Filler</span>':'<span class="pill">Normal</span>';
-    const missed=w.state==='warEnded'?`<span class="${w.missed_attacks>0?'bad':''}">${w.missed_attacks} missed</span>`:`${Math.max(0,w.expected_attacks-w.attacks_used)} remaining`;
-    let attacks='';
-    for(const a of w.attacks||[])attacks+=`<span class="attack-chip"><b>A${a.number}: ${stars(a.stars)}</b> ${pct(a.destruction)}% <span class="muted">· ${esc(a.attack_type)}</span></span>`;
-    if(!attacks)attacks='<span class="muted">No attacks recorded.</span>';
-    profile+=`<div class="war-entry"><div class="row between"><div><b>vs ${esc(w.opponent_name)}</b><div class="muted small">${prettyDate(w.date)} · ${w.team_size}v${w.team_size} · TH${w.th}</div></div><div style="text-align:right"><div class="${resultClass(w.result)}"><b>${esc((w.result||w.state_label).toUpperCase())}</b> · ${w.our_stars}–${w.their_stars}</div><div style="margin-top:5px">${role}</div></div></div><div class="statbar" style="margin-top:12px"><div><span class="muted small">${w.is_filler?'Volunteer Attacks':'Used'}</span><br><b>${w.is_filler?w.attacks_used:`${w.attacks_used}/${w.expected_attacks}`}</b></div><div><span class="muted small">${w.is_filler?'Obligation':(w.state==='warEnded'?'Missed':'Status')}</span><br><b>${w.is_filler?'None':missed}</b></div></div><div style="margin-top:10px">${attacks}</div></div>`;
-  }
-  profile+='</div><div class="record-note">Targeting judgments and management flags remain private.</div>';
-  document.getElementById('profile').innerHTML=profile;showSection('profile');
-  document.getElementById('backPlayers')?.addEventListener('click',e=>{e.preventDefault();history.replaceState(null,'',location.pathname);showSection('players');});
+  if(!DATA)return;const p=(DATA.player_profiles||{})[id];if(!p){showSection('players');return;}
+  let profile=`<a class="back-link" href="#" id="backPlayers">← Back to Players</a><h1 style="margin-bottom:5px">${esc(p.name)}</h1><div class="muted">TH${p.th} · <span class="${p.currently_in_clan?'good':'status-former'}">${esc(p.membership_status||'Member')}</span></div><div class="grid" style="margin-top:18px"><div class="card s3"><div class="kicker">Regular Wars</div><div class="big">${p.wars}</div></div><div class="card s3"><div class="kicker">War Attacks</div><div class="big">${p.attacks}</div></div><div class="card s3"><div class="kicker">Triples</div><div class="big">${p.triples}</div><div class="muted">${pct(p.triple_rate)}%</div></div><div class="card s3"><div class="kicker">Missed</div><div class="big">${p.missed_attacks}</div></div></div>`;
+  profile+=`<h2>War Attacks</h2><div class="card">${attackRows(p.recent_war_attacks||[],false)}</div><div class="record-note">Most recent Regular War attacks, including stars and destruction percentage.</div>`;
+  if((p.recent_cwl_attacks||[]).length)profile+=`<h2>CWL Attacks</h2><div class="card">${attackRows(p.recent_cwl_attacks||[],true)}</div><div class="record-note">CWL attacks are shown separately and are not mixed into Regular War career stats.</div>`;
+  profile+=`<h2>Current Streaks</h2><div class="grid"><div class="card s6"><div class="kicker">Wars Without a Miss</div><div class="big">${p.current_no_miss_war_streak}</div></div><div class="card s6"><div class="kicker">Consecutive Triples</div><div class="big">${p.current_triple_streak}</div></div></div><h2>Personal Bests</h2><div class="grid"><div class="card s3"><div class="kicker">Longest No-Miss Streak</div><div class="big">${p.best_no_miss_war_streak}</div></div><div class="card s3"><div class="kicker">Longest Triple Streak</div><div class="big">${p.best_triple_streak}</div></div><div class="card s3"><div class="kicker">Perfect 6★ Wars</div><div class="big">${p.perfect_wars}</div></div><div class="card s3"><div class="kicker">Best War Stars</div><div class="big">${p.best_war_stars}</div></div></div><div class="record-note">Regular War records only. CWL is separate.</div><h2>Filler Contributions</h2><div class="grid"><div class="card s3"><div class="kicker">Filler Wars</div><div class="big">${p.filler_wars}</div></div><div class="card s3"><div class="kicker">Volunteer Attacks</div><div class="big">${p.volunteer_attacks}</div></div><div class="card s3"><div class="kicker">Volunteer Triples</div><div class="big">${p.volunteer_triples}</div><div class="muted">${pct(p.volunteer_triple_rate)}%</div></div><div class="card s3"><div class="kicker">Volunteer Stars</div><div class="big">${p.volunteer_stars}</div></div></div><h2>Career</h2><div class="grid"><div class="card s4"><div class="kicker">Average Stars</div><div class="big">${avg(p.avg_stars)}</div></div><div class="card s4"><div class="kicker">Avg Destruction</div><div class="big">${pct(p.avg_destruction)}%</div></div><div class="card s4"><div class="kicker">Star Distribution</div><div style="margin-top:10px">3★ ${p.triples} &nbsp; 2★ ${p.twos} &nbsp; 1★ ${p.ones} &nbsp; 0★ ${p.zeros}</div></div></div><h2>War-by-War History</h2><div class="card">`;
+  if(!(p.war_history||[]).length)profile+='<div class="empty">No regular-war history stored yet.</div>';
+  for(const w of p.war_history||[]){const role=w.is_filler?'<span class="pill filler">Filler</span>':'<span class="pill">Normal</span>';const missed=w.state==='warEnded'?`<span class="${w.missed_attacks>0?'bad':''}">${w.missed_attacks} missed</span>`:`${Math.max(0,w.expected_attacks-w.attacks_used)} remaining`;let attacks='';for(const a of w.attacks||[])attacks+=`<span class="attack-chip"><b>A${a.number}: ${stars(a.stars)}</b> ${pct(a.destruction)}% <span class="muted">· ${esc(a.attack_type)}</span></span>`;if(!attacks)attacks='<span class="muted">No attacks recorded.</span>';profile+=`<div class="war-entry"><div class="row between"><div><b>vs ${esc(w.opponent_name)}</b><div class="muted small">${prettyDate(w.date)} · ${w.team_size}v${w.team_size} · TH${w.th}</div></div><div style="text-align:right"><div class="${resultClass(w.result)}"><b>${esc((w.result||w.state_label).toUpperCase())}</b> · ${w.our_stars}–${w.their_stars}</div><div style="margin-top:5px">${role}</div></div></div><div class="statbar" style="margin-top:12px"><div><span class="muted small">${w.is_filler?'Volunteer Attacks':'Used'}</span><br><b>${w.is_filler?w.attacks_used:`${w.attacks_used}/${w.expected_attacks}`}</b></div><div><span class="muted small">${w.is_filler?'Obligation':(w.state==='warEnded'?'Missed':'Status')}</span><br><b>${w.is_filler?'None':missed}</b></div></div><div style="margin-top:10px">${attacks}</div></div>`;}
+  profile+='</div><div class="record-note">Targeting judgments and management flags remain private.</div>';document.getElementById('profile').innerHTML=profile;showSection('profile');document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('active',x.dataset.tab==='players'));document.getElementById('backPlayers')?.addEventListener('click',e=>{e.preventDefault();history.replaceState(null,'',location.pathname);showSection('players');});
 }
-function routeFromHash(){
-  if(!DATA)return;
-  const h=location.hash.replace(/^#/,'');
-  if(h.startsWith('player='))renderPlayerProfile(decodeURIComponent(h.slice(7)));
-}
+function routeFromHash(){if(!DATA)return;const h=location.hash.replace(/^#/,'');if(h.startsWith('player='))renderPlayerProfile(decodeURIComponent(h.slice(7)));}
 window.addEventListener('hashchange',routeFromHash);
-
 let LAST_DATA_VERSION=null;
-function refreshPublicData(){
-  fetch('data.json?ts='+Date.now(),{cache:'no-store'})
-    .then(r=>{if(!r.ok)throw new Error(`HTTP ${r.status}`);return r.json();})
-    .then(d=>{
-      document.getElementById('error').innerHTML='';
-      const version=d.generated_at||JSON.stringify(d.current_war||{});
-      if(DATA===null || version!==LAST_DATA_VERSION){
-        LAST_DATA_VERSION=version;
-        render(d);
-      }
-    })
-    .catch(e=>document.getElementById('error').innerHTML=`<div class="error">Could not refresh dashboard data: ${esc(e.message)}</div>`);
-}
-refreshPublicData();
-setInterval(refreshPublicData,60000);
+function refreshPublicData(){fetch('data.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(`HTTP ${r.status}`);return r.json();}).then(d=>{document.getElementById('error').innerHTML='';const version=d.generated_at||JSON.stringify(d.current_war||{});if(DATA===null||version!==LAST_DATA_VERSION){LAST_DATA_VERSION=version;render(d);}}).catch(e=>document.getElementById('error').innerHTML=`<div class="error">Could not refresh dashboard data: ${esc(e.message)}</div>`);}
+refreshPublicData();setInterval(refreshPublicData,60000);
 </script>
 </body>
 </html>
