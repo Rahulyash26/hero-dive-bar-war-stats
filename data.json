@@ -1,6 +1,7 @@
 {
-  "schema_version": 9,
-  "generated_at": "2026-09-02T02:07:45.504117+00:00",
+  "schema_version": 12,
+  "generated_at": "2026-09-02T02:36:42.257646+00:00",
+  "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
     "tag": "#2G2LRY0JQ",
@@ -11,6 +12,7 @@
     }
   },
   "current_war": {
+    "war_key": "22fe2a72c34c",
     "state": "warEnded",
     "state_label": "War Ended",
     "team_size": 20,
@@ -28,6 +30,37 @@
     "volunteer_attacks": 2,
     "remaining_attacks": 7,
     "fillers": 1,
+    "missed_attacks": 7,
+    "missed_players": [
+      {
+        "public_id": "bc7d1aceb8ab91",
+        "name": "Scottimus",
+        "th": 18,
+        "map_position": 11,
+        "missed_attacks": 2
+      },
+      {
+        "public_id": "e1bcb33e547192",
+        "name": "DarkSoulz",
+        "th": 17,
+        "map_position": 16,
+        "missed_attacks": 2
+      },
+      {
+        "public_id": "77fbe9b0240de0",
+        "name": "Deepak",
+        "th": 17,
+        "map_position": 17,
+        "missed_attacks": 2
+      },
+      {
+        "public_id": "3cbc7125a5e7a0",
+        "name": "Daman",
+        "th": 17,
+        "map_position": 18,
+        "missed_attacks": 1
+      }
+    ],
     "roster": [
       {
         "public_id": "3858423607e45b",
@@ -1260,6 +1293,7 @@
   },
   "recent_wars": [
     {
+      "war_key": "22fe2a72c34c",
       "date": "20260901",
       "opponent_name": "WaymansWarriors",
       "team_size": 20,
@@ -1271,11 +1305,42 @@
       "state_label": "War Ended",
       "result": "win",
       "missed_attacks": 7,
-      "filler_count": 1
+      "filler_count": 1,
+      "missed_players": [
+        {
+          "public_id": "bc7d1aceb8ab91",
+          "name": "Scottimus",
+          "th": 18,
+          "map_position": 11,
+          "missed_attacks": 2
+        },
+        {
+          "public_id": "e1bcb33e547192",
+          "name": "DarkSoulz",
+          "th": 17,
+          "map_position": 16,
+          "missed_attacks": 2
+        },
+        {
+          "public_id": "77fbe9b0240de0",
+          "name": "Deepak",
+          "th": 17,
+          "map_position": 17,
+          "missed_attacks": 2
+        },
+        {
+          "public_id": "3cbc7125a5e7a0",
+          "name": "Daman",
+          "th": 17,
+          "map_position": 18,
+          "missed_attacks": 1
+        }
+      ]
     }
   ],
   "wars": [
     {
+      "war_key": "22fe2a72c34c",
       "date": "20260901",
       "opponent_name": "WaymansWarriors",
       "team_size": 20,
@@ -1287,7 +1352,37 @@
       "state_label": "War Ended",
       "result": "win",
       "missed_attacks": 7,
-      "filler_count": 1
+      "filler_count": 1,
+      "missed_players": [
+        {
+          "public_id": "bc7d1aceb8ab91",
+          "name": "Scottimus",
+          "th": 18,
+          "map_position": 11,
+          "missed_attacks": 2
+        },
+        {
+          "public_id": "e1bcb33e547192",
+          "name": "DarkSoulz",
+          "th": 17,
+          "map_position": 16,
+          "missed_attacks": 2
+        },
+        {
+          "public_id": "77fbe9b0240de0",
+          "name": "Deepak",
+          "th": 17,
+          "map_position": 17,
+          "missed_attacks": 2
+        },
+        {
+          "public_id": "3cbc7125a5e7a0",
+          "name": "Daman",
+          "th": 17,
+          "map_position": 18,
+          "missed_attacks": 1
+        }
+      ]
     }
   ],
   "players": [
@@ -4769,7 +4864,41 @@
             }
           ]
         }
-      ]
+      ],
+      "recent_war_attacks": [
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 5,
+          "defender_position": 4,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "Vinod Deore",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "duration": 121,
+          "round": null,
+          "season": null
+        },
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 5,
+          "defender_position": 5,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "Death bloom",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "duration": 115,
+          "round": null,
+          "season": null
+        }
+      ],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "6f3ee5c240cbfc": {
       "public_id": "6f3ee5c240cbfc",
@@ -4833,7 +4962,41 @@
             }
           ]
         }
-      ]
+      ],
+      "recent_war_attacks": [
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 6,
+          "defender_position": 9,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "KING OF KINGS",
+          "stars": 1,
+          "destruction": 76.0,
+          "attack_type": "cleanup",
+          "duration": 88,
+          "round": null,
+          "season": null
+        },
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 6,
+          "defender_position": 6,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "aLeXa",
+          "stars": 2,
+          "destruction": 73.0,
+          "attack_type": "cleanup",
+          "duration": 123,
+          "round": null,
+          "season": null
+        }
+      ],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "10d53b71f16c59": {
       "public_id": "10d53b71f16c59",
@@ -4897,7 +5060,41 @@
             }
           ]
         }
-      ]
+      ],
+      "recent_war_attacks": [
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 7,
+          "defender_position": 7,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "AJROCKS",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "duration": 126,
+          "round": null,
+          "season": null
+        },
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 7,
+          "defender_position": 3,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "Drupe",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "duration": 117,
+          "round": null,
+          "season": null
+        }
+      ],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "2710e1436f73a9": {
       "public_id": "2710e1436f73a9",
@@ -4961,7 +5158,41 @@
             }
           ]
         }
-      ]
+      ],
+      "recent_war_attacks": [
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 2,
+          "defender_position": 11,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "P§YCHÖPÄTH",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "duration": 92,
+          "round": null,
+          "season": null
+        },
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 2,
+          "defender_position": 10,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "qota",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "duration": 98,
+          "round": null,
+          "season": null
+        }
+      ],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "3858423607e45b": {
       "public_id": "3858423607e45b",
@@ -5025,7 +5256,41 @@
             }
           ]
         }
-      ]
+      ],
+      "recent_war_attacks": [
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 1,
+          "defender_position": 2,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "JammyMosquito",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "duration": 117,
+          "round": null,
+          "season": null
+        },
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 1,
+          "defender_position": 1,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "WAYMAN",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "cleanup",
+          "duration": 141,
+          "round": null,
+          "season": null
+        }
+      ],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "bd6b7a83ddcdbd": {
       "public_id": "bd6b7a83ddcdbd",
@@ -5089,7 +5354,41 @@
             }
           ]
         }
-      ]
+      ],
+      "recent_war_attacks": [
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 12,
+          "defender_position": 12,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "shadin doy",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "duration": 127,
+          "round": null,
+          "season": null
+        },
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 12,
+          "defender_position": 8,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "L O R D",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "cleanup",
+          "duration": 149,
+          "round": null,
+          "season": null
+        }
+      ],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "8f3739c5b25d1f": {
       "public_id": "8f3739c5b25d1f",
@@ -5153,7 +5452,41 @@
             }
           ]
         }
-      ]
+      ],
+      "recent_war_attacks": [
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 8,
+          "defender_position": 9,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "KING OF KINGS",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "cleanup",
+          "duration": 118,
+          "round": null,
+          "season": null
+        },
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 8,
+          "defender_position": 16,
+          "attacker_th": 18,
+          "defender_th": 17,
+          "defender_name": "Dino_Kid19",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "duration": 147,
+          "round": null,
+          "season": null
+        }
+      ],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "13311b93709aa8": {
       "public_id": "13311b93709aa8",
@@ -5217,7 +5550,41 @@
             }
           ]
         }
-      ]
+      ],
+      "recent_war_attacks": [
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 14,
+          "defender_position": 2,
+          "attacker_th": 17,
+          "defender_th": 18,
+          "defender_name": "JammyMosquito",
+          "stars": 2,
+          "destruction": 90.0,
+          "attack_type": "cleanup",
+          "duration": 180,
+          "round": null,
+          "season": null
+        },
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 14,
+          "defender_position": 1,
+          "attacker_th": 17,
+          "defender_th": 18,
+          "defender_name": "WAYMAN",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "cleanup",
+          "duration": 153,
+          "round": null,
+          "season": null
+        }
+      ],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "3e27735ca498a9": {
       "public_id": "3e27735ca498a9",
@@ -5281,7 +5648,41 @@
             }
           ]
         }
-      ]
+      ],
+      "recent_war_attacks": [
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 13,
+          "defender_position": 14,
+          "attacker_th": 18,
+          "defender_th": 17,
+          "defender_name": "ANSHU",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "duration": 144,
+          "round": null,
+          "season": null
+        },
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 13,
+          "defender_position": 13,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "FragranYak4583",
+          "stars": 2,
+          "destruction": 71.0,
+          "attack_type": "fresh",
+          "duration": 149,
+          "round": null,
+          "season": null
+        }
+      ],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "a64cb3cd72e7b9": {
       "public_id": "a64cb3cd72e7b9",
@@ -5345,7 +5746,41 @@
             }
           ]
         }
-      ]
+      ],
+      "recent_war_attacks": [
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 15,
+          "defender_position": 17,
+          "attacker_th": 18,
+          "defender_th": 17,
+          "defender_name": "dbk",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "cleanup",
+          "duration": 104,
+          "round": null,
+          "season": null
+        },
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 15,
+          "defender_position": 13,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "FragranYak4583",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "cleanup",
+          "duration": 141,
+          "round": null,
+          "season": null
+        }
+      ],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "b0478d5b8e758d": {
       "public_id": "b0478d5b8e758d",
@@ -5409,7 +5844,41 @@
             }
           ]
         }
-      ]
+      ],
+      "recent_war_attacks": [
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 10,
+          "defender_position": 10,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "qota",
+          "stars": 2,
+          "destruction": 78.0,
+          "attack_type": "cleanup",
+          "duration": 156,
+          "round": null,
+          "season": null
+        },
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 10,
+          "defender_position": 9,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "KING OF KINGS",
+          "stars": 2,
+          "destruction": 76.0,
+          "attack_type": "cleanup",
+          "duration": 168,
+          "round": null,
+          "season": null
+        }
+      ],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "a2386a4132517e": {
       "public_id": "a2386a4132517e",
@@ -5473,7 +5942,41 @@
             }
           ]
         }
-      ]
+      ],
+      "recent_war_attacks": [
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 3,
+          "defender_position": 9,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "KING OF KINGS",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "duration": 167,
+          "round": null,
+          "season": null
+        },
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 3,
+          "defender_position": 8,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "L O R D",
+          "stars": 2,
+          "destruction": 99.0,
+          "attack_type": "fresh",
+          "duration": 180,
+          "round": null,
+          "season": null
+        }
+      ],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "8d6b6362db4f19": {
       "public_id": "8d6b6362db4f19",
@@ -5537,7 +6040,41 @@
             }
           ]
         }
-      ]
+      ],
+      "recent_war_attacks": [
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 4,
+          "defender_position": 6,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "aLeXa",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "duration": 116,
+          "round": null,
+          "season": null
+        },
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 4,
+          "defender_position": 1,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "WAYMAN",
+          "stars": 1,
+          "destruction": 87.0,
+          "attack_type": "fresh",
+          "duration": 119,
+          "round": null,
+          "season": null
+        }
+      ],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "394bcba79bd0f5": {
       "public_id": "394bcba79bd0f5",
@@ -5601,7 +6138,41 @@
             }
           ]
         }
-      ]
+      ],
+      "recent_war_attacks": [
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 9,
+          "defender_position": 19,
+          "attacker_th": 18,
+          "defender_th": 14,
+          "defender_name": "Brandomania",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "duration": 103,
+          "round": null,
+          "season": null
+        },
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 9,
+          "defender_position": 18,
+          "attacker_th": 18,
+          "defender_th": 15,
+          "defender_name": "Pranjal",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "duration": 85,
+          "round": null,
+          "season": null
+        }
+      ],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "3cbc7125a5e7a0": {
       "public_id": "3cbc7125a5e7a0",
@@ -5658,7 +6229,26 @@
             }
           ]
         }
-      ]
+      ],
+      "recent_war_attacks": [
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 18,
+          "defender_position": 20,
+          "attacker_th": 17,
+          "defender_th": 14,
+          "defender_name": "PRÀSHÁÑT ÑÂÍK",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "duration": 121,
+          "round": null,
+          "season": null
+        }
+      ],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "4516c90f63a71a": {
       "public_id": "4516c90f63a71a",
@@ -5690,7 +6280,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "72eac2f9b53672": {
       "public_id": "72eac2f9b53672",
@@ -5722,7 +6315,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "93fd7ea4dad1f8": {
       "public_id": "93fd7ea4dad1f8",
@@ -5754,7 +6350,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "772db8f00acc59": {
       "public_id": "772db8f00acc59",
@@ -5786,7 +6385,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "77fbe9b0240de0": {
       "public_id": "77fbe9b0240de0",
@@ -5835,7 +6437,10 @@
           "missed_attacks": 2,
           "attacks": []
         }
-      ]
+      ],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "c5471c3af1228d": {
       "public_id": "c5471c3af1228d",
@@ -5867,7 +6472,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "10dea83733b77a": {
       "public_id": "10dea83733b77a",
@@ -5899,7 +6507,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "19eceb52bc4aee": {
       "public_id": "19eceb52bc4aee",
@@ -5931,7 +6542,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "eba4f99df44e61": {
       "public_id": "eba4f99df44e61",
@@ -5963,7 +6577,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "85653b6df73206": {
       "public_id": "85653b6df73206",
@@ -5995,7 +6612,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "d7d07052d4bfb9": {
       "public_id": "d7d07052d4bfb9",
@@ -6027,7 +6647,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "f2b774c07fda3f": {
       "public_id": "f2b774c07fda3f",
@@ -6059,7 +6682,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "136c8780ecbf47": {
       "public_id": "136c8780ecbf47",
@@ -6091,7 +6717,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "7f9aa144bc4db1": {
       "public_id": "7f9aa144bc4db1",
@@ -6123,7 +6752,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "133d74f011cdd0": {
       "public_id": "133d74f011cdd0",
@@ -6155,7 +6787,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "6b034cebb2f54f": {
       "public_id": "6b034cebb2f54f",
@@ -6187,7 +6822,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "067e9305da9e5f": {
       "public_id": "067e9305da9e5f",
@@ -6219,7 +6857,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "cda370546fcbc3": {
       "public_id": "cda370546fcbc3",
@@ -6251,7 +6892,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "9629749ebbce7b": {
       "public_id": "9629749ebbce7b",
@@ -6283,7 +6927,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "3624d4949d614e": {
       "public_id": "3624d4949d614e",
@@ -6315,7 +6962,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "fc446487f39a4b": {
       "public_id": "fc446487f39a4b",
@@ -6347,7 +6997,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "8e332ab4b0f2b4": {
       "public_id": "8e332ab4b0f2b4",
@@ -6379,7 +7032,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "bf9e3af272de9c": {
       "public_id": "bf9e3af272de9c",
@@ -6411,7 +7067,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "abf7d15cd4a591": {
       "public_id": "abf7d15cd4a591",
@@ -6443,7 +7102,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "75fbf19b6ab937": {
       "public_id": "75fbf19b6ab937",
@@ -6475,7 +7137,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "ab1246139135a0": {
       "public_id": "ab1246139135a0",
@@ -6507,7 +7172,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "eae7f4e2dfc116": {
       "public_id": "eae7f4e2dfc116",
@@ -6539,7 +7207,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "abc0a9ab8c3955": {
       "public_id": "abc0a9ab8c3955",
@@ -6603,7 +7274,41 @@
             }
           ]
         }
-      ]
+      ],
+      "recent_war_attacks": [
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 20,
+          "defender_position": 17,
+          "attacker_th": 16,
+          "defender_th": 17,
+          "defender_name": "dbk",
+          "stars": 1,
+          "destruction": 68.0,
+          "attack_type": "fresh",
+          "duration": 108,
+          "round": null,
+          "season": null
+        },
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 20,
+          "defender_position": 15,
+          "attacker_th": 16,
+          "defender_th": 17,
+          "defender_name": "janko",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "duration": 120,
+          "round": null,
+          "season": null
+        }
+      ],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "3f6e305be15dc4": {
       "public_id": "3f6e305be15dc4",
@@ -6667,7 +7372,41 @@
             }
           ]
         }
-      ]
+      ],
+      "recent_war_attacks": [
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 19,
+          "defender_position": 1,
+          "attacker_th": 16,
+          "defender_th": 18,
+          "defender_name": "WAYMAN",
+          "stars": 2,
+          "destruction": 65.0,
+          "attack_type": "cleanup",
+          "duration": 180,
+          "round": null,
+          "season": null
+        },
+        {
+          "date": "20260901",
+          "opponent_name": "WaymansWarriors",
+          "attacker_position": 19,
+          "defender_position": 17,
+          "attacker_th": 16,
+          "defender_th": 17,
+          "defender_name": "dbk",
+          "stars": 2,
+          "destruction": 97.0,
+          "attack_type": "cleanup",
+          "duration": 180,
+          "round": null,
+          "season": null
+        }
+      ],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "e1bcb33e547192": {
       "public_id": "e1bcb33e547192",
@@ -6716,7 +7455,10 @@
           "missed_attacks": 2,
           "attacks": []
         }
-      ]
+      ],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "4413187e378766": {
       "public_id": "4413187e378766",
@@ -6748,7 +7490,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "9800c474d20b2b": {
       "public_id": "9800c474d20b2b",
@@ -6780,7 +7525,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "27e7ea38f51aa4": {
       "public_id": "27e7ea38f51aa4",
@@ -6812,7 +7560,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "2f99cbfbf53e27": {
       "public_id": "2f99cbfbf53e27",
@@ -6844,7 +7595,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "2eaff854eb3ce0": {
       "public_id": "2eaff854eb3ce0",
@@ -6876,7 +7630,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "bc7d1aceb8ab91": {
       "public_id": "bc7d1aceb8ab91",
@@ -6925,7 +7682,10 @@
           "missed_attacks": 2,
           "attacks": []
         }
-      ]
+      ],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "f13eca3f9a7250": {
       "public_id": "f13eca3f9a7250",
@@ -6957,7 +7717,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "e39ab4c3776cbd": {
       "public_id": "e39ab4c3776cbd",
@@ -6989,7 +7752,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "aa2961611a4446": {
       "public_id": "aa2961611a4446",
@@ -7021,7 +7787,10 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     },
     "a9d302b2dd78b2": {
       "public_id": "a9d302b2dd78b2",
@@ -7053,10 +7822,27 @@
       "volunteer_triple_rate": 0.0,
       "volunteer_avg_stars": 0.0,
       "volunteer_avg_destruction": 0.0,
-      "war_history": []
+      "war_history": [],
+      "recent_war_attacks": [],
+      "recent_cwl_attacks": [],
+      "cwl_history": []
     }
   },
   "cwl": {
-    "enabled": false
+    "enabled": true,
+    "active": true,
+    "season": "unknown",
+    "state": "notInWar",
+    "league_name": "Master League I",
+    "position": null,
+    "record": {
+      "wins": 0,
+      "losses": 0,
+      "ties": 0
+    },
+    "standings": [],
+    "rounds": [],
+    "current_war": null,
+    "players": []
   }
 }
