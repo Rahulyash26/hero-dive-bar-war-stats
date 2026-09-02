@@ -1,6 +1,6 @@
 {
   "schema_version": 12,
-  "generated_at": "2026-09-02T03:47:41.241661+00:00",
+  "generated_at": "2026-09-02T15:35:24.821092+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -7928,17 +7928,184 @@
   "cwl": {
     "enabled": true,
     "active": true,
-    "season": "unknown",
-    "state": "notInWar",
+    "season": "2026-09-02",
+    "state": "preparation",
     "league_name": "Master League I",
-    "position": null,
+    "position": 4,
     "record": {
       "wins": 0,
       "losses": 0,
       "ties": 0
     },
-    "standings": [],
-    "rounds": [],
+    "standings": [
+      {
+        "name": "Bijapur Rising",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "battle_stars": 0,
+        "bonus_stars": 0,
+        "league_stars": 0,
+        "destruction": 0.0,
+        "wars_counted": 0,
+        "avg_destruction": 0.0,
+        "is_us": false,
+        "position": 1
+      },
+      {
+        "name": "Dragon Tear",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "battle_stars": 0,
+        "bonus_stars": 0,
+        "league_stars": 0,
+        "destruction": 0.0,
+        "wars_counted": 0,
+        "avg_destruction": 0.0,
+        "is_us": false,
+        "position": 2
+      },
+      {
+        "name": "Enrached",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "battle_stars": 0,
+        "bonus_stars": 0,
+        "league_stars": 0,
+        "destruction": 0.0,
+        "wars_counted": 0,
+        "avg_destruction": 0.0,
+        "is_us": false,
+        "position": 3
+      },
+      {
+        "name": "Hero Dive Bar",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "battle_stars": 0,
+        "bonus_stars": 0,
+        "league_stars": 0,
+        "destruction": 0.0,
+        "wars_counted": 0,
+        "avg_destruction": 0.0,
+        "is_us": true,
+        "position": 4
+      },
+      {
+        "name": "Kentucky",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "battle_stars": 0,
+        "bonus_stars": 0,
+        "league_stars": 0,
+        "destruction": 0.0,
+        "wars_counted": 0,
+        "avg_destruction": 0.0,
+        "is_us": false,
+        "position": 5
+      },
+      {
+        "name": "salt of battel",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "battle_stars": 0,
+        "bonus_stars": 0,
+        "league_stars": 0,
+        "destruction": 0.0,
+        "wars_counted": 0,
+        "avg_destruction": 0.0,
+        "is_us": false,
+        "position": 6
+      },
+      {
+        "name": "SntrytheDefiant",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "battle_stars": 0,
+        "bonus_stars": 0,
+        "league_stars": 0,
+        "destruction": 0.0,
+        "wars_counted": 0,
+        "avg_destruction": 0.0,
+        "is_us": false,
+        "position": 7
+      },
+      {
+        "name": "VZLA ARMY",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "battle_stars": 0,
+        "bonus_stars": 0,
+        "league_stars": 0,
+        "destruction": 0.0,
+        "wars_counted": 0,
+        "avg_destruction": 0.0,
+        "is_us": false,
+        "position": 8
+      }
+    ],
+    "rounds": [
+      {
+        "round": 1,
+        "war_key": null,
+        "state": "preparation",
+        "state_label": "Preparation Day",
+        "opponent_name": "Kentucky",
+        "team_size": 15,
+        "clan_stars": 0,
+        "opponent_stars": 0,
+        "clan_destruction": 0.0,
+        "opponent_destruction": 0.0,
+        "result": null,
+        "missed_attacks": 0,
+        "missed_players": [],
+        "start_time": "2026-09-03T04:24:17.000Z",
+        "end_time": "2026-09-04T04:24:17.000Z"
+      },
+      {
+        "round": 2,
+        "state": "notStarted",
+        "state_label": "Not Started",
+        "opponent_name": "TBD"
+      },
+      {
+        "round": 3,
+        "state": "notStarted",
+        "state_label": "Not Started",
+        "opponent_name": "TBD"
+      },
+      {
+        "round": 4,
+        "state": "notStarted",
+        "state_label": "Not Started",
+        "opponent_name": "TBD"
+      },
+      {
+        "round": 5,
+        "state": "notStarted",
+        "state_label": "Not Started",
+        "opponent_name": "TBD"
+      },
+      {
+        "round": 6,
+        "state": "notStarted",
+        "state_label": "Not Started",
+        "opponent_name": "TBD"
+      },
+      {
+        "round": 7,
+        "state": "notStarted",
+        "state_label": "Not Started",
+        "opponent_name": "TBD"
+      }
+    ],
     "current_war": null,
     "players": []
   }
