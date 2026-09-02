@@ -1,6 +1,6 @@
 {
   "schema_version": 12,
-  "generated_at": "2026-09-02T15:35:24.821092+00:00",
+  "generated_at": "2026-09-02T18:31:25.677177+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -281,6 +281,128 @@
         "attacks_used": 2,
         "remaining_attacks": 0,
         "missed_attacks": 0
+      }
+    ],
+    "opponent_roster": [
+      {
+        "name": "WAYMAN",
+        "th": 18,
+        "map_position": 1,
+        "attacks_used": 2
+      },
+      {
+        "name": "JammyMosquito",
+        "th": 18,
+        "map_position": 2,
+        "attacks_used": 2
+      },
+      {
+        "name": "Drupe",
+        "th": 18,
+        "map_position": 3,
+        "attacks_used": 2
+      },
+      {
+        "name": "Vinod Deore",
+        "th": 18,
+        "map_position": 4,
+        "attacks_used": 2
+      },
+      {
+        "name": "Death bloom",
+        "th": 18,
+        "map_position": 5,
+        "attacks_used": 2
+      },
+      {
+        "name": "aLeXa",
+        "th": 18,
+        "map_position": 6,
+        "attacks_used": 2
+      },
+      {
+        "name": "AJROCKS",
+        "th": 18,
+        "map_position": 7,
+        "attacks_used": 2
+      },
+      {
+        "name": "L O R D",
+        "th": 18,
+        "map_position": 8,
+        "attacks_used": 1
+      },
+      {
+        "name": "KING OF KINGS",
+        "th": 18,
+        "map_position": 9,
+        "attacks_used": 0
+      },
+      {
+        "name": "qota",
+        "th": 18,
+        "map_position": 10,
+        "attacks_used": 2
+      },
+      {
+        "name": "P§YCHÖPÄTH",
+        "th": 18,
+        "map_position": 11,
+        "attacks_used": 0
+      },
+      {
+        "name": "shadin doy",
+        "th": 18,
+        "map_position": 12,
+        "attacks_used": 2
+      },
+      {
+        "name": "FragranYak4583",
+        "th": 18,
+        "map_position": 13,
+        "attacks_used": 2
+      },
+      {
+        "name": "ANSHU",
+        "th": 17,
+        "map_position": 14,
+        "attacks_used": 2
+      },
+      {
+        "name": "janko",
+        "th": 17,
+        "map_position": 15,
+        "attacks_used": 1
+      },
+      {
+        "name": "Dino_Kid19",
+        "th": 17,
+        "map_position": 16,
+        "attacks_used": 2
+      },
+      {
+        "name": "dbk",
+        "th": 17,
+        "map_position": 17,
+        "attacks_used": 2
+      },
+      {
+        "name": "Pranjal",
+        "th": 15,
+        "map_position": 18,
+        "attacks_used": 2
+      },
+      {
+        "name": "Brandomania",
+        "th": 14,
+        "map_position": 19,
+        "attacks_used": 2
+      },
+      {
+        "name": "PRÀSHÁÑT ÑÂÍK",
+        "th": 14,
+        "map_position": 20,
+        "attacks_used": 2
       }
     ],
     "timeline": [
@@ -4960,7 +5082,24 @@
         }
       ],
       "recent_cwl_attacks": [],
-      "cwl_history": []
+      "cwl_history": [
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        }
+      ]
     },
     "6f3ee5c240cbfc": {
       "public_id": "6f3ee5c240cbfc",
@@ -5156,7 +5295,24 @@
         }
       ],
       "recent_cwl_attacks": [],
-      "cwl_history": []
+      "cwl_history": [
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        }
+      ]
     },
     "2710e1436f73a9": {
       "public_id": "2710e1436f73a9",
@@ -5254,7 +5410,24 @@
         }
       ],
       "recent_cwl_attacks": [],
-      "cwl_history": []
+      "cwl_history": [
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        }
+      ]
     },
     "3858423607e45b": {
       "public_id": "3858423607e45b",
@@ -5352,7 +5525,24 @@
         }
       ],
       "recent_cwl_attacks": [],
-      "cwl_history": []
+      "cwl_history": [
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        }
+      ]
     },
     "bd6b7a83ddcdbd": {
       "public_id": "bd6b7a83ddcdbd",
@@ -5450,7 +5640,24 @@
         }
       ],
       "recent_cwl_attacks": [],
-      "cwl_history": []
+      "cwl_history": [
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        }
+      ]
     },
     "8f3739c5b25d1f": {
       "public_id": "8f3739c5b25d1f",
@@ -5646,7 +5853,24 @@
         }
       ],
       "recent_cwl_attacks": [],
-      "cwl_history": []
+      "cwl_history": [
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 17,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        }
+      ]
     },
     "3e27735ca498a9": {
       "public_id": "3e27735ca498a9",
@@ -5940,7 +6164,24 @@
         }
       ],
       "recent_cwl_attacks": [],
-      "cwl_history": []
+      "cwl_history": [
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        }
+      ]
     },
     "8d6b6362db4f19": {
       "public_id": "8d6b6362db4f19",
@@ -6038,7 +6279,24 @@
         }
       ],
       "recent_cwl_attacks": [],
-      "cwl_history": []
+      "cwl_history": [
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        }
+      ]
     },
     "394bcba79bd0f5": {
       "public_id": "394bcba79bd0f5",
@@ -6474,7 +6732,24 @@
       "war_history": [],
       "recent_war_attacks": [],
       "recent_cwl_attacks": [],
-      "cwl_history": []
+      "cwl_history": [
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        }
+      ]
     },
     "19eceb52bc4aee": {
       "public_id": "19eceb52bc4aee",
@@ -6579,7 +6854,24 @@
       "war_history": [],
       "recent_war_attacks": [],
       "recent_cwl_attacks": [],
-      "cwl_history": []
+      "cwl_history": [
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        }
+      ]
     },
     "d7d07052d4bfb9": {
       "public_id": "d7d07052d4bfb9",
@@ -6649,7 +6941,24 @@
       "war_history": [],
       "recent_war_attacks": [],
       "recent_cwl_attacks": [],
-      "cwl_history": []
+      "cwl_history": [
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        }
+      ]
     },
     "f2b774c07fda3f": {
       "public_id": "f2b774c07fda3f",
@@ -6859,7 +7168,24 @@
       "war_history": [],
       "recent_war_attacks": [],
       "recent_cwl_attacks": [],
-      "cwl_history": []
+      "cwl_history": [
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 17,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        }
+      ]
     },
     "cda370546fcbc3": {
       "public_id": "cda370546fcbc3",
@@ -6999,7 +7325,24 @@
       "war_history": [],
       "recent_war_attacks": [],
       "recent_cwl_attacks": [],
-      "cwl_history": []
+      "cwl_history": [
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        }
+      ]
     },
     "bf9e3af272de9c": {
       "public_id": "bf9e3af272de9c",
@@ -7069,7 +7412,24 @@
       "war_history": [],
       "recent_war_attacks": [],
       "recent_cwl_attacks": [],
-      "cwl_history": []
+      "cwl_history": [
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        }
+      ]
     },
     "75fbf19b6ab937": {
       "public_id": "75fbf19b6ab937",
@@ -7104,7 +7464,24 @@
       "war_history": [],
       "recent_war_attacks": [],
       "recent_cwl_attacks": [],
-      "cwl_history": []
+      "cwl_history": [
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        }
+      ]
     },
     "ab1246139135a0": {
       "public_id": "ab1246139135a0",
@@ -8054,7 +8431,7 @@
     "rounds": [
       {
         "round": 1,
-        "war_key": null,
+        "war_key": "affb7faac2fd",
         "state": "preparation",
         "state_label": "Preparation Day",
         "opponent_name": "Kentucky",
@@ -8106,7 +8483,485 @@
         "opponent_name": "TBD"
       }
     ],
-    "current_war": null,
-    "players": []
+    "current_war": {
+      "war_key": "affb7faac2fd",
+      "state": "preparation",
+      "state_label": "Preparation Day",
+      "team_size": 15,
+      "preparation_start_time": "2026-09-02T03:57:08.000Z",
+      "start_time": "2026-09-03T04:24:17.000Z",
+      "end_time": "2026-09-04T04:24:17.000Z",
+      "clan_name": "Hero Dive Bar",
+      "opponent_name": "Kentucky",
+      "clan_stars": 0,
+      "opponent_stars": 0,
+      "clan_destruction": 0.0,
+      "opponent_destruction": 0.0,
+      "attacks_used": 0,
+      "expected_attacks": 0,
+      "volunteer_attacks": 0,
+      "remaining_attacks": 0,
+      "fillers": 0,
+      "missed_attacks": 0,
+      "missed_players": [],
+      "roster": [
+        {
+          "public_id": "85653b6df73206",
+          "name": "John 3:16™",
+          "th": 18,
+          "map_position": 1,
+          "is_filler": false,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "3858423607e45b",
+          "name": "CmALPHA_RY",
+          "th": 18,
+          "map_position": 2,
+          "is_filler": false,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "75fbf19b6ab937",
+          "name": "tinynuisance",
+          "th": 18,
+          "map_position": 4,
+          "is_filler": false,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "2710e1436f73a9",
+          "name": "ChagoWitaBullet",
+          "th": 18,
+          "map_position": 5,
+          "is_filler": false,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "8d6b6362db4f19",
+          "name": "Souls",
+          "th": 18,
+          "map_position": 6,
+          "is_filler": false,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "892c01275b9e4f",
+          "name": "+Alon2000+",
+          "th": 18,
+          "map_position": 7,
+          "is_filler": false,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "d04795aea16ac6",
+          "name": "KING OF CLAN",
+          "th": 18,
+          "map_position": 9,
+          "is_filler": false,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "10d53b71f16c59",
+          "name": "Avinash",
+          "th": 18,
+          "map_position": 10,
+          "is_filler": false,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "abf7d15cd4a591",
+          "name": "The Letter P",
+          "th": 18,
+          "map_position": 12,
+          "is_filler": false,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "8e332ab4b0f2b4",
+          "name": "taymonayyyy",
+          "th": 18,
+          "map_position": 13,
+          "is_filler": false,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "10dea83733b77a",
+          "name": "Hollowclient765",
+          "th": 18,
+          "map_position": 16,
+          "is_filler": false,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "b0478d5b8e758d",
+          "name": "Pep",
+          "th": 18,
+          "map_position": 17,
+          "is_filler": false,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "bd6b7a83ddcdbd",
+          "name": "DEEPAK",
+          "th": 18,
+          "map_position": 19,
+          "is_filler": false,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "13311b93709aa8",
+          "name": "Globin Barrel",
+          "th": 17,
+          "map_position": 24,
+          "is_filler": false,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "067e9305da9e5f",
+          "name": "Sandhu",
+          "th": 17,
+          "map_position": 25,
+          "is_filler": false,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        }
+      ],
+      "opponent_roster": [
+        {
+          "name": "DaaGoobs",
+          "th": 18,
+          "map_position": 1,
+          "attacks_used": 0
+        },
+        {
+          "name": "REDNECK",
+          "th": 18,
+          "map_position": 2,
+          "attacks_used": 0
+        },
+        {
+          "name": "MillerTime",
+          "th": 18,
+          "map_position": 3,
+          "attacks_used": 0
+        },
+        {
+          "name": "Goobie Smalls",
+          "th": 18,
+          "map_position": 5,
+          "attacks_used": 0
+        },
+        {
+          "name": "General Lee",
+          "th": 18,
+          "map_position": 8,
+          "attacks_used": 0
+        },
+        {
+          "name": "BufordT.Justice",
+          "th": 18,
+          "map_position": 9,
+          "attacks_used": 0
+        },
+        {
+          "name": "jaj2000",
+          "th": 18,
+          "map_position": 10,
+          "attacks_used": 0
+        },
+        {
+          "name": "rizzy-d",
+          "th": 18,
+          "map_position": 11,
+          "attacks_used": 0
+        },
+        {
+          "name": "big daddy 43",
+          "th": 18,
+          "map_position": 12,
+          "attacks_used": 0
+        },
+        {
+          "name": "TheHotstepper",
+          "th": 18,
+          "map_position": 13,
+          "attacks_used": 0
+        },
+        {
+          "name": "jhue17",
+          "th": 18,
+          "map_position": 14,
+          "attacks_used": 0
+        },
+        {
+          "name": "Razazool",
+          "th": 18,
+          "map_position": 16,
+          "attacks_used": 0
+        },
+        {
+          "name": "cole",
+          "th": 18,
+          "map_position": 17,
+          "attacks_used": 0
+        },
+        {
+          "name": "PowerSpark 1",
+          "th": 18,
+          "map_position": 19,
+          "attacks_used": 0
+        },
+        {
+          "name": "jay",
+          "th": 18,
+          "map_position": 20,
+          "attacks_used": 0
+        }
+      ],
+      "timeline": [],
+      "round": 1
+    },
+    "players": [
+      {
+        "public_id": "892c01275b9e4f",
+        "name": "+Alon2000+",
+        "th": 18,
+        "currently_in_clan": true,
+        "selected_rounds": 1,
+        "attacks": 0,
+        "missed_attacks": 0,
+        "stars": 0,
+        "triples": 0,
+        "avg_stars": 0.0,
+        "avg_destruction": 0.0
+      },
+      {
+        "public_id": "10d53b71f16c59",
+        "name": "Avinash",
+        "th": 18,
+        "currently_in_clan": true,
+        "selected_rounds": 1,
+        "attacks": 0,
+        "missed_attacks": 0,
+        "stars": 0,
+        "triples": 0,
+        "avg_stars": 0.0,
+        "avg_destruction": 0.0
+      },
+      {
+        "public_id": "2710e1436f73a9",
+        "name": "ChagoWitaBullet",
+        "th": 18,
+        "currently_in_clan": true,
+        "selected_rounds": 1,
+        "attacks": 0,
+        "missed_attacks": 0,
+        "stars": 0,
+        "triples": 0,
+        "avg_stars": 0.0,
+        "avg_destruction": 0.0
+      },
+      {
+        "public_id": "3858423607e45b",
+        "name": "CmALPHA_RY",
+        "th": 18,
+        "currently_in_clan": true,
+        "selected_rounds": 1,
+        "attacks": 0,
+        "missed_attacks": 0,
+        "stars": 0,
+        "triples": 0,
+        "avg_stars": 0.0,
+        "avg_destruction": 0.0
+      },
+      {
+        "public_id": "bd6b7a83ddcdbd",
+        "name": "DEEPAK",
+        "th": 18,
+        "currently_in_clan": true,
+        "selected_rounds": 1,
+        "attacks": 0,
+        "missed_attacks": 0,
+        "stars": 0,
+        "triples": 0,
+        "avg_stars": 0.0,
+        "avg_destruction": 0.0
+      },
+      {
+        "public_id": "13311b93709aa8",
+        "name": "Globin Barrel",
+        "th": 17,
+        "currently_in_clan": true,
+        "selected_rounds": 1,
+        "attacks": 0,
+        "missed_attacks": 0,
+        "stars": 0,
+        "triples": 0,
+        "avg_stars": 0.0,
+        "avg_destruction": 0.0
+      },
+      {
+        "public_id": "10dea83733b77a",
+        "name": "Hollowclient765",
+        "th": 18,
+        "currently_in_clan": true,
+        "selected_rounds": 1,
+        "attacks": 0,
+        "missed_attacks": 0,
+        "stars": 0,
+        "triples": 0,
+        "avg_stars": 0.0,
+        "avg_destruction": 0.0
+      },
+      {
+        "public_id": "85653b6df73206",
+        "name": "John 3:16™",
+        "th": 18,
+        "currently_in_clan": true,
+        "selected_rounds": 1,
+        "attacks": 0,
+        "missed_attacks": 0,
+        "stars": 0,
+        "triples": 0,
+        "avg_stars": 0.0,
+        "avg_destruction": 0.0
+      },
+      {
+        "public_id": "d04795aea16ac6",
+        "name": "KING OF CLAN",
+        "th": 18,
+        "currently_in_clan": true,
+        "selected_rounds": 1,
+        "attacks": 0,
+        "missed_attacks": 0,
+        "stars": 0,
+        "triples": 0,
+        "avg_stars": 0.0,
+        "avg_destruction": 0.0
+      },
+      {
+        "public_id": "b0478d5b8e758d",
+        "name": "Pep",
+        "th": 18,
+        "currently_in_clan": true,
+        "selected_rounds": 1,
+        "attacks": 0,
+        "missed_attacks": 0,
+        "stars": 0,
+        "triples": 0,
+        "avg_stars": 0.0,
+        "avg_destruction": 0.0
+      },
+      {
+        "public_id": "067e9305da9e5f",
+        "name": "Sandhu",
+        "th": 17,
+        "currently_in_clan": true,
+        "selected_rounds": 1,
+        "attacks": 0,
+        "missed_attacks": 0,
+        "stars": 0,
+        "triples": 0,
+        "avg_stars": 0.0,
+        "avg_destruction": 0.0
+      },
+      {
+        "public_id": "8d6b6362db4f19",
+        "name": "Souls",
+        "th": 18,
+        "currently_in_clan": true,
+        "selected_rounds": 1,
+        "attacks": 0,
+        "missed_attacks": 0,
+        "stars": 0,
+        "triples": 0,
+        "avg_stars": 0.0,
+        "avg_destruction": 0.0
+      },
+      {
+        "public_id": "8e332ab4b0f2b4",
+        "name": "taymonayyyy",
+        "th": 18,
+        "currently_in_clan": true,
+        "selected_rounds": 1,
+        "attacks": 0,
+        "missed_attacks": 0,
+        "stars": 0,
+        "triples": 0,
+        "avg_stars": 0.0,
+        "avg_destruction": 0.0
+      },
+      {
+        "public_id": "abf7d15cd4a591",
+        "name": "The Letter P",
+        "th": 18,
+        "currently_in_clan": true,
+        "selected_rounds": 1,
+        "attacks": 0,
+        "missed_attacks": 0,
+        "stars": 0,
+        "triples": 0,
+        "avg_stars": 0.0,
+        "avg_destruction": 0.0
+      },
+      {
+        "public_id": "75fbf19b6ab937",
+        "name": "tinynuisance",
+        "th": 18,
+        "currently_in_clan": true,
+        "selected_rounds": 1,
+        "attacks": 0,
+        "missed_attacks": 0,
+        "stars": 0,
+        "triples": 0,
+        "avg_stars": 0.0,
+        "avg_destruction": 0.0
+      }
+    ]
   }
 }
