@@ -1,6 +1,6 @@
 {
   "schema_version": 12,
-  "generated_at": "2026-09-03T16:18:32.779388+00:00",
+  "generated_at": "2026-09-03T16:27:32.178952+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -5094,7 +5094,7 @@
           "our_stars": 0,
           "their_stars": 0,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -5107,10 +5107,10 @@
           "state": "inWar",
           "state_label": "Battle Day",
           "result": null,
-          "our_stars": 19,
+          "our_stars": 22,
           "their_stars": 25,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -5339,7 +5339,7 @@
           "our_stars": 0,
           "their_stars": 0,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -5352,10 +5352,10 @@
           "state": "inWar",
           "state_label": "Battle Day",
           "result": null,
-          "our_stars": 19,
+          "our_stars": 22,
           "their_stars": 25,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 1,
           "missed_attacks": 0,
           "attacks": [
@@ -5493,7 +5493,7 @@
           "our_stars": 0,
           "their_stars": 0,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -5506,10 +5506,10 @@
           "state": "inWar",
           "state_label": "Battle Day",
           "result": null,
-          "our_stars": 19,
+          "our_stars": 22,
           "their_stars": 25,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 1,
           "missed_attacks": 0,
           "attacks": [
@@ -5647,7 +5647,7 @@
           "our_stars": 0,
           "their_stars": 0,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -5660,10 +5660,10 @@
           "state": "inWar",
           "state_label": "Battle Day",
           "result": null,
-          "our_stars": 19,
+          "our_stars": 22,
           "their_stars": 25,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 1,
           "missed_attacks": 0,
           "attacks": [
@@ -5785,7 +5785,7 @@
           "our_stars": 0,
           "their_stars": 0,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -5798,10 +5798,10 @@
           "state": "inWar",
           "state_label": "Battle Day",
           "result": null,
-          "our_stars": 19,
+          "our_stars": 22,
           "their_stars": 25,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -6030,7 +6030,7 @@
           "our_stars": 0,
           "their_stars": 0,
           "th": 17,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -6043,10 +6043,10 @@
           "state": "inWar",
           "state_label": "Battle Day",
           "result": null,
-          "our_stars": 19,
+          "our_stars": 22,
           "their_stars": 25,
           "th": 17,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 1,
           "missed_attacks": 0,
           "attacks": [
@@ -6266,7 +6266,7 @@
           "our_stars": 0,
           "their_stars": 0,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -6279,10 +6279,10 @@
           "state": "inWar",
           "state_label": "Battle Day",
           "result": null,
-          "our_stars": 19,
+          "our_stars": 22,
           "their_stars": 25,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -6397,7 +6397,7 @@
           "our_stars": 0,
           "their_stars": 0,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -6410,10 +6410,10 @@
           "state": "inWar",
           "state_label": "Battle Day",
           "result": null,
-          "our_stars": 19,
+          "our_stars": 22,
           "their_stars": 25,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -6853,7 +6853,23 @@
       "volunteer_avg_destruction": 0.0,
       "war_history": [],
       "recent_war_attacks": [],
-      "recent_cwl_attacks": [],
+      "recent_cwl_attacks": [
+        {
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "attacker_position": 16,
+          "defender_position": 14,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "jhue17",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "duration": 151,
+          "round": 1,
+          "season": "2026-09-02"
+        }
+      ],
       "cwl_history": [
         {
           "season": "2026-09-02",
@@ -6866,7 +6882,7 @@
           "our_stars": 0,
           "their_stars": 0,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -6879,13 +6895,20 @@
           "state": "inWar",
           "state_label": "Battle Day",
           "result": null,
-          "our_stars": 19,
+          "our_stars": 22,
           "their_stars": 25,
           "th": 18,
-          "expected_attacks": 0,
-          "attacks_used": 0,
+          "expected_attacks": 1,
+          "attacks_used": 1,
           "missed_attacks": 0,
-          "attacks": []
+          "attacks": [
+            {
+              "stars": 3,
+              "destruction": 100.0,
+              "duration": 151,
+              "attack_type": "fresh"
+            }
+          ]
         }
       ]
     },
@@ -7004,7 +7027,7 @@
           "our_stars": 0,
           "their_stars": 0,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -7017,10 +7040,10 @@
           "state": "inWar",
           "state_label": "Battle Day",
           "result": null,
-          "our_stars": 19,
+          "our_stars": 22,
           "their_stars": 25,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -7072,7 +7095,7 @@
           "our_stars": 0,
           "their_stars": 0,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -7085,10 +7108,10 @@
           "state": "inWar",
           "state_label": "Battle Day",
           "result": null,
-          "our_stars": 19,
+          "our_stars": 22,
           "their_stars": 25,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -7366,7 +7389,7 @@
           "our_stars": 0,
           "their_stars": 0,
           "th": 17,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -7379,10 +7402,10 @@
           "state": "inWar",
           "state_label": "Battle Day",
           "result": null,
-          "our_stars": 19,
+          "our_stars": 22,
           "their_stars": 25,
           "th": 17,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 1,
           "missed_attacks": 0,
           "attacks": [
@@ -7562,7 +7585,7 @@
           "our_stars": 0,
           "their_stars": 0,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -7575,10 +7598,10 @@
           "state": "inWar",
           "state_label": "Battle Day",
           "result": null,
-          "our_stars": 19,
+          "our_stars": 22,
           "their_stars": 25,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 1,
           "missed_attacks": 0,
           "attacks": [
@@ -7637,7 +7660,7 @@
           "our_stars": 0,
           "their_stars": 0,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -7650,10 +7673,10 @@
           "state": "inWar",
           "state_label": "Battle Day",
           "result": null,
-          "our_stars": 19,
+          "our_stars": 22,
           "their_stars": 25,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -7721,7 +7744,7 @@
           "our_stars": 0,
           "their_stars": 0,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -7734,10 +7757,10 @@
           "state": "inWar",
           "state_label": "Battle Day",
           "result": null,
-          "our_stars": 19,
+          "our_stars": 22,
           "their_stars": 25,
           "th": 18,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 1,
           "missed_attacks": 0,
           "attacks": [
@@ -8709,7 +8732,7 @@
     "season": "2026-09-02",
     "state": "inWar",
     "league_name": "Master League I",
-    "position": 6,
+    "position": 4,
     "record": {
       "wins": 0,
       "losses": 0,
@@ -8759,6 +8782,20 @@
         "position": 3
       },
       {
+        "name": "Hero Dive Bar",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "battle_stars": 22,
+        "bonus_stars": 0,
+        "league_stars": 22,
+        "destruction": 50.333333333333336,
+        "wars_counted": 1,
+        "avg_destruction": 50.333333333333336,
+        "is_us": true,
+        "position": 4
+      },
+      {
         "name": "Enrached",
         "wins": 0,
         "losses": 0,
@@ -8770,7 +8807,7 @@
         "wars_counted": 1,
         "avg_destruction": 47.53333333333333,
         "is_us": false,
-        "position": 4
+        "position": 5
       },
       {
         "name": "Dragon Tear",
@@ -8784,20 +8821,6 @@
         "wars_counted": 1,
         "avg_destruction": 44.93333333333333,
         "is_us": false,
-        "position": 5
-      },
-      {
-        "name": "Hero Dive Bar",
-        "wins": 0,
-        "losses": 0,
-        "ties": 0,
-        "battle_stars": 19,
-        "bonus_stars": 0,
-        "league_stars": 19,
-        "destruction": 43.666666666666664,
-        "wars_counted": 1,
-        "avg_destruction": 43.666666666666664,
-        "is_us": true,
         "position": 6
       },
       {
@@ -8837,9 +8860,9 @@
         "state_label": "Battle Day",
         "opponent_name": "Kentucky",
         "team_size": 15,
-        "clan_stars": 19,
+        "clan_stars": 22,
         "opponent_stars": 25,
-        "clan_destruction": 43.666666666666664,
+        "clan_destruction": 50.333333333333336,
         "opponent_destruction": 58.13333333333333,
         "result": null,
         "missed_attacks": 0,
@@ -8896,6 +8919,1084 @@
       }
     ],
     "current_war": {
+      "war_key": "affb7faac2fd",
+      "state": "inWar",
+      "state_label": "Battle Day",
+      "team_size": 15,
+      "preparation_start_time": "2026-09-02T03:57:08.000Z",
+      "start_time": "2026-09-03T04:24:17.000Z",
+      "end_time": "2026-09-04T04:24:17.000Z",
+      "clan_name": "Hero Dive Bar",
+      "opponent_name": "Kentucky",
+      "clan_stars": 22,
+      "opponent_stars": 25,
+      "clan_destruction": 50.333333333333336,
+      "opponent_destruction": 58.13333333333333,
+      "attacks_used": 8,
+      "expected_attacks": 15,
+      "volunteer_attacks": 0,
+      "remaining_attacks": 7,
+      "fillers": 0,
+      "missed_attacks": 0,
+      "missed_players": [],
+      "roster": [
+        {
+          "public_id": "85653b6df73206",
+          "name": "John 3:16™",
+          "th": 18,
+          "map_position": 1,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 0,
+          "remaining_attacks": 1,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "3858423607e45b",
+          "name": "CmALPHA_RY",
+          "th": 18,
+          "map_position": 2,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 1,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "75fbf19b6ab937",
+          "name": "tinynuisance",
+          "th": 18,
+          "map_position": 4,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 1,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "2710e1436f73a9",
+          "name": "ChagoWitaBullet",
+          "th": 18,
+          "map_position": 5,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 1,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "8d6b6362db4f19",
+          "name": "Souls",
+          "th": 18,
+          "map_position": 6,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 0,
+          "remaining_attacks": 1,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "892c01275b9e4f",
+          "name": "+Alon2000+",
+          "th": 18,
+          "map_position": 7,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 0,
+          "remaining_attacks": 1,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "d04795aea16ac6",
+          "name": "KING OF CLAN",
+          "th": 18,
+          "map_position": 9,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 0,
+          "remaining_attacks": 1,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "10d53b71f16c59",
+          "name": "Avinash",
+          "th": 18,
+          "map_position": 10,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 1,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "abf7d15cd4a591",
+          "name": "The Letter P",
+          "th": 18,
+          "map_position": 12,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 0,
+          "remaining_attacks": 1,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "8e332ab4b0f2b4",
+          "name": "taymonayyyy",
+          "th": 18,
+          "map_position": 13,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 1,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "10dea83733b77a",
+          "name": "Hollowclient765",
+          "th": 18,
+          "map_position": 16,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 1,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "b0478d5b8e758d",
+          "name": "Pep",
+          "th": 18,
+          "map_position": 17,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 0,
+          "remaining_attacks": 1,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "bd6b7a83ddcdbd",
+          "name": "DEEPAK",
+          "th": 18,
+          "map_position": 19,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 0,
+          "remaining_attacks": 1,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "13311b93709aa8",
+          "name": "Globin Barrel",
+          "th": 17,
+          "map_position": 24,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 1,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "067e9305da9e5f",
+          "name": "Sandhu",
+          "th": 17,
+          "map_position": 25,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 1,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        }
+      ],
+      "opponent_roster": [
+        {
+          "name": "DaaGoobs",
+          "th": 18,
+          "map_position": 1,
+          "attacks_used": 0
+        },
+        {
+          "name": "REDNECK",
+          "th": 18,
+          "map_position": 2,
+          "attacks_used": 1
+        },
+        {
+          "name": "MillerTime",
+          "th": 18,
+          "map_position": 3,
+          "attacks_used": 1
+        },
+        {
+          "name": "Goobie Smalls",
+          "th": 18,
+          "map_position": 5,
+          "attacks_used": 1
+        },
+        {
+          "name": "General Lee",
+          "th": 18,
+          "map_position": 8,
+          "attacks_used": 1
+        },
+        {
+          "name": "BufordT.Justice",
+          "th": 18,
+          "map_position": 9,
+          "attacks_used": 1
+        },
+        {
+          "name": "jaj2000",
+          "th": 18,
+          "map_position": 10,
+          "attacks_used": 0
+        },
+        {
+          "name": "rizzy-d",
+          "th": 18,
+          "map_position": 11,
+          "attacks_used": 0
+        },
+        {
+          "name": "big daddy 43",
+          "th": 18,
+          "map_position": 12,
+          "attacks_used": 0
+        },
+        {
+          "name": "TheHotstepper",
+          "th": 18,
+          "map_position": 13,
+          "attacks_used": 0
+        },
+        {
+          "name": "jhue17",
+          "th": 18,
+          "map_position": 14,
+          "attacks_used": 1
+        },
+        {
+          "name": "Razazool",
+          "th": 18,
+          "map_position": 16,
+          "attacks_used": 0
+        },
+        {
+          "name": "cole",
+          "th": 18,
+          "map_position": 17,
+          "attacks_used": 1
+        },
+        {
+          "name": "PowerSpark 1",
+          "th": 18,
+          "map_position": 19,
+          "attacks_used": 1
+        },
+        {
+          "name": "jay",
+          "th": 18,
+          "map_position": 20,
+          "attacks_used": 1
+        }
+      ],
+      "timeline": [
+        {
+          "order": 1,
+          "side": "clan",
+          "attacker_public_id": "3858423607e45b",
+          "attacker_name": "CmALPHA_RY",
+          "attacker_position": 2,
+          "defender_name": "REDNECK",
+          "defender_position": 2,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 3,
+          "their_score_after": 0
+        },
+        {
+          "order": 2,
+          "side": "clan",
+          "attacker_public_id": "2710e1436f73a9",
+          "attacker_name": "ChagoWitaBullet",
+          "attacker_position": 5,
+          "defender_name": "MillerTime",
+          "defender_position": 3,
+          "stars": 2,
+          "destruction": 60.0,
+          "attack_type": "fresh",
+          "new_stars": 2,
+          "our_score_after": 5,
+          "their_score_after": 0
+        },
+        {
+          "order": 3,
+          "side": "clan",
+          "attacker_public_id": "10d53b71f16c59",
+          "attacker_name": "Avinash",
+          "attacker_position": 10,
+          "defender_name": "rizzy-d",
+          "defender_position": 11,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 8,
+          "their_score_after": 0
+        },
+        {
+          "order": 4,
+          "side": "clan",
+          "attacker_public_id": "8e332ab4b0f2b4",
+          "attacker_name": "taymonayyyy",
+          "attacker_position": 13,
+          "defender_name": "TheHotstepper",
+          "defender_position": 13,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 11,
+          "their_score_after": 0
+        },
+        {
+          "order": 5,
+          "side": "clan",
+          "attacker_public_id": "067e9305da9e5f",
+          "attacker_name": "Sandhu",
+          "attacker_position": 25,
+          "defender_name": "Razazool",
+          "defender_position": 16,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 14,
+          "their_score_after": 0
+        },
+        {
+          "order": 6,
+          "side": "clan",
+          "attacker_public_id": "75fbf19b6ab937",
+          "attacker_name": "tinynuisance",
+          "attacker_position": 4,
+          "defender_name": "jay",
+          "defender_position": 20,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 17,
+          "their_score_after": 0
+        },
+        {
+          "order": 7,
+          "side": "opponent",
+          "attacker_public_id": null,
+          "attacker_name": "REDNECK",
+          "attacker_position": 2,
+          "defender_name": "CmALPHA_RY",
+          "defender_position": 2,
+          "stars": 2,
+          "destruction": 91.0,
+          "attack_type": "fresh",
+          "new_stars": 2,
+          "our_score_after": 17,
+          "their_score_after": 2
+        },
+        {
+          "order": 8,
+          "side": "opponent",
+          "attacker_public_id": null,
+          "attacker_name": "BufordT.Justice",
+          "attacker_position": 9,
+          "defender_name": "+Alon2000+",
+          "defender_position": 7,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 17,
+          "their_score_after": 5
+        },
+        {
+          "order": 9,
+          "side": "opponent",
+          "attacker_public_id": null,
+          "attacker_name": "General Lee",
+          "attacker_position": 8,
+          "defender_name": "Souls",
+          "defender_position": 6,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 17,
+          "their_score_after": 8
+        },
+        {
+          "order": 10,
+          "side": "opponent",
+          "attacker_public_id": null,
+          "attacker_name": "PowerSpark 1",
+          "attacker_position": 19,
+          "defender_name": "Globin Barrel",
+          "defender_position": 24,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 17,
+          "their_score_after": 11
+        },
+        {
+          "order": 11,
+          "side": "opponent",
+          "attacker_public_id": null,
+          "attacker_name": "MillerTime",
+          "attacker_position": 3,
+          "defender_name": "tinynuisance",
+          "defender_position": 4,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 17,
+          "their_score_after": 14
+        },
+        {
+          "order": 12,
+          "side": "opponent",
+          "attacker_public_id": null,
+          "attacker_name": "jhue17",
+          "attacker_position": 14,
+          "defender_name": "Hollowclient765",
+          "defender_position": 16,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 17,
+          "their_score_after": 17
+        },
+        {
+          "order": 13,
+          "side": "opponent",
+          "attacker_public_id": null,
+          "attacker_name": "Goobie Smalls",
+          "attacker_position": 5,
+          "defender_name": "ChagoWitaBullet",
+          "defender_position": 5,
+          "stars": 2,
+          "destruction": 81.0,
+          "attack_type": "fresh",
+          "new_stars": 2,
+          "our_score_after": 17,
+          "their_score_after": 19
+        },
+        {
+          "order": 14,
+          "side": "opponent",
+          "attacker_public_id": null,
+          "attacker_name": "cole",
+          "attacker_position": 17,
+          "defender_name": "DEEPAK",
+          "defender_position": 19,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 17,
+          "their_score_after": 22
+        },
+        {
+          "order": 15,
+          "side": "clan",
+          "attacker_public_id": "13311b93709aa8",
+          "attacker_name": "Globin Barrel",
+          "attacker_position": 24,
+          "defender_name": "cole",
+          "defender_position": 17,
+          "stars": 2,
+          "destruction": 95.0,
+          "attack_type": "fresh",
+          "new_stars": 2,
+          "our_score_after": 19,
+          "their_score_after": 22
+        },
+        {
+          "order": 16,
+          "side": "opponent",
+          "attacker_public_id": null,
+          "attacker_name": "jay",
+          "attacker_position": 20,
+          "defender_name": "Sandhu",
+          "defender_position": 25,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 19,
+          "their_score_after": 25
+        },
+        {
+          "order": 17,
+          "side": "clan",
+          "attacker_public_id": "10dea83733b77a",
+          "attacker_name": "Hollowclient765",
+          "attacker_position": 16,
+          "defender_name": "jhue17",
+          "defender_position": 14,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 22,
+          "their_score_after": 25
+        }
+      ],
+      "round": 1
+    },
+    "battle_war": {
+      "war_key": "affb7faac2fd",
+      "state": "inWar",
+      "state_label": "Battle Day",
+      "team_size": 15,
+      "preparation_start_time": "2026-09-02T03:57:08.000Z",
+      "start_time": "2026-09-03T04:24:17.000Z",
+      "end_time": "2026-09-04T04:24:17.000Z",
+      "clan_name": "Hero Dive Bar",
+      "opponent_name": "Kentucky",
+      "clan_stars": 22,
+      "opponent_stars": 25,
+      "clan_destruction": 50.333333333333336,
+      "opponent_destruction": 58.13333333333333,
+      "attacks_used": 8,
+      "expected_attacks": 15,
+      "volunteer_attacks": 0,
+      "remaining_attacks": 7,
+      "fillers": 0,
+      "missed_attacks": 0,
+      "missed_players": [],
+      "roster": [
+        {
+          "public_id": "85653b6df73206",
+          "name": "John 3:16™",
+          "th": 18,
+          "map_position": 1,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 0,
+          "remaining_attacks": 1,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "3858423607e45b",
+          "name": "CmALPHA_RY",
+          "th": 18,
+          "map_position": 2,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 1,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "75fbf19b6ab937",
+          "name": "tinynuisance",
+          "th": 18,
+          "map_position": 4,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 1,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "2710e1436f73a9",
+          "name": "ChagoWitaBullet",
+          "th": 18,
+          "map_position": 5,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 1,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "8d6b6362db4f19",
+          "name": "Souls",
+          "th": 18,
+          "map_position": 6,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 0,
+          "remaining_attacks": 1,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "892c01275b9e4f",
+          "name": "+Alon2000+",
+          "th": 18,
+          "map_position": 7,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 0,
+          "remaining_attacks": 1,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "d04795aea16ac6",
+          "name": "KING OF CLAN",
+          "th": 18,
+          "map_position": 9,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 0,
+          "remaining_attacks": 1,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "10d53b71f16c59",
+          "name": "Avinash",
+          "th": 18,
+          "map_position": 10,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 1,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "abf7d15cd4a591",
+          "name": "The Letter P",
+          "th": 18,
+          "map_position": 12,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 0,
+          "remaining_attacks": 1,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "8e332ab4b0f2b4",
+          "name": "taymonayyyy",
+          "th": 18,
+          "map_position": 13,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 1,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "10dea83733b77a",
+          "name": "Hollowclient765",
+          "th": 18,
+          "map_position": 16,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 1,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "b0478d5b8e758d",
+          "name": "Pep",
+          "th": 18,
+          "map_position": 17,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 0,
+          "remaining_attacks": 1,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "bd6b7a83ddcdbd",
+          "name": "DEEPAK",
+          "th": 18,
+          "map_position": 19,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 0,
+          "remaining_attacks": 1,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "13311b93709aa8",
+          "name": "Globin Barrel",
+          "th": 17,
+          "map_position": 24,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 1,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "067e9305da9e5f",
+          "name": "Sandhu",
+          "th": 17,
+          "map_position": 25,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 1,
+          "remaining_attacks": 0,
+          "missed_attacks": 0
+        }
+      ],
+      "opponent_roster": [
+        {
+          "name": "DaaGoobs",
+          "th": 18,
+          "map_position": 1,
+          "attacks_used": 0
+        },
+        {
+          "name": "REDNECK",
+          "th": 18,
+          "map_position": 2,
+          "attacks_used": 1
+        },
+        {
+          "name": "MillerTime",
+          "th": 18,
+          "map_position": 3,
+          "attacks_used": 1
+        },
+        {
+          "name": "Goobie Smalls",
+          "th": 18,
+          "map_position": 5,
+          "attacks_used": 1
+        },
+        {
+          "name": "General Lee",
+          "th": 18,
+          "map_position": 8,
+          "attacks_used": 1
+        },
+        {
+          "name": "BufordT.Justice",
+          "th": 18,
+          "map_position": 9,
+          "attacks_used": 1
+        },
+        {
+          "name": "jaj2000",
+          "th": 18,
+          "map_position": 10,
+          "attacks_used": 0
+        },
+        {
+          "name": "rizzy-d",
+          "th": 18,
+          "map_position": 11,
+          "attacks_used": 0
+        },
+        {
+          "name": "big daddy 43",
+          "th": 18,
+          "map_position": 12,
+          "attacks_used": 0
+        },
+        {
+          "name": "TheHotstepper",
+          "th": 18,
+          "map_position": 13,
+          "attacks_used": 0
+        },
+        {
+          "name": "jhue17",
+          "th": 18,
+          "map_position": 14,
+          "attacks_used": 1
+        },
+        {
+          "name": "Razazool",
+          "th": 18,
+          "map_position": 16,
+          "attacks_used": 0
+        },
+        {
+          "name": "cole",
+          "th": 18,
+          "map_position": 17,
+          "attacks_used": 1
+        },
+        {
+          "name": "PowerSpark 1",
+          "th": 18,
+          "map_position": 19,
+          "attacks_used": 1
+        },
+        {
+          "name": "jay",
+          "th": 18,
+          "map_position": 20,
+          "attacks_used": 1
+        }
+      ],
+      "timeline": [
+        {
+          "order": 1,
+          "side": "clan",
+          "attacker_public_id": "3858423607e45b",
+          "attacker_name": "CmALPHA_RY",
+          "attacker_position": 2,
+          "defender_name": "REDNECK",
+          "defender_position": 2,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 3,
+          "their_score_after": 0
+        },
+        {
+          "order": 2,
+          "side": "clan",
+          "attacker_public_id": "2710e1436f73a9",
+          "attacker_name": "ChagoWitaBullet",
+          "attacker_position": 5,
+          "defender_name": "MillerTime",
+          "defender_position": 3,
+          "stars": 2,
+          "destruction": 60.0,
+          "attack_type": "fresh",
+          "new_stars": 2,
+          "our_score_after": 5,
+          "their_score_after": 0
+        },
+        {
+          "order": 3,
+          "side": "clan",
+          "attacker_public_id": "10d53b71f16c59",
+          "attacker_name": "Avinash",
+          "attacker_position": 10,
+          "defender_name": "rizzy-d",
+          "defender_position": 11,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 8,
+          "their_score_after": 0
+        },
+        {
+          "order": 4,
+          "side": "clan",
+          "attacker_public_id": "8e332ab4b0f2b4",
+          "attacker_name": "taymonayyyy",
+          "attacker_position": 13,
+          "defender_name": "TheHotstepper",
+          "defender_position": 13,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 11,
+          "their_score_after": 0
+        },
+        {
+          "order": 5,
+          "side": "clan",
+          "attacker_public_id": "067e9305da9e5f",
+          "attacker_name": "Sandhu",
+          "attacker_position": 25,
+          "defender_name": "Razazool",
+          "defender_position": 16,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 14,
+          "their_score_after": 0
+        },
+        {
+          "order": 6,
+          "side": "clan",
+          "attacker_public_id": "75fbf19b6ab937",
+          "attacker_name": "tinynuisance",
+          "attacker_position": 4,
+          "defender_name": "jay",
+          "defender_position": 20,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 17,
+          "their_score_after": 0
+        },
+        {
+          "order": 7,
+          "side": "opponent",
+          "attacker_public_id": null,
+          "attacker_name": "REDNECK",
+          "attacker_position": 2,
+          "defender_name": "CmALPHA_RY",
+          "defender_position": 2,
+          "stars": 2,
+          "destruction": 91.0,
+          "attack_type": "fresh",
+          "new_stars": 2,
+          "our_score_after": 17,
+          "their_score_after": 2
+        },
+        {
+          "order": 8,
+          "side": "opponent",
+          "attacker_public_id": null,
+          "attacker_name": "BufordT.Justice",
+          "attacker_position": 9,
+          "defender_name": "+Alon2000+",
+          "defender_position": 7,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 17,
+          "their_score_after": 5
+        },
+        {
+          "order": 9,
+          "side": "opponent",
+          "attacker_public_id": null,
+          "attacker_name": "General Lee",
+          "attacker_position": 8,
+          "defender_name": "Souls",
+          "defender_position": 6,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 17,
+          "their_score_after": 8
+        },
+        {
+          "order": 10,
+          "side": "opponent",
+          "attacker_public_id": null,
+          "attacker_name": "PowerSpark 1",
+          "attacker_position": 19,
+          "defender_name": "Globin Barrel",
+          "defender_position": 24,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 17,
+          "their_score_after": 11
+        },
+        {
+          "order": 11,
+          "side": "opponent",
+          "attacker_public_id": null,
+          "attacker_name": "MillerTime",
+          "attacker_position": 3,
+          "defender_name": "tinynuisance",
+          "defender_position": 4,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 17,
+          "their_score_after": 14
+        },
+        {
+          "order": 12,
+          "side": "opponent",
+          "attacker_public_id": null,
+          "attacker_name": "jhue17",
+          "attacker_position": 14,
+          "defender_name": "Hollowclient765",
+          "defender_position": 16,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 17,
+          "their_score_after": 17
+        },
+        {
+          "order": 13,
+          "side": "opponent",
+          "attacker_public_id": null,
+          "attacker_name": "Goobie Smalls",
+          "attacker_position": 5,
+          "defender_name": "ChagoWitaBullet",
+          "defender_position": 5,
+          "stars": 2,
+          "destruction": 81.0,
+          "attack_type": "fresh",
+          "new_stars": 2,
+          "our_score_after": 17,
+          "their_score_after": 19
+        },
+        {
+          "order": 14,
+          "side": "opponent",
+          "attacker_public_id": null,
+          "attacker_name": "cole",
+          "attacker_position": 17,
+          "defender_name": "DEEPAK",
+          "defender_position": 19,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 17,
+          "their_score_after": 22
+        },
+        {
+          "order": 15,
+          "side": "clan",
+          "attacker_public_id": "13311b93709aa8",
+          "attacker_name": "Globin Barrel",
+          "attacker_position": 24,
+          "defender_name": "cole",
+          "defender_position": 17,
+          "stars": 2,
+          "destruction": 95.0,
+          "attack_type": "fresh",
+          "new_stars": 2,
+          "our_score_after": 19,
+          "their_score_after": 22
+        },
+        {
+          "order": 16,
+          "side": "opponent",
+          "attacker_public_id": null,
+          "attacker_name": "jay",
+          "attacker_position": 20,
+          "defender_name": "Sandhu",
+          "defender_position": 25,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 19,
+          "their_score_after": 25
+        },
+        {
+          "order": 17,
+          "side": "clan",
+          "attacker_public_id": "10dea83733b77a",
+          "attacker_name": "Hollowclient765",
+          "attacker_position": 16,
+          "defender_name": "jhue17",
+          "defender_position": 14,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 22,
+          "their_score_after": 25
+        }
+      ],
+      "round": 1
+    },
+    "prep_war": {
       "war_key": "c0170ec35bec",
       "state": "preparation",
       "state_label": "Preparation Day",
@@ -8910,9 +10011,9 @@
       "clan_destruction": 0.0,
       "opponent_destruction": 0.0,
       "attacks_used": 0,
-      "expected_attacks": 0,
+      "expected_attacks": 15,
       "volunteer_attacks": 0,
-      "remaining_attacks": 0,
+      "remaining_attacks": 15,
       "fillers": 0,
       "missed_attacks": 0,
       "missed_players": [],
@@ -8923,9 +10024,9 @@
           "th": 18,
           "map_position": 1,
           "is_filler": false,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
-          "remaining_attacks": 0,
+          "remaining_attacks": 1,
           "missed_attacks": 0
         },
         {
@@ -8934,9 +10035,9 @@
           "th": 18,
           "map_position": 2,
           "is_filler": false,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
-          "remaining_attacks": 0,
+          "remaining_attacks": 1,
           "missed_attacks": 0
         },
         {
@@ -8945,9 +10046,9 @@
           "th": 18,
           "map_position": 4,
           "is_filler": false,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
-          "remaining_attacks": 0,
+          "remaining_attacks": 1,
           "missed_attacks": 0
         },
         {
@@ -8956,9 +10057,9 @@
           "th": 18,
           "map_position": 5,
           "is_filler": false,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
-          "remaining_attacks": 0,
+          "remaining_attacks": 1,
           "missed_attacks": 0
         },
         {
@@ -8967,9 +10068,9 @@
           "th": 18,
           "map_position": 6,
           "is_filler": false,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
-          "remaining_attacks": 0,
+          "remaining_attacks": 1,
           "missed_attacks": 0
         },
         {
@@ -8978,9 +10079,9 @@
           "th": 18,
           "map_position": 7,
           "is_filler": false,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
-          "remaining_attacks": 0,
+          "remaining_attacks": 1,
           "missed_attacks": 0
         },
         {
@@ -8989,9 +10090,9 @@
           "th": 18,
           "map_position": 9,
           "is_filler": false,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
-          "remaining_attacks": 0,
+          "remaining_attacks": 1,
           "missed_attacks": 0
         },
         {
@@ -9000,9 +10101,9 @@
           "th": 18,
           "map_position": 10,
           "is_filler": false,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
-          "remaining_attacks": 0,
+          "remaining_attacks": 1,
           "missed_attacks": 0
         },
         {
@@ -9011,9 +10112,9 @@
           "th": 18,
           "map_position": 12,
           "is_filler": false,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
-          "remaining_attacks": 0,
+          "remaining_attacks": 1,
           "missed_attacks": 0
         },
         {
@@ -9022,9 +10123,9 @@
           "th": 18,
           "map_position": 13,
           "is_filler": false,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
-          "remaining_attacks": 0,
+          "remaining_attacks": 1,
           "missed_attacks": 0
         },
         {
@@ -9033,9 +10134,9 @@
           "th": 18,
           "map_position": 16,
           "is_filler": false,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
-          "remaining_attacks": 0,
+          "remaining_attacks": 1,
           "missed_attacks": 0
         },
         {
@@ -9044,9 +10145,9 @@
           "th": 18,
           "map_position": 17,
           "is_filler": false,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
-          "remaining_attacks": 0,
+          "remaining_attacks": 1,
           "missed_attacks": 0
         },
         {
@@ -9055,9 +10156,9 @@
           "th": 18,
           "map_position": 19,
           "is_filler": false,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
-          "remaining_attacks": 0,
+          "remaining_attacks": 1,
           "missed_attacks": 0
         },
         {
@@ -9066,9 +10167,9 @@
           "th": 17,
           "map_position": 24,
           "is_filler": false,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
-          "remaining_attacks": 0,
+          "remaining_attacks": 1,
           "missed_attacks": 0
         },
         {
@@ -9077,9 +10178,9 @@
           "th": 17,
           "map_position": 25,
           "is_filler": false,
-          "expected_attacks": 0,
+          "expected_attacks": 1,
           "attacks_used": 0,
-          "remaining_attacks": 0,
+          "remaining_attacks": 1,
           "missed_attacks": 0
         }
       ],
@@ -9206,6 +10307,19 @@
         "avg_destruction": 100.0
       },
       {
+        "public_id": "10dea83733b77a",
+        "name": "Hollowclient765",
+        "th": 18,
+        "currently_in_clan": true,
+        "selected_rounds": 2,
+        "attacks": 1,
+        "missed_attacks": 0,
+        "stars": 3,
+        "triples": 1,
+        "avg_stars": 3.0,
+        "avg_destruction": 100.0
+      },
+      {
         "public_id": "067e9305da9e5f",
         "name": "Sandhu",
         "th": 17,
@@ -9286,19 +10400,6 @@
       {
         "public_id": "bd6b7a83ddcdbd",
         "name": "DEEPAK",
-        "th": 18,
-        "currently_in_clan": true,
-        "selected_rounds": 2,
-        "attacks": 0,
-        "missed_attacks": 0,
-        "stars": 0,
-        "triples": 0,
-        "avg_stars": 0.0,
-        "avg_destruction": 0.0
-      },
-      {
-        "public_id": "10dea83733b77a",
-        "name": "Hollowclient765",
         "th": 18,
         "currently_in_clan": true,
         "selected_rounds": 2,
