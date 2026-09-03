@@ -125,7 +125,7 @@ const avg=n=>Number(n||0).toFixed(2);
 const stars=n=>'★'.repeat(Number(n||0))+'☆'.repeat(Math.max(0,3-Number(n||0)));
 let DATA=null;
 let MISSED_BY_KEY={};
-let ACTIVE_COUNTDOWN_WAR=null;
+let ACTIVE_COUNTDOWN_WARS={};
 let WAR_COUNTDOWN_TIMER=null;
 
 function showSection(id){
@@ -176,13 +176,20 @@ function renderTimeline(w){
 }
 function formatCountdown(ms){if(!Number.isFinite(ms)||ms<=0)return'00h 00m 00s';let t=Math.floor(ms/1000),d=Math.floor(t/86400);t%=86400;const h=Math.floor(t/3600);t%=3600;const m=Math.floor(t/60),s=t%60;return`${d?d+'d ':''}${String(h).padStart(2,'0')}h ${String(m).padStart(2,'0')}m ${String(s).padStart(2,'0')}s`;}
 function localDateTime(v){if(!v)return'—';const d=new Date(v);return Number.isNaN(d.getTime())?v:d.toLocaleString();}
-function countdownCard(w){if(!w)return'';return `<div class="card s12 countdown-card"><div class="row between"><div><div class="kicker countdown-live" id="warCountdownLabel">War Timer</div><div class="countdown-value" id="warCountdownValue">Calculating…</div><div class="countdown-sub" id="warCountdownSub"></div></div><div class="muted small" id="warCountdownPhase">${esc(w.state_label)}</div></div></div>`;}
+function countdownCard(w,key='war'){
+  if(!w)return'';ACTIVE_COUNTDOWN_WARS[key]=w;
+  return `<div class="card s12 countdown-card" data-countdown-key="${esc(key)}"><div class="row between"><div><div class="kicker countdown-live" data-countdown-label>War Timer</div><div class="countdown-value" data-countdown-value>Calculating…</div><div class="countdown-sub" data-countdown-sub></div></div><div class="muted small" data-countdown-phase>${esc(w.state_label)}</div></div></div>`;
+}
 function updateWarCountdown(){
-  const w=ACTIVE_COUNTDOWN_WAR,label=document.getElementById('warCountdownLabel'),value=document.getElementById('warCountdownValue'),sub=document.getElementById('warCountdownSub'),phase=document.getElementById('warCountdownPhase');if(!w||!label||!value)return;
-  const now=Date.now(),start=new Date(w.start_time||'').getTime(),end=new Date(w.end_time||'').getTime();
-  if(Number.isFinite(start)&&now<start){label.textContent='Battle Day Starts In';value.textContent=formatCountdown(start-now);sub.textContent=`Battle Day starts ${localDateTime(w.start_time)}`;phase.textContent='Preparation Day';return;}
-  if(Number.isFinite(end)&&now<end){label.textContent='War Ends In';value.textContent=formatCountdown(end-now);sub.textContent=`Battle Day ends ${localDateTime(w.end_time)}`;phase.textContent='Battle Day';return;}
-  label.textContent='War Status';value.textContent='War Ended';sub.textContent=w.end_time?`Ended ${localDateTime(w.end_time)}`:'';phase.textContent='War Ended';
+  document.querySelectorAll('[data-countdown-key]').forEach(card=>{
+    const key=card.dataset.countdownKey,w=ACTIVE_COUNTDOWN_WARS[key];if(!w)return;
+    const label=card.querySelector('[data-countdown-label]'),value=card.querySelector('[data-countdown-value]'),sub=card.querySelector('[data-countdown-sub]'),phase=card.querySelector('[data-countdown-phase]');
+    if(!label||!value)return;
+    const now=Date.now(),start=new Date(w.start_time||'').getTime(),end=new Date(w.end_time||'').getTime();
+    if(Number.isFinite(start)&&now<start){label.textContent='Battle Day Starts In';value.textContent=formatCountdown(start-now);sub.textContent=`Battle Day starts ${localDateTime(w.start_time)}`;phase.textContent='Preparation Day';return;}
+    if(Number.isFinite(end)&&now<end){label.textContent='War Ends In';value.textContent=formatCountdown(end-now);sub.textContent=`Battle Day ends ${localDateTime(w.end_time)}`;phase.textContent='Battle Day';return;}
+    label.textContent='War Status';value.textContent='War Ended';sub.textContent=w.end_time?`Ended ${localDateTime(w.end_time)}`:'';phase.textContent='War Ended';
+  });
 }
 function startWarCountdown(){if(WAR_COUNTDOWN_TIMER)clearInterval(WAR_COUNTDOWN_TIMER);updateWarCountdown();WAR_COUNTDOWN_TIMER=setInterval(updateWarCountdown,1000);}
 
@@ -200,7 +207,7 @@ function opponentRosterTable(w){
 
 function renderRegularDashboard(d){
   const w=d.current_war,rec=d.clan?.records||{};let h='<h1>Dashboard</h1>';
-  if(w){h+=`<div class="grid"><div class="card s8"><div class="kicker">${esc(w.state_label)} · ${w.team_size}v${w.team_size}</div><h2 style="margin-top:8px">${esc(w.clan_name)} <span class="muted">vs</span> ${esc(w.opponent_name)}</h2><div class="row"><div><div class="score">${w.clan_stars} ★</div><div class="muted">${Number(w.clan_destruction).toFixed(2)}%</div></div><div class="muted">—</div><div><div class="score">${w.opponent_stars} ★</div><div class="muted">${Number(w.opponent_destruction).toFixed(2)}%</div></div></div></div><div class="card s4"><div class="kicker">Expected clan attacks</div><div class="big">${w.attacks_used} / ${w.expected_attacks}</div><div class="muted">${w.fillers} filler${w.fillers===1?'':'s'} excluded.</div><div style="margin-top:10px"><b>${w.remaining_attacks}</b> required attacks remaining</div><div class="muted small" style="margin-top:5px">Volunteer filler attacks: ${w.volunteer_attacks||0}</div></div>${countdownCard(w)}</div>`;}
+  if(w){h+=`<div class="grid"><div class="card s8"><div class="kicker">${esc(w.state_label)} · ${w.team_size}v${w.team_size}</div><h2 style="margin-top:8px">${esc(w.clan_name)} <span class="muted">vs</span> ${esc(w.opponent_name)}</h2><div class="row"><div><div class="score">${w.clan_stars} ★</div><div class="muted">${Number(w.clan_destruction).toFixed(2)}%</div></div><div class="muted">—</div><div><div class="score">${w.opponent_stars} ★</div><div class="muted">${Number(w.opponent_destruction).toFixed(2)}%</div></div></div></div><div class="card s4"><div class="kicker">Expected clan attacks</div><div class="big">${w.attacks_used} / ${w.expected_attacks}</div><div class="muted">${w.fillers} filler${w.fillers===1?'':'s'} excluded.</div><div style="margin-top:10px"><b>${w.remaining_attacks}</b> required attacks remaining</div><div class="muted small" style="margin-top:5px">Volunteer filler attacks: ${w.volunteer_attacks||0}</div></div>${countdownCard(w,'regular')}</div>`;}
   else h+='<div class="card">No active regular war stored.</div>';
   h+=`<h2>Clan Streaks</h2><div class="grid"><div class="card s6"><div class="kicker">Longest Win Streak</div><div class="big">${rec.longest_win_streak||0}</div><div class="record-note">Consecutive completed regular-war wins since tracking began.</div></div><div class="card s6"><div class="kicker">Current Win Streak</div><div class="big">${rec.current_win_streak||0}</div><div class="record-note">${rec.completed_wars_tracked||0} completed regular wars tracked.</div></div></div>`;
   if(w){h+=rosterTable(w,false)+renderTimeline(w);}
@@ -220,26 +227,39 @@ function cwlRoundsTable(c){
   for(const r of c.rounds||[]){h+=`<tr><td>R${r.round}</td><td>${esc(r.opponent_name||'TBD')}</td><td>${esc(r.state_label||'Not Started')}</td><td>${r.clan_stars!=null?`${r.clan_stars}–${r.opponent_stars}`:'—'}</td><td>${r.clan_destruction!=null?`${pct(r.clan_destruction)}%–${pct(r.opponent_destruction)}%`:'—'}</td><td>${r.war_key?missedCell(r):'—'}</td><td class="${resultClass(r.result)}">${esc((r.result||'—').toUpperCase())}</td></tr>`;}
   return h+'</tbody></table></div>';
 }
+function renderCwlWarSection(w,{title,showPrepLineups=false,showTimeline=false,key='cwl'}={}){
+  if(!w)return'';
+  let h=`<h2>${esc(title||`Round ${w.round}`)}</h2><div class="grid"><div class="card s8"><div class="kicker">${esc(w.state_label)} · ${w.team_size}v${w.team_size}</div><h2 style="margin-top:8px">Hero Dive Bar <span class="muted">vs</span> ${esc(w.opponent_name)}</h2><div class="row"><div><div class="score">${w.clan_stars} ★</div><div class="muted">${pct(w.clan_destruction)}%</div></div><div class="muted">—</div><div><div class="score">${w.opponent_stars} ★</div><div class="muted">${pct(w.opponent_destruction)}%</div></div></div></div><div class="card s4"><div class="kicker">Selected attacks</div><div class="big">${w.attacks_used} / ${w.expected_attacks}</div><div class="muted">One attack per selected player.</div><div style="margin-top:10px"><b>${w.remaining_attacks}</b> remaining</div></div>${countdownCard(w,key)}</div>`;
+  h+=rosterTable(w,true);
+  if(showPrepLineups)h+=opponentRosterTable(w);
+  if(showTimeline)h+=renderTimeline(w);
+  return h;
+}
 function renderCwlDashboard(c){
   let h='<h1>CWL Dashboard</h1>';
-  h+=`<div class="card cwl-banner"><div class="row between"><div><div class="kicker">${esc(c.season||'Current Season')} · ${esc(c.league_name||'CWL')}</div><h2 style="margin:6px 0">Hero Dive Bar — Clan War League</h2><div class="muted">Regular-war and CWL statistics are kept completely separate.</div></div><div style="text-align:right"><div class="kicker">Group Position</div><div class="big">${c.position?`#${c.position}`:'—'}</div></div></div></div>`;
-  const r=c.record||{};h+=`<div class="grid" style="margin-top:14px"><div class="card s3"><div class="kicker">Record</div><div class="big">${r.wins||0}-${r.losses||0}${r.ties?`-${r.ties}`:''}</div></div><div class="card s3"><div class="kicker">League</div><div class="big" style="font-size:22px">${esc(c.league_name||'CWL')}</div></div><div class="card s3"><div class="kicker">Current Round</div><div class="big">${c.current_war?.round?`R${c.current_war.round}`:'—'}</div></div><div class="card s3"><div class="kicker">Position</div><div class="big">${c.position?`#${c.position}`:'—'}</div></div></div>`;
-  const w=c.current_war;
-  if(w){h+=`<h2>Round ${w.round}</h2><div class="grid"><div class="card s8"><div class="kicker">${esc(w.state_label)} · ${w.team_size}v${w.team_size}</div><h2 style="margin-top:8px">Hero Dive Bar <span class="muted">vs</span> ${esc(w.opponent_name)}</h2><div class="row"><div><div class="score">${w.clan_stars} ★</div><div class="muted">${pct(w.clan_destruction)}%</div></div><div class="muted">—</div><div><div class="score">${w.opponent_stars} ★</div><div class="muted">${pct(w.opponent_destruction)}%</div></div></div></div><div class="card s4"><div class="kicker">Selected attacks</div><div class="big">${w.attacks_used} / ${w.expected_attacks}</div><div class="muted">One attack per selected player.</div><div style="margin-top:10px"><b>${w.remaining_attacks}</b> remaining</div></div>${countdownCard(w)}</div>`+rosterTable(w,true)+opponentRosterTable(w)+renderTimeline(w);}else h+='<h2>Current Round</h2><div class="card"><div class="empty">CWL group found. Waiting for the current round matchup to become available.</div></div>';
+  h+=`<div class="card cwl-banner"><div class="row between"><div><div class="kicker">${esc(c.season||'Current Season')} · ${esc(c.league_name||'CWL')}</div><h2 style="margin:6px 0">Hero Dive Bar — Clan War League</h2><div class="muted">Battle Day and the next round's Preparation Day are tracked at the same time.</div></div><div style="text-align:right"><div class="kicker">Group Position</div><div class="big">${c.position?`#${c.position}`:'—'}</div></div></div></div>`;
+  const battle=c.battle_war,prep=c.prep_war,primary=battle||prep||c.current_war,r=c.record||{};
+  h+=`<div class="grid" style="margin-top:14px"><div class="card s3"><div class="kicker">Record</div><div class="big">${r.wins||0}-${r.losses||0}${r.ties?`-${r.ties}`:''}</div></div><div class="card s3"><div class="kicker">League</div><div class="big" style="font-size:22px">${esc(c.league_name||'CWL')}</div></div><div class="card s3"><div class="kicker">Battle Round</div><div class="big">${battle?.round?`R${battle.round}`:(primary?.round?`R${primary.round}`:'—')}</div></div><div class="card s3"><div class="kicker">Next Prep</div><div class="big">${prep?.round?`R${prep.round}`:'—'}</div></div></div>`;
+  if(battle)h+=renderCwlWarSection(battle,{title:`Battle Day — Round ${battle.round}`,showTimeline:true,key:'cwl-battle'});
+  if(prep)h+=renderCwlWarSection(prep,{title:battle?`Next Round Preparation — Round ${prep.round}`:`Preparation Day — Round ${prep.round}`,showPrepLineups:true,key:'cwl-prep'});
+  if(!battle&&!prep&&primary)h+=renderCwlWarSection(primary,{title:`Round ${primary.round}`,showTimeline:true,key:'cwl-current'});
+  if(!primary)h+='<h2>Current Round</h2><div class="card"><div class="empty">CWL group found. Waiting for a round matchup to become available.</div></div>';
   h+='<h2>Group Standings</h2>'+cwlStandingsTable(c)+'<h2>Rounds</h2>'+cwlRoundsTable(c);return h;
 }
 function renderCwlTab(c){
   if(!c?.enabled)return `<h1>CWL</h1><div class="card cwl-banner"><h2 style="margin-top:0">CWL Search / Matchmaking</h2><div class="muted">${esc(c?.message||'Waiting for the CWL league group. Once matchmaking finishes, this page will populate automatically.')}</div><div class="record-note">As soon as the API returns an active CWL group, the main Dashboard automatically switches to the CWL dashboard.</div></div>`;
   let h=`<h1>CWL — ${esc(c.season||'Current Season')}</h1><div class="grid"><div class="card s4"><div class="kicker">League</div><div class="big" style="font-size:24px">${esc(c.league_name)}</div></div><div class="card s4"><div class="kicker">Group Position</div><div class="big">${c.position?`#${c.position}`:'—'}</div></div><div class="card s4"><div class="kicker">Record</div><div class="big">${c.record?.wins||0}-${c.record?.losses||0}</div></div></div>`;
-  const cw=c.current_war;if(cw)h+=`<h2>Current Round — R${cw.round}</h2><div class="card"><div class="kicker">${esc(cw.state_label)} · ${cw.team_size}v${cw.team_size}</div><h2 style="margin:8px 0">Hero Dive Bar <span class="muted">vs</span> ${esc(cw.opponent_name)}</h2></div>`+rosterTable(cw,true)+opponentRosterTable(cw);
+  const battle=c.battle_war,prep=c.prep_war,primary=battle||prep||c.current_war;
+  if(battle)h+=renderCwlWarSection(battle,{title:`Battle Day — Round ${battle.round}`,showTimeline:true,key:'tab-battle'});
+  if(prep)h+=renderCwlWarSection(prep,{title:battle?`Next Round Preparation — Round ${prep.round}`:`Preparation Day — Round ${prep.round}`,showPrepLineups:true,key:'tab-prep'});
+  if(!battle&&!prep&&primary)h+=renderCwlWarSection(primary,{title:`Round ${primary.round}`,showTimeline:true,key:'tab-current'});
   h+='<h2>Group Standings</h2>'+cwlStandingsTable(c)+'<h2>Rounds</h2>'+cwlRoundsTable(c)+'<h2>CWL Players</h2><div class="card">';
   if(!(c.players||[]).length)h+='<div class="empty">No selected players stored yet.</div>';else{h+='<table><thead><tr><th>Player</th><th>TH</th><th>Selected</th><th>Attacks</th><th>Missed</th><th>Stars</th><th>3★</th><th>Avg Destruction</th></tr></thead><tbody>';for(const p of c.players)h+=`<tr><td>${playerLink(p.name,p.public_id)}</td><td>TH${p.th}</td><td>${p.selected_rounds}</td><td>${p.attacks}</td><td class="${p.missed_attacks?'bad':''}">${p.missed_attacks}</td><td>${p.stars}</td><td>${p.triples}</td><td>${pct(p.avg_destruction)}%</td></tr>`;h+='</tbody></table>';}
   return h+'</div>';
 }
 
 function render(d){
-  DATA=d;MISSED_BY_KEY={};document.getElementById('updated').textContent=d.generated_at?`Updated ${new Date(d.generated_at).toLocaleString()}`:'Updated';
-  ACTIVE_COUNTDOWN_WAR=(d.dashboard_mode==='cwl'&&d.cwl?.active)?d.cwl.current_war:d.current_war;
+  DATA=d;MISSED_BY_KEY={};ACTIVE_COUNTDOWN_WARS={};document.getElementById('updated').textContent=d.generated_at?`Updated ${new Date(d.generated_at).toLocaleString()}`:'Updated';
   document.getElementById('home').innerHTML=d.dashboard_mode==='cwl'&&d.cwl?.enabled?renderCwlDashboard(d.cwl):renderRegularDashboard(d);
   let wars='<h1>Regular Wars</h1><div class="card"><table><thead><tr><th>Date</th><th>Opponent</th><th>Size</th><th>Stars</th><th>Destruction</th><th>Fillers</th><th>Missed</th><th>Result</th></tr></thead><tbody>';
   for(const x of d.wars||[])wars+=`<tr><td>${prettyDate(x.date)}</td><td>${esc(x.opponent_name)}</td><td>${x.team_size}v${x.team_size}</td><td>${x.clan_stars}–${x.opponent_stars}</td><td>${pct(x.clan_destruction)}%–${pct(x.opponent_destruction)}%</td><td>${x.filler_count}</td><td>${missedCell(x)}</td><td class="${resultClass(x.result)}">${esc((x.result||x.state_label).toUpperCase())}</td></tr>`;
