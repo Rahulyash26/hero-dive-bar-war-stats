@@ -1,6 +1,6 @@
 {
   "schema_version": 12,
-  "generated_at": "2026-09-03T04:09:32.039995+00:00",
+  "generated_at": "2026-09-03T04:41:56.751462+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -5085,13 +5085,29 @@
       "cwl_history": [
         {
           "season": "2026-09-02",
-          "round": 1,
-          "date": "20260903",
-          "opponent_name": "Kentucky",
+          "round": 2,
+          "date": "20260904",
+          "opponent_name": "SntrytheDefiant",
           "state": "preparation",
           "state_label": "Preparation Day",
           "result": null,
           "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "inWar",
+          "state_label": "Battle Day",
+          "result": null,
+          "our_stars": 8,
           "their_stars": 0,
           "th": 18,
           "expected_attacks": 0,
@@ -5294,13 +5310,29 @@
           "season": null
         }
       ],
-      "recent_cwl_attacks": [],
+      "recent_cwl_attacks": [
+        {
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "attacker_position": 10,
+          "defender_position": 11,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "rizzy-d",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "duration": 140,
+          "round": 1,
+          "season": "2026-09-02"
+        }
+      ],
       "cwl_history": [
         {
           "season": "2026-09-02",
-          "round": 1,
-          "date": "20260903",
-          "opponent_name": "Kentucky",
+          "round": 2,
+          "date": "20260904",
+          "opponent_name": "SntrytheDefiant",
           "state": "preparation",
           "state_label": "Preparation Day",
           "result": null,
@@ -5311,6 +5343,29 @@
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
+        },
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "inWar",
+          "state_label": "Battle Day",
+          "result": null,
+          "our_stars": 8,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 1,
+          "missed_attacks": 0,
+          "attacks": [
+            {
+              "stars": 3,
+              "destruction": 100.0,
+              "duration": 140,
+              "attack_type": "fresh"
+            }
+          ]
         }
       ]
     },
@@ -5409,13 +5464,29 @@
           "season": null
         }
       ],
-      "recent_cwl_attacks": [],
+      "recent_cwl_attacks": [
+        {
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "attacker_position": 5,
+          "defender_position": 3,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "MillerTime",
+          "stars": 2,
+          "destruction": 60.0,
+          "attack_type": "fresh",
+          "duration": 93,
+          "round": 1,
+          "season": "2026-09-02"
+        }
+      ],
       "cwl_history": [
         {
           "season": "2026-09-02",
-          "round": 1,
-          "date": "20260903",
-          "opponent_name": "Kentucky",
+          "round": 2,
+          "date": "20260904",
+          "opponent_name": "SntrytheDefiant",
           "state": "preparation",
           "state_label": "Preparation Day",
           "result": null,
@@ -5426,6 +5497,29 @@
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
+        },
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "inWar",
+          "state_label": "Battle Day",
+          "result": null,
+          "our_stars": 8,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 1,
+          "missed_attacks": 0,
+          "attacks": [
+            {
+              "stars": 2,
+              "destruction": 60.0,
+              "duration": 93,
+              "attack_type": "fresh"
+            }
+          ]
         }
       ]
     },
@@ -5524,13 +5618,29 @@
           "season": null
         }
       ],
-      "recent_cwl_attacks": [],
+      "recent_cwl_attacks": [
+        {
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "attacker_position": 2,
+          "defender_position": 2,
+          "attacker_th": 18,
+          "defender_th": 18,
+          "defender_name": "REDNECK",
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "duration": 159,
+          "round": 1,
+          "season": "2026-09-02"
+        }
+      ],
       "cwl_history": [
         {
           "season": "2026-09-02",
-          "round": 1,
-          "date": "20260903",
-          "opponent_name": "Kentucky",
+          "round": 2,
+          "date": "20260904",
+          "opponent_name": "SntrytheDefiant",
           "state": "preparation",
           "state_label": "Preparation Day",
           "result": null,
@@ -5541,6 +5651,29 @@
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
+        },
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "inWar",
+          "state_label": "Battle Day",
+          "result": null,
+          "our_stars": 8,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 1,
+          "missed_attacks": 0,
+          "attacks": [
+            {
+              "stars": 3,
+              "destruction": 100.0,
+              "duration": 159,
+              "attack_type": "fresh"
+            }
+          ]
         }
       ]
     },
@@ -5643,13 +5776,29 @@
       "cwl_history": [
         {
           "season": "2026-09-02",
-          "round": 1,
-          "date": "20260903",
-          "opponent_name": "Kentucky",
+          "round": 2,
+          "date": "20260904",
+          "opponent_name": "SntrytheDefiant",
           "state": "preparation",
           "state_label": "Preparation Day",
           "result": null,
           "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "inWar",
+          "state_label": "Battle Day",
+          "result": null,
+          "our_stars": 8,
           "their_stars": 0,
           "th": 18,
           "expected_attacks": 0,
@@ -5856,13 +6005,29 @@
       "cwl_history": [
         {
           "season": "2026-09-02",
-          "round": 1,
-          "date": "20260903",
-          "opponent_name": "Kentucky",
+          "round": 2,
+          "date": "20260904",
+          "opponent_name": "SntrytheDefiant",
           "state": "preparation",
           "state_label": "Preparation Day",
           "result": null,
           "our_stars": 0,
+          "their_stars": 0,
+          "th": 17,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "inWar",
+          "state_label": "Battle Day",
+          "result": null,
+          "our_stars": 8,
           "their_stars": 0,
           "th": 17,
           "expected_attacks": 0,
@@ -6167,13 +6332,29 @@
       "cwl_history": [
         {
           "season": "2026-09-02",
-          "round": 1,
-          "date": "20260903",
-          "opponent_name": "Kentucky",
+          "round": 2,
+          "date": "20260904",
+          "opponent_name": "SntrytheDefiant",
           "state": "preparation",
           "state_label": "Preparation Day",
           "result": null,
           "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "inWar",
+          "state_label": "Battle Day",
+          "result": null,
+          "our_stars": 8,
           "their_stars": 0,
           "th": 18,
           "expected_attacks": 0,
@@ -6380,13 +6561,29 @@
       "cwl_history": [
         {
           "season": "2026-09-02",
-          "round": 1,
-          "date": "20260903",
-          "opponent_name": "Kentucky",
+          "round": 2,
+          "date": "20260904",
+          "opponent_name": "SntrytheDefiant",
           "state": "preparation",
           "state_label": "Preparation Day",
           "result": null,
           "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "inWar",
+          "state_label": "Battle Day",
+          "result": null,
+          "our_stars": 8,
           "their_stars": 0,
           "th": 18,
           "expected_attacks": 0,
@@ -6833,13 +7030,29 @@
       "cwl_history": [
         {
           "season": "2026-09-02",
-          "round": 1,
-          "date": "20260903",
-          "opponent_name": "Kentucky",
+          "round": 2,
+          "date": "20260904",
+          "opponent_name": "SntrytheDefiant",
           "state": "preparation",
           "state_label": "Preparation Day",
           "result": null,
           "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "inWar",
+          "state_label": "Battle Day",
+          "result": null,
+          "our_stars": 8,
           "their_stars": 0,
           "th": 18,
           "expected_attacks": 0,
@@ -6955,13 +7168,29 @@
       "cwl_history": [
         {
           "season": "2026-09-02",
-          "round": 1,
-          "date": "20260903",
-          "opponent_name": "Kentucky",
+          "round": 2,
+          "date": "20260904",
+          "opponent_name": "SntrytheDefiant",
           "state": "preparation",
           "state_label": "Preparation Day",
           "result": null,
           "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "inWar",
+          "state_label": "Battle Day",
+          "result": null,
+          "our_stars": 8,
           "their_stars": 0,
           "th": 18,
           "expected_attacks": 0,
@@ -7007,13 +7236,29 @@
       "cwl_history": [
         {
           "season": "2026-09-02",
-          "round": 1,
-          "date": "20260903",
-          "opponent_name": "Kentucky",
+          "round": 2,
+          "date": "20260904",
+          "opponent_name": "SntrytheDefiant",
           "state": "preparation",
           "state_label": "Preparation Day",
           "result": null,
           "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "inWar",
+          "state_label": "Battle Day",
+          "result": null,
+          "our_stars": 8,
           "their_stars": 0,
           "th": 18,
           "expected_attacks": 0,
@@ -7234,13 +7479,29 @@
       "cwl_history": [
         {
           "season": "2026-09-02",
-          "round": 1,
-          "date": "20260903",
-          "opponent_name": "Kentucky",
+          "round": 2,
+          "date": "20260904",
+          "opponent_name": "SntrytheDefiant",
           "state": "preparation",
           "state_label": "Preparation Day",
           "result": null,
           "our_stars": 0,
+          "their_stars": 0,
+          "th": 17,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "inWar",
+          "state_label": "Battle Day",
+          "result": null,
+          "our_stars": 8,
           "their_stars": 0,
           "th": 17,
           "expected_attacks": 0,
@@ -7391,13 +7652,29 @@
       "cwl_history": [
         {
           "season": "2026-09-02",
-          "round": 1,
-          "date": "20260903",
-          "opponent_name": "Kentucky",
+          "round": 2,
+          "date": "20260904",
+          "opponent_name": "SntrytheDefiant",
           "state": "preparation",
           "state_label": "Preparation Day",
           "result": null,
           "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "inWar",
+          "state_label": "Battle Day",
+          "result": null,
+          "our_stars": 8,
           "their_stars": 0,
           "th": 18,
           "expected_attacks": 0,
@@ -7478,13 +7755,29 @@
       "cwl_history": [
         {
           "season": "2026-09-02",
-          "round": 1,
-          "date": "20260903",
-          "opponent_name": "Kentucky",
+          "round": 2,
+          "date": "20260904",
+          "opponent_name": "SntrytheDefiant",
           "state": "preparation",
           "state_label": "Preparation Day",
           "result": null,
           "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "inWar",
+          "state_label": "Battle Day",
+          "result": null,
+          "our_stars": 8,
           "their_stars": 0,
           "th": 18,
           "expected_attacks": 0,
@@ -7530,13 +7823,29 @@
       "cwl_history": [
         {
           "season": "2026-09-02",
-          "round": 1,
-          "date": "20260903",
-          "opponent_name": "Kentucky",
+          "round": 2,
+          "date": "20260904",
+          "opponent_name": "SntrytheDefiant",
           "state": "preparation",
           "state_label": "Preparation Day",
           "result": null,
           "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 0,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
+        {
+          "season": "2026-09-02",
+          "round": 1,
+          "date": "20260903",
+          "opponent_name": "Kentucky",
+          "state": "inWar",
+          "state_label": "Battle Day",
+          "result": null,
+          "our_stars": 8,
           "their_stars": 0,
           "th": 18,
           "expected_attacks": 0,
@@ -8306,15 +8615,57 @@
     "enabled": true,
     "active": true,
     "season": "2026-09-02",
-    "state": "preparation",
+    "state": "inWar",
     "league_name": "Master League I",
-    "position": 4,
+    "position": 2,
     "record": {
       "wins": 0,
       "losses": 0,
       "ties": 0
     },
     "standings": [
+      {
+        "name": "VZLA ARMY",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "battle_stars": 9,
+        "bonus_stars": 0,
+        "league_stars": 9,
+        "destruction": 20.0,
+        "wars_counted": 1,
+        "avg_destruction": 20.0,
+        "is_us": false,
+        "position": 1
+      },
+      {
+        "name": "Hero Dive Bar",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "battle_stars": 8,
+        "bonus_stars": 0,
+        "league_stars": 8,
+        "destruction": 17.333333333333332,
+        "wars_counted": 1,
+        "avg_destruction": 17.333333333333332,
+        "is_us": true,
+        "position": 2
+      },
+      {
+        "name": "salt of battel",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "battle_stars": 3,
+        "bonus_stars": 0,
+        "league_stars": 3,
+        "destruction": 6.666666666666667,
+        "wars_counted": 1,
+        "avg_destruction": 6.666666666666667,
+        "is_us": false,
+        "position": 3
+      },
       {
         "name": "Bijapur Rising",
         "wins": 0,
@@ -8324,10 +8675,10 @@
         "bonus_stars": 0,
         "league_stars": 0,
         "destruction": 0.0,
-        "wars_counted": 0,
+        "wars_counted": 1,
         "avg_destruction": 0.0,
         "is_us": false,
-        "position": 1
+        "position": 4
       },
       {
         "name": "Dragon Tear",
@@ -8338,10 +8689,10 @@
         "bonus_stars": 0,
         "league_stars": 0,
         "destruction": 0.0,
-        "wars_counted": 0,
+        "wars_counted": 1,
         "avg_destruction": 0.0,
         "is_us": false,
-        "position": 2
+        "position": 5
       },
       {
         "name": "Enrached",
@@ -8352,24 +8703,10 @@
         "bonus_stars": 0,
         "league_stars": 0,
         "destruction": 0.0,
-        "wars_counted": 0,
+        "wars_counted": 1,
         "avg_destruction": 0.0,
         "is_us": false,
-        "position": 3
-      },
-      {
-        "name": "Hero Dive Bar",
-        "wins": 0,
-        "losses": 0,
-        "ties": 0,
-        "battle_stars": 0,
-        "bonus_stars": 0,
-        "league_stars": 0,
-        "destruction": 0.0,
-        "wars_counted": 0,
-        "avg_destruction": 0.0,
-        "is_us": true,
-        "position": 4
+        "position": 6
       },
       {
         "name": "Kentucky",
@@ -8380,24 +8717,10 @@
         "bonus_stars": 0,
         "league_stars": 0,
         "destruction": 0.0,
-        "wars_counted": 0,
+        "wars_counted": 1,
         "avg_destruction": 0.0,
         "is_us": false,
-        "position": 5
-      },
-      {
-        "name": "salt of battel",
-        "wins": 0,
-        "losses": 0,
-        "ties": 0,
-        "battle_stars": 0,
-        "bonus_stars": 0,
-        "league_stars": 0,
-        "destruction": 0.0,
-        "wars_counted": 0,
-        "avg_destruction": 0.0,
-        "is_us": false,
-        "position": 6
+        "position": 7
       },
       {
         "name": "SntrytheDefiant",
@@ -8408,21 +8731,7 @@
         "bonus_stars": 0,
         "league_stars": 0,
         "destruction": 0.0,
-        "wars_counted": 0,
-        "avg_destruction": 0.0,
-        "is_us": false,
-        "position": 7
-      },
-      {
-        "name": "VZLA ARMY",
-        "wins": 0,
-        "losses": 0,
-        "ties": 0,
-        "battle_stars": 0,
-        "bonus_stars": 0,
-        "league_stars": 0,
-        "destruction": 0.0,
-        "wars_counted": 0,
+        "wars_counted": 1,
         "avg_destruction": 0.0,
         "is_us": false,
         "position": 8
@@ -8432,13 +8741,13 @@
       {
         "round": 1,
         "war_key": "affb7faac2fd",
-        "state": "preparation",
-        "state_label": "Preparation Day",
+        "state": "inWar",
+        "state_label": "Battle Day",
         "opponent_name": "Kentucky",
         "team_size": 15,
-        "clan_stars": 0,
+        "clan_stars": 8,
         "opponent_stars": 0,
-        "clan_destruction": 0.0,
+        "clan_destruction": 17.333333333333332,
         "opponent_destruction": 0.0,
         "result": null,
         "missed_attacks": 0,
@@ -8448,9 +8757,20 @@
       },
       {
         "round": 2,
-        "state": "notStarted",
-        "state_label": "Not Started",
-        "opponent_name": "TBD"
+        "war_key": "c0170ec35bec",
+        "state": "preparation",
+        "state_label": "Preparation Day",
+        "opponent_name": "SntrytheDefiant",
+        "team_size": 15,
+        "clan_stars": 0,
+        "opponent_stars": 0,
+        "clan_destruction": 0.0,
+        "opponent_destruction": 0.0,
+        "result": null,
+        "missed_attacks": 0,
+        "missed_players": [],
+        "start_time": "2026-09-04T04:25:48.000Z",
+        "end_time": "2026-09-05T04:25:48.000Z"
       },
       {
         "round": 3,
@@ -8484,15 +8804,15 @@
       }
     ],
     "current_war": {
-      "war_key": "affb7faac2fd",
+      "war_key": "c0170ec35bec",
       "state": "preparation",
       "state_label": "Preparation Day",
       "team_size": 15,
-      "preparation_start_time": "2026-09-02T03:57:08.000Z",
-      "start_time": "2026-09-03T04:24:17.000Z",
-      "end_time": "2026-09-04T04:24:17.000Z",
+      "preparation_start_time": "2026-09-03T04:25:51.000Z",
+      "start_time": "2026-09-04T04:25:48.000Z",
+      "end_time": "2026-09-05T04:25:48.000Z",
       "clan_name": "Hero Dive Bar",
-      "opponent_name": "Kentucky",
+      "opponent_name": "SntrytheDefiant",
       "clan_stars": 0,
       "opponent_stars": 0,
       "clan_destruction": 0.0,
@@ -8673,145 +8993,145 @@
       ],
       "opponent_roster": [
         {
-          "name": "DaaGoobs",
+          "name": "tyty",
           "th": 18,
           "map_position": 1,
           "attacks_used": 0
         },
         {
-          "name": "REDNECK",
+          "name": "kalimar",
           "th": 18,
           "map_position": 2,
           "attacks_used": 0
         },
         {
-          "name": "MillerTime",
+          "name": "Feathers IV",
           "th": 18,
           "map_position": 3,
           "attacks_used": 0
         },
         {
-          "name": "Goobie Smalls",
+          "name": "Tuvok",
+          "th": 18,
+          "map_position": 4,
+          "attacks_used": 0
+        },
+        {
+          "name": "Heavens Fence",
           "th": 18,
           "map_position": 5,
           "attacks_used": 0
         },
         {
-          "name": "General Lee",
+          "name": "swagadone",
           "th": 18,
-          "map_position": 8,
+          "map_position": 6,
           "attacks_used": 0
         },
         {
-          "name": "BufordT.Justice",
+          "name": "Daedalus",
+          "th": 18,
+          "map_position": 7,
+          "attacks_used": 0
+        },
+        {
+          "name": "DaNg",
           "th": 18,
           "map_position": 9,
           "attacks_used": 0
         },
         {
-          "name": "jaj2000",
+          "name": "TheAfterman",
           "th": 18,
           "map_position": 10,
           "attacks_used": 0
         },
         {
-          "name": "rizzy-d",
+          "name": "ENIGMA",
           "th": 18,
           "map_position": 11,
           "attacks_used": 0
         },
         {
-          "name": "big daddy 43",
+          "name": "Three Evils",
           "th": 18,
           "map_position": 12,
           "attacks_used": 0
         },
         {
-          "name": "TheHotstepper",
+          "name": "Sirius Amory",
           "th": 18,
           "map_position": 13,
           "attacks_used": 0
         },
         {
-          "name": "jhue17",
-          "th": 18,
+          "name": "Apollo I",
+          "th": 17,
           "map_position": 14,
           "attacks_used": 0
         },
         {
-          "name": "Razazool",
-          "th": 18,
-          "map_position": 16,
+          "name": "Time Consumer",
+          "th": 17,
+          "map_position": 15,
           "attacks_used": 0
         },
         {
-          "name": "cole",
+          "name": "The Vishual",
           "th": 18,
           "map_position": 17,
-          "attacks_used": 0
-        },
-        {
-          "name": "PowerSpark 1",
-          "th": 18,
-          "map_position": 19,
-          "attacks_used": 0
-        },
-        {
-          "name": "jay",
-          "th": 18,
-          "map_position": 20,
           "attacks_used": 0
         }
       ],
       "timeline": [],
-      "round": 1
+      "round": 2
     },
     "players": [
-      {
-        "public_id": "892c01275b9e4f",
-        "name": "+Alon2000+",
-        "th": 18,
-        "currently_in_clan": true,
-        "selected_rounds": 1,
-        "attacks": 0,
-        "missed_attacks": 0,
-        "stars": 0,
-        "triples": 0,
-        "avg_stars": 0.0,
-        "avg_destruction": 0.0
-      },
       {
         "public_id": "10d53b71f16c59",
         "name": "Avinash",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 1,
-        "attacks": 0,
+        "selected_rounds": 2,
+        "attacks": 1,
         "missed_attacks": 0,
-        "stars": 0,
-        "triples": 0,
-        "avg_stars": 0.0,
-        "avg_destruction": 0.0
-      },
-      {
-        "public_id": "2710e1436f73a9",
-        "name": "ChagoWitaBullet",
-        "th": 18,
-        "currently_in_clan": true,
-        "selected_rounds": 1,
-        "attacks": 0,
-        "missed_attacks": 0,
-        "stars": 0,
-        "triples": 0,
-        "avg_stars": 0.0,
-        "avg_destruction": 0.0
+        "stars": 3,
+        "triples": 1,
+        "avg_stars": 3.0,
+        "avg_destruction": 100.0
       },
       {
         "public_id": "3858423607e45b",
         "name": "CmALPHA_RY",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 1,
+        "selected_rounds": 2,
+        "attacks": 1,
+        "missed_attacks": 0,
+        "stars": 3,
+        "triples": 1,
+        "avg_stars": 3.0,
+        "avg_destruction": 100.0
+      },
+      {
+        "public_id": "2710e1436f73a9",
+        "name": "ChagoWitaBullet",
+        "th": 18,
+        "currently_in_clan": true,
+        "selected_rounds": 2,
+        "attacks": 1,
+        "missed_attacks": 0,
+        "stars": 2,
+        "triples": 0,
+        "avg_stars": 2.0,
+        "avg_destruction": 60.0
+      },
+      {
+        "public_id": "892c01275b9e4f",
+        "name": "+Alon2000+",
+        "th": 18,
+        "currently_in_clan": true,
+        "selected_rounds": 2,
         "attacks": 0,
         "missed_attacks": 0,
         "stars": 0,
@@ -8824,7 +9144,7 @@
         "name": "DEEPAK",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 1,
+        "selected_rounds": 2,
         "attacks": 0,
         "missed_attacks": 0,
         "stars": 0,
@@ -8837,7 +9157,7 @@
         "name": "Globin Barrel",
         "th": 17,
         "currently_in_clan": true,
-        "selected_rounds": 1,
+        "selected_rounds": 2,
         "attacks": 0,
         "missed_attacks": 0,
         "stars": 0,
@@ -8850,7 +9170,7 @@
         "name": "Hollowclient765",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 1,
+        "selected_rounds": 2,
         "attacks": 0,
         "missed_attacks": 0,
         "stars": 0,
@@ -8863,7 +9183,7 @@
         "name": "John 3:16™",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 1,
+        "selected_rounds": 2,
         "attacks": 0,
         "missed_attacks": 0,
         "stars": 0,
@@ -8876,7 +9196,7 @@
         "name": "KING OF CLAN",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 1,
+        "selected_rounds": 2,
         "attacks": 0,
         "missed_attacks": 0,
         "stars": 0,
@@ -8889,7 +9209,7 @@
         "name": "Pep",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 1,
+        "selected_rounds": 2,
         "attacks": 0,
         "missed_attacks": 0,
         "stars": 0,
@@ -8902,7 +9222,7 @@
         "name": "Sandhu",
         "th": 17,
         "currently_in_clan": true,
-        "selected_rounds": 1,
+        "selected_rounds": 2,
         "attacks": 0,
         "missed_attacks": 0,
         "stars": 0,
@@ -8915,7 +9235,7 @@
         "name": "Souls",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 1,
+        "selected_rounds": 2,
         "attacks": 0,
         "missed_attacks": 0,
         "stars": 0,
@@ -8928,7 +9248,7 @@
         "name": "taymonayyyy",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 1,
+        "selected_rounds": 2,
         "attacks": 0,
         "missed_attacks": 0,
         "stars": 0,
@@ -8941,7 +9261,7 @@
         "name": "The Letter P",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 1,
+        "selected_rounds": 2,
         "attacks": 0,
         "missed_attacks": 0,
         "stars": 0,
@@ -8954,7 +9274,7 @@
         "name": "tinynuisance",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 1,
+        "selected_rounds": 2,
         "attacks": 0,
         "missed_attacks": 0,
         "stars": 0,
