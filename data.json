@@ -1,6 +1,6 @@
 {
   "schema_version": 13,
-  "generated_at": "2026-09-03T18:35:26.932398+00:00",
+  "generated_at": "2026-09-03T18:39:30.904372+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -17751,7 +17751,7 @@
     "season": "2026-09-02",
     "state": "inWar",
     "league_name": "Master League I",
-    "position": 2,
+    "position": 3,
     "record": {
       "wins": 0,
       "losses": 0,
@@ -17773,6 +17773,20 @@
         "position": 1
       },
       {
+        "name": "salt of battel",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "battle_stars": 36,
+        "bonus_stars": 0,
+        "league_stars": 36,
+        "destruction": 82.86666666666666,
+        "wars_counted": 1,
+        "avg_destruction": 82.86666666666666,
+        "is_us": false,
+        "position": 2
+      },
+      {
         "name": "Hero Dive Bar",
         "wins": 0,
         "losses": 0,
@@ -17784,20 +17798,6 @@
         "wars_counted": 1,
         "avg_destruction": 81.73333333333333,
         "is_us": true,
-        "position": 2
-      },
-      {
-        "name": "salt of battel",
-        "wins": 0,
-        "losses": 0,
-        "ties": 0,
-        "battle_stars": 33,
-        "bonus_stars": 0,
-        "league_stars": 33,
-        "destruction": 76.2,
-        "wars_counted": 1,
-        "avg_destruction": 76.2,
-        "is_us": false,
         "position": 3
       },
       {
