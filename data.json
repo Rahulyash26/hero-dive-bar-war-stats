@@ -1,6 +1,6 @@
 {
   "schema_version": 13,
-  "generated_at": "2026-09-04T18:01:14.286008+00:00",
+  "generated_at": "2026-09-04T18:05:17.921873+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -19735,6 +19735,12 @@
           "name": "PADEEAMO",
           "th": 18,
           "map_position": 30,
+          "attacks_used": 0
+        },
+        {
+          "name": "Neymar Jr",
+          "th": 18,
+          "map_position": 31,
           "attacks_used": 0
         },
         {
