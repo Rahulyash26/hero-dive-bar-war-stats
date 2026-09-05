@@ -1,6 +1,6 @@
 {
   "schema_version": 13,
-  "generated_at": "2026-09-05T03:06:29.835602+00:00",
+  "generated_at": "2026-09-05T03:27:24.831264+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -2230,7 +2230,7 @@
         "volunteer_attacks": 0
       },
       "cwl_stats": {
-        "events": 0,
+        "events": 1,
         "attacks": 0,
         "missed_attacks": 0,
         "stars": 0,
@@ -2247,7 +2247,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 1,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "stars": 6,
@@ -7022,7 +7022,7 @@
         "volunteer_attacks": 0
       },
       "cwl_stats": {
-        "events": 0,
+        "events": 1,
         "attacks": 0,
         "missed_attacks": 0,
         "stars": 0,
@@ -7039,7 +7039,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 1,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "stars": 6,
@@ -12890,7 +12890,7 @@
         "volunteer_attacks": 0
       },
       "cwl_stats": {
-        "events": 0,
+        "events": 1,
         "attacks": 0,
         "missed_attacks": 0,
         "stars": 0,
@@ -12907,7 +12907,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 1,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "stars": 6,
@@ -12989,7 +12989,24 @@
         }
       ],
       "recent_cwl_attacks": [],
-      "cwl_history": []
+      "cwl_history": [
+        {
+          "season": "2026-09-02",
+          "round": 3,
+          "date": "20260905",
+          "opponent_name": "salt of battel",
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "expected_attacks": 1,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        }
+      ]
     },
     "b0478d5b8e758d": {
       "public_id": "b0478d5b8e758d",
@@ -20221,9 +20238,9 @@
       "clan_destruction": 0.0,
       "opponent_destruction": 0.0,
       "attacks_used": 0,
-      "expected_attacks": 15,
+      "expected_attacks": 16,
       "volunteer_attacks": 0,
-      "remaining_attacks": 15,
+      "remaining_attacks": 16,
       "fillers": 0,
       "missed_attacks": 0,
       "missed_players": [],
@@ -20365,6 +20382,17 @@
           "name": "DEEPAK",
           "th": 18,
           "map_position": 19,
+          "is_filler": false,
+          "expected_attacks": 1,
+          "attacks_used": 0,
+          "remaining_attacks": 1,
+          "missed_attacks": 0
+        },
+        {
+          "public_id": "a64cb3cd72e7b9",
+          "name": "Jerry",
+          "th": 18,
+          "map_position": 22,
           "is_filler": false,
           "expected_attacks": 1,
           "attacks_used": 0,
@@ -20696,6 +20724,19 @@
         "triples": 1,
         "avg_stars": 3.0,
         "avg_destruction": 100.0
+      },
+      {
+        "public_id": "a64cb3cd72e7b9",
+        "name": "Jerry",
+        "th": 18,
+        "currently_in_clan": true,
+        "selected_rounds": 1,
+        "attacks": 0,
+        "missed_attacks": 0,
+        "stars": 0,
+        "triples": 0,
+        "avg_stars": 0.0,
+        "avg_destruction": 0.0
       }
     ]
   }
