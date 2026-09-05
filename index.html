@@ -222,6 +222,12 @@ function cwlStandingsTable(c){
   for(const s of c.standings||[])h+=`<tr class="${s.is_us?'cwl-us':''}"><td><b>${s.position}</b></td><td>${s.is_us?'<b>':''}${esc(s.name)}${s.is_us?' · US</b>':''}</td><td>${s.wins}-${s.losses}${s.ties?`-${s.ties}`:''}</td><td><b>${s.league_stars}</b></td><td>${s.battle_stars}</td><td>${pct(s.avg_destruction)}%</td></tr>`;
   return h+'</tbody></table><div class="record-note">League Stars include the 10-star CWL win bonus for completed rounds.</div></div>';
 }
+function cwlPreviousRoundMisses(c){
+  const p=c?.previous_round_misses;if(!p?.teams?.length)return'';
+  let h=`<h2>Previous Round Missed Attacks — Round ${p.round}</h2><div class="card"><table><thead><tr><th>Clan</th><th>Opponent</th><th>Attacks</th><th>Missed</th><th>Score</th></tr></thead><tbody>`;
+  for(const t of p.teams||[])h+=`<tr class="${t.is_us?'cwl-us':''}"><td>${t.is_us?'<b>':''}${esc(t.name)}${t.is_us?' · US</b>':''}</td><td>${esc(t.opponent_name)}</td><td>${t.attacks_used}/${t.expected_attacks}</td><td class="${Number(t.missed_attacks)>0?'bad':'good'}"><b>${t.missed_attacks}</b></td><td>${t.stars}–${t.opponent_stars}</td></tr>`;
+  return h+'</tbody></table><div class="record-note">Shows how many CWL attacks each clan left unused in the most recently completed round. One attack is expected per selected player.</div></div>';
+}
 function cwlRoundsTable(c){
   let h='<div class="card"><table><thead><tr><th>Round</th><th>Opponent</th><th>State</th><th>Stars</th><th>Destruction</th><th>Missed</th><th>Result</th></tr></thead><tbody>';
   for(const r of c.rounds||[]){h+=`<tr><td>R${r.round}</td><td>${esc(r.opponent_name||'TBD')}</td><td>${esc(r.state_label||'Not Started')}</td><td>${r.clan_stars!=null?`${r.clan_stars}–${r.opponent_stars}`:'—'}</td><td>${r.clan_destruction!=null?`${pct(r.clan_destruction)}%–${pct(r.opponent_destruction)}%`:'—'}</td><td>${r.war_key?missedCell(r):'—'}</td><td class="${resultClass(r.result)}">${esc((r.result||'—').toUpperCase())}</td></tr>`;}
@@ -244,7 +250,7 @@ function renderCwlDashboard(c){
   if(prep)h+=renderCwlWarSection(prep,{title:battle?`Next Round Preparation — Round ${prep.round}`:`Preparation Day — Round ${prep.round}`,showPrepLineups:true,key:'cwl-prep'});
   if(!battle&&!prep&&primary)h+=renderCwlWarSection(primary,{title:`Round ${primary.round}`,showTimeline:true,key:'cwl-current'});
   if(!primary)h+='<h2>Current Round</h2><div class="card"><div class="empty">CWL group found. Waiting for a round matchup to become available.</div></div>';
-  h+='<h2>Group Standings</h2>'+cwlStandingsTable(c)+'<h2>Rounds</h2>'+cwlRoundsTable(c);return h;
+  h+=cwlPreviousRoundMisses(c)+'<h2>Group Standings</h2>'+cwlStandingsTable(c)+'<h2>Rounds</h2>'+cwlRoundsTable(c);return h;
 }
 function renderCwlTab(c){
   if(!c?.enabled)return `<h1>CWL</h1><div class="card cwl-banner"><h2 style="margin-top:0">CWL Search / Matchmaking</h2><div class="muted">${esc(c?.message||'Waiting for the CWL league group. Once matchmaking finishes, this page will populate automatically.')}</div><div class="record-note">As soon as the API returns an active CWL group, the main Dashboard automatically switches to the CWL dashboard.</div></div>`;
@@ -253,7 +259,7 @@ function renderCwlTab(c){
   if(battle)h+=renderCwlWarSection(battle,{title:`Battle Day — Round ${battle.round}`,showTimeline:true,key:'tab-battle'});
   if(prep)h+=renderCwlWarSection(prep,{title:battle?`Next Round Preparation — Round ${prep.round}`:`Preparation Day — Round ${prep.round}`,showPrepLineups:true,key:'tab-prep'});
   if(!battle&&!prep&&primary)h+=renderCwlWarSection(primary,{title:`Round ${primary.round}`,showTimeline:true,key:'tab-current'});
-  h+='<h2>Group Standings</h2>'+cwlStandingsTable(c)+'<h2>Rounds</h2>'+cwlRoundsTable(c)+'<h2>CWL Players</h2><div class="card">';
+  h+=cwlPreviousRoundMisses(c)+'<h2>Group Standings</h2>'+cwlStandingsTable(c)+'<h2>Rounds</h2>'+cwlRoundsTable(c)+'<h2>CWL Players</h2><div class="card">';
   if(!(c.players||[]).length)h+='<div class="empty">No selected players stored yet.</div>';else{h+='<table><thead><tr><th>Player</th><th>TH</th><th>Selected</th><th>Attacks</th><th>Missed</th><th>Stars</th><th>3★</th><th>Avg Destruction</th></tr></thead><tbody>';for(const p of c.players)h+=`<tr><td>${playerLink(p.name,p.public_id)}</td><td>TH${p.th}</td><td>${p.selected_rounds}</td><td>${p.attacks}</td><td class="${p.missed_attacks?'bad':''}">${p.missed_attacks}</td><td>${p.stars}</td><td>${p.triples}</td><td>${pct(p.avg_destruction)}%</td></tr>`;h+='</tbody></table>';}
   return h+'</div>';
 }
