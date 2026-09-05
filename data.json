@@ -1,6 +1,6 @@
 {
   "schema_version": 13,
-  "generated_at": "2026-09-05T01:15:40.684541+00:00",
+  "generated_at": "2026-09-05T01:22:43.690338+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -18665,6 +18665,20 @@
         "position": 4
       },
       {
+        "name": "Bijapur Rising",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "battle_stars": 74,
+        "bonus_stars": 0,
+        "league_stars": 74,
+        "destruction": 174.8,
+        "wars_counted": 2,
+        "avg_destruction": 87.4,
+        "is_us": false,
+        "position": 5
+      },
+      {
         "name": "Kentucky",
         "wins": 0,
         "losses": 1,
@@ -18676,7 +18690,7 @@
         "wars_counted": 2,
         "avg_destruction": 90.46666666666667,
         "is_us": false,
-        "position": 5
+        "position": 6
       },
       {
         "name": "Enrached",
@@ -18689,20 +18703,6 @@
         "destruction": 172.2,
         "wars_counted": 2,
         "avg_destruction": 86.1,
-        "is_us": false,
-        "position": 6
-      },
-      {
-        "name": "Bijapur Rising",
-        "wins": 0,
-        "losses": 1,
-        "ties": 0,
-        "battle_stars": 71,
-        "bonus_stars": 0,
-        "league_stars": 71,
-        "destruction": 168.13333333333333,
-        "wars_counted": 2,
-        "avg_destruction": 84.06666666666666,
         "is_us": false,
         "position": 7
       },
