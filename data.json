@@ -1,6 +1,6 @@
 {
   "schema_version": 13,
-  "generated_at": "2026-09-05T03:36:39.138700+00:00",
+  "generated_at": "2026-09-05T03:47:47.069630+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -18682,6 +18682,20 @@
         "position": 4
       },
       {
+        "name": "Dragon Tear",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "battle_stars": 69,
+        "bonus_stars": 10,
+        "league_stars": 79,
+        "destruction": 169.66666666666669,
+        "wars_counted": 2,
+        "avg_destruction": 84.83333333333334,
+        "is_us": false,
+        "position": 5
+      },
+      {
         "name": "Bijapur Rising",
         "wins": 0,
         "losses": 1,
@@ -18692,20 +18706,6 @@
         "destruction": 181.46666666666667,
         "wars_counted": 2,
         "avg_destruction": 90.73333333333333,
-        "is_us": false,
-        "position": 5
-      },
-      {
-        "name": "Dragon Tear",
-        "wins": 1,
-        "losses": 0,
-        "ties": 0,
-        "battle_stars": 66,
-        "bonus_stars": 10,
-        "league_stars": 76,
-        "destruction": 163.0,
-        "wars_counted": 2,
-        "avg_destruction": 81.5,
         "is_us": false,
         "position": 6
       },
