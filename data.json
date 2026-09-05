@@ -1,6 +1,6 @@
 {
   "schema_version": 13,
-  "generated_at": "2026-09-05T01:48:48.335402+00:00",
+  "generated_at": "2026-09-05T01:50:53.652723+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -18693,6 +18693,20 @@
         "position": 6
       },
       {
+        "name": "Dragon Tear",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "battle_stars": 63,
+        "bonus_stars": 10,
+        "league_stars": 73,
+        "destruction": 156.33333333333334,
+        "wars_counted": 2,
+        "avg_destruction": 78.16666666666667,
+        "is_us": false,
+        "position": 7
+      },
+      {
         "name": "Enrached",
         "wins": 0,
         "losses": 1,
@@ -18703,20 +18717,6 @@
         "destruction": 172.2,
         "wars_counted": 2,
         "avg_destruction": 86.1,
-        "is_us": false,
-        "position": 7
-      },
-      {
-        "name": "Dragon Tear",
-        "wins": 1,
-        "losses": 0,
-        "ties": 0,
-        "battle_stars": 60,
-        "bonus_stars": 10,
-        "league_stars": 70,
-        "destruction": 149.66666666666669,
-        "wars_counted": 2,
-        "avg_destruction": 74.83333333333334,
         "is_us": false,
         "position": 8
       }
