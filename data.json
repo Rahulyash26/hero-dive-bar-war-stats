@@ -1,6 +1,6 @@
 {
   "schema_version": 13,
-  "generated_at": "2026-09-05T03:27:24.831264+00:00",
+  "generated_at": "2026-09-05T03:32:23.269926+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -18815,6 +18815,107 @@
         "opponent_name": "TBD"
       }
     ],
+    "previous_round_misses": {
+      "round": 1,
+      "teams": [
+        {
+          "name": "Dragon Tear",
+          "opponent_name": "SntrytheDefiant",
+          "is_us": false,
+          "attacks_used": 15,
+          "expected_attacks": 15,
+          "missed_attacks": 0,
+          "stars": 42,
+          "opponent_stars": 40,
+          "destruction": 98.2,
+          "opponent_destruction": 97.66666666666667
+        },
+        {
+          "name": "Enrached",
+          "opponent_name": "salt of battel",
+          "is_us": false,
+          "attacks_used": 15,
+          "expected_attacks": 15,
+          "missed_attacks": 0,
+          "stars": 33,
+          "opponent_stars": 42,
+          "destruction": 80.33333333333333,
+          "opponent_destruction": 96.2
+        },
+        {
+          "name": "Hero Dive Bar",
+          "opponent_name": "Kentucky",
+          "is_us": true,
+          "attacks_used": 15,
+          "expected_attacks": 15,
+          "missed_attacks": 0,
+          "stars": 42,
+          "opponent_stars": 39,
+          "destruction": 95.06666666666666,
+          "opponent_destruction": 93.26666666666667
+        },
+        {
+          "name": "Kentucky",
+          "opponent_name": "Hero Dive Bar",
+          "is_us": false,
+          "attacks_used": 15,
+          "expected_attacks": 15,
+          "missed_attacks": 0,
+          "stars": 39,
+          "opponent_stars": 42,
+          "destruction": 93.26666666666667,
+          "opponent_destruction": 95.06666666666666
+        },
+        {
+          "name": "salt of battel",
+          "opponent_name": "Enrached",
+          "is_us": false,
+          "attacks_used": 15,
+          "expected_attacks": 15,
+          "missed_attacks": 0,
+          "stars": 42,
+          "opponent_stars": 33,
+          "destruction": 96.2,
+          "opponent_destruction": 80.33333333333333
+        },
+        {
+          "name": "SntrytheDefiant",
+          "opponent_name": "Dragon Tear",
+          "is_us": false,
+          "attacks_used": 15,
+          "expected_attacks": 15,
+          "missed_attacks": 0,
+          "stars": 40,
+          "opponent_stars": 42,
+          "destruction": 97.66666666666667,
+          "opponent_destruction": 98.2
+        },
+        {
+          "name": "VZLA ARMY",
+          "opponent_name": "Bijapur Rising",
+          "is_us": false,
+          "attacks_used": 15,
+          "expected_attacks": 15,
+          "missed_attacks": 0,
+          "stars": 45,
+          "opponent_stars": 35,
+          "destruction": 100.0,
+          "opponent_destruction": 88.13333333333334
+        },
+        {
+          "name": "Bijapur Rising",
+          "opponent_name": "VZLA ARMY",
+          "is_us": false,
+          "attacks_used": 14,
+          "expected_attacks": 15,
+          "missed_attacks": 1,
+          "stars": 35,
+          "opponent_stars": 45,
+          "destruction": 88.13333333333334,
+          "opponent_destruction": 100.0
+        }
+      ]
+    },
     "current_war": {
       "war_key": "c0170ec35bec",
       "state": "inWar",
