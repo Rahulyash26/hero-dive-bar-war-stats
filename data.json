@@ -1,6 +1,6 @@
 {
   "schema_version": 13,
-  "generated_at": "2026-09-06T04:47:07.092776+00:00",
+  "generated_at": "2026-09-06T05:53:04.240947+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -19633,8 +19633,30 @@
         "clan_destruction": 90.13333333333334,
         "opponent_destruction": 84.06666666666666,
         "result": null,
-        "missed_attacks": 0,
-        "missed_players": [],
+        "missed_attacks": 3,
+        "missed_players": [
+          {
+            "public_id": "75fbf19b6ab937",
+            "name": "tinynuisance",
+            "th": 18,
+            "map_position": 5,
+            "missed_attacks": 1
+          },
+          {
+            "public_id": "8e332ab4b0f2b4",
+            "name": "taymonayyyy",
+            "th": 18,
+            "map_position": 13,
+            "missed_attacks": 1
+          },
+          {
+            "public_id": "bd6b7a83ddcdbd",
+            "name": "DEEPAK",
+            "th": 18,
+            "map_position": 19,
+            "missed_attacks": 1
+          }
+        ],
         "start_time": "2026-09-05T04:59:41.000Z",
         "end_time": "2026-09-06T04:59:41.000Z"
       },
@@ -19777,8 +19799,8 @@
     },
     "current_war": {
       "war_key": "b9a8d07b958e",
-      "state": "inWar",
-      "state_label": "Battle Day",
+      "state": "warEnded",
+      "state_label": "War Ended",
       "team_size": 15,
       "preparation_start_time": "2026-09-04T05:01:13.000Z",
       "start_time": "2026-09-05T04:59:41.000Z",
@@ -19794,8 +19816,30 @@
       "volunteer_attacks": 0,
       "remaining_attacks": 3,
       "fillers": 0,
-      "missed_attacks": 0,
-      "missed_players": [],
+      "missed_attacks": 3,
+      "missed_players": [
+        {
+          "public_id": "75fbf19b6ab937",
+          "name": "tinynuisance",
+          "th": 18,
+          "map_position": 5,
+          "missed_attacks": 1
+        },
+        {
+          "public_id": "8e332ab4b0f2b4",
+          "name": "taymonayyyy",
+          "th": 18,
+          "map_position": 13,
+          "missed_attacks": 1
+        },
+        {
+          "public_id": "bd6b7a83ddcdbd",
+          "name": "DEEPAK",
+          "th": 18,
+          "map_position": 19,
+          "missed_attacks": 1
+        }
+      ],
       "roster": [
         {
           "public_id": "85653b6df73206",
@@ -19839,7 +19883,7 @@
           "expected_attacks": 1,
           "attacks_used": 0,
           "remaining_attacks": 1,
-          "missed_attacks": 0
+          "missed_attacks": 1
         },
         {
           "public_id": "8d6b6362db4f19",
@@ -19905,7 +19949,7 @@
           "expected_attacks": 1,
           "attacks_used": 0,
           "remaining_attacks": 1,
-          "missed_attacks": 0
+          "missed_attacks": 1
         },
         {
           "public_id": "10dea83733b77a",
@@ -19938,7 +19982,7 @@
           "expected_attacks": 1,
           "attacks_used": 0,
           "remaining_attacks": 1,
-          "missed_attacks": 0
+          "missed_attacks": 1
         },
         {
           "public_id": "a64cb3cd72e7b9",
@@ -20506,8 +20550,8 @@
     },
     "battle_war": {
       "war_key": "b9a8d07b958e",
-      "state": "inWar",
-      "state_label": "Battle Day",
+      "state": "warEnded",
+      "state_label": "War Ended",
       "team_size": 15,
       "preparation_start_time": "2026-09-04T05:01:13.000Z",
       "start_time": "2026-09-05T04:59:41.000Z",
@@ -20523,8 +20567,30 @@
       "volunteer_attacks": 0,
       "remaining_attacks": 3,
       "fillers": 0,
-      "missed_attacks": 0,
-      "missed_players": [],
+      "missed_attacks": 3,
+      "missed_players": [
+        {
+          "public_id": "75fbf19b6ab937",
+          "name": "tinynuisance",
+          "th": 18,
+          "map_position": 5,
+          "missed_attacks": 1
+        },
+        {
+          "public_id": "8e332ab4b0f2b4",
+          "name": "taymonayyyy",
+          "th": 18,
+          "map_position": 13,
+          "missed_attacks": 1
+        },
+        {
+          "public_id": "bd6b7a83ddcdbd",
+          "name": "DEEPAK",
+          "th": 18,
+          "map_position": 19,
+          "missed_attacks": 1
+        }
+      ],
       "roster": [
         {
           "public_id": "85653b6df73206",
@@ -20568,7 +20634,7 @@
           "expected_attacks": 1,
           "attacks_used": 0,
           "remaining_attacks": 1,
-          "missed_attacks": 0
+          "missed_attacks": 1
         },
         {
           "public_id": "8d6b6362db4f19",
@@ -20634,7 +20700,7 @@
           "expected_attacks": 1,
           "attacks_used": 0,
           "remaining_attacks": 1,
-          "missed_attacks": 0
+          "missed_attacks": 1
         },
         {
           "public_id": "10dea83733b77a",
@@ -20667,7 +20733,7 @@
           "expected_attacks": 1,
           "attacks_used": 0,
           "remaining_attacks": 1,
-          "missed_attacks": 0
+          "missed_attacks": 1
         },
         {
           "public_id": "a64cb3cd72e7b9",
@@ -21235,22 +21301,22 @@
     },
     "prep_war": {
       "war_key": "9eb7b827dcff",
-      "state": "preparation",
-      "state_label": "Preparation Day",
+      "state": "inWar",
+      "state_label": "Battle Day",
       "team_size": 15,
       "preparation_start_time": "2026-09-05T05:01:26.000Z",
       "start_time": "2026-09-06T05:01:23.000Z",
       "end_time": "2026-09-07T05:01:23.000Z",
       "clan_name": "Hero Dive Bar",
       "opponent_name": "Enrached",
-      "clan_stars": 0,
+      "clan_stars": 8,
       "opponent_stars": 0,
-      "clan_destruction": 0.0,
+      "clan_destruction": 19.333333333333332,
       "opponent_destruction": 0.0,
-      "attacks_used": 0,
+      "attacks_used": 3,
       "expected_attacks": 16,
       "volunteer_attacks": 0,
-      "remaining_attacks": 16,
+      "remaining_attacks": 13,
       "fillers": 0,
       "missed_attacks": 0,
       "missed_players": [],
@@ -21262,8 +21328,8 @@
           "map_position": 1,
           "is_filler": false,
           "expected_attacks": 1,
-          "attacks_used": 0,
-          "remaining_attacks": 1,
+          "attacks_used": 1,
+          "remaining_attacks": 0,
           "missed_attacks": 0
         },
         {
@@ -21306,8 +21372,8 @@
           "map_position": 7,
           "is_filler": false,
           "expected_attacks": 1,
-          "attacks_used": 0,
-          "remaining_attacks": 1,
+          "attacks_used": 1,
+          "remaining_attacks": 0,
           "missed_attacks": 0
         },
         {
@@ -21405,8 +21471,8 @@
           "map_position": 25,
           "is_filler": false,
           "expected_attacks": 1,
-          "attacks_used": 0,
-          "remaining_attacks": 1,
+          "attacks_used": 1,
+          "remaining_attacks": 0,
           "missed_attacks": 0
         },
         {
@@ -21524,16 +21590,88 @@
           "attacks_used": 0
         }
       ],
-      "timeline": [],
+      "timeline": [
+        {
+          "order": 1,
+          "side": "clan",
+          "attacker_public_id": "892c01275b9e4f",
+          "attacker_name": "+Alon2000+",
+          "attacker_position": 7,
+          "defender_name": "Lucster",
+          "defender_position": 5,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 3,
+          "their_score_after": 0
+        },
+        {
+          "order": 2,
+          "side": "clan",
+          "attacker_public_id": "067e9305da9e5f",
+          "attacker_name": "Sandhu",
+          "attacker_position": 25,
+          "defender_name": "MV",
+          "defender_position": 9,
+          "stars": 3,
+          "destruction": 100.0,
+          "attack_type": "fresh",
+          "new_stars": 3,
+          "our_score_after": 6,
+          "their_score_after": 0
+        },
+        {
+          "order": 3,
+          "side": "clan",
+          "attacker_public_id": "3858423607e45b",
+          "attacker_name": "CmALPHA_RY",
+          "attacker_position": 1,
+          "defender_name": "JDW",
+          "defender_position": 1,
+          "stars": 2,
+          "destruction": 90.0,
+          "attack_type": "fresh",
+          "new_stars": 2,
+          "our_score_after": 8,
+          "their_score_after": 0
+        }
+      ],
       "round": 4
     },
     "players": [
+      {
+        "public_id": "067e9305da9e5f",
+        "name": "Sandhu",
+        "th": 17,
+        "currently_in_clan": true,
+        "selected_rounds": 5,
+        "attacks": 4,
+        "missed_attacks": 0,
+        "stars": 10,
+        "triples": 3,
+        "avg_stars": 2.5,
+        "avg_destruction": 97.25
+      },
+      {
+        "public_id": "892c01275b9e4f",
+        "name": "+Alon2000+",
+        "th": 18,
+        "currently_in_clan": true,
+        "selected_rounds": 5,
+        "attacks": 4,
+        "missed_attacks": 0,
+        "stars": 10,
+        "triples": 2,
+        "avg_stars": 2.5,
+        "avg_destruction": 91.0
+      },
       {
         "public_id": "10d53b71f16c59",
         "name": "Avinash",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 4,
+        "selected_rounds": 5,
         "attacks": 3,
         "missed_attacks": 0,
         "stars": 9,
@@ -21546,7 +21684,7 @@
         "name": "Hollowclient765",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 4,
+        "selected_rounds": 5,
         "attacks": 3,
         "missed_attacks": 0,
         "stars": 9,
@@ -21559,7 +21697,7 @@
         "name": "Souls",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 4,
+        "selected_rounds": 5,
         "attacks": 3,
         "missed_attacks": 0,
         "stars": 9,
@@ -21572,7 +21710,7 @@
         "name": "John 3:16™",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 4,
+        "selected_rounds": 5,
         "attacks": 3,
         "missed_attacks": 0,
         "stars": 8,
@@ -21585,7 +21723,7 @@
         "name": "Pep",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 4,
+        "selected_rounds": 5,
         "attacks": 3,
         "missed_attacks": 0,
         "stars": 8,
@@ -21598,7 +21736,7 @@
         "name": "KING OF CLAN",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 4,
+        "selected_rounds": 5,
         "attacks": 3,
         "missed_attacks": 0,
         "stars": 8,
@@ -21607,11 +21745,24 @@
         "avg_destruction": 98.66666666666667
       },
       {
+        "public_id": "3858423607e45b",
+        "name": "CmALPHA_RY",
+        "th": 18,
+        "currently_in_clan": true,
+        "selected_rounds": 5,
+        "attacks": 4,
+        "missed_attacks": 0,
+        "stars": 8,
+        "triples": 1,
+        "avg_stars": 2.0,
+        "avg_destruction": 96.0
+      },
+      {
         "public_id": "2710e1436f73a9",
         "name": "ChagoWitaBullet",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 4,
+        "selected_rounds": 5,
         "attacks": 3,
         "missed_attacks": 0,
         "stars": 8,
@@ -21624,7 +21775,7 @@
         "name": "The Letter P",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 4,
+        "selected_rounds": 5,
         "attacks": 3,
         "missed_attacks": 0,
         "stars": 7,
@@ -21633,24 +21784,11 @@
         "avg_destruction": 98.0
       },
       {
-        "public_id": "067e9305da9e5f",
-        "name": "Sandhu",
-        "th": 17,
-        "currently_in_clan": true,
-        "selected_rounds": 4,
-        "attacks": 3,
-        "missed_attacks": 0,
-        "stars": 7,
-        "triples": 2,
-        "avg_stars": 2.3333333333333335,
-        "avg_destruction": 96.33333333333333
-      },
-      {
         "public_id": "13311b93709aa8",
         "name": "Globin Barrel",
         "th": 17,
         "currently_in_clan": true,
-        "selected_rounds": 4,
+        "selected_rounds": 5,
         "attacks": 3,
         "missed_attacks": 0,
         "stars": 7,
@@ -21659,26 +21797,13 @@
         "avg_destruction": 92.33333333333333
       },
       {
-        "public_id": "892c01275b9e4f",
-        "name": "+Alon2000+",
-        "th": 18,
-        "currently_in_clan": true,
-        "selected_rounds": 4,
-        "attacks": 3,
-        "missed_attacks": 0,
-        "stars": 7,
-        "triples": 1,
-        "avg_stars": 2.3333333333333335,
-        "avg_destruction": 88.0
-      },
-      {
         "public_id": "8e332ab4b0f2b4",
         "name": "taymonayyyy",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 4,
+        "selected_rounds": 5,
         "attacks": 2,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 6,
         "triples": 2,
         "avg_stars": 3.0,
@@ -21691,24 +21816,11 @@
         "currently_in_clan": false,
         "selected_rounds": 3,
         "attacks": 2,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 6,
         "triples": 2,
         "avg_stars": 3.0,
         "avg_destruction": 100.0
-      },
-      {
-        "public_id": "3858423607e45b",
-        "name": "CmALPHA_RY",
-        "th": 18,
-        "currently_in_clan": true,
-        "selected_rounds": 4,
-        "attacks": 3,
-        "missed_attacks": 0,
-        "stars": 6,
-        "triples": 1,
-        "avg_stars": 2.0,
-        "avg_destruction": 98.0
       },
       {
         "public_id": "bd6b7a83ddcdbd",
@@ -21717,7 +21829,7 @@
         "currently_in_clan": false,
         "selected_rounds": 3,
         "attacks": 1,
-        "missed_attacks": 1,
+        "missed_attacks": 2,
         "stars": 3,
         "triples": 1,
         "avg_stars": 3.0,
@@ -21728,7 +21840,7 @@
         "name": "Jerry",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 2,
+        "selected_rounds": 3,
         "attacks": 1,
         "missed_attacks": 0,
         "stars": 3,
@@ -21754,7 +21866,7 @@
         "name": "Anor Londo",
         "th": 17,
         "currently_in_clan": true,
-        "selected_rounds": 1,
+        "selected_rounds": 2,
         "attacks": 0,
         "missed_attacks": 0,
         "stars": 0,
