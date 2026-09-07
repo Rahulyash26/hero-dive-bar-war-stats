@@ -1,6 +1,6 @@
 {
   "schema_version": 13,
-  "generated_at": "2026-09-07T02:30:12.411547+00:00",
+  "generated_at": "2026-09-07T03:23:15.017401+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -1978,9 +1978,9 @@
         "volunteer_attacks": 0
       },
       "cwl_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 1,
-        "missed_attacks": 2,
+        "missed_attacks": 1,
         "stars": 3,
         "triples": 1,
         "twos": 0,
@@ -1995,9 +1995,9 @@
         "best_triple_streak": 1
       },
       "combined_stats": {
-        "events": 5,
+        "events": 4,
         "attacks": 3,
-        "missed_attacks": 2,
+        "missed_attacks": 1,
         "stars": 9,
         "triples": 3,
         "twos": 0,
@@ -2566,7 +2566,7 @@
         "volunteer_attacks": 0
       },
       "cwl_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 1,
         "missed_attacks": 0,
         "stars": 3,
@@ -2583,7 +2583,7 @@
         "best_triple_streak": 1
       },
       "combined_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 1,
         "missed_attacks": 0,
         "stars": 3,
@@ -3910,7 +3910,7 @@
         "volunteer_attacks": 0
       },
       "cwl_stats": {
-        "events": 5,
+        "events": 4,
         "attacks": 3,
         "missed_attacks": 1,
         "stars": 8,
@@ -3927,7 +3927,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 5,
+        "events": 4,
         "attacks": 3,
         "missed_attacks": 1,
         "stars": 8,
@@ -4078,7 +4078,7 @@
         "volunteer_attacks": 0
       },
       "cwl_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 1,
         "missed_attacks": 0,
         "stars": 3,
@@ -4095,7 +4095,7 @@
         "best_triple_streak": 1
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 1,
         "missed_attacks": 0,
         "stars": 3,
@@ -6180,9 +6180,9 @@
         "volunteer_attacks": 0
       },
       "cwl_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
-        "missed_attacks": 1,
+        "missed_attacks": 0,
         "stars": 6,
         "triples": 2,
         "twos": 0,
@@ -6191,15 +6191,15 @@
         "triple_rate": 100.0,
         "avg_stars": 3.0,
         "avg_destruction": 100.0,
-        "current_no_miss_streak": 0,
+        "current_no_miss_streak": 2,
         "best_no_miss_streak": 2,
         "current_triple_streak": 2,
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
-        "missed_attacks": 1,
+        "missed_attacks": 0,
         "stars": 6,
         "triples": 2,
         "twos": 0,
@@ -6208,7 +6208,7 @@
         "triple_rate": 100.0,
         "avg_stars": 3.0,
         "avg_destruction": 100.0,
-        "current_no_miss_streak": 0,
+        "current_no_miss_streak": 2,
         "best_no_miss_streak": 2,
         "current_triple_streak": 2,
         "best_triple_streak": 2
@@ -6854,9 +6854,9 @@
         "volunteer_attacks": 0
       },
       "cwl_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 1,
-        "missed_attacks": 2,
+        "missed_attacks": 1,
         "stars": 3,
         "triples": 1,
         "twos": 0,
@@ -6871,9 +6871,9 @@
         "best_triple_streak": 1
       },
       "combined_stats": {
-        "events": 5,
+        "events": 4,
         "attacks": 3,
-        "missed_attacks": 2,
+        "missed_attacks": 1,
         "stars": 9,
         "triples": 3,
         "twos": 0,
@@ -7442,7 +7442,7 @@
         "volunteer_attacks": 0
       },
       "cwl_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 1,
         "missed_attacks": 0,
         "stars": 3,
@@ -7459,7 +7459,7 @@
         "best_triple_streak": 1
       },
       "combined_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 1,
         "missed_attacks": 0,
         "stars": 3,
@@ -8786,7 +8786,7 @@
         "volunteer_attacks": 0
       },
       "cwl_stats": {
-        "events": 5,
+        "events": 4,
         "attacks": 3,
         "missed_attacks": 1,
         "stars": 8,
@@ -8803,7 +8803,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 5,
+        "events": 4,
         "attacks": 3,
         "missed_attacks": 1,
         "stars": 8,
@@ -8954,7 +8954,7 @@
         "volunteer_attacks": 0
       },
       "cwl_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 1,
         "missed_attacks": 0,
         "stars": 3,
@@ -8971,7 +8971,7 @@
         "best_triple_streak": 1
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 1,
         "missed_attacks": 0,
         "stars": 3,
@@ -11054,9 +11054,9 @@
         "volunteer_attacks": 0
       },
       "cwl_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
-        "missed_attacks": 1,
+        "missed_attacks": 0,
         "stars": 6,
         "triples": 2,
         "twos": 0,
@@ -11065,15 +11065,15 @@
         "triple_rate": 100.0,
         "avg_stars": 3.0,
         "avg_destruction": 100.0,
-        "current_no_miss_streak": 0,
+        "current_no_miss_streak": 2,
         "best_no_miss_streak": 2,
         "current_triple_streak": 2,
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
-        "missed_attacks": 1,
+        "missed_attacks": 0,
         "stars": 6,
         "triples": 2,
         "twos": 0,
@@ -11082,7 +11082,7 @@
         "triple_rate": 100.0,
         "avg_stars": 3.0,
         "avg_destruction": 100.0,
-        "current_no_miss_streak": 0,
+        "current_no_miss_streak": 2,
         "best_no_miss_streak": 2,
         "current_triple_streak": 2,
         "best_triple_streak": 2
@@ -12743,9 +12743,9 @@
         "volunteer_attacks": 0
       },
       "cwl_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 1,
-        "missed_attacks": 2,
+        "missed_attacks": 1,
         "stars": 3,
         "triples": 1,
         "twos": 0,
@@ -12760,9 +12760,9 @@
         "best_triple_streak": 1
       },
       "combined_stats": {
-        "events": 5,
+        "events": 4,
         "attacks": 3,
-        "missed_attacks": 2,
+        "missed_attacks": 1,
         "stars": 9,
         "triples": 3,
         "twos": 0,
@@ -12873,22 +12873,6 @@
           "expected_attacks": 1,
           "attacks_used": 0,
           "missed_attacks": 0,
-          "attacks": []
-        },
-        {
-          "season": "2026-09-02",
-          "round": 3,
-          "date": "20260905",
-          "opponent_name": "salt of battel",
-          "state": "warEnded",
-          "state_label": "War Ended",
-          "result": "win",
-          "our_stars": 34,
-          "their_stars": 33,
-          "th": 18,
-          "expected_attacks": 1,
-          "attacks_used": 0,
-          "missed_attacks": 1,
           "attacks": []
         },
         {
@@ -14470,7 +14454,7 @@
         "volunteer_attacks": 0
       },
       "cwl_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 1,
         "missed_attacks": 0,
         "stars": 3,
@@ -14487,7 +14471,7 @@
         "best_triple_streak": 1
       },
       "combined_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 1,
         "missed_attacks": 0,
         "stars": 3,
@@ -14523,22 +14507,6 @@
         }
       ],
       "cwl_history": [
-        {
-          "season": "2026-09-02",
-          "round": 5,
-          "date": "20260907",
-          "opponent_name": "Bijapur Rising",
-          "state": "preparation",
-          "state_label": "Preparation Day",
-          "result": null,
-          "our_stars": 0,
-          "their_stars": 0,
-          "th": 17,
-          "expected_attacks": 1,
-          "attacks_used": 0,
-          "missed_attacks": 0,
-          "attacks": []
-        },
         {
           "season": "2026-09-02",
           "round": 4,
@@ -16631,7 +16599,7 @@
         "volunteer_attacks": 0
       },
       "cwl_stats": {
-        "events": 5,
+        "events": 4,
         "attacks": 3,
         "missed_attacks": 1,
         "stars": 8,
@@ -16648,7 +16616,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 5,
+        "events": 4,
         "attacks": 3,
         "missed_attacks": 1,
         "stars": 8,
@@ -16714,22 +16682,6 @@
         }
       ],
       "cwl_history": [
-        {
-          "season": "2026-09-02",
-          "round": 5,
-          "date": "20260907",
-          "opponent_name": "Bijapur Rising",
-          "state": "preparation",
-          "state_label": "Preparation Day",
-          "result": null,
-          "our_stars": 0,
-          "their_stars": 0,
-          "th": 18,
-          "expected_attacks": 1,
-          "attacks_used": 0,
-          "missed_attacks": 0,
-          "attacks": []
-        },
         {
           "season": "2026-09-02",
           "round": 4,
@@ -17125,7 +17077,7 @@
         "volunteer_attacks": 0
       },
       "cwl_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 1,
         "missed_attacks": 0,
         "stars": 3,
@@ -17142,7 +17094,7 @@
         "best_triple_streak": 1
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 1,
         "missed_attacks": 0,
         "stars": 3,
@@ -17188,22 +17140,6 @@
           "result": null,
           "our_stars": 0,
           "their_stars": 0,
-          "th": 18,
-          "expected_attacks": 1,
-          "attacks_used": 0,
-          "missed_attacks": 0,
-          "attacks": []
-        },
-        {
-          "season": "2026-09-02",
-          "round": 4,
-          "date": "20260906",
-          "opponent_name": "Enrached",
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 42,
-          "their_stars": 34,
           "th": 18,
           "expected_attacks": 1,
           "attacks_used": 0,
@@ -19746,9 +19682,9 @@
         "volunteer_attacks": 0
       },
       "cwl_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
-        "missed_attacks": 1,
+        "missed_attacks": 0,
         "stars": 6,
         "triples": 2,
         "twos": 0,
@@ -19757,15 +19693,15 @@
         "triple_rate": 100.0,
         "avg_stars": 3.0,
         "avg_destruction": 100.0,
-        "current_no_miss_streak": 0,
+        "current_no_miss_streak": 2,
         "best_no_miss_streak": 2,
         "current_triple_streak": 2,
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
-        "missed_attacks": 1,
+        "missed_attacks": 0,
         "stars": 6,
         "triples": 2,
         "twos": 0,
@@ -19774,7 +19710,7 @@
         "triple_rate": 100.0,
         "avg_stars": 3.0,
         "avg_destruction": 100.0,
-        "current_no_miss_streak": 0,
+        "current_no_miss_streak": 2,
         "best_no_miss_streak": 2,
         "current_triple_streak": 2,
         "best_triple_streak": 2
@@ -19814,22 +19750,6 @@
         }
       ],
       "cwl_history": [
-        {
-          "season": "2026-09-02",
-          "round": 3,
-          "date": "20260905",
-          "opponent_name": "salt of battel",
-          "state": "warEnded",
-          "state_label": "War Ended",
-          "result": "win",
-          "our_stars": 34,
-          "their_stars": 33,
-          "th": 18,
-          "expected_attacks": 1,
-          "attacks_used": 0,
-          "missed_attacks": 1,
-          "attacks": []
-        },
         {
           "season": "2026-09-02",
           "round": 2,
@@ -20073,12 +19993,12 @@
         "wins": 3,
         "losses": 0,
         "ties": 0,
-        "battle_stars": 170,
+        "battle_stars": 173,
         "bonus_stars": 30,
-        "league_stars": 200,
-        "destruction": 384.46666666666664,
+        "league_stars": 203,
+        "destruction": 391.1333333333333,
         "wars_counted": 4,
-        "avg_destruction": 96.11666666666666,
+        "avg_destruction": 97.78333333333333,
         "is_us": false,
         "position": 1
       },
@@ -20101,12 +20021,12 @@
         "wins": 2,
         "losses": 1,
         "ties": 0,
-        "battle_stars": 153,
+        "battle_stars": 156,
         "bonus_stars": 20,
-        "league_stars": 173,
-        "destruction": 361.2,
+        "league_stars": 176,
+        "destruction": 367.8666666666667,
         "wars_counted": 4,
-        "avg_destruction": 90.3,
+        "avg_destruction": 91.96666666666667,
         "is_us": false,
         "position": 3
       },
@@ -20129,12 +20049,12 @@
         "wins": 1,
         "losses": 2,
         "ties": 0,
-        "battle_stars": 157,
+        "battle_stars": 160,
         "bonus_stars": 10,
-        "league_stars": 167,
-        "destruction": 378.73333333333335,
+        "league_stars": 170,
+        "destruction": 385.40000000000003,
         "wars_counted": 4,
-        "avg_destruction": 94.68333333333334,
+        "avg_destruction": 96.35000000000001,
         "is_us": false,
         "position": 5
       },
@@ -20153,6 +20073,20 @@
         "position": 6
       },
       {
+        "name": "Dragon Tear",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "battle_stars": 133,
+        "bonus_stars": 10,
+        "league_stars": 143,
+        "destruction": 331.8666666666667,
+        "wars_counted": 4,
+        "avg_destruction": 82.96666666666667,
+        "is_us": false,
+        "position": 7
+      },
+      {
         "name": "Enrached",
         "wins": 0,
         "losses": 3,
@@ -20163,20 +20097,6 @@
         "destruction": 351.20000000000005,
         "wars_counted": 4,
         "avg_destruction": 87.80000000000001,
-        "is_us": false,
-        "position": 7
-      },
-      {
-        "name": "Dragon Tear",
-        "wins": 1,
-        "losses": 2,
-        "ties": 0,
-        "battle_stars": 131,
-        "bonus_stars": 10,
-        "league_stars": 141,
-        "destruction": 327.33333333333337,
-        "wars_counted": 4,
-        "avg_destruction": 81.83333333333334,
         "is_us": false,
         "position": 8
       }
@@ -20236,27 +20156,13 @@
         "clan_destruction": 90.13333333333334,
         "opponent_destruction": 84.06666666666666,
         "result": "win",
-        "missed_attacks": 3,
+        "missed_attacks": 1,
         "missed_players": [
-          {
-            "public_id": "75fbf19b6ab937",
-            "name": "tinynuisance",
-            "th": 18,
-            "map_position": 5,
-            "missed_attacks": 1
-          },
           {
             "public_id": "8e332ab4b0f2b4",
             "name": "taymonayyyy",
             "th": 18,
             "map_position": 13,
-            "missed_attacks": 1
-          },
-          {
-            "public_id": "bd6b7a83ddcdbd",
-            "name": "DEEPAK",
-            "th": 18,
-            "map_position": 19,
             "missed_attacks": 1
           }
         ],
@@ -20412,7 +20318,7 @@
       ]
     },
     "current_war": {
-      "war_key": "9eb7b827dcff",
+      "war_key": null,
       "state": "inWar",
       "state_label": "Battle Day",
       "team_size": 15,
@@ -20426,9 +20332,9 @@
       "clan_destruction": 97.4,
       "opponent_destruction": 85.53333333333333,
       "attacks_used": 15,
-      "expected_attacks": 16,
+      "expected_attacks": 15,
       "volunteer_attacks": 0,
-      "remaining_attacks": 1,
+      "remaining_attacks": 0,
       "fillers": 0,
       "missed_attacks": 0,
       "missed_players": [],
@@ -20585,17 +20491,6 @@
           "expected_attacks": 1,
           "attacks_used": 1,
           "remaining_attacks": 0,
-          "missed_attacks": 0
-        },
-        {
-          "public_id": "ab1246139135a0",
-          "name": "UNIS",
-          "th": 18,
-          "map_position": 27,
-          "is_filler": false,
-          "expected_attacks": 1,
-          "attacks_used": 0,
-          "remaining_attacks": 1,
           "missed_attacks": 0
         },
         {
@@ -21142,7 +21037,7 @@
       "round": 4
     },
     "battle_war": {
-      "war_key": "9eb7b827dcff",
+      "war_key": null,
       "state": "inWar",
       "state_label": "Battle Day",
       "team_size": 15,
@@ -21156,9 +21051,9 @@
       "clan_destruction": 97.4,
       "opponent_destruction": 85.53333333333333,
       "attacks_used": 15,
-      "expected_attacks": 16,
+      "expected_attacks": 15,
       "volunteer_attacks": 0,
-      "remaining_attacks": 1,
+      "remaining_attacks": 0,
       "fillers": 0,
       "missed_attacks": 0,
       "missed_players": [],
@@ -21315,17 +21210,6 @@
           "expected_attacks": 1,
           "attacks_used": 1,
           "remaining_attacks": 0,
-          "missed_attacks": 0
-        },
-        {
-          "public_id": "ab1246139135a0",
-          "name": "UNIS",
-          "th": 18,
-          "map_position": 27,
-          "is_filler": false,
-          "expected_attacks": 1,
-          "attacks_used": 0,
-          "remaining_attacks": 1,
           "missed_attacks": 0
         },
         {
@@ -21872,7 +21756,7 @@
       "round": 4
     },
     "prep_war": {
-      "war_key": "35d8158bc02c",
+      "war_key": null,
       "state": "preparation",
       "state_label": "Preparation Day",
       "team_size": 15,
@@ -21886,9 +21770,9 @@
       "clan_destruction": 0.0,
       "opponent_destruction": 0.0,
       "attacks_used": 0,
-      "expected_attacks": 17,
+      "expected_attacks": 15,
       "volunteer_attacks": 0,
-      "remaining_attacks": 17,
+      "remaining_attacks": 15,
       "fillers": 0,
       "missed_attacks": 0,
       "missed_players": [],
@@ -21982,17 +21866,6 @@
           "missed_attacks": 0
         },
         {
-          "public_id": "8e332ab4b0f2b4",
-          "name": "taymonayyyy",
-          "th": 18,
-          "map_position": 13,
-          "is_filler": false,
-          "expected_attacks": 1,
-          "attacks_used": 0,
-          "remaining_attacks": 1,
-          "missed_attacks": 0
-        },
-        {
           "public_id": "10dea83733b77a",
           "name": "Hollowclient765",
           "th": 18,
@@ -22063,17 +21936,6 @@
           "name": "UNIS",
           "th": 18,
           "map_position": 27,
-          "is_filler": false,
-          "expected_attacks": 1,
-          "attacks_used": 0,
-          "remaining_attacks": 1,
-          "missed_attacks": 0
-        },
-        {
-          "public_id": "4516c90f63a71a",
-          "name": "Anor Londo",
-          "th": 17,
-          "map_position": 30,
           "is_filler": false,
           "expected_attacks": 1,
           "attacks_used": 0,
@@ -22325,7 +22187,7 @@
         "name": "taymonayyyy",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 5,
+        "selected_rounds": 4,
         "attacks": 3,
         "missed_attacks": 1,
         "stars": 8,
@@ -22364,9 +22226,9 @@
         "name": "tinynuisance",
         "th": 18,
         "currently_in_clan": false,
-        "selected_rounds": 3,
+        "selected_rounds": 2,
         "attacks": 2,
-        "missed_attacks": 1,
+        "missed_attacks": 0,
         "stars": 6,
         "triples": 2,
         "avg_stars": 3.0,
@@ -22377,7 +22239,7 @@
         "name": "Anor Londo",
         "th": 17,
         "currently_in_clan": true,
-        "selected_rounds": 2,
+        "selected_rounds": 1,
         "attacks": 1,
         "missed_attacks": 0,
         "stars": 3,
@@ -22390,9 +22252,9 @@
         "name": "DEEPAK",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 4,
+        "selected_rounds": 3,
         "attacks": 1,
-        "missed_attacks": 2,
+        "missed_attacks": 1,
         "stars": 3,
         "triples": 1,
         "avg_stars": 3.0,
@@ -22403,7 +22265,7 @@
         "name": "UNIS",
         "th": 18,
         "currently_in_clan": true,
-        "selected_rounds": 3,
+        "selected_rounds": 2,
         "attacks": 1,
         "missed_attacks": 0,
         "stars": 3,
