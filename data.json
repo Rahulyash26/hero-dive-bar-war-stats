@@ -1,6 +1,6 @@
 {
   "schema_version": 14,
-  "generated_at": "2026-09-12T21:42:49.607681+00:00",
+  "generated_at": "2026-09-12T21:49:34.895366+00:00",
   "dashboard_mode": "regular",
   "clan": {
     "name": "Hero Dive Bar",
@@ -31,13 +31,49 @@
     "attacks_used": 37,
     "expected_attacks": 44,
     "volunteer_attacks": 2,
-    "remaining_attacks": 0,
+    "remaining_attacks": 7,
     "mathematically_perfect": true,
     "perfect_secured_with_attacks_remaining": 12,
     "loot_practice_attacks_available": 0,
     "fillers": 3,
-    "missed_attacks": 0,
-    "missed_players": [],
+    "missed_attacks": 7,
+    "missed_players": [
+      {
+        "public_id": "6f3ee5c240cbfc",
+        "name": "Amor con Fuego",
+        "th": 18,
+        "map_position": 8,
+        "missed_attacks": 2
+      },
+      {
+        "public_id": "77fbe9b0240de0",
+        "name": "Deepak",
+        "th": 17,
+        "map_position": 19,
+        "missed_attacks": 2
+      },
+      {
+        "public_id": "8d6b6362db4f19",
+        "name": "Souls",
+        "th": 18,
+        "map_position": 5,
+        "missed_attacks": 1
+      },
+      {
+        "public_id": "d04795aea16ac6",
+        "name": "KING OF CLAN",
+        "th": 18,
+        "map_position": 9,
+        "missed_attacks": 1
+      },
+      {
+        "public_id": "bd6b7a83ddcdbd",
+        "name": "DEEPAK",
+        "th": 18,
+        "map_position": 15,
+        "missed_attacks": 1
+      }
+    ],
     "roster": [
       {
         "public_id": "85653b6df73206",
@@ -95,9 +131,9 @@
         "is_filler": false,
         "expected_attacks": 2,
         "attacks_used": 1,
-        "remaining_attacks": 0,
+        "remaining_attacks": 1,
         "loot_practice_available": 0,
-        "missed_attacks": 0
+        "missed_attacks": 1
       },
       {
         "public_id": "892c01275b9e4f",
@@ -131,9 +167,9 @@
         "is_filler": false,
         "expected_attacks": 2,
         "attacks_used": 0,
-        "remaining_attacks": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
-        "missed_attacks": 0
+        "missed_attacks": 2
       },
       {
         "public_id": "d04795aea16ac6",
@@ -143,9 +179,9 @@
         "is_filler": false,
         "expected_attacks": 2,
         "attacks_used": 1,
-        "remaining_attacks": 0,
+        "remaining_attacks": 1,
         "loot_practice_available": 0,
-        "missed_attacks": 0
+        "missed_attacks": 1
       },
       {
         "public_id": "abf7d15cd4a591",
@@ -215,9 +251,9 @@
         "is_filler": false,
         "expected_attacks": 2,
         "attacks_used": 1,
-        "remaining_attacks": 0,
+        "remaining_attacks": 1,
         "loot_practice_available": 0,
-        "missed_attacks": 0
+        "missed_attacks": 1
       },
       {
         "public_id": "13311b93709aa8",
@@ -263,9 +299,9 @@
         "is_filler": false,
         "expected_attacks": 2,
         "attacks_used": 0,
-        "remaining_attacks": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
-        "missed_attacks": 0
+        "missed_attacks": 2
       },
       {
         "public_id": "3cbc7125a5e7a0",
@@ -1770,11 +1806,47 @@
       "result": "tie",
       "attacks_used": 37,
       "expected_attacks": 44,
-      "missed_attacks": 0,
+      "missed_attacks": 7,
       "filler_count": 3,
       "perfect_war": true,
       "perfect_secured_with_attacks_remaining": 12,
-      "missed_players": []
+      "missed_players": [
+        {
+          "public_id": "6f3ee5c240cbfc",
+          "name": "Amor con Fuego",
+          "th": 18,
+          "map_position": 8,
+          "missed_attacks": 2
+        },
+        {
+          "public_id": "77fbe9b0240de0",
+          "name": "Deepak",
+          "th": 17,
+          "map_position": 19,
+          "missed_attacks": 2
+        },
+        {
+          "public_id": "8d6b6362db4f19",
+          "name": "Souls",
+          "th": 18,
+          "map_position": 5,
+          "missed_attacks": 1
+        },
+        {
+          "public_id": "d04795aea16ac6",
+          "name": "KING OF CLAN",
+          "th": 18,
+          "map_position": 9,
+          "missed_attacks": 1
+        },
+        {
+          "public_id": "bd6b7a83ddcdbd",
+          "name": "DEEPAK",
+          "th": 18,
+          "map_position": 15,
+          "missed_attacks": 1
+        }
+      ]
     },
     {
       "war_key": "22fe2a72c34c",
@@ -1790,11 +1862,40 @@
       "result": "win",
       "attacks_used": 31,
       "expected_attacks": 38,
-      "missed_attacks": 0,
+      "missed_attacks": 7,
       "filler_count": 1,
       "perfect_war": true,
       "perfect_secured_with_attacks_remaining": 15,
-      "missed_players": []
+      "missed_players": [
+        {
+          "public_id": "bc7d1aceb8ab91",
+          "name": "Scottimus",
+          "th": 18,
+          "map_position": 11,
+          "missed_attacks": 2
+        },
+        {
+          "public_id": "e1bcb33e547192",
+          "name": "DarkSoulz",
+          "th": 17,
+          "map_position": 16,
+          "missed_attacks": 2
+        },
+        {
+          "public_id": "77fbe9b0240de0",
+          "name": "Deepak",
+          "th": 17,
+          "map_position": 17,
+          "missed_attacks": 2
+        },
+        {
+          "public_id": "3cbc7125a5e7a0",
+          "name": "Daman",
+          "th": 17,
+          "map_position": 18,
+          "missed_attacks": 1
+        }
+      ]
     }
   ],
   "wars": [
@@ -1812,11 +1913,47 @@
       "result": "tie",
       "attacks_used": 37,
       "expected_attacks": 44,
-      "missed_attacks": 0,
+      "missed_attacks": 7,
       "filler_count": 3,
       "perfect_war": true,
       "perfect_secured_with_attacks_remaining": 12,
-      "missed_players": []
+      "missed_players": [
+        {
+          "public_id": "6f3ee5c240cbfc",
+          "name": "Amor con Fuego",
+          "th": 18,
+          "map_position": 8,
+          "missed_attacks": 2
+        },
+        {
+          "public_id": "77fbe9b0240de0",
+          "name": "Deepak",
+          "th": 17,
+          "map_position": 19,
+          "missed_attacks": 2
+        },
+        {
+          "public_id": "8d6b6362db4f19",
+          "name": "Souls",
+          "th": 18,
+          "map_position": 5,
+          "missed_attacks": 1
+        },
+        {
+          "public_id": "d04795aea16ac6",
+          "name": "KING OF CLAN",
+          "th": 18,
+          "map_position": 9,
+          "missed_attacks": 1
+        },
+        {
+          "public_id": "bd6b7a83ddcdbd",
+          "name": "DEEPAK",
+          "th": 18,
+          "map_position": 15,
+          "missed_attacks": 1
+        }
+      ]
     },
     {
       "war_key": "22fe2a72c34c",
@@ -1832,11 +1969,40 @@
       "result": "win",
       "attacks_used": 31,
       "expected_attacks": 38,
-      "missed_attacks": 0,
+      "missed_attacks": 7,
       "filler_count": 1,
       "perfect_war": true,
       "perfect_secured_with_attacks_remaining": 15,
-      "missed_players": []
+      "missed_players": [
+        {
+          "public_id": "bc7d1aceb8ab91",
+          "name": "Scottimus",
+          "th": 18,
+          "map_position": 11,
+          "missed_attacks": 2
+        },
+        {
+          "public_id": "e1bcb33e547192",
+          "name": "DarkSoulz",
+          "th": 17,
+          "map_position": 16,
+          "missed_attacks": 2
+        },
+        {
+          "public_id": "77fbe9b0240de0",
+          "name": "Deepak",
+          "th": 17,
+          "map_position": 17,
+          "missed_attacks": 2
+        },
+        {
+          "public_id": "3cbc7125a5e7a0",
+          "name": "Daman",
+          "th": 17,
+          "map_position": 18,
+          "missed_attacks": 1
+        }
+      ]
     }
   ],
   "players": [
@@ -2779,7 +2945,7 @@
       "membership_status": "Current Member",
       "wars": 2,
       "attacks": 3,
-      "missed_attacks": 0,
+      "missed_attacks": 1,
       "stars": 8,
       "triples": 2,
       "twos": 1,
@@ -2788,8 +2954,8 @@
       "triple_rate": 66.66666666666667,
       "avg_stars": 2.6666666666666665,
       "avg_destruction": 93.0,
-      "current_no_miss_war_streak": 2,
-      "best_no_miss_war_streak": 2,
+      "current_no_miss_war_streak": 1,
+      "best_no_miss_war_streak": 1,
       "current_triple_streak": 1,
       "best_triple_streak": 1,
       "perfect_wars": 0,
@@ -2827,7 +2993,7 @@
       "regular_stats": {
         "events": 2,
         "attacks": 3,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 8,
         "triples": 2,
         "twos": 1,
@@ -2845,8 +3011,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 1,
+        "best_no_miss_streak": 1,
         "current_triple_streak": 1,
         "best_triple_streak": 1,
         "volunteer_attacks": 0
@@ -2880,7 +3046,7 @@
       "combined_stats": {
         "events": 2,
         "attacks": 3,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 8,
         "triples": 2,
         "twos": 1,
@@ -2898,8 +3064,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 1,
+        "best_no_miss_streak": 1,
         "current_triple_streak": 1,
         "best_triple_streak": 1
       }
@@ -2912,7 +3078,7 @@
       "membership_status": "Current Member",
       "wars": 2,
       "attacks": 3,
-      "missed_attacks": 0,
+      "missed_attacks": 1,
       "stars": 7,
       "triples": 2,
       "twos": 0,
@@ -2921,8 +3087,8 @@
       "triple_rate": 66.66666666666667,
       "avg_stars": 2.3333333333333335,
       "avg_destruction": 88.33333333333333,
-      "current_no_miss_war_streak": 2,
-      "best_no_miss_war_streak": 2,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 1,
       "current_triple_streak": 1,
       "best_triple_streak": 1,
       "perfect_wars": 1,
@@ -2960,7 +3126,7 @@
       "regular_stats": {
         "events": 2,
         "attacks": 3,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 7,
         "triples": 2,
         "twos": 0,
@@ -2978,8 +3144,8 @@
         "loot_practice_attacks": 1,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 1,
         "current_triple_streak": 1,
         "best_triple_streak": 1,
         "volunteer_attacks": 0
@@ -3013,7 +3179,7 @@
       "combined_stats": {
         "events": 7,
         "attacks": 7,
-        "missed_attacks": 1,
+        "missed_attacks": 2,
         "stars": 18,
         "triples": 5,
         "twos": 1,
@@ -3031,8 +3197,8 @@
         "loot_practice_attacks": 1,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 4,
-        "best_no_miss_streak": 4,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 3,
         "current_triple_streak": 2,
         "best_triple_streak": 2
       }
@@ -3045,7 +3211,7 @@
       "membership_status": "Current Member",
       "wars": 2,
       "attacks": 3,
-      "missed_attacks": 0,
+      "missed_attacks": 1,
       "stars": 7,
       "triples": 2,
       "twos": 0,
@@ -3054,8 +3220,8 @@
       "triple_rate": 66.66666666666667,
       "avg_stars": 2.3333333333333335,
       "avg_destruction": 95.66666666666667,
-      "current_no_miss_war_streak": 2,
-      "best_no_miss_war_streak": 2,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 1,
       "current_triple_streak": 1,
       "best_triple_streak": 1,
       "perfect_wars": 0,
@@ -3093,7 +3259,7 @@
       "regular_stats": {
         "events": 2,
         "attacks": 3,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 7,
         "triples": 2,
         "twos": 0,
@@ -3111,8 +3277,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 1,
         "current_triple_streak": 1,
         "best_triple_streak": 1,
         "volunteer_attacks": 0
@@ -3146,7 +3312,7 @@
       "combined_stats": {
         "events": 9,
         "attacks": 10,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 28,
         "triples": 9,
         "twos": 0,
@@ -3164,8 +3330,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 9,
-        "best_no_miss_streak": 9,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 8,
         "current_triple_streak": 8,
         "best_triple_streak": 8
       }
@@ -4774,7 +4940,7 @@
       "membership_status": "Current Member",
       "wars": 1,
       "attacks": 1,
-      "missed_attacks": 0,
+      "missed_attacks": 1,
       "stars": 3,
       "triples": 1,
       "twos": 0,
@@ -4783,8 +4949,8 @@
       "triple_rate": 100.0,
       "avg_stars": 3.0,
       "avg_destruction": 100.0,
-      "current_no_miss_war_streak": 1,
-      "best_no_miss_war_streak": 1,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 0,
       "current_triple_streak": 1,
       "best_triple_streak": 1,
       "perfect_wars": 0,
@@ -4822,7 +4988,7 @@
       "regular_stats": {
         "events": 1,
         "attacks": 1,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 3,
         "triples": 1,
         "twos": 0,
@@ -4840,8 +5006,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 1,
-        "best_no_miss_streak": 1,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 1,
         "best_triple_streak": 1,
         "volunteer_attacks": 0
@@ -4875,7 +5041,7 @@
       "combined_stats": {
         "events": 8,
         "attacks": 8,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 21,
         "triples": 5,
         "twos": 3,
@@ -4893,8 +5059,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 8,
-        "best_no_miss_streak": 8,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 7,
         "current_triple_streak": 1,
         "best_triple_streak": 2
       }
@@ -5173,7 +5339,7 @@
       "membership_status": "Current Member",
       "wars": 1,
       "attacks": 0,
-      "missed_attacks": 0,
+      "missed_attacks": 2,
       "stars": 0,
       "triples": 0,
       "twos": 0,
@@ -5182,8 +5348,8 @@
       "triple_rate": 0.0,
       "avg_stars": 0.0,
       "avg_destruction": 0.0,
-      "current_no_miss_war_streak": 1,
-      "best_no_miss_war_streak": 1,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 0,
       "current_triple_streak": 0,
       "best_triple_streak": 0,
       "perfect_wars": 0,
@@ -5221,7 +5387,7 @@
       "regular_stats": {
         "events": 1,
         "attacks": 0,
-        "missed_attacks": 0,
+        "missed_attacks": 2,
         "stars": 0,
         "triples": 0,
         "twos": 0,
@@ -5239,8 +5405,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 1,
-        "best_no_miss_streak": 1,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 0,
         "best_triple_streak": 0,
         "volunteer_attacks": 0
@@ -5274,7 +5440,7 @@
       "combined_stats": {
         "events": 1,
         "attacks": 0,
-        "missed_attacks": 0,
+        "missed_attacks": 2,
         "stars": 0,
         "triples": 0,
         "twos": 0,
@@ -5292,8 +5458,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 1,
-        "best_no_miss_streak": 1,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 0,
         "best_triple_streak": 0
       }
@@ -7170,7 +7336,7 @@
       "membership_status": "Former Member",
       "wars": 2,
       "attacks": 2,
-      "missed_attacks": 0,
+      "missed_attacks": 2,
       "stars": 3,
       "triples": 0,
       "twos": 1,
@@ -7179,8 +7345,8 @@
       "triple_rate": 0.0,
       "avg_stars": 1.5,
       "avg_destruction": 74.5,
-      "current_no_miss_war_streak": 2,
-      "best_no_miss_war_streak": 2,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 1,
       "current_triple_streak": 0,
       "best_triple_streak": 0,
       "perfect_wars": 0,
@@ -7218,7 +7384,7 @@
       "regular_stats": {
         "events": 2,
         "attacks": 2,
-        "missed_attacks": 0,
+        "missed_attacks": 2,
         "stars": 3,
         "triples": 0,
         "twos": 1,
@@ -7236,8 +7402,8 @@
         "loot_practice_attacks": 2,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 1,
         "current_triple_streak": 0,
         "best_triple_streak": 0,
         "volunteer_attacks": 0
@@ -7271,7 +7437,7 @@
       "combined_stats": {
         "events": 2,
         "attacks": 2,
-        "missed_attacks": 0,
+        "missed_attacks": 2,
         "stars": 3,
         "triples": 0,
         "twos": 1,
@@ -7289,8 +7455,8 @@
         "loot_practice_attacks": 2,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 1,
         "current_triple_streak": 0,
         "best_triple_streak": 0
       }
@@ -7702,7 +7868,7 @@
       "membership_status": "Former Member",
       "wars": 2,
       "attacks": 0,
-      "missed_attacks": 0,
+      "missed_attacks": 4,
       "stars": 0,
       "triples": 0,
       "twos": 0,
@@ -7711,8 +7877,8 @@
       "triple_rate": 0.0,
       "avg_stars": 0.0,
       "avg_destruction": 0.0,
-      "current_no_miss_war_streak": 2,
-      "best_no_miss_war_streak": 2,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 0,
       "current_triple_streak": 0,
       "best_triple_streak": 0,
       "perfect_wars": 0,
@@ -7750,7 +7916,7 @@
       "regular_stats": {
         "events": 2,
         "attacks": 0,
-        "missed_attacks": 0,
+        "missed_attacks": 4,
         "stars": 0,
         "triples": 0,
         "twos": 0,
@@ -7768,8 +7934,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 0,
         "best_triple_streak": 0,
         "volunteer_attacks": 0
@@ -7803,7 +7969,7 @@
       "combined_stats": {
         "events": 2,
         "attacks": 0,
-        "missed_attacks": 0,
+        "missed_attacks": 4,
         "stars": 0,
         "triples": 0,
         "twos": 0,
@@ -7821,8 +7987,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 0,
         "best_triple_streak": 0
       }
@@ -9032,7 +9198,7 @@
       "membership_status": "Former Member",
       "wars": 1,
       "attacks": 0,
-      "missed_attacks": 0,
+      "missed_attacks": 2,
       "stars": 0,
       "triples": 0,
       "twos": 0,
@@ -9041,8 +9207,8 @@
       "triple_rate": 0.0,
       "avg_stars": 0.0,
       "avg_destruction": 0.0,
-      "current_no_miss_war_streak": 1,
-      "best_no_miss_war_streak": 1,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 0,
       "current_triple_streak": 0,
       "best_triple_streak": 0,
       "perfect_wars": 0,
@@ -9080,7 +9246,7 @@
       "regular_stats": {
         "events": 1,
         "attacks": 0,
-        "missed_attacks": 0,
+        "missed_attacks": 2,
         "stars": 0,
         "triples": 0,
         "twos": 0,
@@ -9098,8 +9264,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 1,
-        "best_no_miss_streak": 1,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 0,
         "best_triple_streak": 0,
         "volunteer_attacks": 0
@@ -9133,7 +9299,7 @@
       "combined_stats": {
         "events": 1,
         "attacks": 0,
-        "missed_attacks": 0,
+        "missed_attacks": 2,
         "stars": 0,
         "triples": 0,
         "twos": 0,
@@ -9151,8 +9317,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 1,
-        "best_no_miss_streak": 1,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 0,
         "best_triple_streak": 0
       }
@@ -10896,7 +11062,7 @@
       "membership_status": "Current Member",
       "wars": 2,
       "attacks": 3,
-      "missed_attacks": 0,
+      "missed_attacks": 1,
       "stars": 8,
       "triples": 2,
       "twos": 1,
@@ -10905,8 +11071,8 @@
       "triple_rate": 66.66666666666667,
       "avg_stars": 2.6666666666666665,
       "avg_destruction": 93.0,
-      "current_no_miss_war_streak": 2,
-      "best_no_miss_war_streak": 2,
+      "current_no_miss_war_streak": 1,
+      "best_no_miss_war_streak": 1,
       "current_triple_streak": 1,
       "best_triple_streak": 1,
       "perfect_wars": 0,
@@ -10944,7 +11110,7 @@
       "regular_stats": {
         "events": 2,
         "attacks": 3,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 8,
         "triples": 2,
         "twos": 1,
@@ -10962,8 +11128,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 1,
+        "best_no_miss_streak": 1,
         "current_triple_streak": 1,
         "best_triple_streak": 1,
         "volunteer_attacks": 0
@@ -10997,7 +11163,7 @@
       "combined_stats": {
         "events": 2,
         "attacks": 3,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 8,
         "triples": 2,
         "twos": 1,
@@ -11015,8 +11181,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 1,
+        "best_no_miss_streak": 1,
         "current_triple_streak": 1,
         "best_triple_streak": 1
       }
@@ -11029,7 +11195,7 @@
       "membership_status": "Current Member",
       "wars": 2,
       "attacks": 3,
-      "missed_attacks": 0,
+      "missed_attacks": 1,
       "stars": 7,
       "triples": 2,
       "twos": 0,
@@ -11038,8 +11204,8 @@
       "triple_rate": 66.66666666666667,
       "avg_stars": 2.3333333333333335,
       "avg_destruction": 88.33333333333333,
-      "current_no_miss_war_streak": 2,
-      "best_no_miss_war_streak": 2,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 1,
       "current_triple_streak": 1,
       "best_triple_streak": 1,
       "perfect_wars": 1,
@@ -11077,7 +11243,7 @@
       "regular_stats": {
         "events": 2,
         "attacks": 3,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 7,
         "triples": 2,
         "twos": 0,
@@ -11095,8 +11261,8 @@
         "loot_practice_attacks": 1,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 1,
         "current_triple_streak": 1,
         "best_triple_streak": 1,
         "volunteer_attacks": 0
@@ -11130,7 +11296,7 @@
       "combined_stats": {
         "events": 7,
         "attacks": 7,
-        "missed_attacks": 1,
+        "missed_attacks": 2,
         "stars": 18,
         "triples": 5,
         "twos": 1,
@@ -11148,8 +11314,8 @@
         "loot_practice_attacks": 1,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 4,
-        "best_no_miss_streak": 4,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 3,
         "current_triple_streak": 2,
         "best_triple_streak": 2
       }
@@ -11162,7 +11328,7 @@
       "membership_status": "Current Member",
       "wars": 2,
       "attacks": 3,
-      "missed_attacks": 0,
+      "missed_attacks": 1,
       "stars": 7,
       "triples": 2,
       "twos": 0,
@@ -11171,8 +11337,8 @@
       "triple_rate": 66.66666666666667,
       "avg_stars": 2.3333333333333335,
       "avg_destruction": 95.66666666666667,
-      "current_no_miss_war_streak": 2,
-      "best_no_miss_war_streak": 2,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 1,
       "current_triple_streak": 1,
       "best_triple_streak": 1,
       "perfect_wars": 0,
@@ -11210,7 +11376,7 @@
       "regular_stats": {
         "events": 2,
         "attacks": 3,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 7,
         "triples": 2,
         "twos": 0,
@@ -11228,8 +11394,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 1,
         "current_triple_streak": 1,
         "best_triple_streak": 1,
         "volunteer_attacks": 0
@@ -11263,7 +11429,7 @@
       "combined_stats": {
         "events": 9,
         "attacks": 10,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 28,
         "triples": 9,
         "twos": 0,
@@ -11281,8 +11447,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 9,
-        "best_no_miss_streak": 9,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 8,
         "current_triple_streak": 8,
         "best_triple_streak": 8
       }
@@ -12891,7 +13057,7 @@
       "membership_status": "Current Member",
       "wars": 1,
       "attacks": 1,
-      "missed_attacks": 0,
+      "missed_attacks": 1,
       "stars": 3,
       "triples": 1,
       "twos": 0,
@@ -12900,8 +13066,8 @@
       "triple_rate": 100.0,
       "avg_stars": 3.0,
       "avg_destruction": 100.0,
-      "current_no_miss_war_streak": 1,
-      "best_no_miss_war_streak": 1,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 0,
       "current_triple_streak": 1,
       "best_triple_streak": 1,
       "perfect_wars": 0,
@@ -12939,7 +13105,7 @@
       "regular_stats": {
         "events": 1,
         "attacks": 1,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 3,
         "triples": 1,
         "twos": 0,
@@ -12957,8 +13123,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 1,
-        "best_no_miss_streak": 1,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 1,
         "best_triple_streak": 1,
         "volunteer_attacks": 0
@@ -12992,7 +13158,7 @@
       "combined_stats": {
         "events": 8,
         "attacks": 8,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 21,
         "triples": 5,
         "twos": 3,
@@ -13010,8 +13176,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 8,
-        "best_no_miss_streak": 8,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 7,
         "current_triple_streak": 1,
         "best_triple_streak": 2
       }
@@ -13290,7 +13456,7 @@
       "membership_status": "Current Member",
       "wars": 1,
       "attacks": 0,
-      "missed_attacks": 0,
+      "missed_attacks": 2,
       "stars": 0,
       "triples": 0,
       "twos": 0,
@@ -13299,8 +13465,8 @@
       "triple_rate": 0.0,
       "avg_stars": 0.0,
       "avg_destruction": 0.0,
-      "current_no_miss_war_streak": 1,
-      "best_no_miss_war_streak": 1,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 0,
       "current_triple_streak": 0,
       "best_triple_streak": 0,
       "perfect_wars": 0,
@@ -13338,7 +13504,7 @@
       "regular_stats": {
         "events": 1,
         "attacks": 0,
-        "missed_attacks": 0,
+        "missed_attacks": 2,
         "stars": 0,
         "triples": 0,
         "twos": 0,
@@ -13356,8 +13522,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 1,
-        "best_no_miss_streak": 1,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 0,
         "best_triple_streak": 0,
         "volunteer_attacks": 0
@@ -13391,7 +13557,7 @@
       "combined_stats": {
         "events": 1,
         "attacks": 0,
-        "missed_attacks": 0,
+        "missed_attacks": 2,
         "stars": 0,
         "triples": 0,
         "twos": 0,
@@ -13409,8 +13575,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 1,
-        "best_no_miss_streak": 1,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 0,
         "best_triple_streak": 0
       }
@@ -15285,7 +15451,7 @@
       "membership_status": "Former Member",
       "wars": 2,
       "attacks": 2,
-      "missed_attacks": 0,
+      "missed_attacks": 2,
       "stars": 3,
       "triples": 0,
       "twos": 1,
@@ -15294,8 +15460,8 @@
       "triple_rate": 0.0,
       "avg_stars": 1.5,
       "avg_destruction": 74.5,
-      "current_no_miss_war_streak": 2,
-      "best_no_miss_war_streak": 2,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 1,
       "current_triple_streak": 0,
       "best_triple_streak": 0,
       "perfect_wars": 0,
@@ -15333,7 +15499,7 @@
       "regular_stats": {
         "events": 2,
         "attacks": 2,
-        "missed_attacks": 0,
+        "missed_attacks": 2,
         "stars": 3,
         "triples": 0,
         "twos": 1,
@@ -15351,8 +15517,8 @@
         "loot_practice_attacks": 2,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 1,
         "current_triple_streak": 0,
         "best_triple_streak": 0,
         "volunteer_attacks": 0
@@ -15386,7 +15552,7 @@
       "combined_stats": {
         "events": 2,
         "attacks": 2,
-        "missed_attacks": 0,
+        "missed_attacks": 2,
         "stars": 3,
         "triples": 0,
         "twos": 1,
@@ -15404,8 +15570,8 @@
         "loot_practice_attacks": 2,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 1,
         "current_triple_streak": 0,
         "best_triple_streak": 0
       }
@@ -15817,7 +15983,7 @@
       "membership_status": "Former Member",
       "wars": 2,
       "attacks": 0,
-      "missed_attacks": 0,
+      "missed_attacks": 4,
       "stars": 0,
       "triples": 0,
       "twos": 0,
@@ -15826,8 +15992,8 @@
       "triple_rate": 0.0,
       "avg_stars": 0.0,
       "avg_destruction": 0.0,
-      "current_no_miss_war_streak": 2,
-      "best_no_miss_war_streak": 2,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 0,
       "current_triple_streak": 0,
       "best_triple_streak": 0,
       "perfect_wars": 0,
@@ -15865,7 +16031,7 @@
       "regular_stats": {
         "events": 2,
         "attacks": 0,
-        "missed_attacks": 0,
+        "missed_attacks": 4,
         "stars": 0,
         "triples": 0,
         "twos": 0,
@@ -15883,8 +16049,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 0,
         "best_triple_streak": 0,
         "volunteer_attacks": 0
@@ -15918,7 +16084,7 @@
       "combined_stats": {
         "events": 2,
         "attacks": 0,
-        "missed_attacks": 0,
+        "missed_attacks": 4,
         "stars": 0,
         "triples": 0,
         "twos": 0,
@@ -15936,8 +16102,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 0,
         "best_triple_streak": 0
       }
@@ -17147,7 +17313,7 @@
       "membership_status": "Former Member",
       "wars": 1,
       "attacks": 0,
-      "missed_attacks": 0,
+      "missed_attacks": 2,
       "stars": 0,
       "triples": 0,
       "twos": 0,
@@ -17156,8 +17322,8 @@
       "triple_rate": 0.0,
       "avg_stars": 0.0,
       "avg_destruction": 0.0,
-      "current_no_miss_war_streak": 1,
-      "best_no_miss_war_streak": 1,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 0,
       "current_triple_streak": 0,
       "best_triple_streak": 0,
       "perfect_wars": 0,
@@ -17195,7 +17361,7 @@
       "regular_stats": {
         "events": 1,
         "attacks": 0,
-        "missed_attacks": 0,
+        "missed_attacks": 2,
         "stars": 0,
         "triples": 0,
         "twos": 0,
@@ -17213,8 +17379,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 1,
-        "best_no_miss_streak": 1,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 0,
         "best_triple_streak": 0,
         "volunteer_attacks": 0
@@ -17248,7 +17414,7 @@
       "combined_stats": {
         "events": 1,
         "attacks": 0,
-        "missed_attacks": 0,
+        "missed_attacks": 2,
         "stars": 0,
         "triples": 0,
         "twos": 0,
@@ -17266,8 +17432,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 1,
-        "best_no_miss_streak": 1,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 0,
         "best_triple_streak": 0
       }
@@ -21515,7 +21681,7 @@
       "membership_status": "Current Member",
       "wars": 2,
       "attacks": 3,
-      "missed_attacks": 0,
+      "missed_attacks": 1,
       "stars": 8,
       "triples": 2,
       "twos": 1,
@@ -21524,8 +21690,8 @@
       "triple_rate": 66.66666666666667,
       "avg_stars": 2.6666666666666665,
       "avg_destruction": 93.0,
-      "current_no_miss_war_streak": 2,
-      "best_no_miss_war_streak": 2,
+      "current_no_miss_war_streak": 1,
+      "best_no_miss_war_streak": 1,
       "current_triple_streak": 1,
       "best_triple_streak": 1,
       "perfect_wars": 0,
@@ -21563,7 +21729,7 @@
       "regular_stats": {
         "events": 2,
         "attacks": 3,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 8,
         "triples": 2,
         "twos": 1,
@@ -21581,8 +21747,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 1,
+        "best_no_miss_streak": 1,
         "current_triple_streak": 1,
         "best_triple_streak": 1,
         "volunteer_attacks": 0
@@ -21616,7 +21782,7 @@
       "combined_stats": {
         "events": 2,
         "attacks": 3,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 8,
         "triples": 2,
         "twos": 1,
@@ -21634,8 +21800,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 1,
+        "best_no_miss_streak": 1,
         "current_triple_streak": 1,
         "best_triple_streak": 1
       },
@@ -21684,7 +21850,7 @@
           "is_filler": false,
           "expected_attacks": 2,
           "attacks_used": 1,
-          "missed_attacks": 0,
+          "missed_attacks": 1,
           "attacks": [
             {
               "number": 1,
@@ -21754,7 +21920,7 @@
       "membership_status": "Current Member",
       "wars": 2,
       "attacks": 3,
-      "missed_attacks": 0,
+      "missed_attacks": 1,
       "stars": 7,
       "triples": 2,
       "twos": 0,
@@ -21763,8 +21929,8 @@
       "triple_rate": 66.66666666666667,
       "avg_stars": 2.3333333333333335,
       "avg_destruction": 88.33333333333333,
-      "current_no_miss_war_streak": 2,
-      "best_no_miss_war_streak": 2,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 1,
       "current_triple_streak": 1,
       "best_triple_streak": 1,
       "perfect_wars": 1,
@@ -21802,7 +21968,7 @@
       "regular_stats": {
         "events": 2,
         "attacks": 3,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 7,
         "triples": 2,
         "twos": 0,
@@ -21820,8 +21986,8 @@
         "loot_practice_attacks": 1,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 1,
         "current_triple_streak": 1,
         "best_triple_streak": 1,
         "volunteer_attacks": 0
@@ -21855,7 +22021,7 @@
       "combined_stats": {
         "events": 7,
         "attacks": 7,
-        "missed_attacks": 1,
+        "missed_attacks": 2,
         "stars": 18,
         "triples": 5,
         "twos": 1,
@@ -21873,8 +22039,8 @@
         "loot_practice_attacks": 1,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 4,
-        "best_no_miss_streak": 4,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 3,
         "current_triple_streak": 2,
         "best_triple_streak": 2
       },
@@ -21892,7 +22058,7 @@
           "is_filler": false,
           "expected_attacks": 2,
           "attacks_used": 1,
-          "missed_attacks": 0,
+          "missed_attacks": 1,
           "attacks": [
             {
               "number": 1,
@@ -22163,7 +22329,7 @@
       "membership_status": "Current Member",
       "wars": 2,
       "attacks": 3,
-      "missed_attacks": 0,
+      "missed_attacks": 1,
       "stars": 7,
       "triples": 2,
       "twos": 0,
@@ -22172,8 +22338,8 @@
       "triple_rate": 66.66666666666667,
       "avg_stars": 2.3333333333333335,
       "avg_destruction": 95.66666666666667,
-      "current_no_miss_war_streak": 2,
-      "best_no_miss_war_streak": 2,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 1,
       "current_triple_streak": 1,
       "best_triple_streak": 1,
       "perfect_wars": 0,
@@ -22211,7 +22377,7 @@
       "regular_stats": {
         "events": 2,
         "attacks": 3,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 7,
         "triples": 2,
         "twos": 0,
@@ -22229,8 +22395,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 1,
         "current_triple_streak": 1,
         "best_triple_streak": 1,
         "volunteer_attacks": 0
@@ -22264,7 +22430,7 @@
       "combined_stats": {
         "events": 9,
         "attacks": 10,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 28,
         "triples": 9,
         "twos": 0,
@@ -22282,8 +22448,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 9,
-        "best_no_miss_streak": 9,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 8,
         "current_triple_streak": 8,
         "best_triple_streak": 8
       },
@@ -22301,7 +22467,7 @@
           "is_filler": false,
           "expected_attacks": 2,
           "attacks_used": 1,
-          "missed_attacks": 0,
+          "missed_attacks": 1,
           "attacks": [
             {
               "number": 1,
@@ -26506,7 +26672,7 @@
       "membership_status": "Current Member",
       "wars": 1,
       "attacks": 1,
-      "missed_attacks": 0,
+      "missed_attacks": 1,
       "stars": 3,
       "triples": 1,
       "twos": 0,
@@ -26515,8 +26681,8 @@
       "triple_rate": 100.0,
       "avg_stars": 3.0,
       "avg_destruction": 100.0,
-      "current_no_miss_war_streak": 1,
-      "best_no_miss_war_streak": 1,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 0,
       "current_triple_streak": 1,
       "best_triple_streak": 1,
       "perfect_wars": 0,
@@ -26554,7 +26720,7 @@
       "regular_stats": {
         "events": 1,
         "attacks": 1,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 3,
         "triples": 1,
         "twos": 0,
@@ -26572,8 +26738,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 1,
-        "best_no_miss_streak": 1,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 1,
         "best_triple_streak": 1,
         "volunteer_attacks": 0
@@ -26607,7 +26773,7 @@
       "combined_stats": {
         "events": 8,
         "attacks": 8,
-        "missed_attacks": 0,
+        "missed_attacks": 1,
         "stars": 21,
         "triples": 5,
         "twos": 3,
@@ -26625,8 +26791,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 8,
-        "best_no_miss_streak": 8,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 7,
         "current_triple_streak": 1,
         "best_triple_streak": 2
       },
@@ -26644,7 +26810,7 @@
           "is_filler": false,
           "expected_attacks": 2,
           "attacks_used": 1,
-          "missed_attacks": 0,
+          "missed_attacks": 1,
           "attacks": [
             {
               "number": 1,
@@ -27226,7 +27392,7 @@
       "membership_status": "Current Member",
       "wars": 1,
       "attacks": 0,
-      "missed_attacks": 0,
+      "missed_attacks": 2,
       "stars": 0,
       "triples": 0,
       "twos": 0,
@@ -27235,8 +27401,8 @@
       "triple_rate": 0.0,
       "avg_stars": 0.0,
       "avg_destruction": 0.0,
-      "current_no_miss_war_streak": 1,
-      "best_no_miss_war_streak": 1,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 0,
       "current_triple_streak": 0,
       "best_triple_streak": 0,
       "perfect_wars": 0,
@@ -27274,7 +27440,7 @@
       "regular_stats": {
         "events": 1,
         "attacks": 0,
-        "missed_attacks": 0,
+        "missed_attacks": 2,
         "stars": 0,
         "triples": 0,
         "twos": 0,
@@ -27292,8 +27458,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 1,
-        "best_no_miss_streak": 1,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 0,
         "best_triple_streak": 0,
         "volunteer_attacks": 0
@@ -27327,7 +27493,7 @@
       "combined_stats": {
         "events": 1,
         "attacks": 0,
-        "missed_attacks": 0,
+        "missed_attacks": 2,
         "stars": 0,
         "triples": 0,
         "twos": 0,
@@ -27345,8 +27511,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 1,
-        "best_no_miss_streak": 1,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 0,
         "best_triple_streak": 0
       },
@@ -27364,7 +27530,7 @@
           "is_filler": false,
           "expected_attacks": 2,
           "attacks_used": 0,
-          "missed_attacks": 0,
+          "missed_attacks": 2,
           "attacks": []
         }
       ],
@@ -29610,7 +29776,7 @@
       "membership_status": "Former Member",
       "wars": 2,
       "attacks": 2,
-      "missed_attacks": 0,
+      "missed_attacks": 2,
       "stars": 3,
       "triples": 0,
       "twos": 1,
@@ -29619,8 +29785,8 @@
       "triple_rate": 0.0,
       "avg_stars": 1.5,
       "avg_destruction": 74.5,
-      "current_no_miss_war_streak": 2,
-      "best_no_miss_war_streak": 2,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 1,
       "current_triple_streak": 0,
       "best_triple_streak": 0,
       "perfect_wars": 0,
@@ -29658,7 +29824,7 @@
       "regular_stats": {
         "events": 2,
         "attacks": 2,
-        "missed_attacks": 0,
+        "missed_attacks": 2,
         "stars": 3,
         "triples": 0,
         "twos": 1,
@@ -29676,8 +29842,8 @@
         "loot_practice_attacks": 2,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 1,
         "current_triple_streak": 0,
         "best_triple_streak": 0,
         "volunteer_attacks": 0
@@ -29711,7 +29877,7 @@
       "combined_stats": {
         "events": 2,
         "attacks": 2,
-        "missed_attacks": 0,
+        "missed_attacks": 2,
         "stars": 3,
         "triples": 0,
         "twos": 1,
@@ -29729,8 +29895,8 @@
         "loot_practice_attacks": 2,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 1,
         "current_triple_streak": 0,
         "best_triple_streak": 0
       },
@@ -29748,7 +29914,7 @@
           "is_filler": false,
           "expected_attacks": 2,
           "attacks_used": 0,
-          "missed_attacks": 0,
+          "missed_attacks": 2,
           "attacks": []
         },
         {
@@ -30363,7 +30529,7 @@
       "membership_status": "Former Member",
       "wars": 2,
       "attacks": 0,
-      "missed_attacks": 0,
+      "missed_attacks": 4,
       "stars": 0,
       "triples": 0,
       "twos": 0,
@@ -30372,8 +30538,8 @@
       "triple_rate": 0.0,
       "avg_stars": 0.0,
       "avg_destruction": 0.0,
-      "current_no_miss_war_streak": 2,
-      "best_no_miss_war_streak": 2,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 0,
       "current_triple_streak": 0,
       "best_triple_streak": 0,
       "perfect_wars": 0,
@@ -30411,7 +30577,7 @@
       "regular_stats": {
         "events": 2,
         "attacks": 0,
-        "missed_attacks": 0,
+        "missed_attacks": 4,
         "stars": 0,
         "triples": 0,
         "twos": 0,
@@ -30429,8 +30595,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 0,
         "best_triple_streak": 0,
         "volunteer_attacks": 0
@@ -30464,7 +30630,7 @@
       "combined_stats": {
         "events": 2,
         "attacks": 0,
-        "missed_attacks": 0,
+        "missed_attacks": 4,
         "stars": 0,
         "triples": 0,
         "twos": 0,
@@ -30482,8 +30648,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 2,
-        "best_no_miss_streak": 2,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 0,
         "best_triple_streak": 0
       },
@@ -30501,7 +30667,7 @@
           "is_filler": false,
           "expected_attacks": 2,
           "attacks_used": 0,
-          "missed_attacks": 0,
+          "missed_attacks": 2,
           "attacks": []
         },
         {
@@ -30517,7 +30683,7 @@
           "is_filler": false,
           "expected_attacks": 2,
           "attacks_used": 0,
-          "missed_attacks": 0,
+          "missed_attacks": 2,
           "attacks": []
         }
       ],
@@ -31766,7 +31932,7 @@
       "membership_status": "Former Member",
       "wars": 1,
       "attacks": 0,
-      "missed_attacks": 0,
+      "missed_attacks": 2,
       "stars": 0,
       "triples": 0,
       "twos": 0,
@@ -31775,8 +31941,8 @@
       "triple_rate": 0.0,
       "avg_stars": 0.0,
       "avg_destruction": 0.0,
-      "current_no_miss_war_streak": 1,
-      "best_no_miss_war_streak": 1,
+      "current_no_miss_war_streak": 0,
+      "best_no_miss_war_streak": 0,
       "current_triple_streak": 0,
       "best_triple_streak": 0,
       "perfect_wars": 0,
@@ -31814,7 +31980,7 @@
       "regular_stats": {
         "events": 1,
         "attacks": 0,
-        "missed_attacks": 0,
+        "missed_attacks": 2,
         "stars": 0,
         "triples": 0,
         "twos": 0,
@@ -31832,8 +31998,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 1,
-        "best_no_miss_streak": 1,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 0,
         "best_triple_streak": 0,
         "volunteer_attacks": 0
@@ -31867,7 +32033,7 @@
       "combined_stats": {
         "events": 1,
         "attacks": 0,
-        "missed_attacks": 0,
+        "missed_attacks": 2,
         "stars": 0,
         "triples": 0,
         "twos": 0,
@@ -31885,8 +32051,8 @@
         "loot_practice_attacks": 0,
         "loot_practice_triples": 0,
         "loot_practice_triple_rate": 0.0,
-        "current_no_miss_streak": 1,
-        "best_no_miss_streak": 1,
+        "current_no_miss_streak": 0,
+        "best_no_miss_streak": 0,
         "current_triple_streak": 0,
         "best_triple_streak": 0
       },
@@ -31904,7 +32070,7 @@
           "is_filler": false,
           "expected_attacks": 2,
           "attacks_used": 0,
-          "missed_attacks": 0,
+          "missed_attacks": 2,
           "attacks": []
         }
       ],
