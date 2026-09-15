@@ -1,17 +1,17 @@
 {
   "schema_version": 15,
-  "generated_at": "2026-09-15T02:47:45.742459+00:00",
+  "generated_at": "2026-09-15T02:59:14.457032+00:00",
   "dashboard_mode": "regular",
   "clan": {
     "name": "Hero Dive Bar",
     "tag": "#2G2LRY0JQ",
     "records": {
-      "longest_win_streak": 1,
-      "current_win_streak": 1,
-      "completed_wars_tracked": 2,
-      "perfect_wars": 2,
-      "current_perfect_war_streak": 2,
-      "longest_perfect_war_streak": 2
+      "longest_win_streak": 2,
+      "current_win_streak": 2,
+      "completed_wars_tracked": 3,
+      "perfect_wars": 3,
+      "current_perfect_war_streak": 3,
+      "longest_perfect_war_streak": 3
     }
   },
   "current_war": {
@@ -29,13 +29,13 @@
     "clan_destruction": 0.0,
     "opponent_destruction": 0.0,
     "attacks_used": 0,
-    "expected_attacks": 50,
+    "expected_attacks": 48,
     "volunteer_attacks": 0,
-    "remaining_attacks": 50,
+    "remaining_attacks": 48,
     "mathematically_perfect": false,
     "perfect_secured_with_attacks_remaining": 0,
     "loot_practice_attacks_available": 0,
-    "fillers": 0,
+    "fillers": 1,
     "missed_attacks": 0,
     "missed_players": [],
     "roster": [
@@ -332,10 +332,10 @@
         "name": "ossygirl1",
         "th": 13,
         "map_position": 25,
-        "is_filler": false,
-        "expected_attacks": 2,
+        "is_filler": true,
+        "expected_attacks": 0,
         "attacks_used": 0,
-        "remaining_attacks": 2,
+        "remaining_attacks": 0,
         "loot_practice_available": 0,
         "missed_attacks": 0
       }
@@ -496,6 +496,30 @@
   },
   "recent_wars": [
     {
+      "war_key": "f52138a6452e",
+      "date": "20260914",
+      "opponent_name": "Pemburu Janda",
+      "team_size": 25,
+      "clan_stars": 75,
+      "opponent_stars": 72,
+      "clan_destruction": 100.0,
+      "opponent_destruction": 99.64,
+      "state": "warEnded",
+      "state_label": "War Ended",
+      "result": "win",
+      "attacks_used": 26,
+      "expected_attacks": 46,
+      "missed_attacks": 0,
+      "filler_count": 2,
+      "summary_recovered": true,
+      "timeline_complete": false,
+      "official_clan_attacks": 43,
+      "official_opponent_attacks": null,
+      "perfect_war": true,
+      "perfect_secured_with_attacks_remaining": 0,
+      "missed_players": []
+    },
+    {
       "war_key": "6856fa3566e3",
       "date": "20260911",
       "opponent_name": "Joy of Clash",
@@ -511,6 +535,10 @@
       "expected_attacks": 44,
       "missed_attacks": 7,
       "filler_count": 3,
+      "summary_recovered": false,
+      "timeline_complete": true,
+      "official_clan_attacks": null,
+      "official_opponent_attacks": null,
       "perfect_war": true,
       "perfect_secured_with_attacks_remaining": 12,
       "missed_players": [
@@ -567,6 +595,10 @@
       "expected_attacks": 38,
       "missed_attacks": 7,
       "filler_count": 1,
+      "summary_recovered": false,
+      "timeline_complete": true,
+      "official_clan_attacks": null,
+      "official_opponent_attacks": null,
       "perfect_war": true,
       "perfect_secured_with_attacks_remaining": 15,
       "missed_players": [
@@ -615,9 +647,13 @@
       "state_label": "Preparation Day",
       "result": null,
       "attacks_used": 0,
-      "expected_attacks": 50,
+      "expected_attacks": 48,
       "missed_attacks": 0,
-      "filler_count": 0,
+      "filler_count": 1,
+      "summary_recovered": false,
+      "timeline_complete": true,
+      "official_clan_attacks": null,
+      "official_opponent_attacks": null,
       "perfect_war": false,
       "perfect_secured_with_attacks_remaining": 0,
       "missed_players": []
@@ -627,18 +663,22 @@
       "date": "20260914",
       "opponent_name": "Pemburu Janda",
       "team_size": 25,
-      "clan_stars": 68,
-      "opponent_stars": 5,
-      "clan_destruction": 93.48,
-      "opponent_destruction": 7.04,
-      "state": "inWar",
-      "state_label": "Battle Day",
-      "result": null,
+      "clan_stars": 75,
+      "opponent_stars": 72,
+      "clan_destruction": 100.0,
+      "opponent_destruction": 99.64,
+      "state": "warEnded",
+      "state_label": "War Ended",
+      "result": "win",
       "attacks_used": 26,
       "expected_attacks": 46,
       "missed_attacks": 0,
       "filler_count": 2,
-      "perfect_war": false,
+      "summary_recovered": true,
+      "timeline_complete": false,
+      "official_clan_attacks": 43,
+      "official_opponent_attacks": null,
+      "perfect_war": true,
       "perfect_secured_with_attacks_remaining": 0,
       "missed_players": []
     },
@@ -658,6 +698,10 @@
       "expected_attacks": 44,
       "missed_attacks": 7,
       "filler_count": 3,
+      "summary_recovered": false,
+      "timeline_complete": true,
+      "official_clan_attacks": null,
+      "official_opponent_attacks": null,
       "perfect_war": true,
       "perfect_secured_with_attacks_remaining": 12,
       "missed_players": [
@@ -714,6 +758,10 @@
       "expected_attacks": 38,
       "missed_attacks": 7,
       "filler_count": 1,
+      "summary_recovered": false,
+      "timeline_complete": true,
+      "official_clan_attacks": null,
+      "official_opponent_attacks": null,
       "perfect_war": true,
       "perfect_secured_with_attacks_remaining": 15,
       "missed_players": [
@@ -799,7 +847,7 @@
         "one_star_holds": 1,
         "two_star_holds": 0,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.5
       },
       "cwl_defense_stats": {
@@ -825,12 +873,12 @@
         "one_star_holds": 1,
         "two_star_holds": 0,
         "times_tripled": 9,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.1111111111111112
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 6,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -885,7 +933,7 @@
         "best_triple_streak": 3
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 13,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -962,7 +1010,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.5
       },
       "cwl_defense_stats": {
@@ -988,12 +1036,12 @@
         "one_star_holds": 0,
         "two_star_holds": 2,
         "times_tripled": 8,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.125
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 6,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -1048,7 +1096,7 @@
         "best_triple_streak": 7
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 13,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -1125,7 +1173,7 @@
         "one_star_holds": 0,
         "two_star_holds": 4,
         "times_tripled": 1,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 2.0
       },
       "cwl_defense_stats": {
@@ -1151,12 +1199,12 @@
         "one_star_holds": 0,
         "two_star_holds": 7,
         "times_tripled": 4,
-        "untripled_wars": 5,
+        "untripled_wars": 6,
         "avg_attacks_to_first_triple": 1.25
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 6,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -1211,7 +1259,7 @@
         "best_triple_streak": 5
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 13,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -1288,7 +1336,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -1314,12 +1362,12 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 7,
-        "untripled_wars": 2,
+        "untripled_wars": 3,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 6,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -1374,7 +1422,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 13,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -1451,7 +1499,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -1477,12 +1525,12 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 6,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -1537,7 +1585,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 6,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -1614,7 +1662,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.5
       },
       "cwl_defense_stats": {
@@ -1640,12 +1688,12 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.5
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 5,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -1700,7 +1748,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 5,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -1777,7 +1825,7 @@
         "one_star_holds": 1,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -1803,12 +1851,12 @@
         "one_star_holds": 2,
         "two_star_holds": 2,
         "times_tripled": 6,
-        "untripled_wars": 3,
+        "untripled_wars": 4,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 5,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -1863,7 +1911,7 @@
         "best_triple_streak": 7
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 12,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -1940,7 +1988,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -1966,12 +2014,12 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -2026,7 +2074,7 @@
         "best_triple_streak": 1
       },
       "combined_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 5,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -2103,7 +2151,7 @@
         "one_star_holds": 0,
         "two_star_holds": 2,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 3.0
       },
       "cwl_defense_stats": {
@@ -2129,12 +2177,12 @@
         "one_star_holds": 0,
         "two_star_holds": 2,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 3.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -2189,7 +2237,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -2266,7 +2314,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.5
       },
       "cwl_defense_stats": {
@@ -2292,12 +2340,12 @@
         "one_star_holds": 0,
         "two_star_holds": 2,
         "times_tripled": 8,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.125
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -2352,7 +2400,7 @@
         "best_triple_streak": 4
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 11,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -2403,7 +2451,7 @@
       "perfect_wars": 0,
       "best_war_stars": 3,
       "best_war_destruction": 143.0,
-      "filler_wars": 2,
+      "filler_wars": 3,
       "volunteer_attacks": 4,
       "volunteer_stars": 5,
       "volunteer_triples": 0,
@@ -2429,7 +2477,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -2455,12 +2503,12 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -2515,7 +2563,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -2592,7 +2640,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -2618,12 +2666,12 @@
         "one_star_holds": 2,
         "two_star_holds": 1,
         "times_tripled": 6,
-        "untripled_wars": 3,
+        "untripled_wars": 4,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -2678,7 +2726,7 @@
         "best_triple_streak": 3
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 11,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -2755,7 +2803,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -2781,12 +2829,12 @@
         "one_star_holds": 0,
         "two_star_holds": 2,
         "times_tripled": 6,
-        "untripled_wars": 2,
+        "untripled_wars": 3,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -2841,7 +2889,7 @@
         "best_triple_streak": 4
       },
       "combined_stats": {
-        "events": 10,
+        "events": 9,
         "attacks": 11,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -2918,7 +2966,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -2944,12 +2992,12 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -3004,7 +3052,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -3081,7 +3129,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 2.0
       },
       "cwl_defense_stats": {
@@ -3107,12 +3155,12 @@
         "one_star_holds": 0,
         "two_star_holds": 5,
         "times_tripled": 3,
-        "untripled_wars": 5,
+        "untripled_wars": 6,
         "avg_attacks_to_first_triple": 1.3333333333333333
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -3167,7 +3215,7 @@
         "best_triple_streak": 5
       },
       "combined_stats": {
-        "events": 10,
+        "events": 9,
         "attacks": 11,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -3244,7 +3292,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -3270,12 +3318,12 @@
         "one_star_holds": 0,
         "two_star_holds": 3,
         "times_tripled": 4,
-        "untripled_wars": 3,
+        "untripled_wars": 4,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 3,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -3330,7 +3378,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 9,
+        "events": 8,
         "attacks": 7,
         "missed_attacks": 2,
         "missed_wars": 2,
@@ -3407,7 +3455,7 @@
         "one_star_holds": 2,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 4.0
       },
       "cwl_defense_stats": {
@@ -3433,12 +3481,12 @@
         "one_star_holds": 3,
         "two_star_holds": 1,
         "times_tripled": 7,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.4285714285714286
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -3493,7 +3541,7 @@
         "best_triple_streak": 6
       },
       "combined_stats": {
-        "events": 10,
+        "events": 9,
         "attacks": 9,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -3733,7 +3781,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -3759,12 +3807,12 @@
         "one_star_holds": 0,
         "two_star_holds": 3,
         "times_tripled": 5,
-        "untripled_wars": 3,
+        "untripled_wars": 4,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -3819,7 +3867,7 @@
         "best_triple_streak": 3
       },
       "combined_stats": {
-        "events": 10,
+        "events": 9,
         "attacks": 9,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -3896,7 +3944,7 @@
         "one_star_holds": 1,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 3.0
       },
       "cwl_defense_stats": {
@@ -3922,12 +3970,12 @@
         "one_star_holds": 1,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 3.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -3982,7 +4030,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -4090,7 +4138,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -4145,7 +4193,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -4222,7 +4270,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -4248,12 +4296,12 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -4308,7 +4356,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -4385,7 +4433,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -4411,12 +4459,12 @@
         "one_star_holds": 1,
         "two_star_holds": 2,
         "times_tripled": 1,
-        "untripled_wars": 4,
+        "untripled_wars": 5,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -4471,7 +4519,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 7,
+        "events": 6,
         "attacks": 5,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -6341,7 +6389,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 0,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 0.0
       },
       "cwl_defense_stats": {
@@ -6367,12 +6415,12 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 0,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 0.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 0,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -6427,7 +6475,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 0,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -6667,7 +6715,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 0,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 0.0
       },
       "cwl_defense_stats": {
@@ -6693,12 +6741,12 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 0,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 0.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 1,
+        "events": 0,
         "attacks": 0,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -6753,7 +6801,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 1,
+        "events": 0,
         "attacks": 0,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -7810,7 +7858,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -7836,12 +7884,12 @@
         "one_star_holds": 1,
         "two_star_holds": 1,
         "times_tripled": 6,
-        "untripled_wars": 2,
+        "untripled_wars": 3,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 1,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -7896,7 +7944,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 9,
+        "events": 8,
         "attacks": 8,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -10746,7 +10794,7 @@
         "one_star_holds": 1,
         "two_star_holds": 0,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.5
       },
       "cwl_defense_stats": {
@@ -10772,12 +10820,12 @@
         "one_star_holds": 1,
         "two_star_holds": 0,
         "times_tripled": 9,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.1111111111111112
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 6,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -10832,7 +10880,7 @@
         "best_triple_streak": 3
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 13,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -10909,7 +10957,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.5
       },
       "cwl_defense_stats": {
@@ -10935,12 +10983,12 @@
         "one_star_holds": 0,
         "two_star_holds": 2,
         "times_tripled": 8,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.125
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 6,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -10995,7 +11043,7 @@
         "best_triple_streak": 7
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 13,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -11072,7 +11120,7 @@
         "one_star_holds": 0,
         "two_star_holds": 4,
         "times_tripled": 1,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 2.0
       },
       "cwl_defense_stats": {
@@ -11098,12 +11146,12 @@
         "one_star_holds": 0,
         "two_star_holds": 7,
         "times_tripled": 4,
-        "untripled_wars": 5,
+        "untripled_wars": 6,
         "avg_attacks_to_first_triple": 1.25
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 6,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -11158,7 +11206,7 @@
         "best_triple_streak": 5
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 13,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -11235,7 +11283,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -11261,12 +11309,12 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 7,
-        "untripled_wars": 2,
+        "untripled_wars": 3,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 6,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -11321,7 +11369,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 13,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -11398,7 +11446,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -11424,12 +11472,12 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 6,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -11484,7 +11532,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 6,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -11561,7 +11609,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.5
       },
       "cwl_defense_stats": {
@@ -11587,12 +11635,12 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.5
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 5,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -11647,7 +11695,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 5,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -11724,7 +11772,7 @@
         "one_star_holds": 1,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -11750,12 +11798,12 @@
         "one_star_holds": 2,
         "two_star_holds": 2,
         "times_tripled": 6,
-        "untripled_wars": 3,
+        "untripled_wars": 4,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 5,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -11810,7 +11858,7 @@
         "best_triple_streak": 7
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 12,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -11887,7 +11935,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -11913,12 +11961,12 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -11973,7 +12021,7 @@
         "best_triple_streak": 1
       },
       "combined_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 5,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -12050,7 +12098,7 @@
         "one_star_holds": 0,
         "two_star_holds": 2,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 3.0
       },
       "cwl_defense_stats": {
@@ -12076,12 +12124,12 @@
         "one_star_holds": 0,
         "two_star_holds": 2,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 3.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -12136,7 +12184,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -12213,7 +12261,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.5
       },
       "cwl_defense_stats": {
@@ -12239,12 +12287,12 @@
         "one_star_holds": 0,
         "two_star_holds": 2,
         "times_tripled": 8,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.125
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -12299,7 +12347,7 @@
         "best_triple_streak": 4
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 11,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -12350,7 +12398,7 @@
       "perfect_wars": 0,
       "best_war_stars": 3,
       "best_war_destruction": 143.0,
-      "filler_wars": 2,
+      "filler_wars": 3,
       "volunteer_attacks": 4,
       "volunteer_stars": 5,
       "volunteer_triples": 0,
@@ -12376,7 +12424,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -12402,12 +12450,12 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -12462,7 +12510,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -12539,7 +12587,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -12565,12 +12613,12 @@
         "one_star_holds": 2,
         "two_star_holds": 1,
         "times_tripled": 6,
-        "untripled_wars": 3,
+        "untripled_wars": 4,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -12625,7 +12673,7 @@
         "best_triple_streak": 3
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 11,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -12702,7 +12750,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -12728,12 +12776,12 @@
         "one_star_holds": 0,
         "two_star_holds": 2,
         "times_tripled": 6,
-        "untripled_wars": 2,
+        "untripled_wars": 3,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -12788,7 +12836,7 @@
         "best_triple_streak": 4
       },
       "combined_stats": {
-        "events": 10,
+        "events": 9,
         "attacks": 11,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -12865,7 +12913,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -12891,12 +12939,12 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -12951,7 +12999,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -13028,7 +13076,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 2.0
       },
       "cwl_defense_stats": {
@@ -13054,12 +13102,12 @@
         "one_star_holds": 0,
         "two_star_holds": 5,
         "times_tripled": 3,
-        "untripled_wars": 5,
+        "untripled_wars": 6,
         "avg_attacks_to_first_triple": 1.3333333333333333
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -13114,7 +13162,7 @@
         "best_triple_streak": 5
       },
       "combined_stats": {
-        "events": 10,
+        "events": 9,
         "attacks": 11,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -13191,7 +13239,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -13217,12 +13265,12 @@
         "one_star_holds": 0,
         "two_star_holds": 3,
         "times_tripled": 4,
-        "untripled_wars": 3,
+        "untripled_wars": 4,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 3,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -13277,7 +13325,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 9,
+        "events": 8,
         "attacks": 7,
         "missed_attacks": 2,
         "missed_wars": 2,
@@ -13354,7 +13402,7 @@
         "one_star_holds": 2,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 4.0
       },
       "cwl_defense_stats": {
@@ -13380,12 +13428,12 @@
         "one_star_holds": 3,
         "two_star_holds": 1,
         "times_tripled": 7,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.4285714285714286
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -13440,7 +13488,7 @@
         "best_triple_streak": 6
       },
       "combined_stats": {
-        "events": 10,
+        "events": 9,
         "attacks": 9,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -13680,7 +13728,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -13706,12 +13754,12 @@
         "one_star_holds": 0,
         "two_star_holds": 3,
         "times_tripled": 5,
-        "untripled_wars": 3,
+        "untripled_wars": 4,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -13766,7 +13814,7 @@
         "best_triple_streak": 3
       },
       "combined_stats": {
-        "events": 10,
+        "events": 9,
         "attacks": 9,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -13843,7 +13891,7 @@
         "one_star_holds": 1,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 3.0
       },
       "cwl_defense_stats": {
@@ -13869,12 +13917,12 @@
         "one_star_holds": 1,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 3.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -13929,7 +13977,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -14037,7 +14085,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -14092,7 +14140,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -14169,7 +14217,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -14195,12 +14243,12 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -14255,7 +14303,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -14332,7 +14380,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -14358,12 +14406,12 @@
         "one_star_holds": 1,
         "two_star_holds": 2,
         "times_tripled": 1,
-        "untripled_wars": 4,
+        "untripled_wars": 5,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -14418,7 +14466,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 7,
+        "events": 6,
         "attacks": 5,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -16288,7 +16336,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 0,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 0.0
       },
       "cwl_defense_stats": {
@@ -16314,12 +16362,12 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 0,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 0.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 0,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -16374,7 +16422,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 0,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -16614,7 +16662,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 0,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 0.0
       },
       "cwl_defense_stats": {
@@ -16640,12 +16688,12 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 0,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 0.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 1,
+        "events": 0,
         "attacks": 0,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -16700,7 +16748,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 1,
+        "events": 0,
         "attacks": 0,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -17755,7 +17803,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -17781,12 +17829,12 @@
         "one_star_holds": 1,
         "two_star_holds": 1,
         "times_tripled": 6,
-        "untripled_wars": 2,
+        "untripled_wars": 3,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 1,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -17841,7 +17889,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 9,
+        "events": 8,
         "attacks": 8,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -20691,7 +20739,7 @@
         "one_star_holds": 1,
         "two_star_holds": 0,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.5
       },
       "cwl_defense_stats": {
@@ -20717,12 +20765,12 @@
         "one_star_holds": 1,
         "two_star_holds": 0,
         "times_tripled": 9,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.1111111111111112
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 6,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -20777,7 +20825,7 @@
         "best_triple_streak": 3
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 13,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -20824,11 +20872,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -21327,7 +21375,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.5
       },
       "cwl_defense_stats": {
@@ -21353,12 +21401,12 @@
         "one_star_holds": 0,
         "two_star_holds": 2,
         "times_tripled": 8,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.125
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 6,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -21413,7 +21461,7 @@
         "best_triple_streak": 7
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 13,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -21460,11 +21508,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -21963,7 +22011,7 @@
         "one_star_holds": 0,
         "two_star_holds": 4,
         "times_tripled": 1,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 2.0
       },
       "cwl_defense_stats": {
@@ -21989,12 +22037,12 @@
         "one_star_holds": 0,
         "two_star_holds": 7,
         "times_tripled": 4,
-        "untripled_wars": 5,
+        "untripled_wars": 6,
         "avg_attacks_to_first_triple": 1.25
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 6,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -22049,7 +22097,7 @@
         "best_triple_streak": 5
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 13,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -22096,11 +22144,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -22599,7 +22647,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -22625,12 +22673,12 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 7,
-        "untripled_wars": 2,
+        "untripled_wars": 3,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 6,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -22685,7 +22733,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 13,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -22732,11 +22780,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -23235,7 +23283,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -23261,12 +23309,12 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 6,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -23321,7 +23369,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 6,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -23368,11 +23416,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -23603,7 +23651,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.5
       },
       "cwl_defense_stats": {
@@ -23629,12 +23677,12 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.5
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 5,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -23689,7 +23737,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 5,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -23736,11 +23784,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 17,
           "is_filler": false,
           "expected_attacks": 2,
@@ -23949,7 +23997,7 @@
         "one_star_holds": 1,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -23975,12 +24023,12 @@
         "one_star_holds": 2,
         "two_star_holds": 2,
         "times_tripled": 6,
-        "untripled_wars": 3,
+        "untripled_wars": 4,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 5,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -24035,7 +24083,7 @@
         "best_triple_streak": 7
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 12,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -24082,11 +24130,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -24563,7 +24611,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -24589,12 +24637,12 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -24649,7 +24697,7 @@
         "best_triple_streak": 1
       },
       "combined_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 5,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -24696,11 +24744,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 17,
           "is_filler": false,
           "expected_attacks": 2,
@@ -24910,7 +24958,7 @@
         "one_star_holds": 0,
         "two_star_holds": 2,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 3.0
       },
       "cwl_defense_stats": {
@@ -24936,12 +24984,12 @@
         "one_star_holds": 0,
         "two_star_holds": 2,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 3.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -24996,7 +25044,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -25043,11 +25091,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 16,
           "is_filler": false,
           "expected_attacks": 2,
@@ -25217,7 +25265,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 2,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.5
       },
       "cwl_defense_stats": {
@@ -25243,12 +25291,12 @@
         "one_star_holds": 0,
         "two_star_holds": 2,
         "times_tripled": 8,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.125
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -25303,7 +25351,7 @@
         "best_triple_streak": 4
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 11,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -25350,11 +25398,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -25782,7 +25830,7 @@
       "perfect_wars": 0,
       "best_war_stars": 3,
       "best_war_destruction": 143.0,
-      "filler_wars": 2,
+      "filler_wars": 3,
       "volunteer_attacks": 4,
       "volunteer_stars": 5,
       "volunteer_triples": 0,
@@ -25808,7 +25856,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -25834,12 +25882,12 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -25894,7 +25942,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -25931,8 +25979,8 @@
           "our_stars": 0,
           "their_stars": 0,
           "th": 13,
-          "is_filler": false,
-          "expected_attacks": 2,
+          "is_filler": true,
+          "expected_attacks": 0,
           "attacks_used": 0,
           "missed_attacks": 0,
           "attacks": []
@@ -25941,11 +25989,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 13,
           "is_filler": true,
           "expected_attacks": 0,
@@ -26115,7 +26163,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -26141,12 +26189,12 @@
         "one_star_holds": 2,
         "two_star_holds": 1,
         "times_tripled": 6,
-        "untripled_wars": 3,
+        "untripled_wars": 4,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -26201,7 +26249,7 @@
         "best_triple_streak": 3
       },
       "combined_stats": {
-        "events": 11,
+        "events": 10,
         "attacks": 11,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -26248,11 +26296,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -26706,7 +26754,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -26732,12 +26780,12 @@
         "one_star_holds": 0,
         "two_star_holds": 2,
         "times_tripled": 6,
-        "untripled_wars": 2,
+        "untripled_wars": 3,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -26792,7 +26840,7 @@
         "best_triple_streak": 4
       },
       "combined_stats": {
-        "events": 10,
+        "events": 9,
         "attacks": 11,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -26839,11 +26887,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -27281,7 +27329,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -27307,12 +27355,12 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -27367,7 +27415,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -27414,11 +27462,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -27588,7 +27636,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 2.0
       },
       "cwl_defense_stats": {
@@ -27614,12 +27662,12 @@
         "one_star_holds": 0,
         "two_star_holds": 5,
         "times_tripled": 3,
-        "untripled_wars": 5,
+        "untripled_wars": 6,
         "avg_attacks_to_first_triple": 1.3333333333333333
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 4,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -27674,7 +27722,7 @@
         "best_triple_streak": 5
       },
       "combined_stats": {
-        "events": 10,
+        "events": 9,
         "attacks": 11,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -27721,11 +27769,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -28163,7 +28211,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -28189,12 +28237,12 @@
         "one_star_holds": 0,
         "two_star_holds": 3,
         "times_tripled": 4,
-        "untripled_wars": 3,
+        "untripled_wars": 4,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 4,
+        "events": 3,
         "attacks": 3,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -28249,7 +28297,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 9,
+        "events": 8,
         "attacks": 7,
         "missed_attacks": 2,
         "missed_wars": 2,
@@ -28296,11 +28344,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -28634,7 +28682,7 @@
         "one_star_holds": 2,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 4.0
       },
       "cwl_defense_stats": {
@@ -28660,12 +28708,12 @@
         "one_star_holds": 3,
         "two_star_holds": 1,
         "times_tripled": 7,
-        "untripled_wars": 1,
+        "untripled_wars": 2,
         "avg_attacks_to_first_triple": 1.4285714285714286
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -28720,7 +28768,7 @@
         "best_triple_streak": 6
       },
       "combined_stats": {
-        "events": 10,
+        "events": 9,
         "attacks": 9,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -28767,11 +28815,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -29586,7 +29634,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -29612,12 +29660,12 @@
         "one_star_holds": 0,
         "two_star_holds": 3,
         "times_tripled": 5,
-        "untripled_wars": 3,
+        "untripled_wars": 4,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -29672,7 +29720,7 @@
         "best_triple_streak": 3
       },
       "combined_stats": {
-        "events": 10,
+        "events": 9,
         "attacks": 9,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -29719,11 +29767,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -30116,7 +30164,7 @@
         "one_star_holds": 1,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 3.0
       },
       "cwl_defense_stats": {
@@ -30142,12 +30190,12 @@
         "one_star_holds": 1,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 3.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -30202,7 +30250,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -30249,11 +30297,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 16,
           "is_filler": false,
           "expected_attacks": 2,
@@ -30409,7 +30457,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -30464,7 +30512,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -30511,11 +30559,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 16,
           "is_filler": false,
           "expected_attacks": 2,
@@ -30624,7 +30672,7 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -30650,12 +30698,12 @@
         "one_star_holds": 0,
         "two_star_holds": 1,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -30710,7 +30758,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -30757,11 +30805,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 16,
           "is_filler": false,
           "expected_attacks": 2,
@@ -30886,7 +30934,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -30912,12 +30960,12 @@
         "one_star_holds": 1,
         "two_star_holds": 2,
         "times_tripled": 1,
-        "untripled_wars": 4,
+        "untripled_wars": 5,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 3,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -30972,7 +31020,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 7,
+        "events": 6,
         "attacks": 5,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -31019,11 +31067,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -33216,7 +33264,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 0,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 0.0
       },
       "cwl_defense_stats": {
@@ -33242,12 +33290,12 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 0,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 0.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 0,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -33302,7 +33350,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 0,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -33349,11 +33397,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -33600,7 +33648,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 0,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 0.0
       },
       "cwl_defense_stats": {
@@ -33626,12 +33674,12 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 0,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 0.0
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 1,
+        "events": 0,
         "attacks": 0,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -33686,7 +33734,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 1,
+        "events": 0,
         "attacks": 0,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -33717,11 +33765,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 14,
           "is_filler": true,
           "expected_attacks": 0,
@@ -35269,7 +35317,7 @@
         "one_star_holds": 0,
         "two_star_holds": 0,
         "times_tripled": 1,
-        "untripled_wars": 0,
+        "untripled_wars": 1,
         "avg_attacks_to_first_triple": 1.0
       },
       "cwl_defense_stats": {
@@ -35295,12 +35343,12 @@
         "one_star_holds": 1,
         "two_star_holds": 1,
         "times_tripled": 6,
-        "untripled_wars": 2,
+        "untripled_wars": 3,
         "avg_attacks_to_first_triple": 1.0
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 2,
+        "events": 1,
         "attacks": 1,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -35355,7 +35403,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 9,
+        "events": 8,
         "attacks": 8,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -35386,11 +35434,11 @@
           "date": "20260914",
           "opponent_name": "Pemburu Janda",
           "team_size": 25,
-          "state": "inWar",
-          "state_label": "Battle Day",
-          "result": null,
-          "our_stars": 68,
-          "their_stars": 5,
+          "state": "warEnded",
+          "state_label": "War Ended",
+          "result": "win",
+          "our_stars": 75,
+          "their_stars": 72,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
