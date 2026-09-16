@@ -185,18 +185,20 @@ function attackTypeLabel(t){return t==='loot_practice'?'Loot / Practice':t==='cl
 function registerMissed(x){if(x?.war_key)MISSED_BY_KEY[x.war_key]={title:`vs ${x.opponent_name||'Opponent'}`,players:x.missed_players||[]};}
 function missedCell(x){
   registerMissed(x);
-  if(x?.timeline_complete===false)return '<span class="muted" title="Final score recovered from war log; late per-player attacks were not available">—</span>';
+  if(x?.clan_timeline_complete===false)return '<span class="muted" title="Clan attack timeline is incomplete; missed attacks cannot be verified">—</span>';
   const n=Number(x?.missed_attacks||0);
   if(!n)return '<span>0</span>';
   return `<button class="miss-link" data-missed-key="${esc(x.war_key)}">${n}</button>`;
 }
 function historyAttackCell(x){
-  if(x?.timeline_complete===false){
+  if(x?.clan_timeline_complete===false){
     const official=x?.official_clan_attacks;
     const top=(official==null?'Final total unknown':`${official} official`);
-    return `${top}<div class="muted small">${x.attacks_used||0}/${x.expected_attacks||0} locally captured</div>`;
+    return `${top}<div class="muted small">${x.attacks_used||0}/${x.expected_attacks||0} required attacks locally captured</div>`;
   }
-  return `${x.attacks_used||0}/${x.expected_attacks||0}`;
+  const required=`${x.attacks_used||0}/${x.expected_attacks||0}`;
+  const filler=Number(x?.filler_attacks||0);
+  return filler>0 ? `${required}<div class="muted small">+${filler} filler attack${filler===1?'':'s'}</div>` : required;
 }
 function bindMissLinks(){document.querySelectorAll('[data-missed-key]').forEach(b=>b.addEventListener('click',()=>showMissed(b.dataset.missedKey)));}
 function showMissed(key){
