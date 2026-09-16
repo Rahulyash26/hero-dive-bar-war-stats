@@ -1,6 +1,6 @@
 {
   "schema_version": 15,
-  "generated_at": "2026-09-16T18:35:44.273846+00:00",
+  "generated_at": "2026-09-16T19:04:54.676733+00:00",
   "dashboard_mode": "regular",
   "clan": {
     "name": "Hero Dive Bar",
@@ -27,7 +27,7 @@
     "clan_stars": 75,
     "opponent_stars": 61,
     "clan_destruction": 100.0,
-    "opponent_destruction": 83.72,
+    "opponent_destruction": 83.76,
     "attacks_used": 36,
     "expected_attacks": 48,
     "volunteer_attacks": 2,
@@ -357,7 +357,7 @@
         "name": "JuanK",
         "th": 18,
         "map_position": 3,
-        "attacks_used": 1
+        "attacks_used": 2
       },
       {
         "name": "kukiorientista",
@@ -1557,6 +1557,21 @@
         "new_stars": 0,
         "our_score_after": 75,
         "their_score_after": 61
+      },
+      {
+        "order": 72,
+        "side": "opponent",
+        "attacker_public_id": null,
+        "attacker_name": "JuanK",
+        "attacker_position": 3,
+        "defender_name": "Supfce",
+        "defender_position": 21,
+        "stars": 2,
+        "destruction": 98.0,
+        "attack_type": "cleanup",
+        "new_stars": 0,
+        "our_score_after": 75,
+        "their_score_after": 61
       }
     ]
   },
@@ -1746,7 +1761,7 @@
       "clan_stars": 75,
       "opponent_stars": 61,
       "clan_destruction": 100.0,
-      "opponent_destruction": 83.72,
+      "opponent_destruction": 83.76,
       "state": "inWar",
       "state_label": "Battle Day",
       "result": null,
@@ -4428,14 +4443,14 @@
       "loot_practice_triples": 1,
       "loot_practice_triple_rate": 100.0,
       "defense_stats": {
-        "attacks_faced": 5,
-        "total_attacks_faced": 5,
+        "attacks_faced": 6,
+        "total_attacks_faced": 6,
         "loot_practice_hits_faced": 0,
         "avg_stars_allowed": 2.0,
-        "avg_destruction_allowed": 93.6,
+        "avg_destruction_allowed": 94.33333333333333,
         "zero_star_holds": 0,
         "one_star_holds": 1,
-        "two_star_holds": 3,
+        "two_star_holds": 4,
         "times_tripled": 1,
         "untripled_wars": 0,
         "avg_attacks_to_first_triple": 1.0
@@ -4454,14 +4469,14 @@
         "avg_attacks_to_first_triple": 0.0
       },
       "combined_defense_stats": {
-        "attacks_faced": 5,
-        "total_attacks_faced": 5,
+        "attacks_faced": 6,
+        "total_attacks_faced": 6,
         "loot_practice_hits_faced": 0,
         "avg_stars_allowed": 2.0,
-        "avg_destruction_allowed": 93.6,
+        "avg_destruction_allowed": 94.33333333333333,
         "zero_star_holds": 0,
         "one_star_holds": 1,
-        "two_star_holds": 3,
+        "two_star_holds": 4,
         "times_tripled": 1,
         "untripled_wars": 0,
         "avg_attacks_to_first_triple": 1.0
@@ -14538,14 +14553,14 @@
       "loot_practice_triples": 1,
       "loot_practice_triple_rate": 100.0,
       "defense_stats": {
-        "attacks_faced": 5,
-        "total_attacks_faced": 5,
+        "attacks_faced": 6,
+        "total_attacks_faced": 6,
         "loot_practice_hits_faced": 0,
         "avg_stars_allowed": 2.0,
-        "avg_destruction_allowed": 93.6,
+        "avg_destruction_allowed": 94.33333333333333,
         "zero_star_holds": 0,
         "one_star_holds": 1,
-        "two_star_holds": 3,
+        "two_star_holds": 4,
         "times_tripled": 1,
         "untripled_wars": 0,
         "avg_attacks_to_first_triple": 1.0
@@ -14564,14 +14579,14 @@
         "avg_attacks_to_first_triple": 0.0
       },
       "combined_defense_stats": {
-        "attacks_faced": 5,
-        "total_attacks_faced": 5,
+        "attacks_faced": 6,
+        "total_attacks_faced": 6,
         "loot_practice_hits_faced": 0,
         "avg_stars_allowed": 2.0,
-        "avg_destruction_allowed": 93.6,
+        "avg_destruction_allowed": 94.33333333333333,
         "zero_star_holds": 0,
         "one_star_holds": 1,
-        "two_star_holds": 3,
+        "two_star_holds": 4,
         "times_tripled": 1,
         "untripled_wars": 0,
         "avg_attacks_to_first_triple": 1.0
@@ -30296,14 +30311,14 @@
       "loot_practice_triples": 1,
       "loot_practice_triple_rate": 100.0,
       "defense_stats": {
-        "attacks_faced": 5,
-        "total_attacks_faced": 5,
+        "attacks_faced": 6,
+        "total_attacks_faced": 6,
         "loot_practice_hits_faced": 0,
         "avg_stars_allowed": 2.0,
-        "avg_destruction_allowed": 93.6,
+        "avg_destruction_allowed": 94.33333333333333,
         "zero_star_holds": 0,
         "one_star_holds": 1,
-        "two_star_holds": 3,
+        "two_star_holds": 4,
         "times_tripled": 1,
         "untripled_wars": 0,
         "avg_attacks_to_first_triple": 1.0
@@ -30322,14 +30337,14 @@
         "avg_attacks_to_first_triple": 0.0
       },
       "combined_defense_stats": {
-        "attacks_faced": 5,
-        "total_attacks_faced": 5,
+        "attacks_faced": 6,
+        "total_attacks_faced": 6,
         "loot_practice_hits_faced": 0,
         "avg_stars_allowed": 2.0,
-        "avg_destruction_allowed": 93.6,
+        "avg_destruction_allowed": 94.33333333333333,
         "zero_star_holds": 0,
         "one_star_holds": 1,
-        "two_star_holds": 3,
+        "two_star_holds": 4,
         "times_tripled": 1,
         "untripled_wars": 0,
         "avg_attacks_to_first_triple": 1.0
