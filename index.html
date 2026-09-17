@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Hero Dive Bar — War Stats</title>
+<title>Hero Dive Bar — Clan Stats</title>
 <style>
 :root{
   --bg:#0c1118;--panel:#151c26;--panel2:#1b2431;--line:#2b3544;
@@ -116,6 +116,22 @@ select{width:100%;background:var(--panel2);color:var(--text);border:1px solid va
 .cs-detail-card .value{font-size:26px;font-weight:900;margin-top:4px}
 .cs-detail-card .label{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:#91a8bd;font-weight:800}
 
+.rank-summary{display:grid;grid-template-columns:repeat(4,minmax(130px,1fr));gap:12px;margin:14px 0}
+.rank-card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px}
+.rank-value{font-size:25px;font-weight:900;margin-top:5px}
+.rankbar{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 14px}
+.rankbar button{border:1px solid var(--line);background:var(--panel2);color:var(--muted);padding:9px 12px;border-radius:9px;cursor:pointer;font-weight:800}
+.rankbar button.active{color:var(--text);border-color:var(--accent2)}
+.ranked-player-link{color:var(--text);font-weight:800;text-decoration:none;cursor:pointer}
+.ranked-player-link:hover{color:var(--accent2);text-decoration:underline}
+.highlight-row{background:#242238}
+.ranked-battle-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.ranked-battle-row{display:grid;grid-template-columns:36px minmax(140px,1fr) 78px 72px 80px;gap:10px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
+.ranked-battle-row:first-child{border-top:0}.ranked-battle-num{color:var(--muted);font-weight:800}.ranked-battle-stars{font-weight:900}
+.ranked-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}.ranked-metric{background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:10px;text-align:center}
+.ranked-star-breakdown{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin:10px 0}.ranked-star-box{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:8px;text-align:center}
+.public-subtabs{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 18px}.public-subtabs button{border:1px solid var(--line);background:var(--panel2);color:var(--muted);padding:9px 12px;border-radius:9px;cursor:pointer;font-weight:800}.public-subtabs button.active{color:var(--text);border-color:var(--accent2)}
+
 @media(max-width:760px){
   .s8,.s6,.s4,.s3{grid-column:span 12}.score{font-size:34px}
   table{display:block;overflow-x:auto}
@@ -125,6 +141,7 @@ select{width:100%;background:var(--panel2);color:var(--text);border:1px solid va
   .cs-stat-table{overflow-x:auto}.cs-stat-row{min-width:790px}
   .cs-reliability{grid-template-columns:repeat(2,1fr)}
   .cs-detail-grid{grid-template-columns:1fr}
+  .rank-summary{grid-template-columns:repeat(2,1fr)}.ranked-battle-grid{grid-template-columns:1fr}.ranked-battle-row{grid-template-columns:30px minmax(120px,1fr) 72px}.ranked-battle-row .rank-hide-mobile{display:none}.ranked-metrics{grid-template-columns:1fr}.ranked-star-breakdown{grid-template-columns:repeat(2,1fr)}
 }
 </style>
 </head>
@@ -132,7 +149,7 @@ select{width:100%;background:var(--panel2);color:var(--text);border:1px solid va
 <header>
 <div class="wrap">
   <div class="row between">
-    <div class="brand"><div class="logo">⚔</div><div><b>Hero Dive Bar</b><div class="muted small">Public War Dashboard</div></div></div>
+    <div class="brand"><div class="logo">⚔</div><div><b>Hero Dive Bar</b><div class="muted small">Public Clan Dashboard</div></div></div>
     <div id="updated" class="muted small">Loading…</div>
   </div>
   <nav>
@@ -141,6 +158,7 @@ select{width:100%;background:var(--panel2);color:var(--text);border:1px solid va
     <button data-tab="players">Players</button>
     <button data-tab="compare">Compare</button>
     <button data-tab="cwl">CWL</button>
+    <button data-tab="ranked">Ranked</button>
   </nav>
 </div>
 </header>
@@ -151,7 +169,9 @@ select{width:100%;background:var(--panel2);color:var(--text);border:1px solid va
 <section id="players" class="hide"></section>
 <section id="compare" class="hide"></section>
 <section id="cwl" class="hide"></section>
+<section id="ranked" class="hide"></section>
 <section id="profile" class="hide"></section>
+<section id="rankedProfile" class="hide"></section>
 </main>
 <script>
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
@@ -173,6 +193,8 @@ document.querySelectorAll('nav button').forEach(b=>b.addEventListener('click',()
 }));
 
 const playerLink=(name,id)=>`<a class="player-link" href="#player=${encodeURIComponent(id)}" data-player-id="${esc(id)}">${esc(name)}</a>`;
+const rankedPlayerLink=(name,id)=>`<a class="ranked-player-link" href="#ranked-player=${encodeURIComponent(id)}" data-ranked-player-id="${esc(id)}">${esc(name)}</a>`;
+function bindRankedPlayerLinks(){document.querySelectorAll('[data-ranked-player-id]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();location.hash=`ranked-player=${encodeURIComponent(a.dataset.rankedPlayerId)}`;renderRankedProfile(a.dataset.rankedPlayerId);}));}
 function bindPlayerLinks(){
   document.querySelectorAll('[data-player-id]').forEach(a=>a.addEventListener('click',e=>{
     e.preventDefault();document.getElementById('missModal')?.remove();location.hash=`player=${encodeURIComponent(a.dataset.playerId)}`;renderPlayerProfile(a.dataset.playerId);
@@ -327,13 +349,21 @@ function renderCwlTab(c){
   return h+'</div>';
 }
 
+function rankedPos(v,size){return v?`#${v}${size?` / ${size}`:''}`:'—';}
+function rankedBattleSummary(rows){const list=rows||[],count=list.length,totalStars=list.reduce((a,x)=>a+Number(x.stars||0),0),totalDest=list.reduce((a,x)=>a+Number(x.destruction||0),0),trophies=list.reduce((a,x)=>a+Number(x.trophies||0),0),by=[0,0,0,0];for(const x of list){const st=Math.max(0,Math.min(3,Number(x.stars||0)));by[st]++;}return{count,totalStars,avgStars:count?totalStars/count:0,avgDest:count?totalDest/count:0,trophies,by};}
+function rankedBattlePanel(title,rows){const b=rankedBattleSummary(rows),sign=b.trophies>0?'+':'';let h=`<div class="card"><div class="row between"><div><div class="kicker">${esc(title)}</div><div class="big" style="font-size:24px">${b.count}</div></div><span class="pill">🏆 ${sign}${b.trophies}</span></div><div class="ranked-metrics"><div class="ranked-metric"><span class="muted small">Stars</span><br><b>${b.totalStars}</b></div><div class="ranked-metric"><span class="muted small">Avg Stars</span><br><b>${avg(b.avgStars)}</b></div><div class="ranked-metric"><span class="muted small">Avg Destruction</span><br><b>${pct(b.avgDest)}%</b></div></div><div class="ranked-star-breakdown">`;for(let st=3;st>=0;st--){const n=b.by[st]||0,rate=b.count?100*n/b.count:0;h+=`<div class="ranked-star-box"><b>${stars(st)}</b><br><span>${n}</span> <span class="muted small">${pct(rate)}%</span></div>`;}h+='</div>';if(!b.count)return h+'<div class="empty">No Ranked battles stored yet.</div></div>';for(const [i,x] of (rows||[]).entries()){const ts=x.creation_time?new Date(x.creation_time).toLocaleString():'—';const t=Number(x.trophies||0),tsign=t>0?'+':'';h+=`<div class="ranked-battle-row"><div class="ranked-battle-num">${i+1}</div><div><b>${esc(x.opponent_name||'Unknown')}</b><br><span class="muted small">${esc(ts)}</span></div><div class="ranked-battle-stars">${stars(x.stars)}</div><div class="rank-hide-mobile"><b>${pct(x.destruction)}%</b></div><div class="rank-hide-mobile"><b>🏆 ${tsign}${t}</b></div></div>`;}return h+'</div>'; }
+function renderRankedTab(){const r=DATA?.ranked||{},list=r.players||[];let h='<h1>Ranked</h1><div class="record-note" style="margin:-8px 0 14px">Read-only public Ranked data collected by the clan monitor. Click a player to see attacks, defenses, and their Ranked group.</div><div class="card">';if(!list.length)h+='<div class="empty">No Ranked data has been collected yet.</div>';else{h+='<table><thead><tr><th>Player</th><th>TH</th><th>League</th><th>Trophies</th><th>Overall</th><th>Offense</th><th>Defense</th><th>Attacks</th><th>Defenses</th></tr></thead><tbody>';for(const p of list){h+=`<tr><td>${rankedPlayerLink(p.name,p.public_id)}</td><td>TH${p.th||'—'}</td><td>${esc(p.league_name||(p.last_synced?'Not in Ranked':'Not synced'))}</td><td>${p.in_ranked?`🏆 ${p.league_trophies||0}`:'—'}</td><td>${rankedPos(p.overall_rank,p.group_size)}</td><td>${rankedPos(p.offense_rank,p.group_size)}</td><td>${rankedPos(p.defense_rank,p.group_size)}</td><td>${p.attack_count||0}</td><td>${p.defense_count||0}</td></tr>`;}h+='</tbody></table>';}document.getElementById('ranked').innerHTML=h+'</div>';bindRankedPlayerLinks();}
+function renderRankedGroupTable(p,mode){let rows=mode==='offense'?(p.group_offense||[]):mode==='defense'?(p.group_defense||[]):(p.group_overall||[]);let h='';if(mode!=='overall'&&!p.group_detail_complete){return `<div class="card"><div class="empty">Full group offense/defense details have not been collected yet. A leader can load the full group from the private local dashboard; the next public publish will show the rankings here.</div><div class="record-note">Detailed coverage: ${p.group_detail_coverage||0} / ${p.group_size||0} group members.</div></div>`;}if(!rows.length)return '<div class="card"><div class="empty">No group standings stored yet.</div></div>';h='<div class="card"><table><thead><tr><th>#</th><th>Player</th>';if(mode==='overall')h+='<th>Attacks W/L</th><th>Defenses W/L</th><th>Trophies</th>';else if(mode==='offense')h+='<th>Attacks</th><th>Stars</th><th>Avg Stars</th><th>Avg %</th><th>Offense Trophies</th>';else h+='<th>Defenses</th><th>Stars Allowed</th><th>Avg Stars</th><th>Avg %</th><th>Defense Trophies</th>';h+='</tr></thead><tbody>';for(const x of rows){const cls=x.is_player?' class="highlight-row"':'';const name=x.clan_member_public_id?rankedPlayerLink(x.player_name,x.clan_member_public_id):`<b>${esc(x.player_name)}</b>`;const clan=x.clan_name?`<br><span class="muted small">${esc(x.clan_name)}</span>`:'';h+=`<tr${cls}><td>${x.position||'—'}</td><td>${name}${clan}</td>`;if(mode==='overall')h+=`<td>${x.attack_wins||0} / ${x.attack_losses||0}</td><td>${x.defense_wins||0} / ${x.defense_losses||0}</td><td>🏆 ${x.league_trophies||0}</td>`;else h+=`<td>${x.count||0}</td><td>${x.stars||0}</td><td>${avg(x.avg_stars||0)}</td><td>${pct(x.avg_destruction||0)}%</td><td>🏆 ${Number(x.trophies||0)>=0?'+':''}${x.trophies||0}</td>`;h+='</tr>';}h+='</tbody></table></div>';return h;}
+let RANKED_GROUP_MODE='overall';
+function renderRankedProfile(id,mode=RANKED_GROUP_MODE){if(!DATA)return;const p=DATA?.ranked?.profiles?.[id];if(!p){showSection('ranked');return;}RANKED_GROUP_MODE=['overall','offense','defense'].includes(mode)?mode:'overall';let h=`<a class="back-link" href="#" id="backRanked">← Back to Ranked</a><div class="profile-identity"><div><h1 class="profile-name">${esc(p.name)}</h1><div class="profile-meta">TH${p.th||'—'} · ${esc(p.league_name||(p.last_synced?'Not in Ranked':'Not synced'))}</div></div><div class="muted small">Public read-only Ranked profile</div></div><div class="public-subtabs"><button id="openWarProfile">War & CWL</button><button class="active">Ranked</button></div>`;if(!p.in_ranked){h+=`<div class="card"><div class="empty">${p.last_synced?'This player is not currently in a Ranked group.':'Ranked data has not been synced for this player yet.'}</div></div>`;}else{h+=`<div class="rank-summary"><div class="rank-card"><div class="kicker">Trophies</div><div class="rank-value">🏆 ${p.league_trophies||0}</div></div><div class="rank-card"><div class="kicker">Group Rank</div><div class="rank-value">${rankedPos(p.overall_rank,p.group_size)}</div></div><div class="rank-card"><div class="kicker">Offense Rank</div><div class="rank-value">${rankedPos(p.offense_rank,p.group_size)}</div></div><div class="rank-card"><div class="kicker">Defense Rank</div><div class="rank-value">${rankedPos(p.defense_rank,p.group_size)}</div></div></div><h2>Ranked Battles</h2><div class="ranked-battle-grid">${rankedBattlePanel('ATTACKS',p.attacks||[])}${rankedBattlePanel('DEFENSES',p.defenses||[])}</div><h2>Group Rankings</h2><div class="rankbar"><button data-rank-mode="overall" class="${RANKED_GROUP_MODE==='overall'?'active':''}">Overall</button><button data-rank-mode="offense" class="${RANKED_GROUP_MODE==='offense'?'active':''}">Offense</button><button data-rank-mode="defense" class="${RANKED_GROUP_MODE==='defense'?'active':''}">Defense</button></div><div id="rankedGroupTable">${renderRankedGroupTable(p,RANKED_GROUP_MODE)}</div>`;}document.getElementById('rankedProfile').innerHTML=h;showSection('rankedProfile');document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('active',x.dataset.tab==='ranked'));document.getElementById('backRanked')?.addEventListener('click',e=>{e.preventDefault();history.replaceState(null,'',location.pathname);showSection('ranked');});document.getElementById('openWarProfile')?.addEventListener('click',()=>{location.hash=`player=${encodeURIComponent(id)}`;renderPlayerProfile(id);});document.querySelectorAll('[data-rank-mode]').forEach(btn=>btn.addEventListener('click',()=>{RANKED_GROUP_MODE=btn.dataset.rankMode;renderRankedProfile(id,RANKED_GROUP_MODE);}));bindRankedPlayerLinks();}
+
 function render(d){
   DATA=d;MISSED_BY_KEY={};ACTIVE_COUNTDOWN_WARS={};document.getElementById('updated').textContent=d.generated_at?`Updated ${new Date(d.generated_at).toLocaleString()}`:'Updated';
   document.getElementById('home').innerHTML=d.dashboard_mode==='cwl'&&d.cwl?.enabled?renderCwlDashboard(d.cwl):renderRegularDashboard(d);
   let wars='<h1>War Outcome History</h1><div class="card"><table><thead><tr><th>Date</th><th>Opponent</th><th>Size</th><th>Score</th><th>Destruction</th><th>Perfect</th><th>Attacks</th><th>Missed</th><th>Result</th></tr></thead><tbody>';
   for(const x of d.wars||[])wars+=`<tr><td>${prettyDate(x.date)}</td><td>${esc(x.opponent_name)}</td><td>${x.team_size}v${x.team_size}</td><td>${x.clan_stars}–${x.opponent_stars}</td><td>${pct(x.clan_destruction)}%–${pct(x.opponent_destruction)}%</td><td>${x.perfect_war?`<span class="pill perfect">Perfect${x.perfect_secured_with_attacks_remaining?` · ${x.perfect_secured_with_attacks_remaining} left`:''}</span>`:'—'}</td><td>${historyAttackCell(x)}</td><td>${missedCell(x)}</td><td class="${resultClass(x.result)}">${esc((x.result||x.state_label).toUpperCase())}</td></tr>`;
   document.getElementById('wars').innerHTML=wars+'</tbody></table><div class="click-note">Perfect wars count even when the result is a tie. Click a red missed-attack number to see exactly who missed.</div></div>';
-  renderPlayersTable();renderCompare();document.getElementById('cwl').innerHTML=renderCwlTab(d.cwl);bindPlayerLinks();bindMissLinks();routeFromHash();startWarCountdown();
+  renderPlayersTable();renderCompare();document.getElementById('cwl').innerHTML=renderCwlTab(d.cwl);renderRankedTab();bindPlayerLinks();bindRankedPlayerLinks();bindMissLinks();routeFromHash();startWarCountdown();
 }
 
 function compareRow(label,a,b,format=x=>x){return `<div class="compare-stat"><div><b>${format(a)}</b></div><div class="mid">${esc(label)}</div><div class="right"><b>${format(b)}</b></div></div>`;}
@@ -407,7 +437,7 @@ function clashspotOverview(p,st,d){
 function renderPlayerProfile(id){
   if(!DATA)return;const p=(DATA.player_profiles||{})[id];if(!p){showSection('players');return;}
   const st=playerStats(p),d=defenseStatsForMode(p);
-  let profile=`<a class="back-link" href="#" id="backPlayers">← Back to Players</a>${clashspotOverview(p,st,d)}`;
+  const hasRanked=!!(DATA?.ranked?.profiles?.[id]);let profile=`<a class="back-link" href="#" id="backPlayers">← Back to Players</a><div class="public-subtabs"><button class="active">War & CWL</button>${hasRanked?'<button id="openRankedProfile">Ranked</button>':''}</div>${clashspotOverview(p,st,d)}`;
   profile+=`<div class="cs-section"><div class="cs-section-title">🎯 Attack Types</div>${attackTypeBreakdown(st)}</div>`;
   if(PLAYER_STATS_MODE==='regular'){
     profile+=`<h2>Recent War Attacks</h2><div class="card">${attackRows(p.recent_war_attacks||[],false)}</div>`;
@@ -424,9 +454,9 @@ function renderPlayerProfile(id){
   }else{
     profile+=`<h2>Recent Regular War Attacks</h2><div class="card">${attackRows(p.recent_war_attacks||[],false)}</div><h2>Recent CWL Attacks</h2><div class="card">${attackRows(p.recent_cwl_attacks||[],true)}</div><div class="record-note">Combined view summarizes both modes while the underlying records stay separate.</div>`;
   }
-  document.getElementById('profile').innerHTML=profile;showSection('profile');document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('active',x.dataset.tab==='players'));document.getElementById('backPlayers')?.addEventListener('click',e=>{e.preventDefault();history.replaceState(null,'',location.pathname);showSection('players');});bindProfileScopeTabs(id);
+  document.getElementById('profile').innerHTML=profile;showSection('profile');document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('active',x.dataset.tab==='players'));document.getElementById('backPlayers')?.addEventListener('click',e=>{e.preventDefault();history.replaceState(null,'',location.pathname);showSection('players');});document.getElementById('openRankedProfile')?.addEventListener('click',()=>{location.hash=`ranked-player=${encodeURIComponent(id)}`;renderRankedProfile(id);});bindProfileScopeTabs(id);
 }
-function routeFromHash(){if(!DATA)return;const h=location.hash.replace(/^#/,'');if(h.startsWith('player='))renderPlayerProfile(decodeURIComponent(h.slice(7)));}
+function routeFromHash(){if(!DATA)return;const h=location.hash.replace(/^#/,'');if(h.startsWith('player='))renderPlayerProfile(decodeURIComponent(h.slice(7)));else if(h.startsWith('ranked-player='))renderRankedProfile(decodeURIComponent(h.slice(14)));}
 window.addEventListener('hashchange',routeFromHash);
 let LAST_DATA_VERSION=null;
 function refreshPublicData(){fetch('data.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(`HTTP ${r.status}`);return r.json();}).then(d=>{document.getElementById('error').innerHTML='';const version=d.generated_at||JSON.stringify(d.current_war||{});if(DATA===null||version!==LAST_DATA_VERSION){LAST_DATA_VERSION=version;render(d);}}).catch(e=>document.getElementById('error').innerHTML=`<div class="error">Could not refresh dashboard data: ${esc(e.message)}</div>`);}
