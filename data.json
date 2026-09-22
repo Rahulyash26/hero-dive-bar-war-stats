@@ -1,6 +1,6 @@
 {
   "schema_version": 16,
-  "generated_at": "2026-09-22T15:25:20.120040+00:00",
+  "generated_at": "2026-09-22T15:26:51.550317+00:00",
   "dashboard_mode": "regular",
   "clan": {
     "name": "Hero Dive Bar",
@@ -48053,12 +48053,12 @@
         "league_trophies": 606,
         "overall_rank": 17,
         "group_size": 100,
-        "offense_rank": 18,
-        "defense_rank": 22,
-        "attack_count": 35,
-        "defense_count": 11,
-        "group_detail_complete": true,
-        "group_detail_coverage": 100,
+        "offense_rank": null,
+        "defense_rank": null,
+        "attack_count": 18,
+        "defense_count": 6,
+        "group_detail_complete": false,
+        "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:20.347043+00:00"
       },
       {
@@ -48073,8 +48073,8 @@
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
-        "attack_count": 35,
-        "defense_count": 4,
+        "attack_count": 21,
+        "defense_count": 3,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:21.346574+00:00"
@@ -48091,7 +48091,7 @@
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
-        "attack_count": 20,
+        "attack_count": 11,
         "defense_count": 2,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
@@ -48109,8 +48109,8 @@
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
-        "attack_count": 16,
-        "defense_count": 11,
+        "attack_count": 10,
+        "defense_count": 7,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:20.375292+00:00"
@@ -48127,8 +48127,8 @@
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
-        "attack_count": 7,
-        "defense_count": 5,
+        "attack_count": 6,
+        "defense_count": 3,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:20.683813+00:00"
@@ -48145,8 +48145,8 @@
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
-        "attack_count": 6,
-        "defense_count": 6,
+        "attack_count": 3,
+        "defense_count": 4,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:21.008770+00:00"
@@ -48163,8 +48163,8 @@
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
-        "attack_count": 8,
-        "defense_count": 8,
+        "attack_count": 4,
+        "defense_count": 4,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:21.692018+00:00"
@@ -48181,8 +48181,8 @@
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
-        "attack_count": 6,
-        "defense_count": 5,
+        "attack_count": 4,
+        "defense_count": 3,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:21.371145+00:00"
@@ -48217,8 +48217,8 @@
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
-        "attack_count": 6,
-        "defense_count": 5,
+        "attack_count": 4,
+        "defense_count": 3,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:21.047285+00:00"
@@ -48236,7 +48236,7 @@
         "offense_rank": null,
         "defense_rank": null,
         "attack_count": 0,
-        "defense_count": 7,
+        "defense_count": 4,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:22.424035+00:00"
@@ -48254,7 +48254,7 @@
         "offense_rank": null,
         "defense_rank": null,
         "attack_count": 0,
-        "defense_count": 9,
+        "defense_count": 6,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:20.333724+00:00"
@@ -48290,7 +48290,7 @@
         "offense_rank": null,
         "defense_rank": null,
         "attack_count": 0,
-        "defense_count": 5,
+        "defense_count": 4,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:21.043017+00:00"
@@ -48326,7 +48326,7 @@
         "offense_rank": null,
         "defense_rank": null,
         "attack_count": 0,
-        "defense_count": 7,
+        "defense_count": 5,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:20.528492+00:00"
@@ -48344,7 +48344,7 @@
         "offense_rank": null,
         "defense_rank": null,
         "attack_count": 0,
-        "defense_count": 7,
+        "defense_count": 5,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:20.693447+00:00"
@@ -48362,7 +48362,7 @@
         "offense_rank": null,
         "defense_rank": null,
         "attack_count": 0,
-        "defense_count": 7,
+        "defense_count": 4,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:21.352929+00:00"
@@ -48380,7 +48380,7 @@
         "offense_rank": null,
         "defense_rank": null,
         "attack_count": 0,
-        "defense_count": 2,
+        "defense_count": 1,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:22.091231+00:00"
@@ -48398,7 +48398,7 @@
         "offense_rank": null,
         "defense_rank": null,
         "attack_count": 0,
-        "defense_count": 5,
+        "defense_count": 3,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:21.667699+00:00"
@@ -48470,7 +48470,7 @@
         "offense_rank": null,
         "defense_rank": null,
         "attack_count": 0,
-        "defense_count": 3,
+        "defense_count": 2,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:21.368780+00:00"
@@ -48632,7 +48632,7 @@
         "offense_rank": null,
         "defense_rank": null,
         "attack_count": 0,
-        "defense_count": 8,
+        "defense_count": 5,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:21.000354+00:00"
@@ -50172,12 +50172,12 @@
         "league_trophies": 606,
         "overall_rank": 17,
         "group_size": 100,
-        "offense_rank": 18,
-        "defense_rank": 22,
-        "attack_count": 35,
-        "defense_count": 11,
-        "group_detail_complete": true,
-        "group_detail_coverage": 100,
+        "offense_rank": null,
+        "defense_rank": null,
+        "attack_count": 18,
+        "defense_count": 6,
+        "group_detail_complete": false,
+        "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:20.347043+00:00",
         "attack_wins": 18,
         "attack_losses": 0,
@@ -50192,25 +50192,11 @@
             "trophies": 40
           },
           {
-            "creation_time": "2026-09-22T04:09:33Z",
-            "opponent_name": "BOSS™",
-            "stars": 2,
-            "destruction": 89.0,
-            "trophies": 29
-          },
-          {
             "creation_time": "2026-09-22T04:09:32.509Z",
             "opponent_name": "BOSS™",
             "stars": 2,
             "destruction": 89.0,
             "trophies": 29
-          },
-          {
-            "creation_time": "2026-09-22T01:34:39Z",
-            "opponent_name": "FMC",
-            "stars": 1,
-            "destruction": 91.0,
-            "trophies": 15
           },
           {
             "creation_time": "2026-09-22T01:34:38.705Z",
@@ -50220,25 +50206,11 @@
             "trophies": 15
           },
           {
-            "creation_time": "2026-09-21T19:20:54Z",
-            "opponent_name": "chi linh",
-            "stars": 1,
-            "destruction": 90.0,
-            "trophies": 14
-          },
-          {
             "creation_time": "2026-09-21T19:20:53.986Z",
             "opponent_name": "chi linh",
             "stars": 1,
             "destruction": 90.0,
             "trophies": 14
-          },
-          {
-            "creation_time": "2026-09-21T19:17:45Z",
-            "opponent_name": "Lexoy134",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
           },
           {
             "creation_time": "2026-09-21T19:17:44.994Z",
@@ -50248,25 +50220,11 @@
             "trophies": 40
           },
           {
-            "creation_time": "2026-09-21T18:16:17Z",
-            "opponent_name": "Dora-da-man",
-            "stars": 1,
-            "destruction": 58.0,
-            "trophies": 11
-          },
-          {
             "creation_time": "2026-09-21T18:16:16.767Z",
             "opponent_name": "Dora-da-man",
             "stars": 1,
             "destruction": 58.0,
             "trophies": 11
-          },
-          {
-            "creation_time": "2026-09-21T18:10:03Z",
-            "opponent_name": "Milan",
-            "stars": 2,
-            "destruction": 78.0,
-            "trophies": 25
           },
           {
             "creation_time": "2026-09-21T18:10:02.904Z",
@@ -50276,22 +50234,8 @@
             "trophies": 25
           },
           {
-            "creation_time": "2026-09-21T18:01:51Z",
-            "opponent_name": "Kanikou",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
             "creation_time": "2026-09-21T18:01:50.887Z",
             "opponent_name": "Kanikou",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
-            "creation_time": "2026-09-21T17:58:43Z",
-            "opponent_name": "wens",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 40
@@ -50304,25 +50248,11 @@
             "trophies": 40
           },
           {
-            "creation_time": "2026-09-21T17:55:46Z",
-            "opponent_name": "I LIKE 99%",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
             "creation_time": "2026-09-21T17:55:46.064Z",
             "opponent_name": "I LIKE 99%",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 40
-          },
-          {
-            "creation_time": "2026-09-21T17:51:54Z",
-            "opponent_name": "jUsTicE",
-            "stars": 2,
-            "destruction": 98.0,
-            "trophies": 32
           },
           {
             "creation_time": "2026-09-21T17:51:54.187Z",
@@ -50332,25 +50262,11 @@
             "trophies": 32
           },
           {
-            "creation_time": "2026-09-21T17:48:13Z",
-            "opponent_name": "Rationais11",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
             "creation_time": "2026-09-21T17:48:13.263Z",
             "opponent_name": "Rationais11",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 40
-          },
-          {
-            "creation_time": "2026-09-21T17:43:17Z",
-            "opponent_name": "Indy 888",
-            "stars": 1,
-            "destruction": 83.0,
-            "trophies": 14
           },
           {
             "creation_time": "2026-09-21T17:43:17.060Z",
@@ -50360,25 +50276,11 @@
             "trophies": 14
           },
           {
-            "creation_time": "2026-09-21T17:39:08Z",
-            "opponent_name": "playhard##gopro",
-            "stars": 2,
-            "destruction": 77.0,
-            "trophies": 25
-          },
-          {
             "creation_time": "2026-09-21T17:39:08.469Z",
             "opponent_name": "playhard##gopro",
             "stars": 2,
             "destruction": 77.0,
             "trophies": 25
-          },
-          {
-            "creation_time": "2026-09-21T17:35:42Z",
-            "opponent_name": "S T R I X",
-            "stars": 2,
-            "destruction": 90.0,
-            "trophies": 29
           },
           {
             "creation_time": "2026-09-21T17:35:41.591Z",
@@ -50388,22 +50290,8 @@
             "trophies": 29
           },
           {
-            "creation_time": "2026-09-21T17:31:01Z",
-            "opponent_name": "little buddha 3",
-            "stars": 2,
-            "destruction": 99.0,
-            "trophies": 32
-          },
-          {
             "creation_time": "2026-09-21T17:31:00.677Z",
             "opponent_name": "little buddha 3",
-            "stars": 2,
-            "destruction": 99.0,
-            "trophies": 32
-          },
-          {
-            "creation_time": "2026-09-21T17:27:49Z",
-            "opponent_name": "شيعة علي\"313",
             "stars": 2,
             "destruction": 99.0,
             "trophies": 32
@@ -50414,13 +50302,6 @@
             "stars": 2,
             "destruction": 99.0,
             "trophies": 32
-          },
-          {
-            "creation_time": "2026-09-21T17:07:58Z",
-            "opponent_name": "RIDZKY",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
           },
           {
             "creation_time": "2026-09-21T17:07:58.074Z",
@@ -50439,22 +50320,8 @@
             "trophies": 25
           },
           {
-            "creation_time": "2026-09-22T03:00:04Z",
-            "opponent_name": "TheOGbeastlyb8",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
-          },
-          {
             "creation_time": "2026-09-22T03:00:04.203Z",
             "opponent_name": "TheOGbeastlyb8",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
-          },
-          {
-            "creation_time": "2026-09-22T01:14:01Z",
-            "opponent_name": "BOSS™",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 0
@@ -50467,13 +50334,6 @@
             "trophies": 0
           },
           {
-            "creation_time": "2026-09-21T23:25:33Z",
-            "opponent_name": "DERAS 11",
-            "stars": 1,
-            "destruction": 77.0,
-            "trophies": 27
-          },
-          {
             "creation_time": "2026-09-21T23:25:33.231Z",
             "opponent_name": "DERAS 11",
             "stars": 1,
@@ -50481,25 +50341,11 @@
             "trophies": 27
           },
           {
-            "creation_time": "2026-09-21T22:06:30Z",
-            "opponent_name": "degdess",
-            "stars": 2,
-            "destruction": 76.0,
-            "trophies": 16
-          },
-          {
             "creation_time": "2026-09-21T22:06:30.390Z",
             "opponent_name": "degdess",
             "stars": 2,
             "destruction": 76.0,
             "trophies": 16
-          },
-          {
-            "creation_time": "2026-09-21T17:40:08Z",
-            "opponent_name": "star",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
           },
           {
             "creation_time": "2026-09-21T17:40:08.130Z",
@@ -51711,2410 +51557,8 @@
             "clan_member_public_id": null
           }
         ],
-        "group_offense": [
-          {
-            "position": 1,
-            "player_name": "Dora-da-man",
-            "clan_name": "IMAGINE DRAGONS",
-            "count": 24,
-            "stars": 70,
-            "avg_stars": 2.9166666666666665,
-            "avg_destruction": 99.83333333333333,
-            "trophies": 944,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 2,
-            "player_name": "yusuf",
-            "clan_name": "CALAMİTY",
-            "count": 24,
-            "stars": 64,
-            "avg_stars": 2.6666666666666665,
-            "avg_destruction": 97.20833333333333,
-            "trophies": 872,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 3,
-            "player_name": "S T R I X",
-            "clan_name": "Plug And Play",
-            "count": 24,
-            "stars": 64,
-            "avg_stars": 2.6666666666666665,
-            "avg_destruction": 97.875,
-            "trophies": 869,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 4,
-            "player_name": "L.A. the 2nd",
-            "clan_name": "Fearstorm",
-            "count": 24,
-            "stars": 64,
-            "avg_stars": 2.6666666666666665,
-            "avg_destruction": 96.29166666666667,
-            "trophies": 862,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 5,
-            "player_name": "Kanikou",
-            "clan_name": "vVv²",
-            "count": 24,
-            "stars": 64,
-            "avg_stars": 2.6666666666666665,
-            "avg_destruction": 94.83333333333333,
-            "trophies": 854,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 6,
-            "player_name": "Jed®",
-            "clan_name": "No War No War",
-            "count": 24,
-            "stars": 64,
-            "avg_stars": 2.6666666666666665,
-            "avg_destruction": 96.0,
-            "trophies": 853,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 7,
-            "player_name": "Lascar",
-            "clan_name": "W1",
-            "count": 24,
-            "stars": 60,
-            "avg_stars": 2.5,
-            "avg_destruction": 96.41666666666667,
-            "trophies": 814,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 8,
-            "player_name": "MR DJ B (IR)",
-            "clan_name": "ImperioReal TOP",
-            "count": 24,
-            "stars": 61,
-            "avg_stars": 2.5416666666666665,
-            "avg_destruction": 91.5,
-            "trophies": 811,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 9,
-            "player_name": "SSR",
-            "clan_name": "E = mc^2",
-            "count": 24,
-            "stars": 58,
-            "avg_stars": 2.4166666666666665,
-            "avg_destruction": 93.79166666666667,
-            "trophies": 784,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 10,
-            "player_name": "BOSS™",
-            "clan_name": "410 Savages",
-            "count": 23,
-            "stars": 56,
-            "avg_stars": 2.4347826086956523,
-            "avg_destruction": 96.73913043478261,
-            "trophies": 770,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 11,
-            "player_name": "Milan",
-            "clan_name": "melonguane city",
-            "count": 24,
-            "stars": 57,
-            "avg_stars": 2.375,
-            "avg_destruction": 90.58333333333333,
-            "trophies": 764,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 12,
-            "player_name": "near",
-            "clan_name": "superpinoyII",
-            "count": 24,
-            "stars": 54,
-            "avg_stars": 2.25,
-            "avg_destruction": 96.25,
-            "trophies": 758,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 13,
-            "player_name": "akang pis",
-            "clan_name": "THE DRAGONS",
-            "count": 24,
-            "stars": 53,
-            "avg_stars": 2.2083333333333335,
-            "avg_destruction": 92.83333333333333,
-            "trophies": 722,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 14,
-            "player_name": "Lexoy134",
-            "clan_name": "盛世",
-            "count": 17,
-            "stars": 50,
-            "avg_stars": 2.9411764705882355,
-            "avg_destruction": 99.17647058823529,
-            "trophies": 668,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 15,
-            "player_name": "شيعة علي\"313",
-            "clan_name": "لواء الإمام علي",
-            "count": 21,
-            "stars": 44,
-            "avg_stars": 2.0952380952380953,
-            "avg_destruction": 86.52380952380952,
-            "trophies": 592,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 16,
-            "player_name": "degdess",
-            "clan_name": "les loges",
-            "count": 21,
-            "stars": 43,
-            "avg_stars": 2.0476190476190474,
-            "avg_destruction": 83.71428571428571,
-            "trophies": 570,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 17,
-            "player_name": "*Top*",
-            "clan_name": "myanmar fighter",
-            "count": 20,
-            "stars": 41,
-            "avg_stars": 2.05,
-            "avg_destruction": 88.9,
-            "trophies": 562,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 18,
-            "player_name": "Avinash",
-            "clan_name": "Hero Dive Bar",
-            "count": 18,
-            "stars": 39,
-            "avg_stars": 2.1666666666666665,
-            "avg_destruction": 91.77777777777777,
-            "trophies": 538,
-            "is_player": true,
-            "clan_member_public_id": "10d53b71f16c59"
-          },
-          {
-            "position": 19,
-            "player_name": "7SAYDIKI",
-            "clan_name": "KZ 7say",
-            "count": 16,
-            "stars": 35,
-            "avg_stars": 2.1875,
-            "avg_destruction": 85.0,
-            "trophies": 446,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 20,
-            "player_name": "jonathan",
-            "clan_name": "LOUKOS DO CLASH",
-            "count": 11,
-            "stars": 29,
-            "avg_stars": 2.6363636363636362,
-            "avg_destruction": 95.0909090909091,
-            "trophies": 386,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 21,
-            "player_name": "star",
-            "clan_name": "Persian",
-            "count": 11,
-            "stars": 26,
-            "avg_stars": 2.3636363636363638,
-            "avg_destruction": 93.27272727272727,
-            "trophies": 354,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 22,
-            "player_name": "COC HUNTER",
-            "clan_name": "RISING PHEONIX",
-            "count": 11,
-            "stars": 24,
-            "avg_stars": 2.1818181818181817,
-            "avg_destruction": 92.0,
-            "trophies": 337,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 23,
-            "player_name": "Rationais11",
-            "clan_name": "Furious",
-            "count": 8,
-            "stars": 23,
-            "avg_stars": 2.875,
-            "avg_destruction": 99.875,
-            "trophies": 312,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 24,
-            "player_name": "神遊陳舊",
-            "clan_name": "青龙院",
-            "count": 8,
-            "stars": 23,
-            "avg_stars": 2.875,
-            "avg_destruction": 97.75,
-            "trophies": 306,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 25,
-            "player_name": "Mr.JazZ",
-            "clan_name": "Danger Marrior",
-            "count": 8,
-            "stars": 20,
-            "avg_stars": 2.5,
-            "avg_destruction": 98.25,
-            "trophies": 276,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 26,
-            "player_name": "franky_havana",
-            "clan_name": "havana",
-            "count": 10,
-            "stars": 20,
-            "avg_stars": 2.0,
-            "avg_destruction": 87.6,
-            "trophies": 272,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 27,
-            "player_name": "TheOGbeastlyb8",
-            "clan_name": "WAR RETRIBUTION",
-            "count": 6,
-            "stars": 18,
-            "avg_stars": 3.0,
-            "avg_destruction": 100.0,
-            "trophies": 240,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 28,
-            "player_name": "kuku",
-            "clan_name": "★REQ N LEAVE★",
-            "count": 6,
-            "stars": 15,
-            "avg_stars": 2.5,
-            "avg_destruction": 98.0,
-            "trophies": 206,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 29,
-            "player_name": "JAMES",
-            "clan_name": "Lords of war",
-            "count": 7,
-            "stars": 16,
-            "avg_stars": 2.2857142857142856,
-            "avg_destruction": 84.57142857142857,
-            "trophies": 205,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 30,
-            "player_name": "Displ3y",
-            "clan_name": "# THE TITANS #",
-            "count": 5,
-            "stars": 13,
-            "avg_stars": 2.6,
-            "avg_destruction": 98.2,
-            "trophies": 182,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 31,
-            "player_name": "ᵀᵀᴺ BULL♦️DOG",
-            "clan_name": "BATTLE RAGE 2",
-            "count": 6,
-            "stars": 13,
-            "avg_stars": 2.1666666666666665,
-            "avg_destruction": 91.66666666666667,
-            "trophies": 182,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 32,
-            "player_name": "chok's",
-            "clan_name": "DAVAO CLASHERS",
-            "count": 5,
-            "stars": 13,
-            "avg_stars": 2.6,
-            "avg_destruction": 96.6,
-            "trophies": 179,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 33,
-            "player_name": "EternalVoid",
-            "clan_name": "Har_har_mahadev",
-            "count": 5,
-            "stars": 13,
-            "avg_stars": 2.6,
-            "avg_destruction": 94.4,
-            "trophies": 175,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 34,
-            "player_name": "DERAS 11",
-            "clan_name": "ADVENGERS",
-            "count": 5,
-            "stars": 13,
-            "avg_stars": 2.6,
-            "avg_destruction": 95.4,
-            "trophies": 173,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 35,
-            "player_name": "RDX RAJA",
-            "clan_name": "santoshpur pais",
-            "count": 6,
-            "stars": 13,
-            "avg_stars": 2.1666666666666665,
-            "avg_destruction": 94.16666666666667,
-            "trophies": 173,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 36,
-            "player_name": "อ่ำ ขาโหดโคราช",
-            "clan_name": "สุพรรณหงษ์",
-            "count": 7,
-            "stars": 13,
-            "avg_stars": 1.8571428571428572,
-            "avg_destruction": 86.85714285714286,
-            "trophies": 173,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 37,
-            "player_name": "Lnwtrue",
-            "clan_name": "ความตายสีขาว",
-            "count": 5,
-            "stars": 13,
-            "avg_stars": 2.6,
-            "avg_destruction": 90.4,
-            "trophies": 170,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 38,
-            "player_name": "nắng mai",
-            "clan_name": "TOP SERVER",
-            "count": 5,
-            "stars": 12,
-            "avg_stars": 2.4,
-            "avg_destruction": 97.8,
-            "trophies": 165,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 39,
-            "player_name": "Carlos 23",
-            "clan_name": "CHILE",
-            "count": 6,
-            "stars": 12,
-            "avg_stars": 2.0,
-            "avg_destruction": 85.83333333333333,
-            "trophies": 165,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 40,
-            "player_name": "HIWA HWSEN",
-            "clan_name": "كوردستان",
-            "count": 5,
-            "stars": 11,
-            "avg_stars": 2.2,
-            "avg_destruction": 95.0,
-            "trophies": 156,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 41,
-            "player_name": "HACKER",
-            "clan_name": "Pune titans",
-            "count": 5,
-            "stars": 11,
-            "avg_stars": 2.2,
-            "avg_destruction": 85.8,
-            "trophies": 145,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 42,
-            "player_name": "VHA ⚡ GODZINHO",
-            "clan_name": "Les Bronzés",
-            "count": 5,
-            "stars": 11,
-            "avg_stars": 2.2,
-            "avg_destruction": 85.6,
-            "trophies": 142,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 43,
-            "player_name": "SuperHulk",
-            "clan_name": "The J",
-            "count": 5,
-            "stars": 10,
-            "avg_stars": 2.0,
-            "avg_destruction": 86.2,
-            "trophies": 129,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 44,
-            "player_name": "mak",
-            "clan_name": "British Wino’s",
-            "count": 6,
-            "stars": 9,
-            "avg_stars": 1.5,
-            "avg_destruction": 90.16666666666667,
-            "trophies": 126,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 45,
-            "player_name": "♥Giada♥",
-            "clan_name": "total gamer",
-            "count": 4,
-            "stars": 9,
-            "avg_stars": 2.25,
-            "avg_destruction": 89.0,
-            "trophies": 122,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 46,
-            "player_name": "Ramírez",
-            "clan_name": "ADALUCESas2",
-            "count": 5,
-            "stars": 10,
-            "avg_stars": 2.0,
-            "avg_destruction": 75.4,
-            "trophies": 121,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 47,
-            "player_name": "pbd",
-            "clan_name": "! ราชาตะวันตก !",
-            "count": 3,
-            "stars": 9,
-            "avg_stars": 3.0,
-            "avg_destruction": 100.0,
-            "trophies": 120,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 48,
-            "player_name": "playhard##gopro",
-            "clan_name": "Royal Flash",
-            "count": 3,
-            "stars": 9,
-            "avg_stars": 3.0,
-            "avg_destruction": 100.0,
-            "trophies": 120,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 49,
-            "player_name": "wens",
-            "clan_name": "HIDAYAH",
-            "count": 3,
-            "stars": 9,
-            "avg_stars": 3.0,
-            "avg_destruction": 100.0,
-            "trophies": 120,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 50,
-            "player_name": "Tim",
-            "clan_name": "快乐土匪窝",
-            "count": 3,
-            "stars": 8,
-            "avg_stars": 2.6666666666666665,
-            "avg_destruction": 96.66666666666667,
-            "trophies": 109,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 51,
-            "player_name": "chi linh",
-            "clan_name": "VIỆT NAM 8888",
-            "count": 3,
-            "stars": 7,
-            "avg_stars": 2.3333333333333335,
-            "avg_destruction": 95.0,
-            "trophies": 100,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 52,
-            "player_name": "MD Ha S an",
-            "clan_name": "Bangla vs world",
-            "count": 3,
-            "stars": 7,
-            "avg_stars": 2.3333333333333335,
-            "avg_destruction": 86.33333333333333,
-            "trophies": 91,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 53,
-            "player_name": "jUsTicE",
-            "clan_name": "CONTRACT KILLER",
-            "count": 2,
-            "stars": 6,
-            "avg_stars": 3.0,
-            "avg_destruction": 100.0,
-            "trophies": 80,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 54,
-            "player_name": "アメノウズメ(〜*'ω')〜",
-            "clan_name": "みんなのお家",
-            "count": 2,
-            "stars": 6,
-            "avg_stars": 3.0,
-            "avg_destruction": 100.0,
-            "trophies": 80,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 55,
-            "player_name": "папа Ди",
-            "clan_name": "БРОСОК КОБРЫ",
-            "count": 4,
-            "stars": 6,
-            "avg_stars": 1.5,
-            "avg_destruction": 82.0,
-            "trophies": 77,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 56,
-            "player_name": "Uaaah",
-            "clan_name": "Archer Kings",
-            "count": 2,
-            "stars": 5,
-            "avg_stars": 2.5,
-            "avg_destruction": 99.0,
-            "trophies": 72,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 57,
-            "player_name": "little buddha 3",
-            "clan_name": "veni vedi vinci",
-            "count": 2,
-            "stars": 5,
-            "avg_stars": 2.5,
-            "avg_destruction": 97.0,
-            "trophies": 70,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 58,
-            "player_name": "个×Z3EM×个",
-            "clan_name": "THE DRAGON",
-            "count": 2,
-            "stars": 5,
-            "avg_stars": 2.5,
-            "avg_destruction": 94.5,
-            "trophies": 69,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 59,
-            "player_name": "dadou",
-            "clan_name": "درع الجزائر²",
-            "count": 2,
-            "stars": 5,
-            "avg_stars": 2.5,
-            "avg_destruction": 94.0,
-            "trophies": 68,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 60,
-            "player_name": "cRash_n_burned",
-            "clan_name": "天天有鱼",
-            "count": 2,
-            "stars": 5,
-            "avg_stars": 2.5,
-            "avg_destruction": 91.0,
-            "trophies": 66,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 61,
-            "player_name": "FMC",
-            "clan_name": "flan cam2",
-            "count": 2,
-            "stars": 5,
-            "avg_stars": 2.5,
-            "avg_destruction": 85.5,
-            "trophies": 63,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 62,
-            "player_name": "MiDNighTer",
-            "clan_name": "Phantom Raiders",
-            "count": 3,
-            "stars": 5,
-            "avg_stars": 1.6666666666666667,
-            "avg_destruction": 76.66666666666667,
-            "trophies": 62,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 63,
-            "player_name": "SAJID",
-            "clan_name": "IDEALNY",
-            "count": 2,
-            "stars": 4,
-            "avg_stars": 2.0,
-            "avg_destruction": 82.0,
-            "trophies": 53,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 64,
-            "player_name": "Aldebar",
-            "clan_name": "SchattenFrost",
-            "count": 1,
-            "stars": 3,
-            "avg_stars": 3.0,
-            "avg_destruction": 100.0,
-            "trophies": 40,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 65,
-            "player_name": "Fenix",
-            "clan_name": "BRASIL UNITED",
-            "count": 1,
-            "stars": 3,
-            "avg_stars": 3.0,
-            "avg_destruction": 100.0,
-            "trophies": 40,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 66,
-            "player_name": "LEGENDS ⚡️ ANDY",
-            "clan_name": "los mejores",
-            "count": 1,
-            "stars": 3,
-            "avg_stars": 3.0,
-            "avg_destruction": 100.0,
-            "trophies": 40,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 67,
-            "player_name": "Onid",
-            "clan_name": "Exodus",
-            "count": 1,
-            "stars": 3,
-            "avg_stars": 3.0,
-            "avg_destruction": 100.0,
-            "trophies": 40,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 68,
-            "player_name": "♣⭐Dr.MaGic⭐♣",
-            "clan_name": "القوة الجوية",
-            "count": 1,
-            "stars": 3,
-            "avg_stars": 3.0,
-            "avg_destruction": 100.0,
-            "trophies": 40,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 69,
-            "player_name": "دٍسِـتٌـوٌر",
-            "clan_name": "معان العز",
-            "count": 2,
-            "stars": 3,
-            "avg_stars": 1.5,
-            "avg_destruction": 81.0,
-            "trophies": 39,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 70,
-            "player_name": "ForestSleeping",
-            "clan_name": "ace 4",
-            "count": 2,
-            "stars": 3,
-            "avg_stars": 1.5,
-            "avg_destruction": 72.5,
-            "trophies": 36,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 71,
-            "player_name": "LANNISTER",
-            "clan_name": "hrvatska zadar",
-            "count": 1,
-            "stars": 2,
-            "avg_stars": 2.0,
-            "avg_destruction": 88.0,
-            "trophies": 28,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 72,
-            "player_name": "Kingspix",
-            "clan_name": "#306",
-            "count": 1,
-            "stars": 2,
-            "avg_stars": 2.0,
-            "avg_destruction": 86.0,
-            "trophies": 28,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 73,
-            "player_name": "RIDZKY",
-            "clan_name": "M.B.C COC",
-            "count": 1,
-            "stars": 2,
-            "avg_stars": 2.0,
-            "avg_destruction": 71.0,
-            "trophies": 23,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 74,
-            "player_name": "Bri Guy",
-            "clan_name": "Merciless",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 75,
-            "player_name": "D3sTr0Y3r",
-            "clan_name": "House of DGR!MM",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 76,
-            "player_name": "derrick119",
-            "clan_name": "Donating Mafia",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 77,
-            "player_name": "EGO✰",
-            "clan_name": "الملوك",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 78,
-            "player_name": "h3llz",
-            "clan_name": "Trek Everyone",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 79,
-            "player_name": "HiToKiRiMaKuY",
-            "clan_name": "PiNaS pH.",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 80,
-            "player_name": "I LIKE 99%",
-            "clan_name": "VIETNAM STORE",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 81,
-            "player_name": "Indy 888",
-            "clan_name": "YZK CLAN",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 82,
-            "player_name": "Kaidoˆ",
-            "clan_name": "ChrOnyx",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 83,
-            "player_name": "Kataküna.",
-            "clan_name": "Ichorian Blood™",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 84,
-            "player_name": "MABOS",
-            "clan_name": "⚡⚡ONELOVE⚡⚡",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 85,
-            "player_name": "Mamun",
-            "clan_name": "BD BOYS",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 86,
-            "player_name": "Master Solla",
-            "clan_name": "RSA Masters",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 87,
-            "player_name": "MMG Phil",
-            "clan_name": "MILLESIME²",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 88,
-            "player_name": "MoonlightShadow",
-            "clan_name": "wahdor lounge",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 89,
-            "player_name": "naften-mangone",
-            "clan_name": "New ÆTHER",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 90,
-            "player_name": "NC♥️SABIN",
-            "clan_name": "NEW CLAN",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 91,
-            "player_name": "PSFMahesh",
-            "clan_name": "BROTHERHOOD❤️",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 92,
-            "player_name": "sempainioko",
-            "clan_name": "J-Crisis Manila",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 93,
-            "player_name": "SY⚡GENERAL",
-            "clan_name": "Mighty Clan",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 94,
-            "player_name": "Tus#ar",
-            "clan_name": "REQ N LEAVE",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 95,
-            "player_name": "War Demon",
-            "clan_name": "Bhaal's Demons",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 96,
-            "player_name": "WI⚡♠️♠️Aziz♠️♠️",
-            "clan_name": "AFG BOY",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 97,
-            "player_name": "™tý™",
-            "clan_name": "hoàng mai plaza",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 98,
-            "player_name": "♨️Nam Râu♨️",
-            "clan_name": "Unclashified",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 99,
-            "player_name": "⚜MAHMOUD.A5⚜",
-            "clan_name": "..B.E.K.A..",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 100,
-            "player_name": "Ｄｖ_⚡Ｒａｕｆ⚡",
-            "clan_name": "Bambey067",
-            "count": 0,
-            "stars": 0,
-            "avg_stars": 0.0,
-            "avg_destruction": 0.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          }
-        ],
-        "group_defense": [
-          {
-            "position": 1,
-            "player_name": "little buddha 3",
-            "clan_name": "veni vedi vinci",
-            "count": 6,
-            "stars": 9,
-            "avg_stars": 1.5,
-            "avg_destruction": 95.0,
-            "trophies": 110,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 2,
-            "player_name": "LANNISTER",
-            "clan_name": "hrvatska zadar",
-            "count": 7,
-            "stars": 12,
-            "avg_stars": 1.7142857142857142,
-            "avg_destruction": 87.42857142857143,
-            "trophies": 108,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 3,
-            "player_name": "Dora-da-man",
-            "clan_name": "IMAGINE DRAGONS",
-            "count": 7,
-            "stars": 14,
-            "avg_stars": 2.0,
-            "avg_destruction": 80.42857142857143,
-            "trophies": 104,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 4,
-            "player_name": "Indy 888",
-            "clan_name": "YZK CLAN",
-            "count": 7,
-            "stars": 13,
-            "avg_stars": 1.8571428571428572,
-            "avg_destruction": 88.57142857142857,
-            "trophies": 100,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 5,
-            "player_name": "Kataküna.",
-            "clan_name": "Ichorian Blood™",
-            "count": 6,
-            "stars": 11,
-            "avg_stars": 1.8333333333333333,
-            "avg_destruction": 82.83333333333333,
-            "trophies": 99,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 6,
-            "player_name": "WI⚡♠️♠️Aziz♠️♠️",
-            "clan_name": "AFG BOY",
-            "count": 7,
-            "stars": 14,
-            "avg_stars": 2.0,
-            "avg_destruction": 90.85714285714286,
-            "trophies": 89,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 7,
-            "player_name": "Rationais11",
-            "clan_name": "Furious",
-            "count": 6,
-            "stars": 11,
-            "avg_stars": 1.8333333333333333,
-            "avg_destruction": 83.5,
-            "trophies": 87,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 8,
-            "player_name": "degdess",
-            "clan_name": "les loges",
-            "count": 6,
-            "stars": 11,
-            "avg_stars": 1.8333333333333333,
-            "avg_destruction": 92.83333333333333,
-            "trophies": 86,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 9,
-            "player_name": "FMC",
-            "clan_name": "flan cam2",
-            "count": 6,
-            "stars": 11,
-            "avg_stars": 1.8333333333333333,
-            "avg_destruction": 92.66666666666667,
-            "trophies": 82,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 10,
-            "player_name": "COC HUNTER",
-            "clan_name": "RISING PHEONIX",
-            "count": 6,
-            "stars": 12,
-            "avg_stars": 2.0,
-            "avg_destruction": 89.5,
-            "trophies": 79,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 11,
-            "player_name": "شيعة علي\"313",
-            "clan_name": "لواء الإمام علي",
-            "count": 7,
-            "stars": 14,
-            "avg_stars": 2.0,
-            "avg_destruction": 92.14285714285714,
-            "trophies": 79,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 12,
-            "player_name": "TheOGbeastlyb8",
-            "clan_name": "WAR RETRIBUTION",
-            "count": 7,
-            "stars": 15,
-            "avg_stars": 2.142857142857143,
-            "avg_destruction": 97.0,
-            "trophies": 76,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 13,
-            "player_name": "sempainioko",
-            "clan_name": "J-Crisis Manila",
-            "count": 6,
-            "stars": 12,
-            "avg_stars": 2.0,
-            "avg_destruction": 91.5,
-            "trophies": 75,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 14,
-            "player_name": "jUsTicE",
-            "clan_name": "CONTRACT KILLER",
-            "count": 7,
-            "stars": 14,
-            "avg_stars": 2.0,
-            "avg_destruction": 92.71428571428571,
-            "trophies": 75,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 15,
-            "player_name": "MABOS",
-            "clan_name": "⚡⚡ONELOVE⚡⚡",
-            "count": 7,
-            "stars": 16,
-            "avg_stars": 2.2857142857142856,
-            "avg_destruction": 84.14285714285714,
-            "trophies": 75,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 16,
-            "player_name": "dadou",
-            "clan_name": "درع الجزائر²",
-            "count": 6,
-            "stars": 12,
-            "avg_stars": 2.0,
-            "avg_destruction": 91.33333333333333,
-            "trophies": 74,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 17,
-            "player_name": "HiToKiRiMaKuY",
-            "clan_name": "PiNaS pH.",
-            "count": 7,
-            "stars": 16,
-            "avg_stars": 2.2857142857142856,
-            "avg_destruction": 85.42857142857143,
-            "trophies": 73,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 18,
-            "player_name": "دٍسِـتٌـوٌر",
-            "clan_name": "معان العز",
-            "count": 7,
-            "stars": 16,
-            "avg_stars": 2.2857142857142856,
-            "avg_destruction": 88.28571428571429,
-            "trophies": 72,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 19,
-            "player_name": "cRash_n_burned",
-            "clan_name": "天天有鱼",
-            "count": 6,
-            "stars": 13,
-            "avg_stars": 2.1666666666666665,
-            "avg_destruction": 83.33333333333333,
-            "trophies": 71,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 20,
-            "player_name": "ᵀᵀᴺ BULL♦️DOG",
-            "clan_name": "BATTLE RAGE 2",
-            "count": 7,
-            "stars": 16,
-            "avg_stars": 2.2857142857142856,
-            "avg_destruction": 87.85714285714286,
-            "trophies": 69,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 21,
-            "player_name": "mak",
-            "clan_name": "British Wino’s",
-            "count": 6,
-            "stars": 13,
-            "avg_stars": 2.1666666666666665,
-            "avg_destruction": 85.5,
-            "trophies": 68,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 22,
-            "player_name": "Avinash",
-            "clan_name": "Hero Dive Bar",
-            "count": 6,
-            "stars": 13,
-            "avg_stars": 2.1666666666666665,
-            "avg_destruction": 90.66666666666667,
-            "trophies": 68,
-            "is_player": true,
-            "clan_member_public_id": "10d53b71f16c59"
-          },
-          {
-            "position": 23,
-            "player_name": "HACKER",
-            "clan_name": "Pune titans",
-            "count": 7,
-            "stars": 16,
-            "avg_stars": 2.2857142857142856,
-            "avg_destruction": 92.85714285714286,
-            "trophies": 67,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 24,
-            "player_name": "wens",
-            "clan_name": "HIDAYAH",
-            "count": 6,
-            "stars": 13,
-            "avg_stars": 2.1666666666666665,
-            "avg_destruction": 89.66666666666667,
-            "trophies": 66,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 25,
-            "player_name": "Fenix",
-            "clan_name": "BRASIL UNITED",
-            "count": 6,
-            "stars": 13,
-            "avg_stars": 2.1666666666666665,
-            "avg_destruction": 88.5,
-            "trophies": 65,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 26,
-            "player_name": "Bri Guy",
-            "clan_name": "Merciless",
-            "count": 7,
-            "stars": 16,
-            "avg_stars": 2.2857142857142856,
-            "avg_destruction": 92.0,
-            "trophies": 65,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 27,
-            "player_name": "个×Z3EM×个",
-            "clan_name": "THE DRAGON",
-            "count": 6,
-            "stars": 14,
-            "avg_stars": 2.3333333333333335,
-            "avg_destruction": 86.66666666666667,
-            "trophies": 65,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 28,
-            "player_name": "MMG Phil",
-            "clan_name": "MILLESIME²",
-            "count": 6,
-            "stars": 12,
-            "avg_stars": 2.0,
-            "avg_destruction": 94.16666666666667,
-            "trophies": 64,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 29,
-            "player_name": "War Demon",
-            "clan_name": "Bhaal's Demons",
-            "count": 6,
-            "stars": 13,
-            "avg_stars": 2.1666666666666665,
-            "avg_destruction": 89.83333333333333,
-            "trophies": 64,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 30,
-            "player_name": "EternalVoid",
-            "clan_name": "Har_har_mahadev",
-            "count": 7,
-            "stars": 16,
-            "avg_stars": 2.2857142857142856,
-            "avg_destruction": 88.14285714285714,
-            "trophies": 63,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 31,
-            "player_name": "7SAYDIKI",
-            "clan_name": "KZ 7say",
-            "count": 7,
-            "stars": 16,
-            "avg_stars": 2.2857142857142856,
-            "avg_destruction": 89.71428571428571,
-            "trophies": 63,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 32,
-            "player_name": "JAMES",
-            "clan_name": "Lords of war",
-            "count": 7,
-            "stars": 16,
-            "avg_stars": 2.2857142857142856,
-            "avg_destruction": 93.0,
-            "trophies": 63,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 33,
-            "player_name": "♥Giada♥",
-            "clan_name": "total gamer",
-            "count": 7,
-            "stars": 16,
-            "avg_stars": 2.2857142857142856,
-            "avg_destruction": 94.28571428571429,
-            "trophies": 63,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 34,
-            "player_name": "Tim",
-            "clan_name": "快乐土匪窝",
-            "count": 6,
-            "stars": 13,
-            "avg_stars": 2.1666666666666665,
-            "avg_destruction": 93.16666666666667,
-            "trophies": 62,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 35,
-            "player_name": "franky_havana",
-            "clan_name": "havana",
-            "count": 7,
-            "stars": 17,
-            "avg_stars": 2.4285714285714284,
-            "avg_destruction": 88.42857142857143,
-            "trophies": 61,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 36,
-            "player_name": "Jed®",
-            "clan_name": "No War No War",
-            "count": 7,
-            "stars": 16,
-            "avg_stars": 2.2857142857142856,
-            "avg_destruction": 93.0,
-            "trophies": 60,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 37,
-            "player_name": "VHA ⚡ GODZINHO",
-            "clan_name": "Les Bronzés",
-            "count": 6,
-            "stars": 14,
-            "avg_stars": 2.3333333333333335,
-            "avg_destruction": 88.16666666666667,
-            "trophies": 59,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 38,
-            "player_name": "EGO✰",
-            "clan_name": "الملوك",
-            "count": 7,
-            "stars": 16,
-            "avg_stars": 2.2857142857142856,
-            "avg_destruction": 94.85714285714286,
-            "trophies": 58,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 39,
-            "player_name": "playhard##gopro",
-            "clan_name": "Royal Flash",
-            "count": 6,
-            "stars": 14,
-            "avg_stars": 2.3333333333333335,
-            "avg_destruction": 89.33333333333333,
-            "trophies": 58,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 40,
-            "player_name": "naften-mangone",
-            "clan_name": "New ÆTHER",
-            "count": 7,
-            "stars": 16,
-            "avg_stars": 2.2857142857142856,
-            "avg_destruction": 94.85714285714286,
-            "trophies": 57,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 41,
-            "player_name": "папа Ди",
-            "clan_name": "БРОСОК КОБРЫ",
-            "count": 6,
-            "stars": 14,
-            "avg_stars": 2.3333333333333335,
-            "avg_destruction": 86.83333333333333,
-            "trophies": 57,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 42,
-            "player_name": "chi linh",
-            "clan_name": "VIỆT NAM 8888",
-            "count": 6,
-            "stars": 13,
-            "avg_stars": 2.1666666666666665,
-            "avg_destruction": 95.5,
-            "trophies": 55,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 43,
-            "player_name": "SAJID",
-            "clan_name": "IDEALNY",
-            "count": 7,
-            "stars": 17,
-            "avg_stars": 2.4285714285714284,
-            "avg_destruction": 90.14285714285714,
-            "trophies": 55,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 44,
-            "player_name": "LEGENDS ⚡️ ANDY",
-            "clan_name": "los mejores",
-            "count": 7,
-            "stars": 17,
-            "avg_stars": 2.4285714285714284,
-            "avg_destruction": 91.85714285714286,
-            "trophies": 55,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 45,
-            "player_name": "star",
-            "clan_name": "Persian",
-            "count": 7,
-            "stars": 17,
-            "avg_stars": 2.4285714285714284,
-            "avg_destruction": 92.14285714285714,
-            "trophies": 54,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 46,
-            "player_name": "SuperHulk",
-            "clan_name": "The J",
-            "count": 7,
-            "stars": 18,
-            "avg_stars": 2.5714285714285716,
-            "avg_destruction": 87.42857142857143,
-            "trophies": 53,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 47,
-            "player_name": "derrick119",
-            "clan_name": "Donating Mafia",
-            "count": 7,
-            "stars": 17,
-            "avg_stars": 2.4285714285714284,
-            "avg_destruction": 93.14285714285714,
-            "trophies": 50,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 48,
-            "player_name": "BOSS™",
-            "clan_name": "410 Savages",
-            "count": 6,
-            "stars": 14,
-            "avg_stars": 2.3333333333333335,
-            "avg_destruction": 90.5,
-            "trophies": 49,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 49,
-            "player_name": "near",
-            "clan_name": "superpinoyII",
-            "count": 6,
-            "stars": 14,
-            "avg_stars": 2.3333333333333335,
-            "avg_destruction": 93.83333333333333,
-            "trophies": 49,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 50,
-            "player_name": "Mr.JazZ",
-            "clan_name": "Danger Marrior",
-            "count": 7,
-            "stars": 17,
-            "avg_stars": 2.4285714285714284,
-            "avg_destruction": 95.28571428571429,
-            "trophies": 47,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 51,
-            "player_name": "Ramírez",
-            "clan_name": "ADALUCESas2",
-            "count": 7,
-            "stars": 18,
-            "avg_stars": 2.5714285714285716,
-            "avg_destruction": 90.28571428571429,
-            "trophies": 46,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 52,
-            "player_name": "MR DJ B (IR)",
-            "clan_name": "ImperioReal TOP",
-            "count": 7,
-            "stars": 17,
-            "avg_stars": 2.4285714285714284,
-            "avg_destruction": 94.42857142857143,
-            "trophies": 43,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 53,
-            "player_name": "HIWA HWSEN",
-            "clan_name": "كوردستان",
-            "count": 7,
-            "stars": 18,
-            "avg_stars": 2.5714285714285716,
-            "avg_destruction": 91.57142857142857,
-            "trophies": 43,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 54,
-            "player_name": "อ่ำ ขาโหดโคราช",
-            "clan_name": "สุพรรณหงษ์",
-            "count": 7,
-            "stars": 17,
-            "avg_stars": 2.4285714285714284,
-            "avg_destruction": 95.85714285714286,
-            "trophies": 40,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 55,
-            "player_name": "chok's",
-            "clan_name": "DAVAO CLASHERS",
-            "count": 6,
-            "stars": 15,
-            "avg_stars": 2.5,
-            "avg_destruction": 91.33333333333333,
-            "trophies": 40,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 56,
-            "player_name": "Kingspix",
-            "clan_name": "#306",
-            "count": 7,
-            "stars": 18,
-            "avg_stars": 2.5714285714285716,
-            "avg_destruction": 92.42857142857143,
-            "trophies": 40,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 57,
-            "player_name": "RDX RAJA",
-            "clan_name": "santoshpur pais",
-            "count": 7,
-            "stars": 18,
-            "avg_stars": 2.5714285714285716,
-            "avg_destruction": 92.42857142857143,
-            "trophies": 40,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 58,
-            "player_name": "ForestSleeping",
-            "clan_name": "ace 4",
-            "count": 7,
-            "stars": 18,
-            "avg_stars": 2.5714285714285716,
-            "avg_destruction": 93.28571428571429,
-            "trophies": 39,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 59,
-            "player_name": "L.A. the 2nd",
-            "clan_name": "Fearstorm",
-            "count": 7,
-            "stars": 18,
-            "avg_stars": 2.5714285714285716,
-            "avg_destruction": 93.42857142857143,
-            "trophies": 39,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 60,
-            "player_name": "Lexoy134",
-            "clan_name": "盛世",
-            "count": 6,
-            "stars": 15,
-            "avg_stars": 2.5,
-            "avg_destruction": 94.66666666666667,
-            "trophies": 38,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 61,
-            "player_name": "Kanikou",
-            "clan_name": "vVv²",
-            "count": 6,
-            "stars": 15,
-            "avg_stars": 2.5,
-            "avg_destruction": 95.83333333333333,
-            "trophies": 38,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 62,
-            "player_name": "MoonlightShadow",
-            "clan_name": "wahdor lounge",
-            "count": 7,
-            "stars": 18,
-            "avg_stars": 2.5714285714285716,
-            "avg_destruction": 93.71428571428571,
-            "trophies": 37,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 63,
-            "player_name": "*Top*",
-            "clan_name": "myanmar fighter",
-            "count": 7,
-            "stars": 18,
-            "avg_stars": 2.5714285714285716,
-            "avg_destruction": 94.0,
-            "trophies": 37,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 64,
-            "player_name": "MiDNighTer",
-            "clan_name": "Phantom Raiders",
-            "count": 6,
-            "stars": 15,
-            "avg_stars": 2.5,
-            "avg_destruction": 97.0,
-            "trophies": 36,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 65,
-            "player_name": "S T R I X",
-            "clan_name": "Plug And Play",
-            "count": 7,
-            "stars": 18,
-            "avg_stars": 2.5714285714285716,
-            "avg_destruction": 97.28571428571429,
-            "trophies": 36,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 66,
-            "player_name": "D3sTr0Y3r",
-            "clan_name": "House of DGR!MM",
-            "count": 6,
-            "stars": 15,
-            "avg_stars": 2.5,
-            "avg_destruction": 94.0,
-            "trophies": 35,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 67,
-            "player_name": "nắng mai",
-            "clan_name": "TOP SERVER",
-            "count": 6,
-            "stars": 15,
-            "avg_stars": 2.5,
-            "avg_destruction": 97.5,
-            "trophies": 35,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 68,
-            "player_name": "Kaidoˆ",
-            "clan_name": "ChrOnyx",
-            "count": 7,
-            "stars": 18,
-            "avg_stars": 2.5714285714285716,
-            "avg_destruction": 97.0,
-            "trophies": 35,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 69,
-            "player_name": "I LIKE 99%",
-            "clan_name": "VIETNAM STORE",
-            "count": 7,
-            "stars": 18,
-            "avg_stars": 2.5714285714285716,
-            "avg_destruction": 97.71428571428571,
-            "trophies": 35,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 70,
-            "player_name": "Uaaah",
-            "clan_name": "Archer Kings",
-            "count": 7,
-            "stars": 18,
-            "avg_stars": 2.5714285714285716,
-            "avg_destruction": 98.57142857142857,
-            "trophies": 35,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 71,
-            "player_name": "Mamun",
-            "clan_name": "BD BOYS",
-            "count": 6,
-            "stars": 15,
-            "avg_stars": 2.5,
-            "avg_destruction": 98.33333333333333,
-            "trophies": 34,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 72,
-            "player_name": "Milan",
-            "clan_name": "melonguane city",
-            "count": 7,
-            "stars": 18,
-            "avg_stars": 2.5714285714285716,
-            "avg_destruction": 95.42857142857143,
-            "trophies": 33,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 73,
-            "player_name": "神遊陳舊",
-            "clan_name": "青龙院",
-            "count": 7,
-            "stars": 19,
-            "avg_stars": 2.7142857142857144,
-            "avg_destruction": 92.42857142857143,
-            "trophies": 33,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 74,
-            "player_name": "jonathan",
-            "clan_name": "LOUKOS DO CLASH",
-            "count": 6,
-            "stars": 15,
-            "avg_stars": 2.5,
-            "avg_destruction": 95.83333333333333,
-            "trophies": 31,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 75,
-            "player_name": "Lnwtrue",
-            "clan_name": "ความตายสีขาว",
-            "count": 7,
-            "stars": 19,
-            "avg_stars": 2.7142857142857144,
-            "avg_destruction": 93.71428571428571,
-            "trophies": 30,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 76,
-            "player_name": "SSR",
-            "clan_name": "E = mc^2",
-            "count": 7,
-            "stars": 19,
-            "avg_stars": 2.7142857142857144,
-            "avg_destruction": 94.0,
-            "trophies": 29,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 77,
-            "player_name": "SY⚡GENERAL",
-            "clan_name": "Mighty Clan",
-            "count": 6,
-            "stars": 16,
-            "avg_stars": 2.6666666666666665,
-            "avg_destruction": 93.83333333333333,
-            "trophies": 28,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 78,
-            "player_name": "♨️Nam Râu♨️",
-            "clan_name": "Unclashified",
-            "count": 6,
-            "stars": 15,
-            "avg_stars": 2.5,
-            "avg_destruction": 98.33333333333333,
-            "trophies": 27,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 79,
-            "player_name": "™tý™",
-            "clan_name": "hoàng mai plaza",
-            "count": 6,
-            "stars": 16,
-            "avg_stars": 2.6666666666666665,
-            "avg_destruction": 94.0,
-            "trophies": 27,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 80,
-            "player_name": "Lascar",
-            "clan_name": "W1",
-            "count": 6,
-            "stars": 16,
-            "avg_stars": 2.6666666666666665,
-            "avg_destruction": 95.5,
-            "trophies": 24,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 81,
-            "player_name": "アメノウズメ(〜*'ω')〜",
-            "clan_name": "みんなのお家",
-            "count": 6,
-            "stars": 16,
-            "avg_stars": 2.6666666666666665,
-            "avg_destruction": 96.0,
-            "trophies": 23,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 82,
-            "player_name": "PSFMahesh",
-            "clan_name": "BROTHERHOOD❤️",
-            "count": 6,
-            "stars": 16,
-            "avg_stars": 2.6666666666666665,
-            "avg_destruction": 96.83333333333333,
-            "trophies": 22,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 83,
-            "player_name": "Aldebar",
-            "clan_name": "SchattenFrost",
-            "count": 6,
-            "stars": 17,
-            "avg_stars": 2.8333333333333335,
-            "avg_destruction": 92.66666666666667,
-            "trophies": 22,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 84,
-            "player_name": "Carlos 23",
-            "clan_name": "CHILE",
-            "count": 6,
-            "stars": 16,
-            "avg_stars": 2.6666666666666665,
-            "avg_destruction": 96.83333333333333,
-            "trophies": 21,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 85,
-            "player_name": "DERAS 11",
-            "clan_name": "ADVENGERS",
-            "count": 6,
-            "stars": 16,
-            "avg_stars": 2.6666666666666665,
-            "avg_destruction": 97.16666666666667,
-            "trophies": 21,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 86,
-            "player_name": "pbd",
-            "clan_name": "! ราชาตะวันตก !",
-            "count": 7,
-            "stars": 19,
-            "avg_stars": 2.7142857142857144,
-            "avg_destruction": 98.42857142857143,
-            "trophies": 19,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 87,
-            "player_name": "Ｄｖ_⚡Ｒａｕｆ⚡",
-            "clan_name": "Bambey067",
-            "count": 7,
-            "stars": 19,
-            "avg_stars": 2.7142857142857144,
-            "avg_destruction": 99.14285714285714,
-            "trophies": 18,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 88,
-            "player_name": "♣⭐Dr.MaGic⭐♣",
-            "clan_name": "القوة الجوية",
-            "count": 7,
-            "stars": 20,
-            "avg_stars": 2.857142857142857,
-            "avg_destruction": 95.71428571428571,
-            "trophies": 18,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 89,
-            "player_name": "NC♥️SABIN",
-            "clan_name": "NEW CLAN",
-            "count": 6,
-            "stars": 17,
-            "avg_stars": 2.8333333333333335,
-            "avg_destruction": 95.16666666666667,
-            "trophies": 17,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 90,
-            "player_name": "akang pis",
-            "clan_name": "THE DRAGONS",
-            "count": 7,
-            "stars": 20,
-            "avg_stars": 2.857142857142857,
-            "avg_destruction": 96.28571428571429,
-            "trophies": 16,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 91,
-            "player_name": "RIDZKY",
-            "clan_name": "M.B.C COC",
-            "count": 7,
-            "stars": 20,
-            "avg_stars": 2.857142857142857,
-            "avg_destruction": 98.28571428571429,
-            "trophies": 12,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 92,
-            "player_name": "yusuf",
-            "clan_name": "CALAMİTY",
-            "count": 7,
-            "stars": 20,
-            "avg_stars": 2.857142857142857,
-            "avg_destruction": 98.28571428571429,
-            "trophies": 12,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 93,
-            "player_name": "h3llz",
-            "clan_name": "Trek Everyone",
-            "count": 6,
-            "stars": 17,
-            "avg_stars": 2.8333333333333335,
-            "avg_destruction": 98.83333333333333,
-            "trophies": 10,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 94,
-            "player_name": "⚜MAHMOUD.A5⚜",
-            "clan_name": "..B.E.K.A..",
-            "count": 7,
-            "stars": 20,
-            "avg_stars": 2.857142857142857,
-            "avg_destruction": 98.85714285714286,
-            "trophies": 10,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 95,
-            "player_name": "Tus#ar",
-            "clan_name": "REQ N LEAVE",
-            "count": 7,
-            "stars": 20,
-            "avg_stars": 2.857142857142857,
-            "avg_destruction": 99.14285714285714,
-            "trophies": 10,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 96,
-            "player_name": "Displ3y",
-            "clan_name": "# THE TITANS #",
-            "count": 7,
-            "stars": 20,
-            "avg_stars": 2.857142857142857,
-            "avg_destruction": 99.28571428571429,
-            "trophies": 9,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 97,
-            "player_name": "kuku",
-            "clan_name": "★REQ N LEAVE★",
-            "count": 6,
-            "stars": 17,
-            "avg_stars": 2.8333333333333335,
-            "avg_destruction": 99.83333333333333,
-            "trophies": 8,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 98,
-            "player_name": "Master Solla",
-            "clan_name": "RSA Masters",
-            "count": 6,
-            "stars": 17,
-            "avg_stars": 2.8333333333333335,
-            "avg_destruction": 99.83333333333333,
-            "trophies": 8,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 99,
-            "player_name": "Onid",
-            "clan_name": "Exodus",
-            "count": 7,
-            "stars": 21,
-            "avg_stars": 3.0,
-            "avg_destruction": 100.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 100,
-            "player_name": "MD Ha S an",
-            "clan_name": "Bangla vs world",
-            "count": 6,
-            "stars": 18,
-            "avg_stars": 3.0,
-            "avg_destruction": 100.0,
-            "trophies": 0,
-            "is_player": false,
-            "clan_member_public_id": null
-          }
-        ]
+        "group_offense": [],
+        "group_defense": []
       },
       "27e7ea38f51aa4": {
         "public_id": "27e7ea38f51aa4",
@@ -54128,8 +51572,8 @@
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
-        "attack_count": 35,
-        "defense_count": 4,
+        "attack_count": 21,
+        "defense_count": 3,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:21.346574+00:00",
@@ -54146,13 +51590,6 @@
             "trophies": 28
           },
           {
-            "creation_time": "2026-09-22T05:25:59Z",
-            "opponent_name": "⚡SS⚡",
-            "stars": 2,
-            "destruction": 88.0,
-            "trophies": 28
-          },
-          {
             "creation_time": "2026-09-22T05:25:58.534Z",
             "opponent_name": "⚡SS⚡",
             "stars": 2,
@@ -54160,22 +51597,8 @@
             "trophies": 28
           },
           {
-            "creation_time": "2026-09-22T05:22:52Z",
-            "opponent_name": "Tha 《Lord》",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
             "creation_time": "2026-09-22T05:22:51.841Z",
             "opponent_name": "Tha 《Lord》",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
-            "creation_time": "2026-09-22T05:20:06Z",
-            "opponent_name": "BBWlover69",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 40
@@ -54188,13 +51611,6 @@
             "trophies": 40
           },
           {
-            "creation_time": "2026-09-22T05:16:57Z",
-            "opponent_name": "TONY STARK",
-            "stars": 2,
-            "destruction": 87.0,
-            "trophies": 28
-          },
-          {
             "creation_time": "2026-09-22T05:16:57.330Z",
             "opponent_name": "TONY STARK",
             "stars": 2,
@@ -54202,22 +51618,8 @@
             "trophies": 28
           },
           {
-            "creation_time": "2026-09-22T05:13:16Z",
-            "opponent_name": "picollo jr",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
             "creation_time": "2026-09-22T05:13:16.246Z",
             "opponent_name": "picollo jr",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
-            "creation_time": "2026-09-22T05:09:49Z",
-            "opponent_name": "《MEHMET》2",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 40
@@ -54244,13 +51646,6 @@
             "trophies": 15
           },
           {
-            "creation_time": "2026-09-22T05:03:22Z",
-            "opponent_name": "burhanpujj",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
             "creation_time": "2026-09-22T05:03:21.797Z",
             "opponent_name": "burhanpujj",
             "stars": 3,
@@ -54272,25 +51667,11 @@
             "trophies": 15
           },
           {
-            "creation_time": "2026-09-22T04:56:25Z",
-            "opponent_name": "OA Pulco Orange",
-            "stars": 2,
-            "destruction": 88.0,
-            "trophies": 28
-          },
-          {
             "creation_time": "2026-09-22T04:56:24.779Z",
             "opponent_name": "OA Pulco Orange",
             "stars": 2,
             "destruction": 88.0,
             "trophies": 28
-          },
-          {
-            "creation_time": "2026-09-22T04:52:26Z",
-            "opponent_name": "Elks Darkstone",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
           },
           {
             "creation_time": "2026-09-22T04:52:26.382Z",
@@ -54314,25 +51695,11 @@
             "trophies": 26
           },
           {
-            "creation_time": "2026-09-22T04:44:32Z",
-            "opponent_name": "puneet",
-            "stars": 2,
-            "destruction": 69.0,
-            "trophies": 22
-          },
-          {
             "creation_time": "2026-09-22T04:44:32.334Z",
             "opponent_name": "puneet",
             "stars": 2,
             "destruction": 69.0,
             "trophies": 22
-          },
-          {
-            "creation_time": "2026-09-22T04:39:19Z",
-            "opponent_name": "KAK CECEP",
-            "stars": 2,
-            "destruction": 92.0,
-            "trophies": 30
           },
           {
             "creation_time": "2026-09-22T04:39:18.673Z",
@@ -54342,13 +51709,6 @@
             "trophies": 30
           },
           {
-            "creation_time": "2026-09-22T04:35:13Z",
-            "opponent_name": "meisam_gh622",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
             "creation_time": "2026-09-22T04:35:13.077Z",
             "opponent_name": "meisam_gh622",
             "stars": 3,
@@ -54356,22 +51716,8 @@
             "trophies": 40
           },
           {
-            "creation_time": "2026-09-22T04:31:58Z",
-            "opponent_name": "jccoo4",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
             "creation_time": "2026-09-22T04:31:58.102Z",
             "opponent_name": "jccoo4",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
-            "creation_time": "2026-09-22T04:29:12Z",
-            "opponent_name": "shubham",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 40
@@ -54398,13 +51744,6 @@
             "stars": 3,
             "destruction": 100.0,
             "trophies": 0
-          },
-          {
-            "creation_time": "2026-09-21T21:07:37Z",
-            "opponent_name": "Peeny",
-            "stars": 1,
-            "destruction": 94.0,
-            "trophies": 25
           },
           {
             "creation_time": "2026-09-21T21:07:36.807Z",
@@ -55631,7 +52970,7 @@
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
-        "attack_count": 20,
+        "attack_count": 11,
         "defense_count": 2,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
@@ -55641,13 +52980,6 @@
         "defense_wins": 0,
         "defense_losses": 2,
         "attacks": [
-          {
-            "creation_time": "2026-09-22T02:53:58Z",
-            "opponent_name": "warrior aniket",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
           {
             "creation_time": "2026-09-22T02:53:58.357Z",
             "opponent_name": "warrior aniket",
@@ -55670,22 +53002,8 @@
             "trophies": 40
           },
           {
-            "creation_time": "2026-09-22T02:46:36Z",
-            "opponent_name": "kipper",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
             "creation_time": "2026-09-22T02:46:35.779Z",
             "opponent_name": "kipper",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
-            "creation_time": "2026-09-22T02:43:39Z",
-            "opponent_name": "455",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 40
@@ -55698,22 +53016,8 @@
             "trophies": 40
           },
           {
-            "creation_time": "2026-09-22T02:40:33Z",
-            "opponent_name": "MKambiz",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
             "creation_time": "2026-09-22T02:40:33.278Z",
             "opponent_name": "MKambiz",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
-            "creation_time": "2026-09-22T02:37:38Z",
-            "opponent_name": "Khushi",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 40
@@ -55726,22 +53030,8 @@
             "trophies": 40
           },
           {
-            "creation_time": "2026-09-22T02:32:45Z",
-            "opponent_name": "~NightWish~",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
             "creation_time": "2026-09-22T02:32:45.372Z",
             "opponent_name": "~NightWish~",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
-            "creation_time": "2026-09-22T02:29:48Z",
-            "opponent_name": "maxou33120",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 40
@@ -55754,25 +53044,11 @@
             "trophies": 40
           },
           {
-            "creation_time": "2026-09-22T01:43:34Z",
-            "opponent_name": "yousef.v",
-            "stars": 2,
-            "destruction": 70.0,
-            "trophies": 22
-          },
-          {
             "creation_time": "2026-09-22T01:43:34.113Z",
             "opponent_name": "yousef.v",
             "stars": 2,
             "destruction": 70.0,
             "trophies": 22
-          },
-          {
-            "creation_time": "2026-09-22T01:39:39Z",
-            "opponent_name": "Sing.",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
           },
           {
             "creation_time": "2026-09-22T01:39:38.503Z",
@@ -57015,8 +54291,8 @@
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
-        "attack_count": 16,
-        "defense_count": 11,
+        "attack_count": 10,
+        "defense_count": 7,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:20.375292+00:00",
@@ -57040,25 +54316,11 @@
             "trophies": 40
           },
           {
-            "creation_time": "2026-09-22T03:29:45Z",
-            "opponent_name": "Farhad 2",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
             "creation_time": "2026-09-22T03:29:44.915Z",
             "opponent_name": "Farhad 2",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 40
-          },
-          {
-            "creation_time": "2026-09-22T03:02:46Z",
-            "opponent_name": "DSM♦️R A V",
-            "stars": 1,
-            "destruction": 81.0,
-            "trophies": 13
           },
           {
             "creation_time": "2026-09-22T03:02:46.162Z",
@@ -57068,13 +54330,6 @@
             "trophies": 13
           },
           {
-            "creation_time": "2026-09-22T02:58:43Z",
-            "opponent_name": "CGN • Borsoir",
-            "stars": 2,
-            "destruction": 86.0,
-            "trophies": 28
-          },
-          {
             "creation_time": "2026-09-22T02:58:42.627Z",
             "opponent_name": "CGN • Borsoir",
             "stars": 2,
@@ -57082,25 +54337,11 @@
             "trophies": 28
           },
           {
-            "creation_time": "2026-09-22T02:35:18Z",
-            "opponent_name": "Cronos",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
             "creation_time": "2026-09-22T02:35:18.362Z",
             "opponent_name": "Cronos",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 40
-          },
-          {
-            "creation_time": "2026-09-22T01:21:49Z",
-            "opponent_name": "Floki9",
-            "stars": 2,
-            "destruction": 87.0,
-            "trophies": 28
           },
           {
             "creation_time": "2026-09-22T01:21:48.783Z",
@@ -57119,13 +54360,6 @@
           {
             "creation_time": "2026-09-22T01:12:29.823Z",
             "opponent_name": "❤zizo❤",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
-            "creation_time": "2026-09-22T01:06:58Z",
-            "opponent_name": "remi21",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 40
@@ -57161,25 +54395,11 @@
             "trophies": 9
           },
           {
-            "creation_time": "2026-09-22T00:22:15Z",
-            "opponent_name": "CGN • Borsoir",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
-          },
-          {
             "creation_time": "2026-09-22T00:22:15.008Z",
             "opponent_name": "CGN • Borsoir",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 0
-          },
-          {
-            "creation_time": "2026-09-21T22:06:31Z",
-            "opponent_name": "waller",
-            "stars": 1,
-            "destruction": 90.0,
-            "trophies": 26
           },
           {
             "creation_time": "2026-09-21T22:06:30.670Z",
@@ -57189,25 +54409,11 @@
             "trophies": 26
           },
           {
-            "creation_time": "2026-09-21T21:27:45Z",
-            "opponent_name": "سرباز",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
-          },
-          {
             "creation_time": "2026-09-21T21:27:44.689Z",
             "opponent_name": "سرباز",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 0
-          },
-          {
-            "creation_time": "2026-09-21T20:47:26Z",
-            "opponent_name": "Legend-KilleR",
-            "stars": 2,
-            "destruction": 99.0,
-            "trophies": 8
           },
           {
             "creation_time": "2026-09-21T20:47:25.638Z",
@@ -58434,8 +55640,8 @@
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
-        "attack_count": 7,
-        "defense_count": 5,
+        "attack_count": 6,
+        "defense_count": 3,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:20.683813+00:00",
@@ -58480,13 +55686,6 @@
             "trophies": 40
           },
           {
-            "creation_time": "2026-09-21T22:14:01Z",
-            "opponent_name": "scally",
-            "stars": 2,
-            "destruction": 79.0,
-            "trophies": 25
-          },
-          {
             "creation_time": "2026-09-21T22:14:01.251Z",
             "opponent_name": "scally",
             "stars": 2,
@@ -58503,22 +55702,8 @@
             "trophies": 0
           },
           {
-            "creation_time": "2026-09-21T20:35:57Z",
-            "opponent_name": "محمد الزاملي",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
-          },
-          {
             "creation_time": "2026-09-21T20:35:56.571Z",
             "opponent_name": "محمد الزاملي",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
-          },
-          {
-            "creation_time": "2026-09-21T17:38:15Z",
-            "opponent_name": "берс",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 0
@@ -59748,8 +56933,8 @@
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
-        "attack_count": 6,
-        "defense_count": 6,
+        "attack_count": 3,
+        "defense_count": 4,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:21.008770+00:00",
@@ -59759,13 +56944,6 @@
         "defense_losses": 4,
         "attacks": [
           {
-            "creation_time": "2026-09-22T03:01:59Z",
-            "opponent_name": "SKR⚡KAKASHI",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
             "creation_time": "2026-09-22T03:01:59.307Z",
             "opponent_name": "SKR⚡KAKASHI",
             "stars": 3,
@@ -59773,22 +56951,8 @@
             "trophies": 40
           },
           {
-            "creation_time": "2026-09-21T21:13:14Z",
-            "opponent_name": "HaRuNTKN",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
             "creation_time": "2026-09-21T21:13:13.924Z",
             "opponent_name": "HaRuNTKN",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
-            "creation_time": "2026-09-21T17:48:45Z",
-            "opponent_name": "gravy",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 40
@@ -59817,25 +56981,11 @@
             "trophies": 13
           },
           {
-            "creation_time": "2026-09-21T23:59:18Z",
-            "opponent_name": "Navid69",
-            "stars": 1,
-            "destruction": 74.0,
-            "trophies": 27
-          },
-          {
             "creation_time": "2026-09-21T23:59:17.898Z",
             "opponent_name": "Navid69",
             "stars": 1,
             "destruction": 74.0,
             "trophies": 27
-          },
-          {
-            "creation_time": "2026-09-21T19:58:22Z",
-            "opponent_name": "Ali afg",
-            "stars": 2,
-            "destruction": 63.0,
-            "trophies": 20
           },
           {
             "creation_time": "2026-09-21T19:58:21.737Z",
@@ -61062,8 +58212,8 @@
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
-        "attack_count": 8,
-        "defense_count": 8,
+        "attack_count": 4,
+        "defense_count": 4,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:21.692018+00:00",
@@ -61073,25 +58223,11 @@
         "defense_losses": 4,
         "attacks": [
           {
-            "creation_time": "2026-09-22T04:53:20Z",
-            "opponent_name": "3rd",
-            "stars": 2,
-            "destruction": 80.0,
-            "trophies": 26
-          },
-          {
             "creation_time": "2026-09-22T04:53:20.240Z",
             "opponent_name": "3rd",
             "stars": 2,
             "destruction": 80.0,
             "trophies": 26
-          },
-          {
-            "creation_time": "2026-09-22T04:47:39Z",
-            "opponent_name": "❤NeCrOpSy❤",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
           },
           {
             "creation_time": "2026-09-22T04:47:39.136Z",
@@ -61101,25 +58237,11 @@
             "trophies": 40
           },
           {
-            "creation_time": "2026-09-22T04:44:31Z",
-            "opponent_name": "MisterK",
-            "stars": 1,
-            "destruction": 79.0,
-            "trophies": 13
-          },
-          {
             "creation_time": "2026-09-22T04:44:30.592Z",
             "opponent_name": "MisterK",
             "stars": 1,
             "destruction": 79.0,
             "trophies": 13
-          },
-          {
-            "creation_time": "2026-09-22T04:37:59Z",
-            "opponent_name": "Aldean",
-            "stars": 2,
-            "destruction": 68.0,
-            "trophies": 22
           },
           {
             "creation_time": "2026-09-22T04:37:58.586Z",
@@ -61131,25 +58253,11 @@
         ],
         "defenses": [
           {
-            "creation_time": "2026-09-22T03:55:59Z",
-            "opponent_name": "NoiGeL 31",
-            "stars": 2,
-            "destruction": 58.0,
-            "trophies": 22
-          },
-          {
             "creation_time": "2026-09-22T03:55:58.725Z",
             "opponent_name": "NoiGeL 31",
             "stars": 2,
             "destruction": 58.0,
             "trophies": 22
-          },
-          {
-            "creation_time": "2026-09-22T03:51:49Z",
-            "opponent_name": "EMAC",
-            "stars": 2,
-            "destruction": 62.0,
-            "trophies": 20
           },
           {
             "creation_time": "2026-09-22T03:51:48.615Z",
@@ -61159,25 +58267,11 @@
             "trophies": 20
           },
           {
-            "creation_time": "2026-09-22T01:52:27Z",
-            "opponent_name": "Th3LastNarwhal",
-            "stars": 2,
-            "destruction": 64.0,
-            "trophies": 20
-          },
-          {
             "creation_time": "2026-09-22T01:52:26.772Z",
             "opponent_name": "Th3LastNarwhal",
             "stars": 2,
             "destruction": 64.0,
             "trophies": 20
-          },
-          {
-            "creation_time": "2026-09-22T00:11:47Z",
-            "opponent_name": "MisterK",
-            "stars": 2,
-            "destruction": 96.0,
-            "trophies": 9
           },
           {
             "creation_time": "2026-09-22T00:11:46.534Z",
@@ -62404,8 +59498,8 @@
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
-        "attack_count": 6,
-        "defense_count": 5,
+        "attack_count": 4,
+        "defense_count": 3,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:21.371145+00:00",
@@ -62429,22 +59523,8 @@
             "trophies": 20
           },
           {
-            "creation_time": "2026-09-21T21:39:06Z",
-            "opponent_name": "Long em",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
             "creation_time": "2026-09-21T21:39:05.544Z",
             "opponent_name": "Long em",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
-          },
-          {
-            "creation_time": "2026-09-21T18:49:35Z",
-            "opponent_name": "kath",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 40
@@ -62466,25 +59546,11 @@
             "trophies": 28
           },
           {
-            "creation_time": "2026-09-22T03:42:54Z",
-            "opponent_name": "R3za22",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
-          },
-          {
             "creation_time": "2026-09-22T03:42:53.831Z",
             "opponent_name": "R3za22",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 0
-          },
-          {
-            "creation_time": "2026-09-21T21:42:09Z",
-            "opponent_name": "barhoooma :)",
-            "stars": 2,
-            "destruction": 86.0,
-            "trophies": 12
           },
           {
             "creation_time": "2026-09-21T21:42:09.093Z",
@@ -64976,8 +62042,8 @@
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
-        "attack_count": 6,
-        "defense_count": 5,
+        "attack_count": 4,
+        "defense_count": 3,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:21.047285+00:00",
@@ -65001,25 +62067,11 @@
             "trophies": 40
           },
           {
-            "creation_time": "2026-09-21T21:50:12Z",
-            "opponent_name": "VươngHoNai",
-            "stars": 2,
-            "destruction": 86.0,
-            "trophies": 28
-          },
-          {
             "creation_time": "2026-09-21T21:50:11.571Z",
             "opponent_name": "VươngHoNai",
             "stars": 2,
             "destruction": 86.0,
             "trophies": 28
-          },
-          {
-            "creation_time": "2026-09-21T19:59:57Z",
-            "opponent_name": "Tucker",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 40
           },
           {
             "creation_time": "2026-09-21T19:59:56.513Z",
@@ -65038,22 +62090,8 @@
             "trophies": 0
           },
           {
-            "creation_time": "2026-09-22T02:23:54Z",
-            "opponent_name": "⚜AMIR⚜",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
-          },
-          {
             "creation_time": "2026-09-22T02:23:54.217Z",
             "opponent_name": "⚜AMIR⚜",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
-          },
-          {
-            "creation_time": "2026-09-21T17:03:21Z",
-            "opponent_name": "Dirty Old Jdv",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 0
@@ -66284,7 +63322,7 @@
         "offense_rank": null,
         "defense_rank": null,
         "attack_count": 0,
-        "defense_count": 7,
+        "defense_count": 4,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:22.424035+00:00",
@@ -66302,13 +63340,6 @@
             "trophies": 29
           },
           {
-            "creation_time": "2026-09-22T04:56:37Z",
-            "opponent_name": "レハン",
-            "stars": 0,
-            "destruction": 0.0,
-            "trophies": 40
-          },
-          {
             "creation_time": "2026-09-22T04:56:37.226Z",
             "opponent_name": "レハン",
             "stars": 0,
@@ -66316,25 +63347,11 @@
             "trophies": 40
           },
           {
-            "creation_time": "2026-09-22T00:15:32Z",
-            "opponent_name": "M-Q-CR7",
-            "stars": 1,
-            "destruction": 75.0,
-            "trophies": 27
-          },
-          {
             "creation_time": "2026-09-22T00:15:31.504Z",
             "opponent_name": "M-Q-CR7",
             "stars": 1,
             "destruction": 75.0,
             "trophies": 27
-          },
-          {
-            "creation_time": "2026-09-21T17:51:33Z",
-            "opponent_name": "皇上皇9997",
-            "stars": 1,
-            "destruction": 59.0,
-            "trophies": 29
           },
           {
             "creation_time": "2026-09-21T17:51:33.289Z",
@@ -67562,7 +64579,7 @@
         "offense_rank": null,
         "defense_rank": null,
         "attack_count": 0,
-        "defense_count": 9,
+        "defense_count": 6,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:20.333724+00:00",
@@ -67594,13 +64611,6 @@
             "trophies": 10
           },
           {
-            "creation_time": "2026-09-21T22:42:53Z",
-            "opponent_name": "APNA HUNTER",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
-          },
-          {
             "creation_time": "2026-09-21T22:42:52.647Z",
             "opponent_name": "APNA HUNTER",
             "stars": 3,
@@ -67608,25 +64618,11 @@
             "trophies": 0
           },
           {
-            "creation_time": "2026-09-21T21:44:21Z",
-            "opponent_name": "JuanCos",
-            "stars": 1,
-            "destruction": 69.0,
-            "trophies": 28
-          },
-          {
             "creation_time": "2026-09-21T21:44:20.567Z",
             "opponent_name": "JuanCos",
             "stars": 1,
             "destruction": 69.0,
             "trophies": 28
-          },
-          {
-            "creation_time": "2026-09-21T19:04:37Z",
-            "opponent_name": "RGeraldo",
-            "stars": 2,
-            "destruction": 90.0,
-            "trophies": 11
           },
           {
             "creation_time": "2026-09-21T19:04:36.745Z",
@@ -70097,7 +67093,7 @@
         "offense_rank": null,
         "defense_rank": null,
         "attack_count": 0,
-        "defense_count": 5,
+        "defense_count": 4,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:21.043017+00:00",
@@ -70127,13 +67123,6 @@
             "stars": 3,
             "destruction": 100.0,
             "trophies": 0
-          },
-          {
-            "creation_time": "2026-09-22T02:58:25Z",
-            "opponent_name": "Kronos",
-            "stars": 1,
-            "destruction": 73.0,
-            "trophies": 27
           },
           {
             "creation_time": "2026-09-22T02:58:24.786Z",
@@ -72604,7 +69593,7 @@
         "offense_rank": null,
         "defense_rank": null,
         "attack_count": 0,
-        "defense_count": 7,
+        "defense_count": 5,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:20.528492+00:00",
@@ -72636,22 +69625,8 @@
             "trophies": 9
           },
           {
-            "creation_time": "2026-09-22T00:32:04Z",
-            "opponent_name": "Tsuiseki€",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
-          },
-          {
             "creation_time": "2026-09-22T00:32:04.475Z",
             "opponent_name": "Tsuiseki€",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
-          },
-          {
-            "creation_time": "2026-09-21T21:21:06Z",
-            "opponent_name": "Vexor",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 0
@@ -73882,7 +70857,7 @@
         "offense_rank": null,
         "defense_rank": null,
         "attack_count": 0,
-        "defense_count": 7,
+        "defense_count": 5,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:20.693447+00:00",
@@ -73898,13 +70873,6 @@
             "stars": 2,
             "destruction": 76.0,
             "trophies": 16
-          },
-          {
-            "creation_time": "2026-09-22T01:00:53Z",
-            "opponent_name": "INA-Fahmi",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
           },
           {
             "creation_time": "2026-09-22T01:00:52.524Z",
@@ -73926,13 +70894,6 @@
             "stars": 2,
             "destruction": 98.0,
             "trophies": 8
-          },
-          {
-            "creation_time": "2026-09-21T18:50:16Z",
-            "opponent_name": "ÆROSTAR",
-            "stars": 2,
-            "destruction": 96.0,
-            "trophies": 9
           },
           {
             "creation_time": "2026-09-21T18:50:16.302Z",
@@ -75160,7 +72121,7 @@
         "offense_rank": null,
         "defense_rank": null,
         "attack_count": 0,
-        "defense_count": 7,
+        "defense_count": 4,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:21.352929+00:00",
@@ -75178,13 +72139,6 @@
             "trophies": 0
           },
           {
-            "creation_time": "2026-09-22T03:49:28Z",
-            "opponent_name": "Vitor46",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
-          },
-          {
             "creation_time": "2026-09-22T03:49:28.402Z",
             "opponent_name": "Vitor46",
             "stars": 3,
@@ -75192,25 +72146,11 @@
             "trophies": 0
           },
           {
-            "creation_time": "2026-09-22T01:57:15Z",
-            "opponent_name": "VCS WAR GHOST",
-            "stars": 1,
-            "destruction": 93.0,
-            "trophies": 25
-          },
-          {
             "creation_time": "2026-09-22T01:57:15.464Z",
             "opponent_name": "VCS WAR GHOST",
             "stars": 1,
             "destruction": 93.0,
             "trophies": 25
-          },
-          {
-            "creation_time": "2026-09-21T19:01:25Z",
-            "opponent_name": "maverick",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
           },
           {
             "creation_time": "2026-09-21T19:01:24.811Z",
@@ -76438,7 +73378,7 @@
         "offense_rank": null,
         "defense_rank": null,
         "attack_count": 0,
-        "defense_count": 2,
+        "defense_count": 1,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:22.091231+00:00",
@@ -76448,13 +73388,6 @@
         "defense_losses": 1,
         "attacks": [],
         "defenses": [
-          {
-            "creation_time": "2026-09-21T20:55:36Z",
-            "opponent_name": "king",
-            "stars": 2,
-            "destruction": 74.0,
-            "trophies": 16
-          },
           {
             "creation_time": "2026-09-21T20:55:35.861Z",
             "opponent_name": "king",
@@ -77681,7 +74614,7 @@
         "offense_rank": null,
         "defense_rank": null,
         "attack_count": 0,
-        "defense_count": 5,
+        "defense_count": 3,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:21.667699+00:00",
@@ -77699,25 +74632,11 @@
             "trophies": 0
           },
           {
-            "creation_time": "2026-09-21T23:54:57Z",
-            "opponent_name": "러보아",
-            "stars": 2,
-            "destruction": 82.0,
-            "trophies": 14
-          },
-          {
             "creation_time": "2026-09-21T23:54:56.734Z",
             "opponent_name": "러보아",
             "stars": 2,
             "destruction": 82.0,
             "trophies": 14
-          },
-          {
-            "creation_time": "2026-09-21T17:20:52Z",
-            "opponent_name": "GuillenX503",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
           },
           {
             "creation_time": "2026-09-21T17:20:51.631Z",
@@ -79026,7 +75945,7 @@
         "offense_rank": null,
         "defense_rank": null,
         "attack_count": 0,
-        "defense_count": 3,
+        "defense_count": 2,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:21.368780+00:00",
@@ -79039,13 +75958,6 @@
           {
             "creation_time": "2026-09-22T06:36:00.514Z",
             "opponent_name": "begiii niii",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
-          },
-          {
-            "creation_time": "2026-09-21T23:50:14Z",
-            "opponent_name": "せーや",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 0
@@ -80492,7 +77404,7 @@
         "offense_rank": null,
         "defense_rank": null,
         "attack_count": 0,
-        "defense_count": 8,
+        "defense_count": 5,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
         "last_synced": "2026-09-22T15:18:21.000354+00:00",
@@ -80517,13 +77429,6 @@
             "trophies": 0
           },
           {
-            "creation_time": "2026-09-22T02:15:57Z",
-            "opponent_name": "S.W.A.T",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
-          },
-          {
             "creation_time": "2026-09-22T02:15:57.129Z",
             "opponent_name": "S.W.A.T",
             "stars": 3,
@@ -80531,22 +77436,8 @@
             "trophies": 0
           },
           {
-            "creation_time": "2026-09-21T19:13:51Z",
-            "opponent_name": "lindhult1:6",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
-          },
-          {
             "creation_time": "2026-09-21T19:13:51.432Z",
             "opponent_name": "lindhult1:6",
-            "stars": 3,
-            "destruction": 100.0,
-            "trophies": 0
-          },
-          {
-            "creation_time": "2026-09-21T17:36:14Z",
-            "opponent_name": "kamran",
             "stars": 3,
             "destruction": 100.0,
             "trophies": 0
