@@ -1,6 +1,6 @@
 {
   "schema_version": 16,
-  "generated_at": "2026-09-24T07:03:02.267387+00:00",
+  "generated_at": "2026-09-24T07:10:08.920684+00:00",
   "dashboard_mode": "regular",
   "clan": {
     "name": "Hero Dive Bar",
@@ -25,9 +25,9 @@
     "clan_name": "Hero Dive Bar",
     "opponent_name": "✴mangekyou ✴",
     "clan_stars": 75,
-    "opponent_stars": 24,
+    "opponent_stars": 27,
     "clan_destruction": 100.0,
-    "opponent_destruction": 32.0,
+    "opponent_destruction": 36.0,
     "attacks_used": 29,
     "expected_attacks": 50,
     "volunteer_attacks": 0,
@@ -405,7 +405,7 @@
         "name": "Abraax3",
         "th": 18,
         "map_position": 11,
-        "attacks_used": 0
+        "attacks_used": 1
       },
       {
         "name": ">>LORD UCHIHA<<",
@@ -1077,6 +1077,21 @@
         "new_stars": 1,
         "our_score_after": 75,
         "their_score_after": 24
+      },
+      {
+        "order": 40,
+        "side": "opponent",
+        "attacker_public_id": null,
+        "attacker_name": "Abraax3",
+        "attacker_position": 11,
+        "defender_name": "Jerry",
+        "defender_position": 13,
+        "stars": 3,
+        "destruction": 100.0,
+        "attack_type": "fresh",
+        "new_stars": 3,
+        "our_score_after": 75,
+        "their_score_after": 27
       }
     ]
   },
@@ -1523,9 +1538,9 @@
       "opponent_name": "✴mangekyou ✴",
       "team_size": 25,
       "clan_stars": 75,
-      "opponent_stars": 24,
+      "opponent_stars": 27,
       "clan_destruction": 100.0,
-      "opponent_destruction": 32.0,
+      "opponent_destruction": 36.0,
       "state": "inWar",
       "state_label": "Battle Day",
       "result": null,
@@ -5933,17 +5948,17 @@
       "loot_practice_triples": 0,
       "loot_practice_triple_rate": 0.0,
       "defense_stats": {
-        "attacks_faced": 4,
-        "total_attacks_faced": 4,
+        "attacks_faced": 5,
+        "total_attacks_faced": 5,
         "loot_practice_hits_faced": 0,
-        "avg_stars_allowed": 1.75,
-        "avg_destruction_allowed": 76.75,
+        "avg_stars_allowed": 2.0,
+        "avg_destruction_allowed": 81.4,
         "zero_star_holds": 1,
         "one_star_holds": 1,
         "two_star_holds": 0,
-        "times_tripled": 2,
+        "times_tripled": 3,
         "untripled_wars": 0,
-        "avg_attacks_to_first_triple": 2.0
+        "avg_attacks_to_first_triple": 1.6666666666666667
       },
       "cwl_defense_stats": {
         "attacks_faced": 5,
@@ -5959,17 +5974,17 @@
         "avg_attacks_to_first_triple": 1.0
       },
       "combined_defense_stats": {
-        "attacks_faced": 9,
-        "total_attacks_faced": 9,
+        "attacks_faced": 10,
+        "total_attacks_faced": 10,
         "loot_practice_hits_faced": 0,
-        "avg_stars_allowed": 2.2222222222222223,
-        "avg_destruction_allowed": 87.66666666666667,
+        "avg_stars_allowed": 2.3,
+        "avg_destruction_allowed": 88.9,
         "zero_star_holds": 1,
         "one_star_holds": 1,
         "two_star_holds": 2,
-        "times_tripled": 5,
+        "times_tripled": 6,
         "untripled_wars": 2,
-        "avg_attacks_to_first_triple": 1.4
+        "avg_attacks_to_first_triple": 1.3333333333333333
       },
       "missed_wars": 0,
       "regular_stats": {
@@ -16695,17 +16710,17 @@
       "loot_practice_triples": 0,
       "loot_practice_triple_rate": 0.0,
       "defense_stats": {
-        "attacks_faced": 4,
-        "total_attacks_faced": 4,
+        "attacks_faced": 5,
+        "total_attacks_faced": 5,
         "loot_practice_hits_faced": 0,
-        "avg_stars_allowed": 1.75,
-        "avg_destruction_allowed": 76.75,
+        "avg_stars_allowed": 2.0,
+        "avg_destruction_allowed": 81.4,
         "zero_star_holds": 1,
         "one_star_holds": 1,
         "two_star_holds": 0,
-        "times_tripled": 2,
+        "times_tripled": 3,
         "untripled_wars": 0,
-        "avg_attacks_to_first_triple": 2.0
+        "avg_attacks_to_first_triple": 1.6666666666666667
       },
       "cwl_defense_stats": {
         "attacks_faced": 5,
@@ -16721,17 +16736,17 @@
         "avg_attacks_to_first_triple": 1.0
       },
       "combined_defense_stats": {
-        "attacks_faced": 9,
-        "total_attacks_faced": 9,
+        "attacks_faced": 10,
+        "total_attacks_faced": 10,
         "loot_practice_hits_faced": 0,
-        "avg_stars_allowed": 2.2222222222222223,
-        "avg_destruction_allowed": 87.66666666666667,
+        "avg_stars_allowed": 2.3,
+        "avg_destruction_allowed": 88.9,
         "zero_star_holds": 1,
         "one_star_holds": 1,
         "two_star_holds": 2,
-        "times_tripled": 5,
+        "times_tripled": 6,
         "untripled_wars": 2,
-        "avg_attacks_to_first_triple": 1.4
+        "avg_attacks_to_first_triple": 1.3333333333333333
       },
       "missed_wars": 0,
       "regular_stats": {
@@ -23673,7 +23688,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -24583,7 +24598,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -25493,7 +25508,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -26403,7 +26418,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -27045,7 +27060,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -27933,7 +27948,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -28554,7 +28569,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -29419,7 +29434,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -30268,7 +30283,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -30849,7 +30864,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -31562,7 +31577,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -32406,7 +32421,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -32926,7 +32941,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -33446,7 +33461,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 16,
           "is_filler": false,
           "expected_attacks": 2,
@@ -34666,7 +34681,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -35479,7 +35494,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 16,
           "is_filler": false,
           "expected_attacks": 2,
@@ -35985,7 +36000,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -37213,7 +37228,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 13,
           "is_filler": false,
           "expected_attacks": 2,
@@ -38292,7 +38307,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 17,
           "is_filler": false,
           "expected_attacks": 2,
@@ -39353,7 +39368,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 16,
           "is_filler": false,
           "expected_attacks": 2,
@@ -39624,17 +39639,17 @@
       "loot_practice_triples": 0,
       "loot_practice_triple_rate": 0.0,
       "defense_stats": {
-        "attacks_faced": 4,
-        "total_attacks_faced": 4,
+        "attacks_faced": 5,
+        "total_attacks_faced": 5,
         "loot_practice_hits_faced": 0,
-        "avg_stars_allowed": 1.75,
-        "avg_destruction_allowed": 76.75,
+        "avg_stars_allowed": 2.0,
+        "avg_destruction_allowed": 81.4,
         "zero_star_holds": 1,
         "one_star_holds": 1,
         "two_star_holds": 0,
-        "times_tripled": 2,
+        "times_tripled": 3,
         "untripled_wars": 0,
-        "avg_attacks_to_first_triple": 2.0
+        "avg_attacks_to_first_triple": 1.6666666666666667
       },
       "cwl_defense_stats": {
         "attacks_faced": 5,
@@ -39650,17 +39665,17 @@
         "avg_attacks_to_first_triple": 1.0
       },
       "combined_defense_stats": {
-        "attacks_faced": 9,
-        "total_attacks_faced": 9,
+        "attacks_faced": 10,
+        "total_attacks_faced": 10,
         "loot_practice_hits_faced": 0,
-        "avg_stars_allowed": 2.2222222222222223,
-        "avg_destruction_allowed": 87.66666666666667,
+        "avg_stars_allowed": 2.3,
+        "avg_destruction_allowed": 88.9,
         "zero_star_holds": 1,
         "one_star_holds": 1,
         "two_star_holds": 2,
-        "times_tripled": 5,
+        "times_tripled": 6,
         "untripled_wars": 2,
-        "avg_attacks_to_first_triple": 1.4
+        "avg_attacks_to_first_triple": 1.3333333333333333
       },
       "missed_wars": 0,
       "regular_stats": {
@@ -39754,7 +39769,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -40253,7 +40268,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 16,
           "is_filler": false,
           "expected_attacks": 2,
@@ -40544,7 +40559,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 13,
           "is_filler": false,
           "expected_attacks": 2,
@@ -40774,7 +40789,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -42206,7 +42221,7 @@
           "state_label": "Battle Day",
           "result": null,
           "our_stars": 75,
-          "their_stars": 24,
+          "their_stars": 27,
           "th": 18,
           "is_filler": false,
           "expected_attacks": 2,
@@ -49656,7 +49671,7 @@
         "defense_count": 10,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:13.380670+00:00"
+        "last_synced": "2026-09-24T07:09:28.152262+00:00"
       },
       {
         "public_id": "a32ae9ce2e2ed5",
@@ -49674,7 +49689,7 @@
         "defense_count": 14,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:13.365937+00:00"
+        "last_synced": "2026-09-24T07:09:28.183188+00:00"
       },
       {
         "public_id": "2eaff854eb3ce0",
@@ -49689,10 +49704,10 @@
         "offense_rank": 23,
         "defense_rank": 76,
         "attack_count": 30,
-        "defense_count": 16,
+        "defense_count": 17,
         "group_detail_complete": true,
         "group_detail_coverage": 100,
-        "last_synced": "2026-09-24T06:54:13.373451+00:00"
+        "last_synced": "2026-09-24T07:09:28.170391+00:00"
       },
       {
         "public_id": "892c01275b9e4f",
@@ -49710,7 +49725,7 @@
         "defense_count": 13,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:13.725582+00:00"
+        "last_synced": "2026-09-24T07:09:28.489053+00:00"
       },
       {
         "public_id": "a2386a4132517e",
@@ -49728,7 +49743,7 @@
         "defense_count": 17,
         "group_detail_complete": true,
         "group_detail_coverage": 100,
-        "last_synced": "2026-09-24T06:54:13.383154+00:00"
+        "last_synced": "2026-09-24T07:09:28.147881+00:00"
       },
       {
         "public_id": "85653b6df73206",
@@ -49746,7 +49761,7 @@
         "defense_count": 10,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:13.733369+00:00"
+        "last_synced": "2026-09-24T07:09:28.497124+00:00"
       },
       {
         "public_id": "4516c90f63a71a",
@@ -49764,7 +49779,7 @@
         "defense_count": 8,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.480078+00:00"
+        "last_synced": "2026-09-24T07:09:29.209111+00:00"
       },
       {
         "public_id": "08dedf0d0fd82d",
@@ -49782,7 +49797,7 @@
         "defense_count": 9,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.568404+00:00"
+        "last_synced": "2026-09-24T07:09:29.255358+00:00"
       },
       {
         "public_id": "10d53b71f16c59",
@@ -49792,7 +49807,7 @@
         "league_name": "Legend III",
         "season_id": "1789966800",
         "league_trophies": 620,
-        "overall_rank": 37,
+        "overall_rank": 38,
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
@@ -49800,7 +49815,7 @@
         "defense_count": 12,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:13.790018+00:00"
+        "last_synced": "2026-09-24T07:09:28.529239+00:00"
       },
       {
         "public_id": "27e7ea38f51aa4",
@@ -49818,7 +49833,7 @@
         "defense_count": 7,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.842554+00:00"
+        "last_synced": "2026-09-24T07:09:29.566197+00:00"
       },
       {
         "public_id": "394bcba79bd0f5",
@@ -49836,7 +49851,7 @@
         "defense_count": 6,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.918922+00:00"
+        "last_synced": "2026-09-24T07:09:29.617473+00:00"
       },
       {
         "public_id": "ab1246139135a0",
@@ -49854,7 +49869,7 @@
         "defense_count": 4,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:15.589146+00:00"
+        "last_synced": "2026-09-24T07:09:30.291989+00:00"
       },
       {
         "public_id": "b0478d5b8e758d",
@@ -49872,7 +49887,7 @@
         "defense_count": 8,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.566777+00:00"
+        "last_synced": "2026-09-24T07:09:29.253985+00:00"
       },
       {
         "public_id": "35692fd68936b7",
@@ -49890,7 +49905,7 @@
         "defense_count": 5,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:16.151024+00:00"
+        "last_synced": "2026-09-24T07:09:30.839041+00:00"
       },
       {
         "public_id": "8e332ab4b0f2b4",
@@ -49900,7 +49915,7 @@
         "league_name": "Electro League 33",
         "season_id": "1789966800",
         "league_trophies": 399,
-        "overall_rank": 41,
+        "overall_rank": 42,
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
@@ -49908,7 +49923,7 @@
         "defense_count": 9,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.098562+00:00"
+        "last_synced": "2026-09-24T07:09:28.838968+00:00"
       },
       {
         "public_id": "a64cb3cd72e7b9",
@@ -49918,7 +49933,7 @@
         "league_name": "Dragon League 28",
         "season_id": "1789966800",
         "league_trophies": 347,
-        "overall_rank": 30,
+        "overall_rank": 31,
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
@@ -49926,7 +49941,7 @@
         "defense_count": 7,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:15.551369+00:00"
+        "last_synced": "2026-09-24T07:09:30.252005+00:00"
       },
       {
         "public_id": "13311b93709aa8",
@@ -49944,7 +49959,7 @@
         "defense_count": 11,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:13.815868+00:00"
+        "last_synced": "2026-09-24T07:09:28.532923+00:00"
       },
       {
         "public_id": "e1bcb33e547192",
@@ -49962,7 +49977,7 @@
         "defense_count": 7,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:15.274048+00:00"
+        "last_synced": "2026-09-24T07:09:29.964485+00:00"
       },
       {
         "public_id": "2f99cbfbf53e27",
@@ -49980,7 +49995,7 @@
         "defense_count": 7,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:15.159469+00:00"
+        "last_synced": "2026-09-24T07:09:29.867183+00:00"
       },
       {
         "public_id": "067e9305da9e5f",
@@ -49990,7 +50005,7 @@
         "league_name": "Electro League 33",
         "season_id": "1789966800",
         "league_trophies": 157,
-        "overall_rank": 56,
+        "overall_rank": 57,
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
@@ -49998,7 +50013,7 @@
         "defense_count": 7,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.181803+00:00"
+        "last_synced": "2026-09-24T07:09:28.888417+00:00"
       },
       {
         "public_id": "bd6b7a83ddcdbd",
@@ -50016,7 +50031,7 @@
         "defense_count": 8,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.806493+00:00"
+        "last_synced": "2026-09-24T07:09:29.523923+00:00"
       },
       {
         "public_id": "abc0a9ab8c3955",
@@ -50034,7 +50049,7 @@
         "defense_count": 5,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:15.966158+00:00"
+        "last_synced": "2026-09-24T07:09:30.672377+00:00"
       },
       {
         "public_id": "2710e1436f73a9",
@@ -50052,7 +50067,7 @@
         "defense_count": 8,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.192327+00:00"
+        "last_synced": "2026-09-24T07:09:28.885580+00:00"
       },
       {
         "public_id": "a5bac32b8c70f3",
@@ -50070,7 +50085,7 @@
         "defense_count": 3,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:15.891481+00:00"
+        "last_synced": "2026-09-24T07:09:30.615250+00:00"
       },
       {
         "public_id": "c7ee49b3392214",
@@ -50088,7 +50103,7 @@
         "defense_count": 3,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:15.621909+00:00"
+        "last_synced": "2026-09-24T07:09:30.329060+00:00"
       },
       {
         "public_id": "3cbc7125a5e7a0",
@@ -50106,7 +50121,7 @@
         "defense_count": 6,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.917743+00:00"
+        "last_synced": "2026-09-24T07:09:29.621095+00:00"
       },
       {
         "public_id": "72eac2f9b53672",
@@ -50124,7 +50139,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:15.653804+00:00"
+        "last_synced": "2026-09-24T07:09:30.337747+00:00"
       },
       {
         "public_id": "772db8f00acc59",
@@ -50142,7 +50157,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:15.772666+00:00"
+        "last_synced": "2026-09-24T07:09:30.469441+00:00"
       },
       {
         "public_id": "c5471c3af1228d",
@@ -50160,7 +50175,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:15.211020+00:00"
+        "last_synced": "2026-09-24T07:09:29.903282+00:00"
       },
       {
         "public_id": "10dea83733b77a",
@@ -50178,7 +50193,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:15.009188+00:00"
+        "last_synced": "2026-09-24T07:09:29.728665+00:00"
       },
       {
         "public_id": "f2b774c07fda3f",
@@ -50196,7 +50211,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:16.137546+00:00"
+        "last_synced": "2026-09-24T07:09:30.854458+00:00"
       },
       {
         "public_id": "7f9aa144bc4db1",
@@ -50214,7 +50229,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:16.064844+00:00"
+        "last_synced": "2026-09-24T07:09:30.775997+00:00"
       },
       {
         "public_id": "133d74f011cdd0",
@@ -50232,7 +50247,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:15.290146+00:00"
+        "last_synced": "2026-09-24T07:09:29.997675+00:00"
       },
       {
         "public_id": "9629749ebbce7b",
@@ -50250,7 +50265,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:15.117794+00:00"
+        "last_synced": "2026-09-24T07:09:29.789479+00:00"
       },
       {
         "public_id": "3624d4949d614e",
@@ -50268,7 +50283,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:15.458464+00:00"
+        "last_synced": "2026-09-24T07:09:30.157963+00:00"
       },
       {
         "public_id": "095e320e95cd74",
@@ -50286,7 +50301,7 @@
         "defense_count": 10,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.449780+00:00"
+        "last_synced": "2026-09-24T07:09:29.193676+00:00"
       },
       {
         "public_id": "e39ab4c3776cbd",
@@ -50304,7 +50319,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:16.121084+00:00"
+        "last_synced": "2026-09-24T07:09:30.812023+00:00"
       },
       {
         "public_id": "fc446487f39a4b",
@@ -50322,7 +50337,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:15.942929+00:00"
+        "last_synced": "2026-09-24T07:09:30.644369+00:00"
       },
       {
         "public_id": "8d6b6362db4f19",
@@ -50340,7 +50355,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:14.102777+00:00"
+        "last_synced": "2026-09-24T07:09:28.860115+00:00"
       },
       {
         "public_id": "abf7d15cd4a591",
@@ -50358,7 +50373,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:13.891264+00:00"
+        "last_synced": "2026-09-24T07:09:28.687441+00:00"
       },
       {
         "public_id": "eae7f4e2dfc116",
@@ -50376,7 +50391,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:15.805842+00:00"
+        "last_synced": "2026-09-24T07:09:30.481324+00:00"
       }
     ],
     "profiles": {
@@ -50396,7 +50411,7 @@
         "defense_count": 10,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:13.380670+00:00",
+        "last_synced": "2026-09-24T07:09:28.152262+00:00",
         "attack_wins": 30,
         "attack_losses": 0,
         "defense_wins": 1,
@@ -50724,21 +50739,21 @@
           },
           {
             "position": 4,
-            "player_name": "LWA | KSA",
-            "clan_name": "الـلـواء ✈︎",
-            "league_trophies": 1160,
+            "player_name": "[BS] ⚜️ -MaSta^",
+            "clan_name": "⚔️BALKANJEROSI⚔",
+            "league_trophies": 1165,
             "attack_wins": 30,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 10,
+            "defense_losses": 11,
             "is_player": false,
             "clan_member_public_id": null
           },
           {
             "position": 5,
-            "player_name": "[BS] ⚜️ -MaSta^",
-            "clan_name": "⚔️BALKANJEROSI⚔",
-            "league_trophies": 1150,
+            "player_name": "LWA | KSA",
+            "clan_name": "الـلـواء ✈︎",
+            "league_trophies": 1160,
             "attack_wins": 30,
             "attack_losses": 0,
             "defense_wins": 0,
@@ -50784,6 +50799,18 @@
           },
           {
             "position": 9,
+            "player_name": "bizovic",
+            "clan_name": "Friends",
+            "league_trophies": 1089,
+            "attack_wins": 30,
+            "attack_losses": 0,
+            "defense_wins": 1,
+            "defense_losses": 9,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 10,
             "player_name": "Elite⚡️S✨AHMAD",
             "clan_name": "AFG",
             "league_trophies": 1082,
@@ -50791,18 +50818,6 @@
             "attack_losses": 1,
             "defense_wins": 0,
             "defense_losses": 10,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 10,
-            "player_name": "bizovic",
-            "clan_name": "Friends",
-            "league_trophies": 1081,
-            "attack_wins": 30,
-            "attack_losses": 0,
-            "defense_wins": 1,
-            "defense_losses": 8,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -50988,6 +51003,18 @@
           },
           {
             "position": 26,
+            "player_name": "CRISTOFER J.Q.M",
+            "clan_name": "Escuadrón Élite",
+            "league_trophies": 582,
+            "attack_wins": 17,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 10,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 27,
             "player_name": "alaa",
             "clan_name": "لابوبو",
             "league_trophies": 564,
@@ -50995,18 +51022,6 @@
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 11,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 27,
-            "player_name": "CRISTOFER J.Q.M",
-            "clan_name": "Escuadrón Élite",
-            "league_trophies": 542,
-            "attack_wins": 16,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 10,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -51126,7 +51141,7 @@
             "attack_wins": 10,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 9,
+            "defense_losses": 10,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -51276,6 +51291,18 @@
           },
           {
             "position": 50,
+            "player_name": "Abu odeh ⁶",
+            "clan_name": "HG LEGENDS",
+            "league_trophies": 246,
+            "attack_wins": 4,
+            "attack_losses": 0,
+            "defense_wins": 1,
+            "defense_losses": 9,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 51,
             "player_name": "Binho",
             "clan_name": "Super Ação",
             "league_trophies": 237,
@@ -51287,7 +51314,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 51,
+            "position": 52,
             "player_name": "Divyanshu Negi",
             "clan_name": "Danger clan",
             "league_trophies": 203,
@@ -51299,7 +51326,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 52,
+            "position": 53,
             "player_name": "Deepak",
             "clan_name": "Honduras #1",
             "league_trophies": 198,
@@ -51311,7 +51338,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 53,
+            "position": 54,
             "player_name": "clagne",
             "clan_name": "chamlam quebec",
             "league_trophies": 197,
@@ -51323,7 +51350,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 54,
+            "position": 55,
             "player_name": "BrianGiant",
             "clan_name": "KIEV UA",
             "league_trophies": 194,
@@ -51335,7 +51362,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 55,
+            "position": 56,
             "player_name": "warrior",
             "clan_name": "$iL£NT HiLL",
             "league_trophies": 188,
@@ -51347,7 +51374,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 56,
+            "position": 57,
             "player_name": "『EG♦️El3almy *",
             "clan_name": "العالمي",
             "league_trophies": 181,
@@ -51359,7 +51386,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 57,
+            "position": 58,
             "player_name": "Kou",
             "clan_name": "地球連合艦隊",
             "league_trophies": 170,
@@ -51371,7 +51398,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 58,
+            "position": 59,
             "player_name": "{JARVO}",
             "clan_name": "VelocityX",
             "league_trophies": 161,
@@ -51383,7 +51410,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 59,
+            "position": 60,
             "player_name": "26.19_babu",
             "clan_name": "GAMBLERS",
             "league_trophies": 144,
@@ -51395,7 +51422,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 60,
+            "position": 61,
             "player_name": "DSM♦SHAKER",
             "clan_name": "الدسم",
             "league_trophies": 143,
@@ -51407,7 +51434,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 61,
+            "position": 62,
             "player_name": "Mantej Singh",
             "clan_name": "the PHENOMS",
             "league_trophies": 139,
@@ -51419,7 +51446,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 62,
+            "position": 63,
             "player_name": "MURATHAN",
             "clan_name": "MORTİNGEN;)",
             "league_trophies": 136,
@@ -51431,19 +51458,19 @@
             "clan_member_public_id": null
           },
           {
-            "position": 63,
+            "position": 64,
             "player_name": "CAPT....D.A",
             "clan_name": "Bir Gorkhali",
             "league_trophies": 132,
             "attack_wins": 2,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 9,
+            "defense_losses": 10,
             "is_player": false,
             "clan_member_public_id": null
           },
           {
-            "position": 64,
+            "position": 65,
             "player_name": "Baby SharK",
             "clan_name": "KiNg ShaH",
             "league_trophies": 127,
@@ -51455,7 +51482,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 65,
+            "position": 66,
             "player_name": "✈︎ LWA | SA",
             "clan_name": "الـلـواء ✈︎",
             "league_trophies": 118,
@@ -51467,7 +51494,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 66,
+            "position": 67,
             "player_name": "--<J0sHuA>--",
             "clan_name": "Drachenkult",
             "league_trophies": 113,
@@ -51479,7 +51506,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 67,
+            "position": 68,
             "player_name": "❦ᴵᵗˢ✾ᴢᴇᴜꜱ ⚡️",
             "clan_name": null,
             "league_trophies": 110,
@@ -51487,18 +51514,6 @@
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 10,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 68,
-            "player_name": "Abu odeh ⁶",
-            "clan_name": null,
-            "league_trophies": 109,
-            "attack_wins": 0,
-            "attack_losses": 0,
-            "defense_wins": 1,
-            "defense_losses": 9,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -51606,7 +51621,7 @@
             "attack_wins": 0,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 10,
+            "defense_losses": 11,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -51906,7 +51921,7 @@
         "defense_count": 14,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:13.365937+00:00",
+        "last_synced": "2026-09-24T07:09:28.183188+00:00",
         "attack_wins": 24,
         "attack_losses": 0,
         "defense_wins": 1,
@@ -53399,14 +53414,14 @@
         "offense_rank": 23,
         "defense_rank": 76,
         "attack_count": 30,
-        "defense_count": 16,
+        "defense_count": 17,
         "group_detail_complete": true,
         "group_detail_coverage": 100,
-        "last_synced": "2026-09-24T06:54:13.373451+00:00",
+        "last_synced": "2026-09-24T07:09:28.170391+00:00",
         "attack_wins": 30,
         "attack_losses": 0,
         "defense_wins": 0,
-        "defense_losses": 16,
+        "defense_losses": 17,
         "attacks": [
           {
             "creation_time": "2026-09-23T09:17:38.569Z",
@@ -53621,6 +53636,13 @@
         ],
         "defenses": [
           {
+            "creation_time": "2026-09-24T07:01:17.562Z",
+            "opponent_name": "(M) Ivan",
+            "stars": 3,
+            "destruction": 100.0,
+            "trophies": 0
+          },
+          {
             "creation_time": "2026-09-23T16:41:20.501Z",
             "opponent_name": "Fi3lD MaRsHal",
             "stars": 2,
@@ -53802,7 +53824,7 @@
             "attack_wins": 30,
             "attack_losses": 0,
             "defense_wins": 1,
-            "defense_losses": 15,
+            "defense_losses": 16,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -54210,7 +54232,7 @@
             "attack_wins": 30,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 16,
+            "defense_losses": 17,
             "is_player": true,
             "clan_member_public_id": "2eaff854eb3ce0"
           },
@@ -54396,6 +54418,18 @@
           },
           {
             "position": 56,
+            "player_name": "(M) Ivan",
+            "clan_name": "минск",
+            "league_trophies": 516,
+            "attack_wins": 10,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 17,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 57,
             "player_name": "Bố Trung",
             "clan_name": "AE VIỆT NAM",
             "league_trophies": 501,
@@ -54407,7 +54441,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 57,
+            "position": 58,
             "player_name": "NF❄️Sebi",
             "clan_name": "Northfront",
             "league_trophies": 495,
@@ -54419,7 +54453,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 58,
+            "position": 59,
             "player_name": "Mario",
             "clan_name": "Gründermütter",
             "league_trophies": 479,
@@ -54431,7 +54465,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 59,
+            "position": 60,
             "player_name": "AylaaaA",
             "clan_name": "pakistani girls",
             "league_trophies": 463,
@@ -54443,7 +54477,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 60,
+            "position": 61,
             "player_name": "_Bray07_",
             "clan_name": "#1 MURICA",
             "league_trophies": 462,
@@ -54455,23 +54489,11 @@
             "clan_member_public_id": null
           },
           {
-            "position": 61,
+            "position": 62,
             "player_name": "SUBASH",
             "clan_name": "Add Win",
             "league_trophies": 448,
             "attack_wins": 10,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 17,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 62,
-            "player_name": "(M) Ivan",
-            "clan_name": "минск",
-            "league_trophies": 436,
-            "attack_wins": 8,
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 17,
@@ -57042,10 +57064,10 @@
             "position": 76,
             "player_name": "PATHAN",
             "clan_name": "GDZ warriors",
-            "count": 16,
-            "stars": 45,
-            "avg_stars": 2.8125,
-            "avg_destruction": 95.875,
+            "count": 17,
+            "stars": 48,
+            "avg_stars": 2.823529411764706,
+            "avg_destruction": 96.11764705882354,
             "trophies": 46,
             "is_player": true,
             "clan_member_public_id": "2eaff854eb3ce0"
@@ -57356,7 +57378,7 @@
         "defense_count": 13,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:13.725582+00:00",
+        "last_synced": "2026-09-24T07:09:28.489053+00:00",
         "attack_wins": 23,
         "attack_losses": 1,
         "defense_wins": 0,
@@ -58845,7 +58867,7 @@
         "defense_count": 17,
         "group_detail_complete": true,
         "group_detail_coverage": 100,
-        "last_synced": "2026-09-24T06:54:13.383154+00:00",
+        "last_synced": "2026-09-24T07:09:28.147881+00:00",
         "attack_wins": 21,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -59795,6 +59817,18 @@
           },
           {
             "position": 57,
+            "player_name": "SAEID.M",
+            "clan_name": "M mar M sli",
+            "league_trophies": 553,
+            "attack_wins": 12,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 18,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 58,
             "player_name": "M4r1o7h3Br41n",
             "clan_name": "Alle über 30",
             "league_trophies": 534,
@@ -59806,23 +59840,11 @@
             "clan_member_public_id": null
           },
           {
-            "position": 58,
+            "position": 59,
             "player_name": "Almighty Brian!",
             "clan_name": "The Crew",
             "league_trophies": 534,
             "attack_wins": 12,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 18,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 59,
-            "player_name": "SAEID.M",
-            "clan_name": "M mar M sli",
-            "league_trophies": 525,
-            "attack_wins": 11,
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 18,
@@ -60179,6 +60201,18 @@
           },
           {
             "position": 89,
+            "player_name": "Living4Jesus",
+            "clan_name": "ChristianGuild♡",
+            "league_trophies": 173,
+            "attack_wins": 0,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 19,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 90,
             "player_name": "DrNo4711",
             "clan_name": "SlipperyRoad",
             "league_trophies": 172,
@@ -60190,7 +60224,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 90,
+            "position": 91,
             "player_name": "fgkl",
             "clan_name": "INFERNO",
             "league_trophies": 170,
@@ -60202,7 +60236,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 91,
+            "position": 92,
             "player_name": "Mohammed",
             "clan_name": "أساطير عمان",
             "league_trophies": 166,
@@ -60214,7 +60248,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 92,
+            "position": 93,
             "player_name": "☢️Trần Hùng☣️",
             "clan_name": "❤️ALL IN ONE❤️",
             "league_trophies": 166,
@@ -60226,7 +60260,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 93,
+            "position": 94,
             "player_name": "hersh lord",
             "clan_name": "THE KURD LEGEND",
             "league_trophies": 165,
@@ -60234,18 +60268,6 @@
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 17,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 94,
-            "player_name": "Living4Jesus",
-            "clan_name": "ChristianGuild♡",
-            "league_trophies": 161,
-            "attack_wins": 0,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 18,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -62743,7 +62765,7 @@
         "defense_count": 10,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:13.733369+00:00",
+        "last_synced": "2026-09-24T07:09:28.497124+00:00",
         "attack_wins": 21,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -63056,6 +63078,18 @@
           },
           {
             "position": 8,
+            "player_name": "Aja_75",
+            "clan_name": "Kaliber45",
+            "league_trophies": 860,
+            "attack_wins": 23,
+            "attack_losses": 1,
+            "defense_wins": 1,
+            "defense_losses": 10,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 9,
             "player_name": "knight rider",
             "clan_name": "LAUGHING COFFIN",
             "league_trophies": 859,
@@ -63067,7 +63101,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 9,
+            "position": 10,
             "player_name": "بطاطا",
             "clan_name": "القيادة السورية",
             "league_trophies": 849,
@@ -63079,7 +63113,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 10,
+            "position": 11,
             "player_name": "Tsuiseki€",
             "clan_name": "High All Za Tim",
             "league_trophies": 839,
@@ -63087,18 +63121,6 @@
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 10,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 11,
-            "player_name": "Aja_75",
-            "clan_name": "Kaliber45",
-            "league_trophies": 833,
-            "attack_wins": 23,
-            "attack_losses": 1,
-            "defense_wins": 1,
-            "defense_losses": 9,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -63142,11 +63164,11 @@
             "position": 15,
             "player_name": "Erkan",
             "clan_name": "ÖZEL KUVVETLER",
-            "league_trophies": 789,
+            "league_trophies": 799,
             "attack_wins": 24,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 10,
+            "defense_losses": 11,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -63440,11 +63462,11 @@
           },
           {
             "position": 40,
-            "player_name": "중랑구비린내",
-            "clan_name": "yes잼 no스트레스",
-            "league_trophies": 449,
-            "attack_wins": 10,
-            "attack_losses": 2,
+            "player_name": "alex",
+            "clan_name": "LesPourris",
+            "league_trophies": 453,
+            "attack_wins": 11,
+            "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 11,
             "is_player": false,
@@ -63452,11 +63474,11 @@
           },
           {
             "position": 41,
-            "player_name": "alex",
-            "clan_name": "LesPourris",
-            "league_trophies": 440,
+            "player_name": "중랑구비린내",
+            "clan_name": "yes잼 no스트레스",
+            "league_trophies": 449,
             "attack_wins": 10,
-            "attack_losses": 0,
+            "attack_losses": 2,
             "defense_wins": 0,
             "defense_losses": 11,
             "is_player": false,
@@ -63524,6 +63546,18 @@
           },
           {
             "position": 47,
+            "player_name": "ANURAG",
+            "clan_name": "Army IND",
+            "league_trophies": 385,
+            "attack_wins": 10,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 11,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 48,
             "player_name": "Bosekaa!",
             "clan_name": "CAHAYA_FANTASY",
             "league_trophies": 380,
@@ -63531,18 +63565,6 @@
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 10,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 48,
-            "player_name": "ANURAG",
-            "clan_name": "Army IND",
-            "league_trophies": 355,
-            "attack_wins": 9,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 11,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -64190,7 +64212,7 @@
         "defense_count": 8,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.480078+00:00",
+        "last_synced": "2026-09-24T07:09:29.209111+00:00",
         "attack_wins": 18,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -65602,7 +65624,7 @@
         "defense_count": 9,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.568404+00:00",
+        "last_synced": "2026-09-24T07:09:29.255358+00:00",
         "attack_wins": 18,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -66061,7 +66083,7 @@
             "attack_wins": 18,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 8,
+            "defense_losses": 9,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -66319,6 +66341,18 @@
           },
           {
             "position": 44,
+            "player_name": "IGNOTUS",
+            "clan_name": "**СтарПерцы**",
+            "league_trophies": 338,
+            "attack_wins": 13,
+            "attack_losses": 1,
+            "defense_wins": 0,
+            "defense_losses": 8,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 45,
             "player_name": "abbie",
             "clan_name": "t0kClan°",
             "league_trophies": 334,
@@ -66330,7 +66364,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 45,
+            "position": 46,
             "player_name": "Mr Josema",
             "clan_name": "Frente Camaleon",
             "league_trophies": 331,
@@ -66342,7 +66376,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 46,
+            "position": 47,
             "player_name": "bean",
             "clan_name": "Phú Yên 78",
             "league_trophies": 330,
@@ -66354,7 +66388,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 47,
+            "position": 48,
             "player_name": "*RISTOND.C.S*",
             "clan_name": "REMBOL",
             "league_trophies": 327,
@@ -66366,7 +66400,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 48,
+            "position": 49,
             "player_name": "F 么 L C O N",
             "clan_name": "CRIMINALS",
             "league_trophies": 312,
@@ -66378,7 +66412,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 49,
+            "position": 50,
             "player_name": "Samantha",
             "clan_name": "Germany One 1",
             "league_trophies": 301,
@@ -66390,7 +66424,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 50,
+            "position": 51,
             "player_name": "PROFESÖR",
             "clan_name": "AY YILDIZLAR",
             "league_trophies": 300,
@@ -66402,7 +66436,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 51,
+            "position": 52,
             "player_name": "jokky",
             "clan_name": "Québec",
             "league_trophies": 282,
@@ -66410,18 +66444,6 @@
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 9,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 52,
-            "player_name": "IGNOTUS",
-            "clan_name": "**СтарПерцы**",
-            "league_trophies": 276,
-            "attack_wins": 11,
-            "attack_losses": 1,
-            "defense_wins": 0,
-            "defense_losses": 8,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -66597,11 +66619,11 @@
             "position": 67,
             "player_name": "Gấu° ©@°™",
             "clan_name": "vietnam",
-            "league_trophies": 143,
+            "league_trophies": 161,
             "attack_wins": 2,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 8,
+            "defense_losses": 9,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -67013,7 +67035,7 @@
         "league_name": "Legend III",
         "season_id": "1789966800",
         "league_trophies": 620,
-        "overall_rank": 37,
+        "overall_rank": 38,
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
@@ -67021,7 +67043,7 @@
         "defense_count": 12,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:13.790018+00:00",
+        "last_synced": "2026-09-24T07:09:28.529239+00:00",
         "attack_wins": 19,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -67288,11 +67310,11 @@
             "position": 4,
             "player_name": "Jed®",
             "clan_name": "No War No War",
-            "league_trophies": 1008,
+            "league_trophies": 1020,
             "attack_wins": 24,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 12,
+            "defense_losses": 13,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -67542,7 +67564,7 @@
             "clan_name": "Danger Marrior",
             "league_trophies": 816,
             "attack_wins": 21,
-            "attack_losses": 0,
+            "attack_losses": 1,
             "defense_wins": 0,
             "defense_losses": 13,
             "is_player": false,
@@ -67580,7 +67602,7 @@
             "attack_wins": 24,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 12,
+            "defense_losses": 13,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -67670,18 +67692,30 @@
           },
           {
             "position": 36,
+            "player_name": "D3sTr0Y3r",
+            "clan_name": "House of DGR!MM",
+            "league_trophies": 626,
+            "attack_wins": 14,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 13,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 37,
             "player_name": "jonathan",
             "clan_name": "LOUKOS DO CLASH",
             "league_trophies": 624,
             "attack_wins": 17,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 12,
+            "defense_losses": 13,
             "is_player": false,
             "clan_member_public_id": null
           },
           {
-            "position": 37,
+            "position": 38,
             "player_name": "Avinash",
             "clan_name": "Hero Dive Bar",
             "league_trophies": 620,
@@ -67693,7 +67727,7 @@
             "clan_member_public_id": "10d53b71f16c59"
           },
           {
-            "position": 38,
+            "position": 39,
             "player_name": "mak",
             "clan_name": "British Wino’s",
             "league_trophies": 616,
@@ -67705,7 +67739,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 39,
+            "position": 40,
             "player_name": "chok's",
             "clan_name": "DAVAO CLASHERS",
             "league_trophies": 567,
@@ -67717,7 +67751,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 40,
+            "position": 41,
             "player_name": "franky_havana",
             "clan_name": "havana",
             "league_trophies": 564,
@@ -67729,7 +67763,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 41,
+            "position": 42,
             "player_name": "Displ3y",
             "clan_name": "# THE TITANS #",
             "league_trophies": 551,
@@ -67741,7 +67775,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 42,
+            "position": 43,
             "player_name": "playhard##gopro",
             "clan_name": "Royal Flash",
             "league_trophies": 529,
@@ -67753,7 +67787,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 43,
+            "position": 44,
             "player_name": "SuperHulk",
             "clan_name": "The J",
             "league_trophies": 516,
@@ -67765,7 +67799,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 44,
+            "position": 45,
             "player_name": "FMC",
             "clan_name": "flan cam2",
             "league_trophies": 498,
@@ -67777,7 +67811,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 45,
+            "position": 46,
             "player_name": "Uaaah",
             "clan_name": "Archer Kings",
             "league_trophies": 476,
@@ -67789,7 +67823,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 46,
+            "position": 47,
             "player_name": "دٍسِـتٌـوٌر",
             "clan_name": "معان العز",
             "league_trophies": 474,
@@ -67801,7 +67835,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 47,
+            "position": 48,
             "player_name": "LEGENDS ⚡️ ANDY",
             "clan_name": "los mejores",
             "league_trophies": 473,
@@ -67813,7 +67847,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 48,
+            "position": 49,
             "player_name": "ForestSleeping",
             "clan_name": "ace 4",
             "league_trophies": 466,
@@ -67825,7 +67859,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 49,
+            "position": 50,
             "player_name": "Kaidoˆ",
             "clan_name": "ChrOnyx",
             "league_trophies": 448,
@@ -67837,7 +67871,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 50,
+            "position": 51,
             "player_name": "SY⚡GENERAL",
             "clan_name": "Mighty Clan",
             "league_trophies": 446,
@@ -67849,7 +67883,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 51,
+            "position": 52,
             "player_name": "jUsTicE",
             "clan_name": "CONTRACT KILLER",
             "league_trophies": 445,
@@ -67861,7 +67895,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 52,
+            "position": 53,
             "player_name": "VHA ⚡ GODZINHO",
             "clan_name": "Les Bronzés",
             "league_trophies": 442,
@@ -67873,7 +67907,19 @@
             "clan_member_public_id": null
           },
           {
-            "position": 53,
+            "position": 54,
+            "player_name": "pbd",
+            "clan_name": "! ราชาตะวันตก !",
+            "league_trophies": 421,
+            "attack_wins": 9,
+            "attack_losses": 0,
+            "defense_wins": 1,
+            "defense_losses": 12,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 55,
             "player_name": "EternalVoid",
             "clan_name": "Har_har_mahadev",
             "league_trophies": 412,
@@ -67885,7 +67931,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 54,
+            "position": 56,
             "player_name": "Carlos 23",
             "clan_name": "CHILE",
             "league_trophies": 405,
@@ -67897,7 +67943,19 @@
             "clan_member_public_id": null
           },
           {
-            "position": 55,
+            "position": 57,
+            "player_name": "™tý™",
+            "clan_name": "hoàng mai plaza",
+            "league_trophies": 394,
+            "attack_wins": 10,
+            "attack_losses": 0,
+            "defense_wins": 1,
+            "defense_losses": 12,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 58,
             "player_name": "อ่ำ ขาโหดโคราช",
             "clan_name": "สุพรรณหงษ์",
             "league_trophies": 393,
@@ -67909,7 +67967,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 56,
+            "position": 59,
             "player_name": "chi linh",
             "clan_name": "VIỆT NAM 8888",
             "league_trophies": 389,
@@ -67921,7 +67979,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 57,
+            "position": 60,
             "player_name": "JAMES",
             "clan_name": "Lords of war",
             "league_trophies": 389,
@@ -67933,31 +67991,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 58,
-            "player_name": "pbd",
-            "clan_name": "! ราชาตะวันตก !",
-            "league_trophies": 381,
-            "attack_wins": 9,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 12,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 59,
-            "player_name": "D3sTr0Y3r",
-            "clan_name": "House of DGR!MM",
-            "league_trophies": 381,
-            "attack_wins": 8,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 12,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 60,
+            "position": 61,
             "player_name": "Tim",
             "clan_name": "快乐土匪窝",
             "league_trophies": 375,
@@ -67969,7 +68003,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 61,
+            "position": 62,
             "player_name": "WI⚡♠️♠️Aziz♠️♠️",
             "clan_name": "AFG BOY",
             "league_trophies": 372,
@@ -67981,7 +68015,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 62,
+            "position": 63,
             "player_name": "TheOGbeastlyb8",
             "clan_name": "WAR RETRIBUTION",
             "league_trophies": 368,
@@ -67993,7 +68027,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 63,
+            "position": 64,
             "player_name": "PSFMahesh",
             "clan_name": "BROTHERHOOD❤️",
             "league_trophies": 363,
@@ -68005,7 +68039,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 64,
+            "position": 65,
             "player_name": "♥Giada♥",
             "clan_name": "total gamer",
             "league_trophies": 347,
@@ -68017,7 +68051,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 65,
+            "position": 66,
             "player_name": "Fenix",
             "clan_name": "BRASIL UNITED",
             "league_trophies": 342,
@@ -68029,19 +68063,19 @@
             "clan_member_public_id": null
           },
           {
-            "position": 66,
+            "position": 67,
             "player_name": "LANNISTER",
             "clan_name": "hrvatska zadar",
             "league_trophies": 338,
             "attack_wins": 5,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 12,
+            "defense_losses": 13,
             "is_player": false,
             "clan_member_public_id": null
           },
           {
-            "position": 67,
+            "position": 68,
             "player_name": "Ramírez",
             "clan_name": "ADALUCESas2",
             "league_trophies": 331,
@@ -68053,7 +68087,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 68,
+            "position": 69,
             "player_name": "Lnwtrue",
             "clan_name": "ความตายสีขาว",
             "league_trophies": 320,
@@ -68065,7 +68099,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 69,
+            "position": 70,
             "player_name": "个×Z3EM×个",
             "clan_name": "THE DRAGON",
             "league_trophies": 300,
@@ -68073,18 +68107,6 @@
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 12,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 70,
-            "player_name": "™tý™",
-            "clan_name": "hoàng mai plaza",
-            "league_trophies": 291,
-            "attack_wins": 7,
-            "attack_losses": 0,
-            "defense_wins": 1,
-            "defense_losses": 11,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -68108,7 +68130,7 @@
             "attack_wins": 8,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 12,
+            "defense_losses": 13,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -68204,7 +68226,7 @@
             "attack_wins": 2,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 12,
+            "defense_losses": 13,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -68240,7 +68262,7 @@
             "attack_wins": 0,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 12,
+            "defense_losses": 13,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -68468,7 +68490,7 @@
         "defense_count": 7,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.842554+00:00",
+        "last_synced": "2026-09-24T07:09:29.566197+00:00",
         "attack_wins": 18,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -68961,7 +68983,7 @@
             "attack_wins": 18,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 7,
+            "defense_losses": 8,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -69051,6 +69073,18 @@
           },
           {
             "position": 34,
+            "player_name": "dard",
+            "clan_name": "RAGNAROK",
+            "league_trophies": 359,
+            "attack_wins": 9,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 8,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 35,
             "player_name": "Robot Monkeys",
             "clan_name": "Clandersons",
             "league_trophies": 356,
@@ -69062,7 +69096,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 35,
+            "position": 36,
             "player_name": "Thana",
             "clan_name": "H⚡V",
             "league_trophies": 350,
@@ -69074,7 +69108,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 36,
+            "position": 37,
             "player_name": "ondo",
             "clan_name": "BVB",
             "league_trophies": 330,
@@ -69086,7 +69120,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 37,
+            "position": 38,
             "player_name": "LI SHIYA",
             "clan_name": "MY FAMILY",
             "league_trophies": 327,
@@ -69098,7 +69132,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 38,
+            "position": 39,
             "player_name": "hanaichi",
             "clan_name": "自由とカルボナーラ",
             "league_trophies": 320,
@@ -69110,7 +69144,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 39,
+            "position": 40,
             "player_name": "Kunal Rajput",
             "clan_name": "Ahmedabad",
             "league_trophies": 292,
@@ -69122,24 +69156,12 @@
             "clan_member_public_id": null
           },
           {
-            "position": 40,
+            "position": 41,
             "player_name": "ALOK",
             "clan_name": "LEGENDS",
             "league_trophies": 290,
             "attack_wins": 6,
             "attack_losses": 1,
-            "defense_wins": 0,
-            "defense_losses": 8,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 41,
-            "player_name": "dard",
-            "clan_name": "RAGNAROK",
-            "league_trophies": 279,
-            "attack_wins": 7,
-            "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 8,
             "is_player": false,
@@ -69273,7 +69295,7 @@
             "attack_wins": 8,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 7,
+            "defense_losses": 8,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -69873,7 +69895,7 @@
         "defense_count": 6,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.918922+00:00",
+        "last_synced": "2026-09-24T07:09:29.617473+00:00",
         "attack_wins": 18,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -70127,11 +70149,11 @@
             "position": 7,
             "player_name": "RED SCORPIONS",
             "clan_name": "HUJAN PAGI HARI",
-            "league_trophies": 662,
+            "league_trophies": 689,
             "attack_wins": 18,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 6,
+            "defense_losses": 7,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -70773,6 +70795,18 @@
           },
           {
             "position": 61,
+            "player_name": "Harleigh",
+            "clan_name": "K9 Heros",
+            "league_trophies": 161,
+            "attack_wins": 2,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 7,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 62,
             "player_name": "Dabo",
             "clan_name": "french riders",
             "league_trophies": 159,
@@ -70784,7 +70818,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 62,
+            "position": 63,
             "player_name": "dydy_gasquet",
             "clan_name": "takamataké",
             "league_trophies": 158,
@@ -70796,7 +70830,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 63,
+            "position": 64,
             "player_name": "black terror",
             "clan_name": "Antieku Killers",
             "league_trophies": 158,
@@ -70808,7 +70842,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 64,
+            "position": 65,
             "player_name": "JOSESITO 504",
             "clan_name": "Los lobos",
             "league_trophies": 157,
@@ -70820,7 +70854,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 65,
+            "position": 66,
             "player_name": "❤️سالوادور❤️",
             "clan_name": "034",
             "league_trophies": 156,
@@ -70832,7 +70866,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 66,
+            "position": 67,
             "player_name": "¤Marjonatics¤",
             "clan_name": "WallopWarriors",
             "league_trophies": 147,
@@ -70844,7 +70878,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 67,
+            "position": 68,
             "player_name": "loser2",
             "clan_name": "ηοηρlυsυlτrα",
             "league_trophies": 145,
@@ -70856,7 +70890,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 68,
+            "position": 69,
             "player_name": "_- JAMOL -_",
             "clan_name": "ХАЗАРИСЛИЛА",
             "league_trophies": 144,
@@ -70868,7 +70902,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 69,
+            "position": 70,
             "player_name": "Anthotheking",
             "clan_name": "The Worst",
             "league_trophies": 138,
@@ -70880,7 +70914,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 70,
+            "position": 71,
             "player_name": "Hajiyev",
             "clan_name": "Ore's paglu",
             "league_trophies": 134,
@@ -70892,7 +70926,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 71,
+            "position": 72,
             "player_name": "Yuno꧂",
             "clan_name": "Mind Control",
             "league_trophies": 131,
@@ -70900,18 +70934,6 @@
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 6,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 72,
-            "player_name": "Harleigh",
-            "clan_name": "K9 Heros",
-            "league_trophies": 125,
-            "attack_wins": 0,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 7,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -71061,6 +71083,18 @@
           },
           {
             "position": 85,
+            "player_name": "GaİİOws",
+            "clan_name": "FRee Birds",
+            "league_trophies": 83,
+            "attack_wins": 0,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 7,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 86,
             "player_name": "JETT",
             "clan_name": "team work",
             "league_trophies": 80,
@@ -71072,7 +71106,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 86,
+            "position": 87,
             "player_name": "SIDDHARTH",
             "clan_name": "Region's Power",
             "league_trophies": 79,
@@ -71084,7 +71118,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 87,
+            "position": 88,
             "player_name": "BOCAH_N[@]kal",
             "clan_name": "@RAS EIGHTY@@",
             "league_trophies": 76,
@@ -71096,7 +71130,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 88,
+            "position": 89,
             "player_name": "van_tu_de_ming",
             "clan_name": "BALI",
             "league_trophies": 75,
@@ -71108,7 +71142,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 89,
+            "position": 90,
             "player_name": "Gr8Campos",
             "clan_name": "TURTLE cwl",
             "league_trophies": 70,
@@ -71120,7 +71154,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 90,
+            "position": 91,
             "player_name": "gr8witebuffalo",
             "clan_name": "TheMeatGrinder",
             "league_trophies": 68,
@@ -71132,22 +71166,10 @@
             "clan_member_public_id": null
           },
           {
-            "position": 91,
+            "position": 92,
             "player_name": "gendi225",
             "clan_name": "Gildia PL",
             "league_trophies": 67,
-            "attack_wins": 0,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 6,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 92,
-            "player_name": "GaİİOws",
-            "clan_name": "FRee Birds",
-            "league_trophies": 66,
             "attack_wins": 0,
             "attack_losses": 0,
             "defense_wins": 0,
@@ -71271,7 +71293,7 @@
         "defense_count": 4,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:15.589146+00:00",
+        "last_synced": "2026-09-24T07:09:30.291989+00:00",
         "attack_wins": 12,
         "attack_losses": 0,
         "defense_wins": 1,
@@ -72613,7 +72635,7 @@
         "defense_count": 8,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.566777+00:00",
+        "last_synced": "2026-09-24T07:09:29.253985+00:00",
         "attack_wins": 8,
         "attack_losses": 0,
         "defense_wins": 1,
@@ -73955,7 +73977,7 @@
         "defense_count": 5,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:16.151024+00:00",
+        "last_synced": "2026-09-24T07:09:30.839041+00:00",
         "attack_wins": 10,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -75282,7 +75304,7 @@
         "league_name": "Electro League 33",
         "season_id": "1789966800",
         "league_trophies": 399,
-        "overall_rank": 41,
+        "overall_rank": 42,
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
@@ -75290,7 +75312,7 @@
         "defense_count": 9,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.098562+00:00",
+        "last_synced": "2026-09-24T07:09:28.838968+00:00",
         "attack_wins": 11,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -75454,6 +75476,18 @@
           },
           {
             "position": 2,
+            "player_name": "x B M C G x",
+            "clan_name": "Acquistion Inc",
+            "league_trophies": 782,
+            "attack_wins": 18,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 10,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 3,
             "player_name": "[imko]",
             "clan_name": "Magyar",
             "league_trophies": 765,
@@ -75465,7 +75499,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 3,
+            "position": 4,
             "player_name": "MeM_Çarşı",
             "clan_name": "Battal Gazi",
             "league_trophies": 760,
@@ -75473,18 +75507,6 @@
             "attack_losses": 0,
             "defense_wins": 1,
             "defense_losses": 8,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 4,
-            "player_name": "x B M C G x",
-            "clan_name": "Acquistion Inc",
-            "league_trophies": 757,
-            "attack_wins": 18,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 9,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -75508,7 +75530,7 @@
             "attack_wins": 18,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 9,
+            "defense_losses": 10,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -75526,6 +75548,18 @@
           },
           {
             "position": 8,
+            "player_name": "Saif Dughachi™️",
+            "clan_name": "شكو ماكو",
+            "league_trophies": 720,
+            "attack_wins": 18,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 9,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 9,
             "player_name": "тигр",
             "clan_name": "ALASH RUH",
             "league_trophies": 717,
@@ -75537,7 +75571,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 9,
+            "position": 10,
             "player_name": "ぽんた",
             "clan_name": "Reggae❇Punch",
             "league_trophies": 712,
@@ -75549,7 +75583,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 10,
+            "position": 11,
             "player_name": "ＨＯＮＥＹ ＳＨＩＶＡＡＹ １",
             "clan_name": "Indian Tigers",
             "league_trophies": 711,
@@ -75561,7 +75595,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 11,
+            "position": 12,
             "player_name": "Đức Anh",
             "clan_name": "LTTer K62",
             "league_trophies": 710,
@@ -75573,7 +75607,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 12,
+            "position": 13,
             "player_name": "خَلَوِدِيِّ",
             "clan_name": "Clahs of predat",
             "league_trophies": 701,
@@ -75585,7 +75619,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 13,
+            "position": 14,
             "player_name": "مسرة",
             "clan_name": "ملوك العراق",
             "league_trophies": 700,
@@ -75597,7 +75631,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 14,
+            "position": 15,
             "player_name": "洛阳",
             "clan_name": "大唐盛世",
             "league_trophies": 685,
@@ -75609,23 +75643,11 @@
             "clan_member_public_id": null
           },
           {
-            "position": 15,
+            "position": 16,
             "player_name": "APOLLO ™",
             "clan_name": "sa✌بلاك لست",
             "league_trophies": 674,
             "attack_wins": 18,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 9,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 16,
-            "player_name": "Saif Dughachi™️",
-            "clan_name": "شكو ماكو",
-            "league_trophies": 665,
-            "attack_wins": 16,
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 9,
@@ -75742,6 +75764,18 @@
           },
           {
             "position": 26,
+            "player_name": "☆邪神(5才)☆",
+            "clan_name": "MOMOのお部屋",
+            "league_trophies": 559,
+            "attack_wins": 14,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 9,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 27,
             "player_name": "D R A C A R Y S",
             "clan_name": "Armageddon Army",
             "league_trophies": 523,
@@ -75753,7 +75787,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 27,
+            "position": 28,
             "player_name": "берс",
             "clan_name": "Рыбаки",
             "league_trophies": 512,
@@ -75765,7 +75799,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 28,
+            "position": 29,
             "player_name": "Askeladd",
             "clan_name": "AKINCILAR",
             "league_trophies": 508,
@@ -75777,7 +75811,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 29,
+            "position": 30,
             "player_name": "나비스",
             "clan_name": "비폭력클랜",
             "league_trophies": 496,
@@ -75789,7 +75823,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 30,
+            "position": 31,
             "player_name": "RubberBen",
             "clan_name": "台灣 - 台北指揮部 3",
             "league_trophies": 495,
@@ -75801,7 +75835,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 31,
+            "position": 32,
             "player_name": "¶GABRIEL¶H.V",
             "clan_name": "ESPEJO LUNAR",
             "league_trophies": 488,
@@ -75813,7 +75847,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 32,
+            "position": 33,
             "player_name": "Sina",
             "clan_name": "***paradise***",
             "league_trophies": 487,
@@ -75825,7 +75859,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 33,
+            "position": 34,
             "player_name": "Leuleu77",
             "clan_name": "WARCRAFT",
             "league_trophies": 486,
@@ -75837,7 +75871,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 34,
+            "position": 35,
             "player_name": "Dauitbek",
             "clan_name": "BURABAI FOREVER",
             "league_trophies": 477,
@@ -75849,7 +75883,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 35,
+            "position": 36,
             "player_name": "Karl",
             "clan_name": "KOH",
             "league_trophies": 470,
@@ -75861,7 +75895,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 36,
+            "position": 37,
             "player_name": "IVAN",
             "clan_name": "fouine attak",
             "league_trophies": 450,
@@ -75873,11 +75907,11 @@
             "clan_member_public_id": null
           },
           {
-            "position": 37,
-            "player_name": "☆邪神(5才)☆",
-            "clan_name": "MOMOのお部屋",
-            "league_trophies": 439,
-            "attack_wins": 11,
+            "position": 38,
+            "player_name": "M r .Ｅ",
+            "clan_name": "クラン　Ｍｒ.Ｅ",
+            "league_trophies": 446,
+            "attack_wins": 9,
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 9,
@@ -75885,7 +75919,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 38,
+            "position": 39,
             "player_name": "Mukesh",
             "clan_name": "EmPiRe CluB",
             "league_trophies": 411,
@@ -75897,19 +75931,19 @@
             "clan_member_public_id": null
           },
           {
-            "position": 39,
-            "player_name": "M r .Ｅ",
-            "clan_name": "クラン　Ｍｒ.Ｅ",
-            "league_trophies": 406,
-            "attack_wins": 8,
-            "attack_losses": 0,
+            "position": 40,
+            "player_name": "Lê⭐Cường⭐1988⭐",
+            "clan_name": "ae đoàn kết",
+            "league_trophies": 404,
+            "attack_wins": 11,
+            "attack_losses": 1,
             "defense_wins": 0,
             "defense_losses": 9,
             "is_player": false,
             "clan_member_public_id": null
           },
           {
-            "position": 40,
+            "position": 41,
             "player_name": "việt thắng",
             "clan_name": "47 Đắk Lắk",
             "league_trophies": 400,
@@ -75921,7 +75955,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 41,
+            "position": 42,
             "player_name": "taymonayyyy",
             "clan_name": "Hero Dive Bar",
             "league_trophies": 399,
@@ -75933,7 +75967,7 @@
             "clan_member_public_id": "8e332ab4b0f2b4"
           },
           {
-            "position": 42,
+            "position": 43,
             "player_name": "oleg",
             "clan_name": "Legion UA",
             "league_trophies": 387,
@@ -75945,19 +75979,19 @@
             "clan_member_public_id": null
           },
           {
-            "position": 43,
+            "position": 44,
             "player_name": "zer. abzolut",
             "clan_name": "⚠️WARNING⚠️",
             "league_trophies": 379,
             "attack_wins": 9,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 9,
+            "defense_losses": 10,
             "is_player": false,
             "clan_member_public_id": null
           },
           {
-            "position": 44,
+            "position": 45,
             "player_name": "GLADIATOR",
             "clan_name": "CLASH GAWDS",
             "league_trophies": 360,
@@ -75969,24 +76003,12 @@
             "clan_member_public_id": null
           },
           {
-            "position": 45,
+            "position": 46,
             "player_name": "R7",
             "clan_name": "KING AMON*-*",
             "league_trophies": 352,
             "attack_wins": 6,
             "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 9,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 46,
-            "player_name": "Lê⭐Cường⭐1988⭐",
-            "clan_name": "ae đoàn kết",
-            "league_trophies": 333,
-            "attack_wins": 9,
-            "attack_losses": 1,
             "defense_wins": 0,
             "defense_losses": 9,
             "is_player": false,
@@ -76084,7 +76106,7 @@
             "attack_wins": 8,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 9,
+            "defense_losses": 10,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -76354,22 +76376,22 @@
           },
           {
             "position": 77,
-            "player_name": "Jhaggy",
-            "clan_name": "just the game",
-            "league_trophies": 160,
-            "attack_wins": 2,
+            "player_name": "AnonyMousAlone",
+            "clan_name": "AREK RANTAU ID",
+            "league_trophies": 163,
+            "attack_wins": 1,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 9,
+            "defense_losses": 10,
             "is_player": false,
             "clan_member_public_id": null
           },
           {
             "position": 78,
-            "player_name": "AnonyMousAlone",
-            "clan_name": "AREK RANTAU ID",
-            "league_trophies": 148,
-            "attack_wins": 1,
+            "player_name": "Jhaggy",
+            "clan_name": "just the game",
+            "league_trophies": 160,
+            "attack_wins": 2,
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 9,
@@ -76408,7 +76430,7 @@
             "attack_wins": 3,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 9,
+            "defense_losses": 10,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -76432,7 +76454,7 @@
             "attack_wins": 2,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 9,
+            "defense_losses": 10,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -76492,16 +76514,16 @@
             "attack_wins": 0,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 8,
+            "defense_losses": 9,
             "is_player": false,
             "clan_member_public_id": null
           },
           {
             "position": 89,
-            "player_name": "Chris The User",
-            "clan_name": "clashaholics",
-            "league_trophies": 87,
-            "attack_wins": 3,
+            "player_name": "El Rato",
+            "clan_name": "The Short Bus",
+            "league_trophies": 96,
+            "attack_wins": 1,
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 9,
@@ -76510,13 +76532,13 @@
           },
           {
             "position": 90,
-            "player_name": "El Rato",
-            "clan_name": "The Short Bus",
+            "player_name": "Chris The User",
+            "clan_name": "clashaholics",
             "league_trophies": 87,
-            "attack_wins": 1,
+            "attack_wins": 3,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 8,
+            "defense_losses": 9,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -76546,6 +76568,18 @@
           },
           {
             "position": 93,
+            "player_name": "thegogs",
+            "clan_name": "buddha's clan",
+            "league_trophies": 71,
+            "attack_wins": 1,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 9,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 94,
             "player_name": "Andry⚔Masberto",
             "clan_name": "Andry♨️Masberto",
             "league_trophies": 66,
@@ -76557,7 +76591,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 94,
+            "position": 95,
             "player_name": "Ansh",
             "clan_name": "Gargans",
             "league_trophies": 65,
@@ -76569,7 +76603,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 95,
+            "position": 96,
             "player_name": "太一",
             "clan_name": "JPN Alliance",
             "league_trophies": 56,
@@ -76581,7 +76615,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 96,
+            "position": 97,
             "player_name": "Arab4",
             "clan_name": "القوات المشتركة",
             "league_trophies": 46,
@@ -76589,18 +76623,6 @@
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 10,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 97,
-            "player_name": "thegogs",
-            "clan_name": "buddha's clan",
-            "league_trophies": 46,
-            "attack_wins": 0,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 9,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -76652,7 +76674,7 @@
         "league_name": "Dragon League 28",
         "season_id": "1789966800",
         "league_trophies": 347,
-        "overall_rank": 30,
+        "overall_rank": 31,
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
@@ -76660,7 +76682,7 @@
         "defense_count": 7,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:15.551369+00:00",
+        "last_synced": "2026-09-24T07:09:30.252005+00:00",
         "attack_wins": 5,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -76930,7 +76952,7 @@
             "attack_wins": 14,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 6,
+            "defense_losses": 7,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -76960,6 +76982,18 @@
           },
           {
             "position": 18,
+            "player_name": "Josttin07",
+            "clan_name": "GAMSTER MS",
+            "league_trophies": 435,
+            "attack_wins": 9,
+            "attack_losses": 0,
+            "defense_wins": 1,
+            "defense_losses": 5,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 19,
             "player_name": "silas",
             "clan_name": "Titans Warriors",
             "league_trophies": 429,
@@ -76971,7 +77005,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 19,
+            "position": 20,
             "player_name": "zimie",
             "clan_name": "\"$tar £egend\"",
             "league_trophies": 429,
@@ -76983,19 +77017,19 @@
             "clan_member_public_id": null
           },
           {
-            "position": 20,
+            "position": 21,
             "player_name": "healer queen",
             "clan_name": "BUKIT BATU✨™Mks",
             "league_trophies": 405,
             "attack_wins": 14,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 5,
+            "defense_losses": 6,
             "is_player": false,
             "clan_member_public_id": null
           },
           {
-            "position": 21,
+            "position": 22,
             "player_name": "Conqueror Khan",
             "clan_name": "AZEROT",
             "league_trophies": 395,
@@ -77007,7 +77041,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 22,
+            "position": 23,
             "player_name": "แมวอ้วน",
             "clan_name": "Thai WarriorZoo",
             "league_trophies": 391,
@@ -77019,7 +77053,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 23,
+            "position": 24,
             "player_name": "Ali",
             "clan_name": "Be Aggressive 2",
             "league_trophies": 387,
@@ -77031,7 +77065,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 24,
+            "position": 25,
             "player_name": "nischal stha",
             "clan_name": "NEPALI WARRIOR",
             "league_trophies": 387,
@@ -77043,7 +77077,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 25,
+            "position": 26,
             "player_name": "soheil DragonDs",
             "clan_name": "پرسپولیس",
             "league_trophies": 384,
@@ -77055,7 +77089,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 26,
+            "position": 27,
             "player_name": "Blonde Xena",
             "clan_name": "Die Lümmel",
             "league_trophies": 372,
@@ -77067,7 +77101,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 27,
+            "position": 28,
             "player_name": "Arrascaeta…",
             "clan_name": "NIGHT RAGE",
             "league_trophies": 367,
@@ -77079,7 +77113,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 28,
+            "position": 29,
             "player_name": "тυѕнαя",
             "clan_name": "Fosbel Fighter",
             "league_trophies": 360,
@@ -77091,7 +77125,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 29,
+            "position": 30,
             "player_name": "Peng⚡️",
             "clan_name": "Plastik Putih",
             "league_trophies": 356,
@@ -77103,7 +77137,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 30,
+            "position": 31,
             "player_name": "Jerry",
             "clan_name": "Hero Dive Bar",
             "league_trophies": 347,
@@ -77115,7 +77149,7 @@
             "clan_member_public_id": "a64cb3cd72e7b9"
           },
           {
-            "position": 31,
+            "position": 32,
             "player_name": "naynyi2",
             "clan_name": "YANGON CHELSEA",
             "league_trophies": 332,
@@ -77127,7 +77161,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 32,
+            "position": 33,
             "player_name": "D@ANGER",
             "clan_name": "Myanmar Army007",
             "league_trophies": 317,
@@ -77139,7 +77173,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 33,
+            "position": 34,
             "player_name": "Ragnar. FLA",
             "clan_name": "Extrema Direita",
             "league_trophies": 298,
@@ -77151,7 +77185,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 34,
+            "position": 35,
             "player_name": "Leekim3422f",
             "clan_name": "Haresh",
             "league_trophies": 294,
@@ -77163,7 +77197,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 35,
+            "position": 36,
             "player_name": "Joy",
             "clan_name": "McGinger's",
             "league_trophies": 292,
@@ -77175,19 +77209,19 @@
             "clan_member_public_id": null
           },
           {
-            "position": 36,
+            "position": 37,
             "player_name": "Mister TF",
             "clan_name": "SYNDICATE",
             "league_trophies": 286,
             "attack_wins": 8,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 6,
+            "defense_losses": 7,
             "is_player": false,
             "clan_member_public_id": null
           },
           {
-            "position": 37,
+            "position": 38,
             "player_name": "нямук",
             "clan_name": "MONGOL",
             "league_trophies": 279,
@@ -77199,7 +77233,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 38,
+            "position": 39,
             "player_name": "muhammadAfiq",
             "clan_name": "Malaya ReUNiON",
             "league_trophies": 271,
@@ -77211,7 +77245,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 39,
+            "position": 40,
             "player_name": "ABAcus",
             "clan_name": "braca",
             "league_trophies": 264,
@@ -77223,7 +77257,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 40,
+            "position": 41,
             "player_name": "Cậu Bim",
             "clan_name": "Anh em tốt√",
             "league_trophies": 256,
@@ -77235,7 +77269,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 41,
+            "position": 42,
             "player_name": "Rubenator",
             "clan_name": "disabled monkey",
             "league_trophies": 254,
@@ -77247,7 +77281,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 42,
+            "position": 43,
             "player_name": "Yu One",
             "clan_name": "VINIX™",
             "league_trophies": 242,
@@ -77259,7 +77293,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 43,
+            "position": 44,
             "player_name": "Nt.Boy",
             "clan_name": "Laskar Jowiro",
             "league_trophies": 237,
@@ -77271,18 +77305,6 @@
             "clan_member_public_id": null
           },
           {
-            "position": 44,
-            "player_name": "Josttin07",
-            "clan_name": "GAMSTER MS",
-            "league_trophies": 235,
-            "attack_wins": 4,
-            "attack_losses": 0,
-            "defense_wins": 1,
-            "defense_losses": 5,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
             "position": 45,
             "player_name": "ابو خالد",
             "clan_name": "اليمن",
@@ -77290,7 +77312,7 @@
             "attack_wins": 9,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 6,
+            "defense_losses": 7,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -77608,6 +77630,18 @@
           },
           {
             "position": 72,
+            "player_name": "King",
+            "clan_name": "\"BLACK SHADOW\"",
+            "league_trophies": 114,
+            "attack_wins": 1,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 7,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 73,
             "player_name": "sukdeb",
             "clan_name": "ADAMPUR ROCK",
             "league_trophies": 114,
@@ -77619,7 +77653,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 73,
+            "position": 74,
             "player_name": "EricGarcia",
             "clan_name": "Shadow Knights",
             "league_trophies": 110,
@@ -77631,7 +77665,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 74,
+            "position": 75,
             "player_name": "luffy",
             "clan_name": "RR-GANG",
             "league_trophies": 107,
@@ -77643,7 +77677,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 75,
+            "position": 76,
             "player_name": "xposed",
             "clan_name": "JasminHood",
             "league_trophies": 107,
@@ -77655,7 +77689,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 76,
+            "position": 77,
             "player_name": "Fee royal",
             "clan_name": "BR01",
             "league_trophies": 106,
@@ -77667,7 +77701,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 77,
+            "position": 78,
             "player_name": "KINTAMA",
             "clan_name": "Wonders Trops",
             "league_trophies": 100,
@@ -77679,7 +77713,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 78,
+            "position": 79,
             "player_name": "R@¥| D€$TROY€R",
             "clan_name": "Over The Wave",
             "league_trophies": 99,
@@ -77691,7 +77725,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 79,
+            "position": 80,
             "player_name": "Superuser",
             "clan_name": "BAMBANGSETIAWAN",
             "league_trophies": 93,
@@ -77703,7 +77737,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 80,
+            "position": 81,
             "player_name": "条件",
             "clan_name": "地狱模式",
             "league_trophies": 93,
@@ -77715,7 +77749,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 81,
+            "position": 82,
             "player_name": "warat",
             "clan_name": "Team BARVALAN",
             "league_trophies": 92,
@@ -77727,7 +77761,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 82,
+            "position": 83,
             "player_name": "sanam sanam",
             "clan_name": "Indian Assam",
             "league_trophies": 91,
@@ -77739,7 +77773,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 83,
+            "position": 84,
             "player_name": "Queen Walk `Ran",
             "clan_name": "Jatim Warrior",
             "league_trophies": 90,
@@ -77751,7 +77785,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 84,
+            "position": 85,
             "player_name": "spicycheckmate",
             "clan_name": "..BLOOD BATTLE.",
             "league_trophies": 90,
@@ -77763,19 +77797,19 @@
             "clan_member_public_id": null
           },
           {
-            "position": 85,
+            "position": 86,
             "player_name": "Baba Yaga",
             "clan_name": "Ghost army ☠️",
             "league_trophies": 89,
             "attack_wins": 1,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 6,
+            "defense_losses": 7,
             "is_player": false,
             "clan_member_public_id": null
           },
           {
-            "position": 86,
+            "position": 87,
             "player_name": "MOHAMMAD",
             "clan_name": "PuN€Ri P@LT@N",
             "league_trophies": 88,
@@ -77787,7 +77821,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 87,
+            "position": 88,
             "player_name": "Apurv",
             "clan_name": "War Hero's",
             "league_trophies": 88,
@@ -77799,23 +77833,11 @@
             "clan_member_public_id": null
           },
           {
-            "position": 88,
+            "position": 89,
             "player_name": "핫도그",
             "clan_name": "지원센터",
             "league_trophies": 76,
             "attack_wins": 1,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 6,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 89,
-            "player_name": "King",
-            "clan_name": "\"BLACK SHADOW\"",
-            "league_trophies": 74,
-            "attack_wins": 0,
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 6,
@@ -77974,7 +77996,7 @@
         "defense_count": 11,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:13.815868+00:00",
+        "last_synced": "2026-09-24T07:09:28.532923+00:00",
         "attack_wins": 6,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -79323,7 +79345,7 @@
         "defense_count": 7,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:15.274048+00:00",
+        "last_synced": "2026-09-24T07:09:29.964485+00:00",
         "attack_wins": 7,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -80651,7 +80673,7 @@
         "defense_count": 7,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:15.159469+00:00",
+        "last_synced": "2026-09-24T07:09:29.867183+00:00",
         "attack_wins": 4,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -81950,7 +81972,7 @@
         "league_name": "Electro League 33",
         "season_id": "1789966800",
         "league_trophies": 157,
-        "overall_rank": 56,
+        "overall_rank": 57,
         "group_size": 100,
         "offense_rank": null,
         "defense_rank": null,
@@ -81958,7 +81980,7 @@
         "defense_count": 7,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.181803+00:00",
+        "last_synced": "2026-09-24T07:09:28.888417+00:00",
         "attack_wins": 1,
         "attack_losses": 0,
         "defense_wins": 1,
@@ -82086,6 +82108,18 @@
           },
           {
             "position": 6,
+            "player_name": "Yahya",
+            "clan_name": "Wayang STone's",
+            "league_trophies": 704,
+            "attack_wins": 18,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 7,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 7,
             "player_name": "Ebi",
             "clan_name": "REQ N LEAVE",
             "league_trophies": 696,
@@ -82097,7 +82131,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 7,
+            "position": 8,
             "player_name": "Marshall",
             "clan_name": "MADAR",
             "league_trophies": 688,
@@ -82109,7 +82143,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 8,
+            "position": 9,
             "player_name": "Keldibek",
             "clan_name": "Gold-Dragons™",
             "league_trophies": 674,
@@ -82121,7 +82155,19 @@
             "clan_member_public_id": null
           },
           {
-            "position": 9,
+            "position": 10,
+            "player_name": "TAÇSIZ KRAL",
+            "clan_name": "BATMAR 72",
+            "league_trophies": 670,
+            "attack_wins": 18,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 7,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 11,
             "player_name": "BJORN IRONSIDE",
             "clan_name": "SDP VANGUARD",
             "league_trophies": 669,
@@ -82133,47 +82179,23 @@
             "clan_member_public_id": null
           },
           {
-            "position": 10,
-            "player_name": "TAÇSIZ KRAL",
-            "clan_name": "BATMAR 72",
-            "league_trophies": 645,
-            "attack_wins": 18,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 6,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 11,
+            "position": 12,
             "player_name": "sobuj 1",
             "clan_name": "KING OF ELASHIN",
             "league_trophies": 634,
             "attack_wins": 15,
             "attack_losses": 1,
             "defense_wins": 0,
-            "defense_losses": 6,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 12,
-            "player_name": "ironborn",
-            "clan_name": "Removal",
-            "league_trophies": 629,
-            "attack_wins": 18,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 7,
+            "defense_losses": 8,
             "is_player": false,
             "clan_member_public_id": null
           },
           {
             "position": 13,
-            "player_name": "Yahya",
-            "clan_name": "Wayang STone's",
-            "league_trophies": 624,
-            "attack_wins": 16,
+            "player_name": "ironborn",
+            "clan_name": "Removal",
+            "league_trophies": 629,
+            "attack_wins": 18,
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 7,
@@ -82350,6 +82372,18 @@
           },
           {
             "position": 28,
+            "player_name": "Elenir",
+            "clan_name": "KINGS",
+            "league_trophies": 442,
+            "attack_wins": 11,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 8,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 29,
             "player_name": "DGroh211",
             "clan_name": "ABSOLUTE",
             "league_trophies": 434,
@@ -82361,7 +82395,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 29,
+            "position": 30,
             "player_name": "G T ⚡️ T-BASE 亗",
             "clan_name": "GOD OF THUNDER",
             "league_trophies": 422,
@@ -82373,7 +82407,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 30,
+            "position": 31,
             "player_name": "Хела",
             "clan_name": "Валькирия#2",
             "league_trophies": 406,
@@ -82385,7 +82419,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 31,
+            "position": 32,
             "player_name": "☢️moritz☢️",
             "clan_name": "MGD",
             "league_trophies": 403,
@@ -82397,7 +82431,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 32,
+            "position": 33,
             "player_name": "AGHIAD ISMAEEL",
             "clan_name": "بغداد",
             "league_trophies": 391,
@@ -82409,35 +82443,23 @@
             "clan_member_public_id": null
           },
           {
-            "position": 33,
+            "position": 34,
             "player_name": "ĆØĆ♨️ҜIŇG❌",
             "clan_name": "indian",
             "league_trophies": 382,
             "attack_wins": 8,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 7,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 34,
-            "player_name": "vk yeu",
-            "clan_name": "Team Pro Gaming",
-            "league_trophies": 378,
-            "attack_wins": 8,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 7,
+            "defense_losses": 8,
             "is_player": false,
             "clan_member_public_id": null
           },
           {
             "position": 35,
-            "player_name": "Elenir",
-            "clan_name": "KINGS",
-            "league_trophies": 376,
-            "attack_wins": 10,
+            "player_name": "vk yeu",
+            "clan_name": "Team Pro Gaming",
+            "league_trophies": 378,
+            "attack_wins": 8,
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 7,
@@ -82458,6 +82480,18 @@
           },
           {
             "position": 37,
+            "player_name": "davide.scozia71",
+            "clan_name": "iore repus",
+            "league_trophies": 350,
+            "attack_wins": 11,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 6,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 38,
             "player_name": "Fierce",
             "clan_name": "clashers",
             "league_trophies": 336,
@@ -82469,7 +82503,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 38,
+            "position": 39,
             "player_name": "Unknown",
             "clan_name": "Savage",
             "league_trophies": 303,
@@ -82477,18 +82511,6 @@
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 7,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 39,
-            "player_name": "davide.scozia71",
-            "clan_name": "iore repus",
-            "league_trophies": 279,
-            "attack_wins": 9,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 6,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -82532,11 +82554,11 @@
             "position": 43,
             "player_name": "Kotori",
             "clan_name": "再创辉煌",
-            "league_trophies": 247,
+            "league_trophies": 256,
             "attack_wins": 7,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 6,
+            "defense_losses": 7,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -82590,6 +82612,30 @@
           },
           {
             "position": 48,
+            "player_name": "Shaker",
+            "clan_name": "LIGHTING❌BULLX",
+            "league_trophies": 187,
+            "attack_wins": 6,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 7,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 49,
+            "player_name": "PHARAOH RONNY",
+            "clan_name": "ROYAL CAVALRY",
+            "league_trophies": 179,
+            "attack_wins": 2,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 7,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 50,
             "player_name": "saman",
             "clan_name": "مشتی",
             "league_trophies": 176,
@@ -82601,7 +82647,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 49,
+            "position": 51,
             "player_name": "⚔️KILLER⚔️KD",
             "clan_name": "TEAM KD",
             "league_trophies": 174,
@@ -82613,7 +82659,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 50,
+            "position": 52,
             "player_name": "sam 003",
             "clan_name": "Semper fidelis",
             "league_trophies": 171,
@@ -82625,7 +82671,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 51,
+            "position": 53,
             "player_name": "God",
             "clan_name": "King Killers",
             "league_trophies": 170,
@@ -82637,19 +82683,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 52,
-            "player_name": "PHARAOH RONNY",
-            "clan_name": "ROYAL CAVALRY",
-            "league_trophies": 165,
-            "attack_wins": 2,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 6,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 53,
+            "position": 54,
             "player_name": "MAHIN 765",
             "clan_name": "clan destructio",
             "league_trophies": 162,
@@ -82661,7 +82695,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 54,
+            "position": 55,
             "player_name": "onfire",
             "clan_name": "União Europeia",
             "league_trophies": 160,
@@ -82673,7 +82707,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 55,
+            "position": 56,
             "player_name": "almerd",
             "clan_name": "Rustom",
             "league_trophies": 159,
@@ -82685,7 +82719,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 56,
+            "position": 57,
             "player_name": "Sandhu",
             "clan_name": "Hero Dive Bar",
             "league_trophies": 157,
@@ -82697,7 +82731,7 @@
             "clan_member_public_id": "067e9305da9e5f"
           },
           {
-            "position": 57,
+            "position": 58,
             "player_name": "tots",
             "clan_name": "\"BRUtaLiTy\"",
             "league_trophies": 145,
@@ -82709,7 +82743,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 58,
+            "position": 59,
             "player_name": "Santiago",
             "clan_name": "COC MASTER",
             "league_trophies": 138,
@@ -82721,7 +82755,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 59,
+            "position": 60,
             "player_name": ".Wolf Lord.",
             "clan_name": "HEAVENS DEVILS",
             "league_trophies": 128,
@@ -82733,7 +82767,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 60,
+            "position": 61,
             "player_name": "Maximus Blaze",
             "clan_name": "Vilified",
             "league_trophies": 128,
@@ -82745,7 +82779,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 61,
+            "position": 62,
             "player_name": "P.G ⭐ Ｍｏｒｉ",
             "clan_name": "PERSIAN STARS",
             "league_trophies": 122,
@@ -82757,7 +82791,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 62,
+            "position": 63,
             "player_name": "Alonso",
             "clan_name": "ARCANE ONE",
             "league_trophies": 122,
@@ -82769,19 +82803,19 @@
             "clan_member_public_id": null
           },
           {
-            "position": 63,
+            "position": 64,
             "player_name": "BHARATH",
             "clan_name": "Immortals",
             "league_trophies": 120,
             "attack_wins": 3,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 7,
+            "defense_losses": 8,
             "is_player": false,
             "clan_member_public_id": null
           },
           {
-            "position": 64,
+            "position": 65,
             "player_name": "sanjib",
             "clan_name": "!!-Thamizh-!!",
             "league_trophies": 120,
@@ -82793,7 +82827,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 65,
+            "position": 66,
             "player_name": "‘АктАs’LuсУ’м❣︎",
             "clan_name": "Adab-ı Muaşeret",
             "league_trophies": 104,
@@ -82805,7 +82839,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 66,
+            "position": 67,
             "player_name": "молотобоец",
             "clan_name": "Vikingi 2.0",
             "league_trophies": 102,
@@ -82817,7 +82851,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 67,
+            "position": 68,
             "player_name": "Lisan AL-GAIB",
             "clan_name": "W.V Clash",
             "league_trophies": 102,
@@ -82829,7 +82863,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 68,
+            "position": 69,
             "player_name": "SALDIRGAN",
             "clan_name": "Biz Kardeşiz",
             "league_trophies": 91,
@@ -82841,7 +82875,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 69,
+            "position": 70,
             "player_name": "Libero_King",
             "clan_name": "Canadian",
             "league_trophies": 90,
@@ -82853,7 +82887,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 70,
+            "position": 71,
             "player_name": "zendo",
             "clan_name": "Blue Phoenix",
             "league_trophies": 85,
@@ -82865,22 +82899,10 @@
             "clan_member_public_id": null
           },
           {
-            "position": 71,
+            "position": 72,
             "player_name": "GOWIPE",
             "clan_name": "Tegal Brundetz",
             "league_trophies": 80,
-            "attack_wins": 1,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 7,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 72,
-            "player_name": "Shaker",
-            "clan_name": "LIGHTING❌BULLX",
-            "league_trophies": 77,
             "attack_wins": 1,
             "attack_losses": 0,
             "defense_wins": 0,
@@ -83016,7 +83038,7 @@
             "attack_wins": 1,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 6,
+            "defense_losses": 7,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -83046,6 +83068,18 @@
           },
           {
             "position": 86,
+            "player_name": "NAHID HASAN ™",
+            "clan_name": "UDDIPONA ™",
+            "league_trophies": 37,
+            "attack_wins": 0,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 7,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 87,
             "player_name": "Gladyatör",
             "clan_name": "Beyler Beyi",
             "league_trophies": 35,
@@ -83057,7 +83091,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 87,
+            "position": 88,
             "player_name": "jhon jaigon",
             "clan_name": "BOQUERONES PRO",
             "league_trophies": 35,
@@ -83069,7 +83103,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 88,
+            "position": 89,
             "player_name": "manu",
             "clan_name": "Buenos Aires",
             "league_trophies": 33,
@@ -83081,7 +83115,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 89,
+            "position": 90,
             "player_name": "Marquinhos67",
             "clan_name": "WE ARE LIONS!",
             "league_trophies": 32,
@@ -83093,7 +83127,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 90,
+            "position": 91,
             "player_name": "BiSHALV! BoLT",
             "clan_name": "kINGS OF BPY",
             "league_trophies": 29,
@@ -83105,7 +83139,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 91,
+            "position": 92,
             "player_name": "⚡Flash ⚡2",
             "clan_name": "ASSAM UNITED",
             "league_trophies": 27,
@@ -83117,7 +83151,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 92,
+            "position": 93,
             "player_name": "ＪＡＬＡＤ",
             "clan_name": "SHAHKING",
             "league_trophies": 26,
@@ -83129,7 +83163,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 93,
+            "position": 94,
             "player_name": "thewarrior",
             "clan_name": "Rivor Plate",
             "league_trophies": 26,
@@ -83141,7 +83175,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 94,
+            "position": 95,
             "player_name": "AnakTuhan",
             "clan_name": "FARISI RedAlien",
             "league_trophies": 18,
@@ -83153,7 +83187,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 95,
+            "position": 96,
             "player_name": "lalith",
             "clan_name": "Friend Zone 2.0",
             "league_trophies": 13,
@@ -83161,18 +83195,6 @@
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 7,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 96,
-            "player_name": "NAHID HASAN ™",
-            "clan_name": "UDDIPONA ™",
-            "league_trophies": 12,
-            "attack_wins": 0,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 6,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -83244,7 +83266,7 @@
         "defense_count": 8,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.806493+00:00",
+        "last_synced": "2026-09-24T07:09:29.523923+00:00",
         "attack_wins": 2,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -84544,7 +84566,7 @@
         "defense_count": 5,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:15.966158+00:00",
+        "last_synced": "2026-09-24T07:09:30.672377+00:00",
         "attack_wins": 0,
         "attack_losses": 0,
         "defense_wins": 1,
@@ -85808,7 +85830,7 @@
         "defense_count": 8,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.192327+00:00",
+        "last_synced": "2026-09-24T07:09:28.885580+00:00",
         "attack_wins": 1,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -85949,7 +85971,7 @@
             "attack_wins": 18,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 8,
+            "defense_losses": 9,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -86003,6 +86025,18 @@
           },
           {
             "position": 11,
+            "player_name": "RJ",
+            "clan_name": "Hooghly fight",
+            "league_trophies": 713,
+            "attack_wins": 17,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 9,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 12,
             "player_name": "Imka",
             "clan_name": "БАНДЕРШТАТ",
             "league_trophies": 709,
@@ -86014,7 +86048,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 12,
+            "position": 13,
             "player_name": "Sang Nguyen (2)",
             "clan_name": "Tôi yêu ViệtNam",
             "league_trophies": 698,
@@ -86026,7 +86060,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 13,
+            "position": 14,
             "player_name": "moni",
             "clan_name": "YUGO 45",
             "league_trophies": 688,
@@ -86038,7 +86072,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 14,
+            "position": 15,
             "player_name": "$@tw@Nt",
             "clan_name": "warriors....",
             "league_trophies": 683,
@@ -86050,7 +86084,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 15,
+            "position": 16,
             "player_name": "LEGEND",
             "clan_name": "srs new zealand",
             "league_trophies": 680,
@@ -86062,23 +86096,11 @@
             "clan_member_public_id": null
           },
           {
-            "position": 16,
+            "position": 17,
             "player_name": "bryan fandin",
             "clan_name": "Restricted Area",
             "league_trophies": 676,
             "attack_wins": 18,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 9,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 17,
-            "player_name": "RJ",
-            "clan_name": "Hooghly fight",
-            "league_trophies": 673,
-            "attack_wins": 16,
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 9,
@@ -86177,7 +86199,7 @@
             "attack_wins": 15,
             "attack_losses": 1,
             "defense_wins": 0,
-            "defense_losses": 8,
+            "defense_losses": 9,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -86483,6 +86505,18 @@
           },
           {
             "position": 51,
+            "player_name": "A.Febrianz",
+            "clan_name": "SLEMAN EMPIRE",
+            "league_trophies": 285,
+            "attack_wins": 7,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 9,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 52,
             "player_name": "شبه القاتل",
             "clan_name": "秒捐大帝国2部",
             "league_trophies": 280,
@@ -86494,7 +86528,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 52,
+            "position": 53,
             "player_name": "™. Casp3r",
             "clan_name": "PAKISTAN ARMY",
             "league_trophies": 280,
@@ -86506,7 +86540,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 53,
+            "position": 54,
             "player_name": "?The Power?",
             "clan_name": "Homes Rampage",
             "league_trophies": 273,
@@ -86518,7 +86552,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 54,
+            "position": 55,
             "player_name": "NaataliaMINI",
             "clan_name": "Team Piqueros",
             "league_trophies": 271,
@@ -86530,7 +86564,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 55,
+            "position": 56,
             "player_name": "serega55",
             "clan_name": "Voины СССР",
             "league_trophies": 250,
@@ -86538,18 +86572,6 @@
             "attack_losses": 0,
             "defense_wins": 1,
             "defense_losses": 8,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 56,
-            "player_name": "A.Febrianz",
-            "clan_name": "SLEMAN EMPIRE",
-            "league_trophies": 245,
-            "attack_wins": 6,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 9,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -87101,7 +87123,7 @@
         "defense_count": 3,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:15.891481+00:00",
+        "last_synced": "2026-09-24T07:09:30.615250+00:00",
         "attack_wins": 1,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -88359,7 +88381,7 @@
         "defense_count": 3,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:15.621909+00:00",
+        "last_synced": "2026-09-24T07:09:30.329060+00:00",
         "attack_wins": 0,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -89609,7 +89631,7 @@
         "defense_count": 6,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.917743+00:00",
+        "last_synced": "2026-09-24T07:09:29.621095+00:00",
         "attack_wins": 0,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -89722,6 +89744,18 @@
           },
           {
             "position": 6,
+            "player_name": "umbus",
+            "clan_name": "URBIS",
+            "league_trophies": 633,
+            "attack_wins": 18,
+            "attack_losses": 0,
+            "defense_wins": 1,
+            "defense_losses": 6,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 7,
             "player_name": "Gui",
             "clan_name": "TEMPLÁRIOS™ VI",
             "league_trophies": 632,
@@ -89733,7 +89767,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 7,
+            "position": 8,
             "player_name": "Gloxiniaください",
             "clan_name": "Thousand Doors",
             "league_trophies": 624,
@@ -89745,7 +89779,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 8,
+            "position": 9,
             "player_name": "calv",
             "clan_name": "BLUME",
             "league_trophies": 595,
@@ -89753,18 +89787,6 @@
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 7,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 9,
-            "player_name": "umbus",
-            "clan_name": "URBIS",
-            "league_trophies": 593,
-            "attack_wins": 18,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 6,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -89794,6 +89816,18 @@
           },
           {
             "position": 12,
+            "player_name": "Yakup",
+            "clan_name": "NARENDRA MODI",
+            "league_trophies": 527,
+            "attack_wins": 15,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 7,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 13,
             "player_name": "Arie Cortis",
             "clan_name": "INDO WAR 21+",
             "league_trophies": 496,
@@ -89805,7 +89839,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 13,
+            "position": 14,
             "player_name": "jose Manuel25",
             "clan_name": "Andalucía 2",
             "league_trophies": 495,
@@ -89817,7 +89851,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 14,
+            "position": 15,
             "player_name": "abo fowaz",
             "clan_name": "Team Oorah",
             "league_trophies": 491,
@@ -89829,7 +89863,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 15,
+            "position": 16,
             "player_name": "*Hunter_Killer*",
             "clan_name": "Shecttor Rohil",
             "league_trophies": 485,
@@ -89841,7 +89875,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 16,
+            "position": 17,
             "player_name": "yunusovvv",
             "clan_name": "North Kg",
             "league_trophies": 480,
@@ -89853,7 +89887,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 17,
+            "position": 18,
             "player_name": "MODEPOKER",
             "clan_name": "Clash´s family",
             "league_trophies": 473,
@@ -89865,7 +89899,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 18,
+            "position": 19,
             "player_name": "شيرين",
             "clan_name": "021.iran",
             "league_trophies": 469,
@@ -89877,7 +89911,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 19,
+            "position": 20,
             "player_name": "tiualta",
             "clan_name": "KINGS OF GAME",
             "league_trophies": 465,
@@ -89889,7 +89923,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 20,
+            "position": 21,
             "player_name": "Abisheking",
             "clan_name": "LAND of GORKHAS",
             "league_trophies": 458,
@@ -89901,7 +89935,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 21,
+            "position": 22,
             "player_name": "せーや",
             "clan_name": "勝美",
             "league_trophies": 445,
@@ -89913,23 +89947,11 @@
             "clan_member_public_id": null
           },
           {
-            "position": 22,
-            "player_name": "BaHa",
-            "clan_name": "Bustleton Manor",
-            "league_trophies": 435,
-            "attack_wins": 15,
-            "attack_losses": 3,
-            "defense_wins": 0,
-            "defense_losses": 7,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
             "position": 23,
-            "player_name": "Yakup",
-            "clan_name": "NARENDRA MODI",
-            "league_trophies": 434,
-            "attack_wins": 12,
+            "player_name": "brian",
+            "clan_name": "小幸福一部",
+            "league_trophies": 440,
+            "attack_wins": 11,
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 7,
@@ -89938,13 +89960,13 @@
           },
           {
             "position": 24,
-            "player_name": "brian",
-            "clan_name": "小幸福一部",
-            "league_trophies": 432,
-            "attack_wins": 11,
-            "attack_losses": 0,
+            "player_name": "BaHa",
+            "clan_name": "Bustleton Manor",
+            "league_trophies": 435,
+            "attack_wins": 15,
+            "attack_losses": 3,
             "defense_wins": 0,
-            "defense_losses": 6,
+            "defense_losses": 7,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -90170,7 +90192,7 @@
             "clan_name": "clan bake",
             "league_trophies": 257,
             "attack_wins": 6,
-            "attack_losses": 0,
+            "attack_losses": 1,
             "defense_wins": 0,
             "defense_losses": 7,
             "is_player": false,
@@ -90214,6 +90236,18 @@
           },
           {
             "position": 47,
+            "player_name": "begiii niii",
+            "clan_name": "سرایدار جهنم",
+            "league_trophies": 220,
+            "attack_wins": 4,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 7,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 48,
             "player_name": "dominator",
             "clan_name": "Jesus my Savior",
             "league_trophies": 214,
@@ -90225,7 +90259,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 48,
+            "position": 49,
             "player_name": "ScorpioN KinG",
             "clan_name": "Tamil War Hero!",
             "league_trophies": 213,
@@ -90237,7 +90271,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 49,
+            "position": 50,
             "player_name": "DEA 121",
             "clan_name": "limit 2",
             "league_trophies": 213,
@@ -90249,7 +90283,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 50,
+            "position": 51,
             "player_name": "KSoeur2boule",
             "clan_name": "Les insoumis",
             "league_trophies": 210,
@@ -90261,23 +90295,11 @@
             "clan_member_public_id": null
           },
           {
-            "position": 51,
+            "position": 52,
             "player_name": "Vatsal",
             "clan_name": "Sp3cTruM",
             "league_trophies": 209,
             "attack_wins": 5,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 6,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 52,
-            "player_name": "begiii niii",
-            "clan_name": "سرایدار جهنم",
-            "league_trophies": 209,
-            "attack_wins": 4,
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 6,
@@ -90334,6 +90356,18 @@
           },
           {
             "position": 57,
+            "player_name": "Sudo",
+            "clan_name": "Oulun Klaani",
+            "league_trophies": 181,
+            "attack_wins": 1,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 7,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 58,
             "player_name": "monnymeester",
             "clan_name": "Dutch cw team",
             "league_trophies": 177,
@@ -90345,7 +90379,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 58,
+            "position": 59,
             "player_name": "yuuiooo",
             "clan_name": "DONATION MASTER",
             "league_trophies": 172,
@@ -90357,7 +90391,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 59,
+            "position": 60,
             "player_name": "Hupe",
             "clan_name": "Die Cooln",
             "league_trophies": 164,
@@ -90369,7 +90403,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 60,
+            "position": 61,
             "player_name": "Mr.N j",
             "clan_name": "Dark Jägerli",
             "league_trophies": 163,
@@ -90377,18 +90411,6 @@
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 7,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 61,
-            "player_name": "Sudo",
-            "clan_name": "Oulun Klaani",
-            "league_trophies": 159,
-            "attack_wins": 1,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 6,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -90442,24 +90464,24 @@
           },
           {
             "position": 66,
+            "player_name": "KhUrShEd",
+            "clan_name": "Бародаро",
+            "league_trophies": 132,
+            "attack_wins": 4,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 7,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 67,
             "player_name": "the tick",
             "clan_name": "DOGS OF WAR",
             "league_trophies": 132,
             "attack_wins": 1,
             "attack_losses": 0,
             "defense_wins": 1,
-            "defense_losses": 6,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 67,
-            "player_name": "KhUrShEd",
-            "clan_name": "Бародаро",
-            "league_trophies": 124,
-            "attack_wins": 4,
-            "attack_losses": 0,
-            "defense_wins": 0,
             "defense_losses": 6,
             "is_player": false,
             "clan_member_public_id": null
@@ -90598,6 +90620,18 @@
           },
           {
             "position": 79,
+            "player_name": "rebib",
+            "clan_name": "BARKADAHAN",
+            "league_trophies": 95,
+            "attack_wins": 2,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 7,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 80,
             "player_name": "chased289",
             "clan_name": "Warrior ZK",
             "league_trophies": 94,
@@ -90609,7 +90643,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 80,
+            "position": 81,
             "player_name": "TINY",
             "clan_name": "Tiny's",
             "league_trophies": 94,
@@ -90621,7 +90655,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 81,
+            "position": 82,
             "player_name": "The Terminator",
             "clan_name": "!!CRO AcTIve!!",
             "league_trophies": 92,
@@ -90633,7 +90667,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 82,
+            "position": 83,
             "player_name": "TAZ",
             "clan_name": "Fight For Honor",
             "league_trophies": 91,
@@ -90645,7 +90679,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 83,
+            "position": 84,
             "player_name": "BB22",
             "clan_name": "LADDER",
             "league_trophies": 85,
@@ -90657,7 +90691,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 84,
+            "position": 85,
             "player_name": "ok",
             "clan_name": "أسود سوريا",
             "league_trophies": 85,
@@ -90669,23 +90703,11 @@
             "clan_member_public_id": null
           },
           {
-            "position": 85,
+            "position": 86,
             "player_name": "Canadiankingz",
             "clan_name": "Apollo",
             "league_trophies": 81,
             "attack_wins": 0,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 7,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 86,
-            "player_name": "rebib",
-            "clan_name": "BARKADAHAN",
-            "league_trophies": 77,
-            "attack_wins": 1,
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 7,
@@ -90880,7 +90902,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:15.653804+00:00",
+        "last_synced": "2026-09-24T07:09:30.337747+00:00",
         "attack_wins": 0,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -90907,7 +90929,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:15.772666+00:00",
+        "last_synced": "2026-09-24T07:09:30.469441+00:00",
         "attack_wins": 0,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -90934,7 +90956,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:15.211020+00:00",
+        "last_synced": "2026-09-24T07:09:29.903282+00:00",
         "attack_wins": 0,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -90961,7 +90983,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:15.009188+00:00",
+        "last_synced": "2026-09-24T07:09:29.728665+00:00",
         "attack_wins": 0,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -90988,7 +91010,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:16.137546+00:00",
+        "last_synced": "2026-09-24T07:09:30.854458+00:00",
         "attack_wins": 0,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -91015,7 +91037,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:16.064844+00:00",
+        "last_synced": "2026-09-24T07:09:30.775997+00:00",
         "attack_wins": 0,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -91042,7 +91064,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:15.290146+00:00",
+        "last_synced": "2026-09-24T07:09:29.997675+00:00",
         "attack_wins": 0,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -91069,7 +91091,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:15.117794+00:00",
+        "last_synced": "2026-09-24T07:09:29.789479+00:00",
         "attack_wins": 0,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -91096,7 +91118,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:15.458464+00:00",
+        "last_synced": "2026-09-24T07:09:30.157963+00:00",
         "attack_wins": 0,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -91123,7 +91145,7 @@
         "defense_count": 10,
         "group_detail_complete": false,
         "group_detail_coverage": 1,
-        "last_synced": "2026-09-24T06:54:14.449780+00:00",
+        "last_synced": "2026-09-24T07:09:29.193676+00:00",
         "attack_wins": 0,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -91324,6 +91346,18 @@
           },
           {
             "position": 11,
+            "player_name": "☆REİS☆",
+            "clan_name": "MorbidAngel",
+            "league_trophies": 741,
+            "attack_wins": 18,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 11,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 12,
             "player_name": "⚡DHANUSH⚡",
             "clan_name": "Namma Bangalore",
             "league_trophies": 733,
@@ -91335,7 +91369,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 12,
+            "position": 13,
             "player_name": "S.W.A.T",
             "clan_name": "Ｂａｂｅｌ",
             "league_trophies": 729,
@@ -91347,7 +91381,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 13,
+            "position": 14,
             "player_name": "@ViniciusRC_139",
             "clan_name": "invictus PRO",
             "league_trophies": 727,
@@ -91359,22 +91393,10 @@
             "clan_member_public_id": null
           },
           {
-            "position": 14,
+            "position": 15,
             "player_name": "sumitt",
             "clan_name": "india chak de",
             "league_trophies": 726,
-            "attack_wins": 18,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 10,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 15,
-            "player_name": "☆REİS☆",
-            "clan_name": "MorbidAngel",
-            "league_trophies": 725,
             "attack_wins": 18,
             "attack_losses": 0,
             "defense_wins": 0,
@@ -91492,6 +91514,18 @@
           },
           {
             "position": 25,
+            "player_name": "비르츠",
+            "clan_name": "다같이",
+            "league_trophies": 647,
+            "attack_wins": 18,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 10,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 26,
             "player_name": "Vijay",
             "clan_name": "india",
             "league_trophies": 634,
@@ -91503,7 +91537,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 26,
+            "position": 27,
             "player_name": "P.E.R.I.M.O",
             "clan_name": "SkilledUnit.PH",
             "league_trophies": 634,
@@ -91511,18 +91545,6 @@
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 11,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 27,
-            "player_name": "비르츠",
-            "clan_name": "다같이",
-            "league_trophies": 633,
-            "attack_wins": 18,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 9,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -91696,6 +91718,18 @@
           },
           {
             "position": 42,
+            "player_name": "tony13240",
+            "clan_name": "LXSKNIGHT",
+            "league_trophies": 466,
+            "attack_wins": 10,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 11,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 43,
             "player_name": "IronCross",
             "clan_name": "Rummelboxer",
             "league_trophies": 463,
@@ -91707,7 +91741,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 43,
+            "position": 44,
             "player_name": "OZzPECTzZ LaW",
             "clan_name": "astral renegade",
             "league_trophies": 459,
@@ -91719,22 +91753,10 @@
             "clan_member_public_id": null
           },
           {
-            "position": 44,
+            "position": 45,
             "player_name": "shin",
             "clan_name": "KING AUNG ZAYYA",
             "league_trophies": 454,
-            "attack_wins": 10,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 10,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 45,
-            "player_name": "tony13240",
-            "clan_name": "LXSKNIGHT",
-            "league_trophies": 449,
             "attack_wins": 10,
             "attack_losses": 0,
             "defense_wins": 0,
@@ -91852,6 +91874,18 @@
           },
           {
             "position": 55,
+            "player_name": "Mackthejack",
+            "clan_name": "Kremen",
+            "league_trophies": 339,
+            "attack_wins": 7,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 11,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 56,
             "player_name": "sagitarius",
             "clan_name": "GOD HAND",
             "league_trophies": 335,
@@ -91863,24 +91897,12 @@
             "clan_member_public_id": null
           },
           {
-            "position": 56,
+            "position": 57,
             "player_name": "aung myo min",
             "clan_name": "The Crusaders",
             "league_trophies": 327,
             "attack_wins": 11,
             "attack_losses": 1,
-            "defense_wins": 0,
-            "defense_losses": 10,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 57,
-            "player_name": "Mackthejack",
-            "clan_name": "Kremen",
-            "league_trophies": 318,
-            "attack_wins": 7,
-            "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 10,
             "is_player": false,
@@ -91930,7 +91952,7 @@
             "attack_wins": 7,
             "attack_losses": 0,
             "defense_wins": 0,
-            "defense_losses": 10,
+            "defense_losses": 11,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -91972,6 +91994,18 @@
           },
           {
             "position": 65,
+            "player_name": "متین",
+            "clan_name": "کندو",
+            "league_trophies": 259,
+            "attack_wins": 7,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 10,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 66,
             "player_name": "bipbip",
             "clan_name": "team 24",
             "league_trophies": 253,
@@ -91983,7 +92017,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 66,
+            "position": 67,
             "player_name": "aqua™",
             "clan_name": "AE CÙNG TIẾN",
             "league_trophies": 248,
@@ -91991,18 +92025,6 @@
             "attack_losses": 0,
             "defense_wins": 0,
             "defense_losses": 11,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 67,
-            "player_name": "متین",
-            "clan_name": "کندو",
-            "league_trophies": 239,
-            "attack_wins": 7,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 9,
             "is_player": false,
             "clan_member_public_id": null
           },
@@ -92080,6 +92102,30 @@
           },
           {
             "position": 74,
+            "player_name": "jerky",
+            "clan_name": "神曲",
+            "league_trophies": 171,
+            "attack_wins": 5,
+            "attack_losses": 1,
+            "defense_wins": 0,
+            "defense_losses": 10,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 75,
+            "player_name": "brock",
+            "clan_name": "MM-FIGHTERS",
+            "league_trophies": 171,
+            "attack_wins": 4,
+            "attack_losses": 0,
+            "defense_wins": 0,
+            "defense_losses": 10,
+            "is_player": false,
+            "clan_member_public_id": null
+          },
+          {
+            "position": 76,
             "player_name": "nguyen ngoc han",
             "clan_name": "Nghệ An Vjp",
             "league_trophies": 170,
@@ -92091,7 +92137,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 75,
+            "position": 77,
             "player_name": "Rogí",
             "clan_name": "EarthQuake",
             "league_trophies": 167,
@@ -92103,7 +92149,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 76,
+            "position": 78,
             "player_name": ":)",
             "clan_name": "The Cheesiest",
             "league_trophies": 158,
@@ -92115,7 +92161,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 77,
+            "position": 79,
             "player_name": "SHRIK@NT.KNIGHT",
             "clan_name": "GREAT INDIA",
             "league_trophies": 157,
@@ -92127,7 +92173,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 78,
+            "position": 80,
             "player_name": "pauLsaniTy",
             "clan_name": "GOD OF WAR",
             "league_trophies": 153,
@@ -92139,19 +92185,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 79,
-            "player_name": "brock",
-            "clan_name": "MM-FIGHTERS",
-            "league_trophies": 148,
-            "attack_wins": 3,
-            "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 10,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 80,
+            "position": 81,
             "player_name": "lindhult1:6",
             "clan_name": "Halland",
             "league_trophies": 142,
@@ -92163,7 +92197,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 81,
+            "position": 82,
             "player_name": "Atul Ahir",
             "clan_name": "AHIR",
             "league_trophies": 139,
@@ -92175,7 +92209,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 82,
+            "position": 83,
             "player_name": "「Ⓞ」「Ⓩ」「Ⓐ」「Ⓝ」",
             "clan_name": "KOMANDOLAR",
             "league_trophies": 120,
@@ -92187,7 +92221,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 83,
+            "position": 84,
             "player_name": "الافندي✨",
             "clan_name": "مۘشهہﺪ حۡلـم♥️",
             "league_trophies": 119,
@@ -92199,7 +92233,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 84,
+            "position": 85,
             "player_name": "ËMPÏRË♤ÖF♤SÜMÏT",
             "clan_name": "Active Warrios",
             "league_trophies": 118,
@@ -92211,7 +92245,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 85,
+            "position": 86,
             "player_name": "OPossum",
             "clan_name": null,
             "league_trophies": 99,
@@ -92223,7 +92257,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 86,
+            "position": 87,
             "player_name": "ThatGuyP",
             "clan_name": "light em up",
             "league_trophies": 96,
@@ -92235,7 +92269,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 87,
+            "position": 88,
             "player_name": "✴eL SupLado✴",
             "clan_name": "PINOY PALS",
             "league_trophies": 91,
@@ -92247,7 +92281,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 88,
+            "position": 89,
             "player_name": "kevin",
             "clan_name": "sniper",
             "league_trophies": 90,
@@ -92259,7 +92293,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 89,
+            "position": 90,
             "player_name": "namdar",
             "clan_name": "بر و بچ بامرام",
             "league_trophies": 77,
@@ -92271,7 +92305,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 90,
+            "position": 91,
             "player_name": "-*カツ*-",
             "clan_name": "Return Here",
             "league_trophies": 77,
@@ -92283,7 +92317,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 91,
+            "position": 92,
             "player_name": "feodor",
             "clan_name": "FEITAN",
             "league_trophies": 69,
@@ -92295,7 +92329,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 92,
+            "position": 93,
             "player_name": "ido",
             "clan_name": "NEVER GIVE UP",
             "league_trophies": 62,
@@ -92307,7 +92341,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 93,
+            "position": 94,
             "player_name": "Esg⚡Schlütta",
             "clan_name": "FW112༄༼༽༄",
             "league_trophies": 62,
@@ -92319,7 +92353,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 94,
+            "position": 95,
             "player_name": "Santosh m❤️s",
             "clan_name": "Thakurgaon Boys",
             "league_trophies": 55,
@@ -92331,7 +92365,7 @@
             "clan_member_public_id": null
           },
           {
-            "position": 95,
+            "position": 96,
             "player_name": "Simon",
             "clan_name": "RageCage",
             "league_trophies": 55,
@@ -92343,24 +92377,12 @@
             "clan_member_public_id": null
           },
           {
-            "position": 96,
+            "position": 97,
             "player_name": "✌FaNaT1k✌",
             "clan_name": "\"number one\" 1",
             "league_trophies": 42,
             "attack_wins": 0,
             "attack_losses": 0,
-            "defense_wins": 0,
-            "defense_losses": 10,
-            "is_player": false,
-            "clan_member_public_id": null
-          },
-          {
-            "position": 97,
-            "player_name": "jerky",
-            "clan_name": "暗鳳馆★★★",
-            "league_trophies": 42,
-            "attack_wins": 0,
-            "attack_losses": 1,
             "defense_wins": 0,
             "defense_losses": 10,
             "is_player": false,
@@ -92422,7 +92444,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:16.121084+00:00",
+        "last_synced": "2026-09-24T07:09:30.812023+00:00",
         "attack_wins": 0,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -92449,7 +92471,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:15.942929+00:00",
+        "last_synced": "2026-09-24T07:09:30.644369+00:00",
         "attack_wins": 0,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -92476,7 +92498,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:14.102777+00:00",
+        "last_synced": "2026-09-24T07:09:28.860115+00:00",
         "attack_wins": 0,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -92503,7 +92525,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:13.891264+00:00",
+        "last_synced": "2026-09-24T07:09:28.687441+00:00",
         "attack_wins": 0,
         "attack_losses": 0,
         "defense_wins": 0,
@@ -92530,7 +92552,7 @@
         "defense_count": 0,
         "group_detail_complete": false,
         "group_detail_coverage": 0,
-        "last_synced": "2026-09-24T06:54:15.805842+00:00",
+        "last_synced": "2026-09-24T07:09:30.481324+00:00",
         "attack_wins": 0,
         "attack_losses": 0,
         "defense_wins": 0,
