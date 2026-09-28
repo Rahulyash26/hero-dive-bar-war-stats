@@ -1,6 +1,6 @@
 {
   "schema_version": 16,
-  "generated_at": "2026-09-28T22:03:42.309237+00:00",
+  "generated_at": "2026-09-28T22:10:10.264312+00:00",
   "dashboard_mode": "regular",
   "clan": {
     "name": "Hero Dive Bar",
@@ -369,7 +369,7 @@
         "name": "Destroyer",
         "th": 18,
         "map_position": 5,
-        "attacks_used": 1
+        "attacks_used": 2
       },
       {
         "name": "\"PTzeiro\"",
@@ -1671,6 +1671,21 @@
         "attacker_position": 1,
         "defender_name": "Fabiano",
         "defender_position": 2,
+        "stars": 3,
+        "destruction": 100.0,
+        "attack_type": "loot_practice",
+        "new_stars": 0,
+        "our_score_after": 72,
+        "their_score_after": 75
+      },
+      {
+        "order": 80,
+        "side": "opponent",
+        "attacker_public_id": null,
+        "attacker_name": "Destroyer",
+        "attacker_position": 5,
+        "defender_name": "shaik",
+        "defender_position": 3,
         "stars": 3,
         "destruction": 100.0,
         "attack_type": "loot_practice",
@@ -5084,8 +5099,8 @@
       "loot_practice_triple_rate": 100.0,
       "defense_stats": {
         "attacks_faced": 8,
-        "total_attacks_faced": 10,
-        "loot_practice_hits_faced": 2,
+        "total_attacks_faced": 11,
+        "loot_practice_hits_faced": 3,
         "avg_stars_allowed": 2.375,
         "avg_destruction_allowed": 89.0,
         "zero_star_holds": 0,
@@ -5110,8 +5125,8 @@
       },
       "combined_defense_stats": {
         "attacks_faced": 8,
-        "total_attacks_faced": 10,
-        "loot_practice_hits_faced": 2,
+        "total_attacks_faced": 11,
+        "loot_practice_hits_faced": 3,
         "avg_stars_allowed": 2.375,
         "avg_destruction_allowed": 89.0,
         "zero_star_holds": 0,
@@ -16335,8 +16350,8 @@
       "loot_practice_triple_rate": 100.0,
       "defense_stats": {
         "attacks_faced": 8,
-        "total_attacks_faced": 10,
-        "loot_practice_hits_faced": 2,
+        "total_attacks_faced": 11,
+        "loot_practice_hits_faced": 3,
         "avg_stars_allowed": 2.375,
         "avg_destruction_allowed": 89.0,
         "zero_star_holds": 0,
@@ -16361,8 +16376,8 @@
       },
       "combined_defense_stats": {
         "attacks_faced": 8,
-        "total_attacks_faced": 10,
-        "loot_practice_hits_faced": 2,
+        "total_attacks_faced": 11,
+        "loot_practice_hits_faced": 3,
         "avg_stars_allowed": 2.375,
         "avg_destruction_allowed": 89.0,
         "zero_star_holds": 0,
@@ -37729,8 +37744,8 @@
       "loot_practice_triple_rate": 100.0,
       "defense_stats": {
         "attacks_faced": 8,
-        "total_attacks_faced": 10,
-        "loot_practice_hits_faced": 2,
+        "total_attacks_faced": 11,
+        "loot_practice_hits_faced": 3,
         "avg_stars_allowed": 2.375,
         "avg_destruction_allowed": 89.0,
         "zero_star_holds": 0,
@@ -37755,8 +37770,8 @@
       },
       "combined_defense_stats": {
         "attacks_faced": 8,
-        "total_attacks_faced": 10,
-        "loot_practice_hits_faced": 2,
+        "total_attacks_faced": 11,
+        "loot_practice_hits_faced": 3,
         "avg_stars_allowed": 2.375,
         "avg_destruction_allowed": 89.0,
         "zero_star_holds": 0,
