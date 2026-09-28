@@ -1,6 +1,6 @@
 {
   "schema_version": 16,
-  "generated_at": "2026-09-28T23:47:47.264123+00:00",
+  "generated_at": "2026-09-28T23:49:53.643562+00:00",
   "dashboard_mode": "regular",
   "clan": {
     "name": "Hero Dive Bar",
@@ -381,7 +381,7 @@
         "name": "Felipe",
         "th": 18,
         "map_position": 7,
-        "attacks_used": 1
+        "attacks_used": 2
       },
       {
         "name": "Cachero Sky",
@@ -1746,6 +1746,21 @@
         "attacker_position": 7,
         "defender_name": "John 3:16™",
         "defender_position": 1,
+        "stars": 3,
+        "destruction": 100.0,
+        "attack_type": "loot_practice",
+        "new_stars": 0,
+        "our_score_after": 75,
+        "their_score_after": 75
+      },
+      {
+        "order": 85,
+        "side": "opponent",
+        "attacker_public_id": null,
+        "attacker_name": "Felipe",
+        "attacker_position": 7,
+        "defender_name": "CmALPHA_RY",
+        "defender_position": 2,
         "stars": 3,
         "destruction": 100.0,
         "attack_type": "loot_practice",
@@ -3203,8 +3218,8 @@
       "loot_practice_triple_rate": 0.0,
       "defense_stats": {
         "attacks_faced": 9,
-        "total_attacks_faced": 13,
-        "loot_practice_hits_faced": 4,
+        "total_attacks_faced": 14,
+        "loot_practice_hits_faced": 5,
         "avg_stars_allowed": 2.5555555555555554,
         "avg_destruction_allowed": 93.0,
         "zero_star_holds": 0,
@@ -3229,8 +3244,8 @@
       },
       "combined_defense_stats": {
         "attacks_faced": 15,
-        "total_attacks_faced": 19,
-        "loot_practice_hits_faced": 4,
+        "total_attacks_faced": 20,
+        "loot_practice_hits_faced": 5,
         "avg_stars_allowed": 2.6666666666666665,
         "avg_destruction_allowed": 95.2,
         "zero_star_holds": 0,
@@ -14454,8 +14469,8 @@
       "loot_practice_triple_rate": 0.0,
       "defense_stats": {
         "attacks_faced": 9,
-        "total_attacks_faced": 13,
-        "loot_practice_hits_faced": 4,
+        "total_attacks_faced": 14,
+        "loot_practice_hits_faced": 5,
         "avg_stars_allowed": 2.5555555555555554,
         "avg_destruction_allowed": 93.0,
         "zero_star_holds": 0,
@@ -14480,8 +14495,8 @@
       },
       "combined_defense_stats": {
         "attacks_faced": 15,
-        "total_attacks_faced": 19,
-        "loot_practice_hits_faced": 4,
+        "total_attacks_faced": 20,
+        "loot_practice_hits_faced": 5,
         "avg_stars_allowed": 2.6666666666666665,
         "avg_destruction_allowed": 95.2,
         "zero_star_holds": 0,
@@ -27441,8 +27456,8 @@
       "loot_practice_triple_rate": 0.0,
       "defense_stats": {
         "attacks_faced": 9,
-        "total_attacks_faced": 13,
-        "loot_practice_hits_faced": 4,
+        "total_attacks_faced": 14,
+        "loot_practice_hits_faced": 5,
         "avg_stars_allowed": 2.5555555555555554,
         "avg_destruction_allowed": 93.0,
         "zero_star_holds": 0,
@@ -27467,8 +27482,8 @@
       },
       "combined_defense_stats": {
         "attacks_faced": 15,
-        "total_attacks_faced": 19,
-        "loot_practice_hits_faced": 4,
+        "total_attacks_faced": 20,
+        "loot_practice_hits_faced": 5,
         "avg_stars_allowed": 2.6666666666666665,
         "avg_destruction_allowed": 95.2,
         "zero_star_holds": 0,
