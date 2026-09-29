@@ -1,6 +1,6 @@
 {
   "schema_version": 16,
-  "generated_at": "2026-09-29T00:00:09.894698+00:00",
+  "generated_at": "2026-09-29T00:10:26.448048+00:00",
   "dashboard_mode": "regular",
   "clan": {
     "name": "Hero Dive Bar",
@@ -423,7 +423,7 @@
         "name": "WEllYngtOn 08",
         "th": 18,
         "map_position": 14,
-        "attacks_used": 0
+        "attacks_used": 2
       },
       {
         "name": "G.Darck",
@@ -1767,6 +1767,36 @@
         "new_stars": 0,
         "our_score_after": 75,
         "their_score_after": 75
+      },
+      {
+        "order": 86,
+        "side": "opponent",
+        "attacker_public_id": null,
+        "attacker_name": "WEllYngtOn 08",
+        "attacker_position": 14,
+        "defender_name": "+Alon2000+",
+        "defender_position": 7,
+        "stars": 1,
+        "destruction": 10.0,
+        "attack_type": "loot_practice",
+        "new_stars": 0,
+        "our_score_after": 75,
+        "their_score_after": 75
+      },
+      {
+        "order": 87,
+        "side": "opponent",
+        "attacker_public_id": null,
+        "attacker_name": "WEllYngtOn 08",
+        "attacker_position": 14,
+        "defender_name": "Hollowclient765",
+        "defender_position": 13,
+        "stars": 1,
+        "destruction": 13.0,
+        "attack_type": "loot_practice",
+        "new_stars": 0,
+        "our_score_after": 75,
+        "their_score_after": 75
       }
     ]
   },
@@ -2892,8 +2922,8 @@
       "loot_practice_triple_rate": 100.0,
       "defense_stats": {
         "attacks_faced": 11,
-        "total_attacks_faced": 11,
-        "loot_practice_hits_faced": 0,
+        "total_attacks_faced": 12,
+        "loot_practice_hits_faced": 1,
         "avg_stars_allowed": 2.4545454545454546,
         "avg_destruction_allowed": 95.36363636363636,
         "zero_star_holds": 0,
@@ -2918,8 +2948,8 @@
       },
       "combined_defense_stats": {
         "attacks_faced": 18,
-        "total_attacks_faced": 18,
-        "loot_practice_hits_faced": 0,
+        "total_attacks_faced": 19,
+        "loot_practice_hits_faced": 1,
         "avg_stars_allowed": 2.6666666666666665,
         "avg_destruction_allowed": 97.16666666666667,
         "zero_star_holds": 0,
@@ -5989,8 +6019,8 @@
       "loot_practice_triple_rate": 85.71428571428571,
       "defense_stats": {
         "attacks_faced": 10,
-        "total_attacks_faced": 12,
-        "loot_practice_hits_faced": 2,
+        "total_attacks_faced": 13,
+        "loot_practice_hits_faced": 3,
         "avg_stars_allowed": 2.2,
         "avg_destruction_allowed": 93.0,
         "zero_star_holds": 0,
@@ -6015,8 +6045,8 @@
       },
       "combined_defense_stats": {
         "attacks_faced": 17,
-        "total_attacks_faced": 19,
-        "loot_practice_hits_faced": 2,
+        "total_attacks_faced": 20,
+        "loot_practice_hits_faced": 3,
         "avg_stars_allowed": 2.411764705882353,
         "avg_destruction_allowed": 94.76470588235294,
         "zero_star_holds": 0,
@@ -14143,8 +14173,8 @@
       "loot_practice_triple_rate": 100.0,
       "defense_stats": {
         "attacks_faced": 11,
-        "total_attacks_faced": 11,
-        "loot_practice_hits_faced": 0,
+        "total_attacks_faced": 12,
+        "loot_practice_hits_faced": 1,
         "avg_stars_allowed": 2.4545454545454546,
         "avg_destruction_allowed": 95.36363636363636,
         "zero_star_holds": 0,
@@ -14169,8 +14199,8 @@
       },
       "combined_defense_stats": {
         "attacks_faced": 18,
-        "total_attacks_faced": 18,
-        "loot_practice_hits_faced": 0,
+        "total_attacks_faced": 19,
+        "loot_practice_hits_faced": 1,
         "avg_stars_allowed": 2.6666666666666665,
         "avg_destruction_allowed": 97.16666666666667,
         "zero_star_holds": 0,
@@ -17240,8 +17270,8 @@
       "loot_practice_triple_rate": 85.71428571428571,
       "defense_stats": {
         "attacks_faced": 10,
-        "total_attacks_faced": 12,
-        "loot_practice_hits_faced": 2,
+        "total_attacks_faced": 13,
+        "loot_practice_hits_faced": 3,
         "avg_stars_allowed": 2.2,
         "avg_destruction_allowed": 93.0,
         "zero_star_holds": 0,
@@ -17266,8 +17296,8 @@
       },
       "combined_defense_stats": {
         "attacks_faced": 17,
-        "total_attacks_faced": 19,
-        "loot_practice_hits_faced": 2,
+        "total_attacks_faced": 20,
+        "loot_practice_hits_faced": 3,
         "avg_stars_allowed": 2.411764705882353,
         "avg_destruction_allowed": 94.76470588235294,
         "zero_star_holds": 0,
@@ -25392,8 +25422,8 @@
       "loot_practice_triple_rate": 100.0,
       "defense_stats": {
         "attacks_faced": 11,
-        "total_attacks_faced": 11,
-        "loot_practice_hits_faced": 0,
+        "total_attacks_faced": 12,
+        "loot_practice_hits_faced": 1,
         "avg_stars_allowed": 2.4545454545454546,
         "avg_destruction_allowed": 95.36363636363636,
         "zero_star_holds": 0,
@@ -25418,8 +25448,8 @@
       },
       "combined_defense_stats": {
         "attacks_faced": 18,
-        "total_attacks_faced": 18,
-        "loot_practice_hits_faced": 0,
+        "total_attacks_faced": 19,
+        "loot_practice_hits_faced": 1,
         "avg_stars_allowed": 2.6666666666666665,
         "avg_destruction_allowed": 97.16666666666667,
         "zero_star_holds": 0,
@@ -41114,8 +41144,8 @@
       "loot_practice_triple_rate": 85.71428571428571,
       "defense_stats": {
         "attacks_faced": 10,
-        "total_attacks_faced": 12,
-        "loot_practice_hits_faced": 2,
+        "total_attacks_faced": 13,
+        "loot_practice_hits_faced": 3,
         "avg_stars_allowed": 2.2,
         "avg_destruction_allowed": 93.0,
         "zero_star_holds": 0,
@@ -41140,8 +41170,8 @@
       },
       "combined_defense_stats": {
         "attacks_faced": 17,
-        "total_attacks_faced": 19,
-        "loot_practice_hits_faced": 2,
+        "total_attacks_faced": 20,
+        "loot_practice_hits_faced": 3,
         "avg_stars_allowed": 2.411764705882353,
         "avg_destruction_allowed": 94.76470588235294,
         "zero_star_holds": 0,
