@@ -1,6 +1,6 @@
 {
   "schema_version": 16,
-  "generated_at": "2026-10-01T03:04:32.082379+00:00",
+  "generated_at": "2026-10-01T03:08:47.265915+00:00",
   "dashboard_mode": "regular",
   "clan": {
     "name": "Hero Dive Bar",
@@ -15,58 +15,29 @@
     }
   },
   "current_war": {
-    "war_key": "7b09b856b014",
-    "state": "warEnded",
-    "state_label": "War Ended",
+    "war_key": "f830b995f80d",
+    "state": "preparation",
+    "state_label": "Preparation Day",
     "team_size": 25,
-    "preparation_start_time": "2026-09-29T03:23:12.000Z",
-    "start_time": "2026-09-30T02:23:12.000Z",
-    "end_time": "2026-10-01T02:23:13.000Z",
+    "preparation_start_time": "2026-10-01T03:07:14.000Z",
+    "start_time": "2026-10-02T02:07:14.000Z",
+    "end_time": "2026-10-03T02:07:14.000Z",
     "clan_name": "Hero Dive Bar",
-    "opponent_name": "Shadow Realm",
-    "clan_stars": 75,
-    "opponent_stars": 69,
-    "clan_destruction": 100.0,
-    "opponent_destruction": 95.04,
-    "attacks_used": 45,
+    "opponent_name": "Metal Headz",
+    "clan_stars": 0,
+    "opponent_stars": 0,
+    "clan_destruction": 0.0,
+    "opponent_destruction": 0.0,
+    "attacks_used": 0,
     "expected_attacks": 50,
     "volunteer_attacks": 0,
-    "remaining_attacks": 5,
-    "mathematically_perfect": true,
-    "perfect_secured_with_attacks_remaining": 17,
+    "remaining_attacks": 50,
+    "mathematically_perfect": false,
+    "perfect_secured_with_attacks_remaining": 0,
     "loot_practice_attacks_available": 0,
     "fillers": 0,
-    "missed_attacks": 5,
-    "missed_players": [
-      {
-        "public_id": "8e21983a7a051b",
-        "name": "Supreme Leader",
-        "th": 18,
-        "map_position": 12,
-        "missed_attacks": 2
-      },
-      {
-        "public_id": "c7ee49b3392214",
-        "name": "TickleMyJokic",
-        "th": 18,
-        "map_position": 15,
-        "missed_attacks": 1
-      },
-      {
-        "public_id": "095e320e95cd74",
-        "name": "ShadowG",
-        "th": 18,
-        "map_position": 19,
-        "missed_attacks": 1
-      },
-      {
-        "public_id": "2f99cbfbf53e27",
-        "name": "Neini",
-        "th": 16,
-        "map_position": 23,
-        "missed_attacks": 1
-      }
-    ],
+    "missed_attacks": 0,
+    "missed_players": [],
     "roster": [
       {
         "public_id": "85653b6df73206",
@@ -75,32 +46,8 @@
         "map_position": 1,
         "is_filler": false,
         "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
-        "loot_practice_available": 0,
-        "missed_attacks": 0
-      },
-      {
-        "public_id": "a2386a4132517e",
-        "name": "shaik",
-        "th": 18,
-        "map_position": 2,
-        "is_filler": false,
-        "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
-        "loot_practice_available": 0,
-        "missed_attacks": 0
-      },
-      {
-        "public_id": "3858423607e45b",
-        "name": "CmALPHA_RY",
-        "th": 18,
-        "map_position": 3,
-        "is_filler": false,
-        "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
         "missed_attacks": 0
       },
@@ -108,11 +55,35 @@
         "public_id": "2710e1436f73a9",
         "name": "ChagoWitaBullet",
         "th": 18,
+        "map_position": 2,
+        "is_filler": false,
+        "expected_attacks": 2,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
+        "loot_practice_available": 0,
+        "missed_attacks": 0
+      },
+      {
+        "public_id": "a2386a4132517e",
+        "name": "shaik",
+        "th": 18,
+        "map_position": 3,
+        "is_filler": false,
+        "expected_attacks": 2,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
+        "loot_practice_available": 0,
+        "missed_attacks": 0
+      },
+      {
+        "public_id": "3858423607e45b",
+        "name": "CmALPHA_RY",
+        "th": 18,
         "map_position": 4,
         "is_filler": false,
         "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
         "missed_attacks": 0
       },
@@ -123,8 +94,8 @@
         "map_position": 5,
         "is_filler": false,
         "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
         "missed_attacks": 0
       },
@@ -135,8 +106,8 @@
         "map_position": 6,
         "is_filler": false,
         "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
         "missed_attacks": 0
       },
@@ -147,8 +118,8 @@
         "map_position": 7,
         "is_filler": false,
         "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
         "missed_attacks": 0
       },
@@ -159,8 +130,20 @@
         "map_position": 8,
         "is_filler": false,
         "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
+        "loot_practice_available": 0,
+        "missed_attacks": 0
+      },
+      {
+        "public_id": "2eaff854eb3ce0",
+        "name": "PATHAN",
+        "th": 18,
+        "map_position": 9,
+        "is_filler": false,
+        "expected_attacks": 2,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
         "missed_attacks": 0
       },
@@ -168,11 +151,23 @@
         "public_id": "8e332ab4b0f2b4",
         "name": "taymonayyyy",
         "th": 18,
-        "map_position": 9,
+        "map_position": 10,
         "is_filler": false,
         "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
+        "loot_practice_available": 0,
+        "missed_attacks": 0
+      },
+      {
+        "public_id": "b0478d5b8e758d",
+        "name": "Pep",
+        "th": 18,
+        "map_position": 11,
+        "is_filler": false,
+        "expected_attacks": 2,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
         "missed_attacks": 0
       },
@@ -180,11 +175,11 @@
         "public_id": "394bcba79bd0f5",
         "name": "TkHuNdOWaH",
         "th": 18,
-        "map_position": 10,
+        "map_position": 12,
         "is_filler": false,
         "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
         "missed_attacks": 0
       },
@@ -192,11 +187,11 @@
         "public_id": "10dea83733b77a",
         "name": "Hollowclient765",
         "th": 18,
-        "map_position": 11,
+        "map_position": 13,
         "is_filler": false,
         "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
         "missed_attacks": 0
       },
@@ -204,23 +199,23 @@
         "public_id": "8e21983a7a051b",
         "name": "Supreme Leader",
         "th": 18,
-        "map_position": 12,
+        "map_position": 14,
         "is_filler": false,
         "expected_attacks": 2,
         "attacks_used": 0,
         "remaining_attacks": 2,
         "loot_practice_available": 0,
-        "missed_attacks": 2
+        "missed_attacks": 0
       },
       {
         "public_id": "067e9305da9e5f",
         "name": "Sandhu",
         "th": 18,
-        "map_position": 13,
+        "map_position": 15,
         "is_filler": false,
         "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
         "missed_attacks": 0
       },
@@ -228,11 +223,11 @@
         "public_id": "bd6b7a83ddcdbd",
         "name": "DEEPAK",
         "th": 18,
-        "map_position": 14,
+        "map_position": 16,
         "is_filler": false,
         "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
         "missed_attacks": 0
       },
@@ -240,23 +235,23 @@
         "public_id": "c7ee49b3392214",
         "name": "TickleMyJokic",
         "th": 18,
-        "map_position": 15,
+        "map_position": 17,
         "is_filler": false,
         "expected_attacks": 2,
-        "attacks_used": 1,
-        "remaining_attacks": 1,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
-        "missed_attacks": 1
+        "missed_attacks": 0
       },
       {
         "public_id": "a64cb3cd72e7b9",
         "name": "Jerry",
         "th": 18,
-        "map_position": 16,
+        "map_position": 18,
         "is_filler": false,
         "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
         "missed_attacks": 0
       },
@@ -264,11 +259,11 @@
         "public_id": "13311b93709aa8",
         "name": "Globin Barrel",
         "th": 18,
-        "map_position": 17,
+        "map_position": 19,
         "is_filler": false,
         "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
         "missed_attacks": 0
       },
@@ -276,35 +271,23 @@
         "public_id": "4516c90f63a71a",
         "name": "Anor Londo",
         "th": 18,
-        "map_position": 18,
+        "map_position": 20,
         "is_filler": false,
         "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
         "missed_attacks": 0
-      },
-      {
-        "public_id": "095e320e95cd74",
-        "name": "ShadowG",
-        "th": 18,
-        "map_position": 19,
-        "is_filler": false,
-        "expected_attacks": 2,
-        "attacks_used": 1,
-        "remaining_attacks": 1,
-        "loot_practice_available": 0,
-        "missed_attacks": 1
       },
       {
         "public_id": "3cbc7125a5e7a0",
         "name": "Daman",
         "th": 17,
-        "map_position": 20,
+        "map_position": 21,
         "is_filler": false,
         "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
         "missed_attacks": 0
       },
@@ -312,11 +295,11 @@
         "public_id": "9629749ebbce7b",
         "name": "Sandhu__z",
         "th": 18,
-        "map_position": 21,
+        "map_position": 22,
         "is_filler": false,
         "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
         "missed_attacks": 0
       },
@@ -324,11 +307,11 @@
         "public_id": "27e7ea38f51aa4",
         "name": "Keval Vora09",
         "th": 16,
-        "map_position": 22,
+        "map_position": 23,
         "is_filler": false,
         "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
         "missed_attacks": 0
       },
@@ -336,1498 +319,180 @@
         "public_id": "2f99cbfbf53e27",
         "name": "Neini",
         "th": 16,
-        "map_position": 23,
+        "map_position": 24,
         "is_filler": false,
         "expected_attacks": 2,
-        "attacks_used": 1,
-        "remaining_attacks": 1,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
-        "missed_attacks": 1
+        "missed_attacks": 0
       },
       {
         "public_id": "abc0a9ab8c3955",
         "name": "Avi the best",
         "th": 16,
-        "map_position": 24,
-        "is_filler": false,
-        "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
-        "loot_practice_available": 0,
-        "missed_attacks": 0
-      },
-      {
-        "public_id": "35692fd68936b7",
-        "name": "Rahulyash26",
-        "th": 13,
         "map_position": 25,
         "is_filler": false,
         "expected_attacks": 2,
-        "attacks_used": 2,
-        "remaining_attacks": 0,
+        "attacks_used": 0,
+        "remaining_attacks": 2,
         "loot_practice_available": 0,
         "missed_attacks": 0
       }
     ],
     "opponent_roster": [
       {
-        "name": "Chimera 2.22",
+        "name": "mik",
         "th": 18,
         "map_position": 1,
-        "attacks_used": 2
+        "attacks_used": 0
       },
       {
-        "name": "Dr. Faustus",
+        "name": "Wes Mantooth",
         "th": 18,
         "map_position": 2,
-        "attacks_used": 2
+        "attacks_used": 0
       },
       {
-        "name": "UNO",
+        "name": "Thaig",
         "th": 18,
         "map_position": 3,
-        "attacks_used": 2
+        "attacks_used": 0
       },
       {
-        "name": "Mephistopheles",
+        "name": "Atreyu",
         "th": 18,
         "map_position": 4,
-        "attacks_used": 2
+        "attacks_used": 0
       },
       {
-        "name": "kyle",
+        "name": "smiles",
         "th": 18,
         "map_position": 5,
-        "attacks_used": 2
+        "attacks_used": 0
       },
       {
-        "name": "Sheprd",
+        "name": "Rikkisteve",
         "th": 18,
         "map_position": 6,
-        "attacks_used": 2
+        "attacks_used": 0
       },
       {
-        "name": "wiiffler",
+        "name": "shane",
         "th": 18,
         "map_position": 7,
-        "attacks_used": 1
+        "attacks_used": 0
       },
       {
-        "name": "Isaiah",
+        "name": "¥Blood Eagle¥",
         "th": 18,
         "map_position": 8,
-        "attacks_used": 2
+        "attacks_used": 0
       },
       {
-        "name": "King Kev",
+        "name": "MetalHead\\m/",
         "th": 18,
         "map_position": 9,
-        "attacks_used": 2
+        "attacks_used": 0
       },
       {
-        "name": "TheVultureKing",
+        "name": "McAll Almighty",
         "th": 18,
         "map_position": 10,
-        "attacks_used": 2
+        "attacks_used": 0
       },
       {
-        "name": "Firo",
+        "name": "armyofdarkness",
         "th": 18,
         "map_position": 11,
-        "attacks_used": 2
+        "attacks_used": 0
       },
       {
-        "name": "Wes",
+        "name": "QitTae",
         "th": 18,
         "map_position": 12,
         "attacks_used": 0
       },
       {
-        "name": "Tanthalos",
+        "name": "SIERRA STORM",
         "th": 18,
         "map_position": 13,
-        "attacks_used": 2
+        "attacks_used": 0
       },
       {
-        "name": "Doggo",
+        "name": "dmcm",
         "th": 18,
         "map_position": 14,
-        "attacks_used": 2
+        "attacks_used": 0
       },
       {
-        "name": "ethan",
+        "name": "VonJohn",
         "th": 18,
         "map_position": 15,
-        "attacks_used": 2
+        "attacks_used": 0
       },
       {
-        "name": "Sheprd Mini",
+        "name": "zach the great",
         "th": 18,
         "map_position": 16,
-        "attacks_used": 2
+        "attacks_used": 0
       },
       {
-        "name": "Lt.Berg",
+        "name": "$ghostface$",
         "th": 18,
         "map_position": 17,
-        "attacks_used": 2
+        "attacks_used": 0
       },
       {
-        "name": "MORSMORDRE",
+        "name": "Anakin AxelRose",
         "th": 18,
         "map_position": 18,
-        "attacks_used": 2
+        "attacks_used": 0
       },
       {
-        "name": "ArcticAlpha",
-        "th": 18,
+        "name": "Austin",
+        "th": 17,
         "map_position": 19,
         "attacks_used": 0
       },
       {
-        "name": "XACADL",
-        "th": 18,
+        "name": "drag",
+        "th": 17,
         "map_position": 20,
-        "attacks_used": 2
+        "attacks_used": 0
       },
       {
-        "name": "Kentura",
+        "name": "SleepingGiant",
         "th": 17,
         "map_position": 21,
-        "attacks_used": 2
+        "attacks_used": 0
       },
       {
-        "name": "S9",
-        "th": 17,
+        "name": "Timothy",
+        "th": 18,
         "map_position": 22,
-        "attacks_used": 1
+        "attacks_used": 0
       },
       {
-        "name": "ZedRS-",
-        "th": 17,
+        "name": "tyler",
+        "th": 18,
         "map_position": 23,
-        "attacks_used": 2
+        "attacks_used": 0
       },
       {
-        "name": "Maksim",
+        "name": "Army John",
         "th": 16,
         "map_position": 24,
-        "attacks_used": 2
+        "attacks_used": 0
       },
       {
-        "name": "The Slayer",
-        "th": 14,
+        "name": "Odin",
+        "th": 18,
         "map_position": 25,
         "attacks_used": 0
       }
     ],
-    "timeline": [
-      {
-        "order": 1,
-        "side": "clan",
-        "attacker_public_id": "3858423607e45b",
-        "attacker_name": "CmALPHA_RY",
-        "attacker_position": 3,
-        "defender_name": "Chimera 2.22",
-        "defender_position": 1,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 3,
-        "their_score_after": 0
-      },
-      {
-        "order": 2,
-        "side": "clan",
-        "attacker_public_id": "8d6b6362db4f19",
-        "attacker_name": "Souls",
-        "attacker_position": 5,
-        "defender_name": "Dr. Faustus",
-        "defender_position": 2,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 6,
-        "their_score_after": 0
-      },
-      {
-        "order": 3,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Kentura",
-        "attacker_position": 21,
-        "defender_name": "Anor Londo",
-        "defender_position": 18,
-        "stars": 2,
-        "destruction": 95.0,
-        "attack_type": "fresh",
-        "new_stars": 2,
-        "our_score_after": 6,
-        "their_score_after": 2
-      },
-      {
-        "order": 4,
-        "side": "clan",
-        "attacker_public_id": "3858423607e45b",
-        "attacker_name": "CmALPHA_RY",
-        "attacker_position": 3,
-        "defender_name": "UNO",
-        "defender_position": 3,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 9,
-        "their_score_after": 2
-      },
-      {
-        "order": 5,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Isaiah",
-        "attacker_position": 8,
-        "defender_name": "John 3:16™",
-        "defender_position": 1,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 9,
-        "their_score_after": 5
-      },
-      {
-        "order": 6,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Maksim",
-        "attacker_position": 24,
-        "defender_name": "Avi the best",
-        "defender_position": 24,
-        "stars": 2,
-        "destruction": 76.0,
-        "attack_type": "fresh",
-        "new_stars": 2,
-        "our_score_after": 9,
-        "their_score_after": 7
-      },
-      {
-        "order": 7,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Kentura",
-        "attacker_position": 21,
-        "defender_name": "ShadowG",
-        "defender_position": 19,
-        "stars": 2,
-        "destruction": 64.0,
-        "attack_type": "fresh",
-        "new_stars": 2,
-        "our_score_after": 9,
-        "their_score_after": 9
-      },
-      {
-        "order": 8,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Maksim",
-        "attacker_position": 24,
-        "defender_name": "Rahulyash26",
-        "defender_position": 25,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 9,
-        "their_score_after": 12
-      },
-      {
-        "order": 9,
-        "side": "clan",
-        "attacker_public_id": "10d53b71f16c59",
-        "attacker_name": "Avinash",
-        "attacker_position": 6,
-        "defender_name": "Mephistopheles",
-        "defender_position": 4,
-        "stars": 2,
-        "destruction": 95.0,
-        "attack_type": "fresh",
-        "new_stars": 2,
-        "our_score_after": 11,
-        "their_score_after": 12
-      },
-      {
-        "order": 10,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "S9",
-        "attacker_position": 22,
-        "defender_name": "Neini",
-        "defender_position": 23,
-        "stars": 1,
-        "destruction": 32.0,
-        "attack_type": "fresh",
-        "new_stars": 1,
-        "our_score_after": 11,
-        "their_score_after": 13
-      },
-      {
-        "order": 11,
-        "side": "clan",
-        "attacker_public_id": "10d53b71f16c59",
-        "attacker_name": "Avinash",
-        "attacker_position": 6,
-        "defender_name": "Isaiah",
-        "defender_position": 8,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 14,
-        "their_score_after": 13
-      },
-      {
-        "order": 12,
-        "side": "clan",
-        "attacker_public_id": "892c01275b9e4f",
-        "attacker_name": "+Alon2000+",
-        "attacker_position": 7,
-        "defender_name": "Mephistopheles",
-        "defender_position": 4,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "cleanup",
-        "new_stars": 1,
-        "our_score_after": 15,
-        "their_score_after": 13
-      },
-      {
-        "order": 13,
-        "side": "clan",
-        "attacker_public_id": "892c01275b9e4f",
-        "attacker_name": "+Alon2000+",
-        "attacker_position": 7,
-        "defender_name": "kyle",
-        "defender_position": 5,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 18,
-        "their_score_after": 13
-      },
-      {
-        "order": 14,
-        "side": "clan",
-        "attacker_public_id": "35692fd68936b7",
-        "attacker_name": "Rahulyash26",
-        "attacker_position": 25,
-        "defender_name": "The Slayer",
-        "defender_position": 25,
-        "stars": 2,
-        "destruction": 95.0,
-        "attack_type": "fresh",
-        "new_stars": 2,
-        "our_score_after": 20,
-        "their_score_after": 13
-      },
-      {
-        "order": 15,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "MORSMORDRE",
-        "attacker_position": 18,
-        "defender_name": "shaik",
-        "defender_position": 2,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 20,
-        "their_score_after": 16
-      },
-      {
-        "order": 16,
-        "side": "clan",
-        "attacker_public_id": "2710e1436f73a9",
-        "attacker_name": "ChagoWitaBullet",
-        "attacker_position": 4,
-        "defender_name": "Sheprd",
-        "defender_position": 6,
-        "stars": 1,
-        "destruction": 93.0,
-        "attack_type": "fresh",
-        "new_stars": 1,
-        "our_score_after": 21,
-        "their_score_after": 16
-      },
-      {
-        "order": 17,
-        "side": "clan",
-        "attacker_public_id": "2710e1436f73a9",
-        "attacker_name": "ChagoWitaBullet",
-        "attacker_position": 4,
-        "defender_name": "wiiffler",
-        "defender_position": 7,
-        "stars": 2,
-        "destruction": 83.0,
-        "attack_type": "fresh",
-        "new_stars": 2,
-        "our_score_after": 23,
-        "their_score_after": 16
-      },
-      {
-        "order": 18,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Doggo",
-        "attacker_position": 14,
-        "defender_name": "taymonayyyy",
-        "defender_position": 9,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 23,
-        "their_score_after": 19
-      },
-      {
-        "order": 19,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Doggo",
-        "attacker_position": 14,
-        "defender_name": "TkHuNdOWaH",
-        "defender_position": 10,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 23,
-        "their_score_after": 22
-      },
-      {
-        "order": 20,
-        "side": "clan",
-        "attacker_public_id": "095e320e95cd74",
-        "attacker_name": "ShadowG",
-        "attacker_position": 19,
-        "defender_name": "ArcticAlpha",
-        "defender_position": 19,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 26,
-        "their_score_after": 22
-      },
-      {
-        "order": 21,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "MORSMORDRE",
-        "attacker_position": 18,
-        "defender_name": "CmALPHA_RY",
-        "defender_position": 3,
-        "stars": 1,
-        "destruction": 83.0,
-        "attack_type": "fresh",
-        "new_stars": 1,
-        "our_score_after": 26,
-        "their_score_after": 23
-      },
-      {
-        "order": 22,
-        "side": "clan",
-        "attacker_public_id": "a32ae9ce2e2ed5",
-        "attacker_name": "JoelGamingHQ_YT",
-        "attacker_position": 8,
-        "defender_name": "Sheprd",
-        "defender_position": 6,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "cleanup",
-        "new_stars": 2,
-        "our_score_after": 28,
-        "their_score_after": 23
-      },
-      {
-        "order": 23,
-        "side": "clan",
-        "attacker_public_id": "3cbc7125a5e7a0",
-        "attacker_name": "Daman",
-        "attacker_position": 20,
-        "defender_name": "Kentura",
-        "defender_position": 21,
-        "stars": 1,
-        "destruction": 97.0,
-        "attack_type": "fresh",
-        "new_stars": 1,
-        "our_score_after": 29,
-        "their_score_after": 23
-      },
-      {
-        "order": 24,
-        "side": "clan",
-        "attacker_public_id": "3cbc7125a5e7a0",
-        "attacker_name": "Daman",
-        "attacker_position": 20,
-        "defender_name": "S9",
-        "defender_position": 22,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 32,
-        "their_score_after": 23
-      },
-      {
-        "order": 25,
-        "side": "clan",
-        "attacker_public_id": "2f99cbfbf53e27",
-        "attacker_name": "Neini",
-        "attacker_position": 23,
-        "defender_name": "Maksim",
-        "defender_position": 24,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 35,
-        "their_score_after": 23
-      },
-      {
-        "order": 26,
-        "side": "clan",
-        "attacker_public_id": "8e332ab4b0f2b4",
-        "attacker_name": "taymonayyyy",
-        "attacker_position": 9,
-        "defender_name": "TheVultureKing",
-        "defender_position": 10,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 38,
-        "their_score_after": 23
-      },
-      {
-        "order": 27,
-        "side": "clan",
-        "attacker_public_id": "a32ae9ce2e2ed5",
-        "attacker_name": "JoelGamingHQ_YT",
-        "attacker_position": 8,
-        "defender_name": "wiiffler",
-        "defender_position": 7,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "cleanup",
-        "new_stars": 1,
-        "our_score_after": 39,
-        "their_score_after": 23
-      },
-      {
-        "order": 28,
-        "side": "clan",
-        "attacker_public_id": "8e332ab4b0f2b4",
-        "attacker_name": "taymonayyyy",
-        "attacker_position": 9,
-        "defender_name": "Tanthalos",
-        "defender_position": 13,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 42,
-        "their_score_after": 23
-      },
-      {
-        "order": 29,
-        "side": "clan",
-        "attacker_public_id": "394bcba79bd0f5",
-        "attacker_name": "TkHuNdOWaH",
-        "attacker_position": 10,
-        "defender_name": "Doggo",
-        "defender_position": 14,
-        "stars": 2,
-        "destruction": 69.0,
-        "attack_type": "fresh",
-        "new_stars": 2,
-        "our_score_after": 44,
-        "their_score_after": 23
-      },
-      {
-        "order": 30,
-        "side": "clan",
-        "attacker_public_id": "394bcba79bd0f5",
-        "attacker_name": "TkHuNdOWaH",
-        "attacker_position": 10,
-        "defender_name": "Sheprd Mini",
-        "defender_position": 16,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 47,
-        "their_score_after": 23
-      },
-      {
-        "order": 31,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "ZedRS-",
-        "attacker_position": 23,
-        "defender_name": "Sandhu__z",
-        "defender_position": 21,
-        "stars": 2,
-        "destruction": 82.0,
-        "attack_type": "fresh",
-        "new_stars": 2,
-        "our_score_after": 47,
-        "their_score_after": 25
-      },
-      {
-        "order": 32,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "ZedRS-",
-        "attacker_position": 23,
-        "defender_name": "Keval Vora09",
-        "defender_position": 22,
-        "stars": 1,
-        "destruction": 73.0,
-        "attack_type": "fresh",
-        "new_stars": 1,
-        "our_score_after": 47,
-        "their_score_after": 26
-      },
-      {
-        "order": 33,
-        "side": "clan",
-        "attacker_public_id": "a64cb3cd72e7b9",
-        "attacker_name": "Jerry",
-        "attacker_position": 16,
-        "defender_name": "Firo",
-        "defender_position": 11,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 50,
-        "their_score_after": 26
-      },
-      {
-        "order": 34,
-        "side": "clan",
-        "attacker_public_id": "a64cb3cd72e7b9",
-        "attacker_name": "Jerry",
-        "attacker_position": 16,
-        "defender_name": "Wes",
-        "defender_position": 12,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 53,
-        "their_score_after": 26
-      },
-      {
-        "order": 35,
-        "side": "clan",
-        "attacker_public_id": "8d6b6362db4f19",
-        "attacker_name": "Souls",
-        "attacker_position": 5,
-        "defender_name": "King Kev",
-        "defender_position": 9,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 56,
-        "their_score_after": 26
-      },
-      {
-        "order": 36,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Lt.Berg",
-        "attacker_position": 17,
-        "defender_name": "Globin Barrel",
-        "defender_position": 17,
-        "stars": 1,
-        "destruction": 71.0,
-        "attack_type": "fresh",
-        "new_stars": 1,
-        "our_score_after": 56,
-        "their_score_after": 27
-      },
-      {
-        "order": 37,
-        "side": "clan",
-        "attacker_public_id": "bd6b7a83ddcdbd",
-        "attacker_name": "DEEPAK",
-        "attacker_position": 14,
-        "defender_name": "Doggo",
-        "defender_position": 14,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "cleanup",
-        "new_stars": 1,
-        "our_score_after": 57,
-        "their_score_after": 27
-      },
-      {
-        "order": 38,
-        "side": "clan",
-        "attacker_public_id": "bd6b7a83ddcdbd",
-        "attacker_name": "DEEPAK",
-        "attacker_position": 14,
-        "defender_name": "ethan",
-        "defender_position": 15,
-        "stars": 2,
-        "destruction": 87.0,
-        "attack_type": "fresh",
-        "new_stars": 2,
-        "our_score_after": 59,
-        "their_score_after": 27
-      },
-      {
-        "order": 39,
-        "side": "clan",
-        "attacker_public_id": "27e7ea38f51aa4",
-        "attacker_name": "Keval Vora09",
-        "attacker_position": 22,
-        "defender_name": "Kentura",
-        "defender_position": 21,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "cleanup",
-        "new_stars": 2,
-        "our_score_after": 61,
-        "their_score_after": 27
-      },
-      {
-        "order": 40,
-        "side": "clan",
-        "attacker_public_id": "27e7ea38f51aa4",
-        "attacker_name": "Keval Vora09",
-        "attacker_position": 22,
-        "defender_name": "XACADL",
-        "defender_position": 20,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 64,
-        "their_score_after": 27
-      },
-      {
-        "order": 41,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "King Kev",
-        "attacker_position": 9,
-        "defender_name": "JoelGamingHQ_YT",
-        "defender_position": 8,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 64,
-        "their_score_after": 30
-      },
-      {
-        "order": 42,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "UNO",
-        "attacker_position": 3,
-        "defender_name": "+Alon2000+",
-        "defender_position": 7,
-        "stars": 2,
-        "destruction": 77.0,
-        "attack_type": "fresh",
-        "new_stars": 2,
-        "our_score_after": 64,
-        "their_score_after": 32
-      },
-      {
-        "order": 43,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Firo",
-        "attacker_position": 11,
-        "defender_name": "Hollowclient765",
-        "defender_position": 11,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 64,
-        "their_score_after": 35
-      },
-      {
-        "order": 44,
-        "side": "clan",
-        "attacker_public_id": "a2386a4132517e",
-        "attacker_name": "shaik",
-        "attacker_position": 2,
-        "defender_name": "ethan",
-        "defender_position": 15,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "cleanup",
-        "new_stars": 1,
-        "our_score_after": 65,
-        "their_score_after": 35
-      },
-      {
-        "order": 45,
-        "side": "clan",
-        "attacker_public_id": "c7ee49b3392214",
-        "attacker_name": "TickleMyJokic",
-        "attacker_position": 15,
-        "defender_name": "Lt.Berg",
-        "defender_position": 17,
-        "stars": 2,
-        "destruction": 90.0,
-        "attack_type": "fresh",
-        "new_stars": 2,
-        "our_score_after": 67,
-        "their_score_after": 35
-      },
-      {
-        "order": 46,
-        "side": "clan",
-        "attacker_public_id": "a2386a4132517e",
-        "attacker_name": "shaik",
-        "attacker_position": 2,
-        "defender_name": "MORSMORDRE",
-        "defender_position": 18,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 70,
-        "their_score_after": 35
-      },
-      {
-        "order": 47,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "UNO",
-        "attacker_position": 3,
-        "defender_name": "DEEPAK",
-        "defender_position": 14,
-        "stars": 1,
-        "destruction": 85.0,
-        "attack_type": "fresh",
-        "new_stars": 1,
-        "our_score_after": 70,
-        "their_score_after": 36
-      },
-      {
-        "order": 48,
-        "side": "clan",
-        "attacker_public_id": "abc0a9ab8c3955",
-        "attacker_name": "Avi the best",
-        "attacker_position": 24,
-        "defender_name": "ZedRS-",
-        "defender_position": 23,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 73,
-        "their_score_after": 36
-      },
-      {
-        "order": 49,
-        "side": "clan",
-        "attacker_public_id": "abc0a9ab8c3955",
-        "attacker_name": "Avi the best",
-        "attacker_position": 24,
-        "defender_name": "The Slayer",
-        "defender_position": 25,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "cleanup",
-        "new_stars": 1,
-        "our_score_after": 74,
-        "their_score_after": 36
-      },
-      {
-        "order": 50,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "kyle",
-        "attacker_position": 5,
-        "defender_name": "ChagoWitaBullet",
-        "defender_position": 4,
-        "stars": 2,
-        "destruction": 95.0,
-        "attack_type": "fresh",
-        "new_stars": 2,
-        "our_score_after": 74,
-        "their_score_after": 38
-      },
-      {
-        "order": 51,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "kyle",
-        "attacker_position": 5,
-        "defender_name": "Souls",
-        "defender_position": 5,
-        "stars": 1,
-        "destruction": 80.0,
-        "attack_type": "fresh",
-        "new_stars": 1,
-        "our_score_after": 74,
-        "their_score_after": 39
-      },
-      {
-        "order": 52,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "TheVultureKing",
-        "attacker_position": 10,
-        "defender_name": "Souls",
-        "defender_position": 5,
-        "stars": 2,
-        "destruction": 70.0,
-        "attack_type": "cleanup",
-        "new_stars": 1,
-        "our_score_after": 74,
-        "their_score_after": 40
-      },
-      {
-        "order": 53,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "ethan",
-        "attacker_position": 15,
-        "defender_name": "TickleMyJokic",
-        "defender_position": 15,
-        "stars": 1,
-        "destruction": 96.0,
-        "attack_type": "fresh",
-        "new_stars": 1,
-        "our_score_after": 74,
-        "their_score_after": 41
-      },
-      {
-        "order": 54,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "ethan",
-        "attacker_position": 15,
-        "defender_name": "Jerry",
-        "defender_position": 16,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 74,
-        "their_score_after": 44
-      },
-      {
-        "order": 55,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "King Kev",
-        "attacker_position": 9,
-        "defender_name": "Avinash",
-        "defender_position": 6,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 74,
-        "their_score_after": 47
-      },
-      {
-        "order": 56,
-        "side": "clan",
-        "attacker_public_id": "067e9305da9e5f",
-        "attacker_name": "Sandhu",
-        "attacker_position": 13,
-        "defender_name": "Lt.Berg",
-        "defender_position": 17,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "cleanup",
-        "new_stars": 1,
-        "our_score_after": 75,
-        "their_score_after": 47
-      },
-      {
-        "order": 57,
-        "side": "clan",
-        "attacker_public_id": "067e9305da9e5f",
-        "attacker_name": "Sandhu",
-        "attacker_position": 13,
-        "defender_name": "Chimera 2.22",
-        "defender_position": 1,
-        "stars": 2,
-        "destruction": 57.0,
-        "attack_type": "loot_practice",
-        "new_stars": 0,
-        "our_score_after": 75,
-        "their_score_after": 47
-      },
-      {
-        "order": 58,
-        "side": "clan",
-        "attacker_public_id": "13311b93709aa8",
-        "attacker_name": "Globin Barrel",
-        "attacker_position": 17,
-        "defender_name": "Chimera 2.22",
-        "defender_position": 1,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "loot_practice",
-        "new_stars": 0,
-        "our_score_after": 75,
-        "their_score_after": 47
-      },
-      {
-        "order": 59,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Isaiah",
-        "attacker_position": 8,
-        "defender_name": "CmALPHA_RY",
-        "defender_position": 3,
-        "stars": 1,
-        "destruction": 79.0,
-        "attack_type": "cleanup",
-        "new_stars": 0,
-        "our_score_after": 75,
-        "their_score_after": 47
-      },
-      {
-        "order": 60,
-        "side": "clan",
-        "attacker_public_id": "85653b6df73206",
-        "attacker_name": "John 3:16™",
-        "attacker_position": 1,
-        "defender_name": "Chimera 2.22",
-        "defender_position": 1,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "loot_practice",
-        "new_stars": 0,
-        "our_score_after": 75,
-        "their_score_after": 47
-      },
-      {
-        "order": 61,
-        "side": "clan",
-        "attacker_public_id": "85653b6df73206",
-        "attacker_name": "John 3:16™",
-        "attacker_position": 1,
-        "defender_name": "Dr. Faustus",
-        "defender_position": 2,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "loot_practice",
-        "new_stars": 0,
-        "our_score_after": 75,
-        "their_score_after": 47
-      },
-      {
-        "order": 62,
-        "side": "clan",
-        "attacker_public_id": "10dea83733b77a",
-        "attacker_name": "Hollowclient765",
-        "attacker_position": 11,
-        "defender_name": "Chimera 2.22",
-        "defender_position": 1,
-        "stars": 2,
-        "destruction": 77.0,
-        "attack_type": "loot_practice",
-        "new_stars": 0,
-        "our_score_after": 75,
-        "their_score_after": 47
-      },
-      {
-        "order": 63,
-        "side": "clan",
-        "attacker_public_id": "10dea83733b77a",
-        "attacker_name": "Hollowclient765",
-        "attacker_position": 11,
-        "defender_name": "Dr. Faustus",
-        "defender_position": 2,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "loot_practice",
-        "new_stars": 0,
-        "our_score_after": 75,
-        "their_score_after": 47
-      },
-      {
-        "order": 64,
-        "side": "clan",
-        "attacker_public_id": "4516c90f63a71a",
-        "attacker_name": "Anor Londo",
-        "attacker_position": 18,
-        "defender_name": "Chimera 2.22",
-        "defender_position": 1,
-        "stars": 1,
-        "destruction": 71.0,
-        "attack_type": "loot_practice",
-        "new_stars": 0,
-        "our_score_after": 75,
-        "their_score_after": 47
-      },
-      {
-        "order": 65,
-        "side": "clan",
-        "attacker_public_id": "4516c90f63a71a",
-        "attacker_name": "Anor Londo",
-        "attacker_position": 18,
-        "defender_name": "Dr. Faustus",
-        "defender_position": 2,
-        "stars": 2,
-        "destruction": 99.0,
-        "attack_type": "loot_practice",
-        "new_stars": 0,
-        "our_score_after": 75,
-        "their_score_after": 47
-      },
-      {
-        "order": 66,
-        "side": "clan",
-        "attacker_public_id": "9629749ebbce7b",
-        "attacker_name": "Sandhu__z",
-        "attacker_position": 21,
-        "defender_name": "Chimera 2.22",
-        "defender_position": 1,
-        "stars": 1,
-        "destruction": 28.0,
-        "attack_type": "loot_practice",
-        "new_stars": 0,
-        "our_score_after": 75,
-        "their_score_after": 47
-      },
-      {
-        "order": 67,
-        "side": "clan",
-        "attacker_public_id": "9629749ebbce7b",
-        "attacker_name": "Sandhu__z",
-        "attacker_position": 21,
-        "defender_name": "Dr. Faustus",
-        "defender_position": 2,
-        "stars": 0,
-        "destruction": 43.0,
-        "attack_type": "loot_practice",
-        "new_stars": 0,
-        "our_score_after": 75,
-        "their_score_after": 47
-      },
-      {
-        "order": 68,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "wiiffler",
-        "attacker_position": 7,
-        "defender_name": "DEEPAK",
-        "defender_position": 14,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "cleanup",
-        "new_stars": 2,
-        "our_score_after": 75,
-        "their_score_after": 49
-      },
-      {
-        "order": 69,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Chimera 2.22",
-        "attacker_position": 1,
-        "defender_name": "CmALPHA_RY",
-        "defender_position": 3,
-        "stars": 2,
-        "destruction": 88.0,
-        "attack_type": "cleanup",
-        "new_stars": 1,
-        "our_score_after": 75,
-        "their_score_after": 50
-      },
-      {
-        "order": 70,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Chimera 2.22",
-        "attacker_position": 1,
-        "defender_name": "ChagoWitaBullet",
-        "defender_position": 4,
-        "stars": 2,
-        "destruction": 97.0,
-        "attack_type": "cleanup",
-        "new_stars": 0,
-        "our_score_after": 75,
-        "their_score_after": 50
-      },
-      {
-        "order": 71,
-        "side": "clan",
-        "attacker_public_id": "13311b93709aa8",
-        "attacker_name": "Globin Barrel",
-        "attacker_position": 17,
-        "defender_name": "Dr. Faustus",
-        "defender_position": 2,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "loot_practice",
-        "new_stars": 0,
-        "our_score_after": 75,
-        "their_score_after": 50
-      },
-      {
-        "order": 72,
-        "side": "clan",
-        "attacker_public_id": "35692fd68936b7",
-        "attacker_name": "Rahulyash26",
-        "attacker_position": 25,
-        "defender_name": "Chimera 2.22",
-        "defender_position": 1,
-        "stars": 1,
-        "destruction": 15.0,
-        "attack_type": "loot_practice",
-        "new_stars": 0,
-        "our_score_after": 75,
-        "their_score_after": 50
-      },
-      {
-        "order": 73,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Sheprd Mini",
-        "attacker_position": 16,
-        "defender_name": "Souls",
-        "defender_position": 5,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "cleanup",
-        "new_stars": 1,
-        "our_score_after": 75,
-        "their_score_after": 51
-      },
-      {
-        "order": 74,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Sheprd",
-        "attacker_position": 6,
-        "defender_name": "CmALPHA_RY",
-        "defender_position": 3,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "cleanup",
-        "new_stars": 1,
-        "our_score_after": 75,
-        "their_score_after": 52
-      },
-      {
-        "order": 75,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Mephistopheles",
-        "attacker_position": 4,
-        "defender_name": "+Alon2000+",
-        "defender_position": 7,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "cleanup",
-        "new_stars": 1,
-        "our_score_after": 75,
-        "their_score_after": 53
-      },
-      {
-        "order": 76,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Dr. Faustus",
-        "attacker_position": 2,
-        "defender_name": "ChagoWitaBullet",
-        "defender_position": 4,
-        "stars": 1,
-        "destruction": 85.0,
-        "attack_type": "cleanup",
-        "new_stars": 0,
-        "our_score_after": 75,
-        "their_score_after": 53
-      },
-      {
-        "order": 77,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Dr. Faustus",
-        "attacker_position": 2,
-        "defender_name": "Supreme Leader",
-        "defender_position": 12,
-        "stars": 2,
-        "destruction": 91.0,
-        "attack_type": "fresh",
-        "new_stars": 2,
-        "our_score_after": 75,
-        "their_score_after": 55
-      },
-      {
-        "order": 78,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Mephistopheles",
-        "attacker_position": 4,
-        "defender_name": "Sandhu",
-        "defender_position": 13,
-        "stars": 2,
-        "destruction": 80.0,
-        "attack_type": "fresh",
-        "new_stars": 2,
-        "our_score_after": 75,
-        "their_score_after": 57
-      },
-      {
-        "order": 79,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Sheprd",
-        "attacker_position": 6,
-        "defender_name": "ChagoWitaBullet",
-        "defender_position": 4,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "cleanup",
-        "new_stars": 1,
-        "our_score_after": 75,
-        "their_score_after": 58
-      },
-      {
-        "order": 80,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Sheprd Mini",
-        "attacker_position": 16,
-        "defender_name": "TickleMyJokic",
-        "defender_position": 15,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "cleanup",
-        "new_stars": 2,
-        "our_score_after": 75,
-        "their_score_after": 60
-      },
-      {
-        "order": 81,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Tanthalos",
-        "attacker_position": 13,
-        "defender_name": "Daman",
-        "defender_position": 20,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "fresh",
-        "new_stars": 3,
-        "our_score_after": 75,
-        "their_score_after": 63
-      },
-      {
-        "order": 82,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Firo",
-        "attacker_position": 11,
-        "defender_name": "Globin Barrel",
-        "defender_position": 17,
-        "stars": 2,
-        "destruction": 64.0,
-        "attack_type": "cleanup",
-        "new_stars": 1,
-        "our_score_after": 75,
-        "their_score_after": 64
-      },
-      {
-        "order": 83,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Tanthalos",
-        "attacker_position": 13,
-        "defender_name": "Neini",
-        "defender_position": 23,
-        "stars": 2,
-        "destruction": 99.0,
-        "attack_type": "cleanup",
-        "new_stars": 1,
-        "our_score_after": 75,
-        "their_score_after": 65
-      },
-      {
-        "order": 84,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "XACADL",
-        "attacker_position": 20,
-        "defender_name": "Keval Vora09",
-        "defender_position": 22,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "cleanup",
-        "new_stars": 2,
-        "our_score_after": 75,
-        "their_score_after": 67
-      },
-      {
-        "order": 85,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "XACADL",
-        "attacker_position": 20,
-        "defender_name": "Neini",
-        "defender_position": 23,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "cleanup",
-        "new_stars": 1,
-        "our_score_after": 75,
-        "their_score_after": 68
-      },
-      {
-        "order": 86,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "Lt.Berg",
-        "attacker_position": 17,
-        "defender_name": "Sandhu",
-        "defender_position": 13,
-        "stars": 1,
-        "destruction": 72.0,
-        "attack_type": "cleanup",
-        "new_stars": 0,
-        "our_score_after": 75,
-        "their_score_after": 68
-      },
-      {
-        "order": 87,
-        "side": "opponent",
-        "attacker_public_id": null,
-        "attacker_name": "TheVultureKing",
-        "attacker_position": 10,
-        "defender_name": "Avi the best",
-        "defender_position": 24,
-        "stars": 3,
-        "destruction": 100.0,
-        "attack_type": "cleanup",
-        "new_stars": 1,
-        "our_score_after": 75,
-        "their_score_after": 69
-      }
-    ]
+    "timeline": []
   },
   "recent_wars": [
     {
@@ -2483,6 +1148,33 @@
     }
   ],
   "wars": [
+    {
+      "war_key": "f830b995f80d",
+      "date": "20261002",
+      "opponent_name": "Metal Headz",
+      "team_size": 25,
+      "clan_stars": 0,
+      "opponent_stars": 0,
+      "clan_destruction": 0.0,
+      "opponent_destruction": 0.0,
+      "state": "preparation",
+      "state_label": "Preparation Day",
+      "result": null,
+      "attacks_used": 0,
+      "expected_attacks": 50,
+      "missed_attacks": 0,
+      "filler_count": 0,
+      "filler_attacks": 0,
+      "summary_recovered": false,
+      "timeline_complete": true,
+      "clan_timeline_complete": true,
+      "opponent_timeline_complete": true,
+      "official_clan_attacks": null,
+      "official_opponent_attacks": null,
+      "perfect_war": false,
+      "perfect_secured_with_attacks_remaining": 0,
+      "missed_players": []
+    },
     {
       "war_key": "7b09b856b014",
       "date": "20260930",
@@ -3142,7 +1834,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 11,
+      "wars": 12,
       "attacks": 22,
       "missed_attacks": 0,
       "stars": 64,
@@ -3217,7 +1909,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 22,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -3272,7 +1964,7 @@
         "best_triple_streak": 3
       },
       "combined_stats": {
-        "events": 18,
+        "events": 19,
         "attacks": 29,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -3305,7 +1997,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 11,
+      "wars": 12,
       "attacks": 22,
       "missed_attacks": 0,
       "stars": 56,
@@ -3380,7 +2072,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 22,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -3435,7 +2127,7 @@
         "best_triple_streak": 7
       },
       "combined_stats": {
-        "events": 18,
+        "events": 19,
         "attacks": 29,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -3468,7 +2160,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 11,
+      "wars": 12,
       "attacks": 22,
       "missed_attacks": 0,
       "stars": 65,
@@ -3543,7 +2235,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 22,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -3598,7 +2290,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 18,
+        "events": 19,
         "attacks": 29,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -3631,7 +2323,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 11,
+      "wars": 12,
       "attacks": 22,
       "missed_attacks": 0,
       "stars": 50,
@@ -3706,7 +2398,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 22,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -3761,7 +2453,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 22,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -3794,7 +2486,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 20,
       "missed_attacks": 0,
       "stars": 52,
@@ -3869,7 +2561,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 20,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -3924,7 +2616,7 @@
         "best_triple_streak": 1
       },
       "combined_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 21,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -3957,7 +2649,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 20,
       "missed_attacks": 0,
       "stars": 57,
@@ -4032,7 +2724,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 20,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -4087,7 +2779,7 @@
         "best_triple_streak": 4
       },
       "combined_stats": {
-        "events": 17,
+        "events": 18,
         "attacks": 27,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -4120,7 +2812,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 20,
       "missed_attacks": 0,
       "stars": 54,
@@ -4195,7 +2887,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 20,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -4250,7 +2942,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 20,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -4283,7 +2975,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 20,
       "missed_attacks": 0,
       "stars": 46,
@@ -4358,7 +3050,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 20,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -4413,7 +3105,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 14,
+        "events": 15,
         "attacks": 23,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -4446,7 +3138,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 11,
+      "wars": 12,
       "attacks": 19,
       "missed_attacks": 3,
       "stars": 56,
@@ -4521,7 +3213,7 @@
       },
       "missed_wars": 2,
       "regular_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 19,
         "missed_attacks": 3,
         "missed_wars": 2,
@@ -4576,7 +3268,7 @@
         "best_triple_streak": 4
       },
       "combined_stats": {
-        "events": 18,
+        "events": 19,
         "attacks": 26,
         "missed_attacks": 3,
         "missed_wars": 2,
@@ -4609,7 +3301,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 11,
+      "wars": 12,
       "attacks": 19,
       "missed_attacks": 3,
       "stars": 51,
@@ -4684,7 +3376,7 @@
       },
       "missed_wars": 3,
       "regular_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 19,
         "missed_attacks": 3,
         "missed_wars": 3,
@@ -4739,7 +3431,7 @@
         "best_triple_streak": 7
       },
       "combined_stats": {
-        "events": 18,
+        "events": 19,
         "attacks": 26,
         "missed_attacks": 3,
         "missed_wars": 3,
@@ -4772,7 +3464,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 18,
       "missed_attacks": 2,
       "stars": 48,
@@ -4847,7 +3539,7 @@
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 18,
         "missed_attacks": 2,
         "missed_wars": 1,
@@ -4902,7 +3594,7 @@
         "best_triple_streak": 5
       },
       "combined_stats": {
-        "events": 17,
+        "events": 18,
         "attacks": 25,
         "missed_attacks": 2,
         "missed_wars": 1,
@@ -4935,7 +3627,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 18,
       "missed_attacks": 2,
       "stars": 50,
@@ -5010,7 +3702,7 @@
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 18,
         "missed_attacks": 2,
         "missed_wars": 1,
@@ -5065,7 +3757,7 @@
         "best_triple_streak": 3
       },
       "combined_stats": {
-        "events": 17,
+        "events": 18,
         "attacks": 25,
         "missed_attacks": 2,
         "missed_wars": 1,
@@ -5098,7 +3790,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 18,
       "missed_attacks": 2,
       "stars": 47,
@@ -5173,7 +3865,7 @@
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 18,
         "missed_attacks": 2,
         "missed_wars": 1,
@@ -5228,7 +3920,7 @@
         "best_triple_streak": 3
       },
       "combined_stats": {
-        "events": 17,
+        "events": 18,
         "attacks": 25,
         "missed_attacks": 2,
         "missed_wars": 1,
@@ -5424,7 +4116,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 8,
+      "wars": 9,
       "attacks": 16,
       "missed_attacks": 0,
       "stars": 43,
@@ -5499,7 +4191,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 8,
+        "events": 9,
         "attacks": 16,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -5554,7 +4246,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 8,
+        "events": 9,
         "attacks": 16,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -5750,7 +4442,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 15,
       "missed_attacks": 5,
       "stars": 34,
@@ -5825,7 +4517,7 @@
       },
       "missed_wars": 4,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 15,
         "missed_attacks": 5,
         "missed_wars": 4,
@@ -5880,7 +4572,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 15,
+        "events": 16,
         "attacks": 19,
         "missed_attacks": 6,
         "missed_wars": 5,
@@ -5913,7 +4605,7 @@
       "th": 16,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 9,
+      "wars": 10,
       "attacks": 14,
       "missed_attacks": 4,
       "stars": 29,
@@ -5988,7 +4680,7 @@
       },
       "missed_wars": 2,
       "regular_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 14,
         "missed_attacks": 4,
         "missed_wars": 2,
@@ -6043,7 +4735,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 14,
         "missed_attacks": 4,
         "missed_wars": 2,
@@ -6076,7 +4768,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 9,
+      "wars": 10,
       "attacks": 12,
       "missed_attacks": 6,
       "stars": 33,
@@ -6151,7 +4843,7 @@
       },
       "missed_wars": 3,
       "regular_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 12,
         "missed_attacks": 6,
         "missed_wars": 3,
@@ -6206,7 +4898,7 @@
         "best_triple_streak": 6
       },
       "combined_stats": {
-        "events": 16,
+        "events": 17,
         "attacks": 19,
         "missed_attacks": 6,
         "missed_wars": 3,
@@ -6239,7 +4931,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 6,
+      "wars": 7,
       "attacks": 12,
       "missed_attacks": 0,
       "stars": 32,
@@ -6314,7 +5006,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 6,
+        "events": 7,
         "attacks": 12,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -6369,7 +5061,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 17,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -6402,7 +5094,7 @@
       "th": 17,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 9,
+      "wars": 10,
       "attacks": 11,
       "missed_attacks": 7,
       "stars": 28,
@@ -6477,7 +5169,7 @@
       },
       "missed_wars": 4,
       "regular_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 11,
         "missed_attacks": 7,
         "missed_wars": 4,
@@ -6532,7 +5224,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 11,
         "missed_attacks": 7,
         "missed_wars": 4,
@@ -6565,7 +5257,7 @@
       "th": 16,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 5,
+      "wars": 6,
       "attacks": 10,
       "missed_attacks": 0,
       "stars": 27,
@@ -6640,7 +5332,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 5,
+        "events": 6,
         "attacks": 10,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -6695,7 +5387,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 5,
+        "events": 6,
         "attacks": 10,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -6728,7 +5420,7 @@
       "th": 16,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 9,
+      "wars": 10,
       "attacks": 10,
       "missed_attacks": 6,
       "stars": 26,
@@ -6803,7 +5495,7 @@
       },
       "missed_wars": 5,
       "regular_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 10,
         "missed_attacks": 6,
         "missed_wars": 5,
@@ -6858,7 +5550,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 10,
         "missed_attacks": 6,
         "missed_wars": 5,
@@ -6891,7 +5583,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 5,
+      "wars": 6,
       "attacks": 9,
       "missed_attacks": 1,
       "stars": 22,
@@ -6966,7 +5658,7 @@
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 5,
+        "events": 6,
         "attacks": 9,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -7021,7 +5713,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 5,
+        "events": 6,
         "attacks": 9,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -7217,7 +5909,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 3,
+      "wars": 4,
       "attacks": 5,
       "missed_attacks": 1,
       "stars": 12,
@@ -7292,7 +5984,7 @@
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 3,
+        "events": 4,
         "attacks": 5,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -7347,7 +6039,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 4,
         "attacks": 5,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -7543,7 +6235,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 1,
+      "wars": 2,
       "attacks": 2,
       "missed_attacks": 0,
       "stars": 6,
@@ -7618,7 +6310,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 1,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -7673,7 +6365,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 1,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -9010,7 +7702,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 3,
+      "wars": 4,
       "attacks": 0,
       "missed_attacks": 6,
       "stars": 0,
@@ -9085,7 +7777,7 @@
       },
       "missed_wars": 3,
       "regular_stats": {
-        "events": 3,
+        "events": 4,
         "attacks": 0,
         "missed_attacks": 6,
         "missed_wars": 3,
@@ -9140,7 +7832,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 4,
         "attacks": 0,
         "missed_attacks": 6,
         "missed_wars": 3,
@@ -14393,7 +13085,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 11,
+      "wars": 12,
       "attacks": 22,
       "missed_attacks": 0,
       "stars": 64,
@@ -14468,7 +13160,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 22,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -14523,7 +13215,7 @@
         "best_triple_streak": 3
       },
       "combined_stats": {
-        "events": 18,
+        "events": 19,
         "attacks": 29,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -14556,7 +13248,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 11,
+      "wars": 12,
       "attacks": 22,
       "missed_attacks": 0,
       "stars": 56,
@@ -14631,7 +13323,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 22,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -14686,7 +13378,7 @@
         "best_triple_streak": 7
       },
       "combined_stats": {
-        "events": 18,
+        "events": 19,
         "attacks": 29,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -14719,7 +13411,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 11,
+      "wars": 12,
       "attacks": 22,
       "missed_attacks": 0,
       "stars": 65,
@@ -14794,7 +13486,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 22,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -14849,7 +13541,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 18,
+        "events": 19,
         "attacks": 29,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -14882,7 +13574,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 11,
+      "wars": 12,
       "attacks": 22,
       "missed_attacks": 0,
       "stars": 50,
@@ -14957,7 +13649,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 22,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -15012,7 +13704,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 22,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -15045,7 +13737,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 20,
       "missed_attacks": 0,
       "stars": 52,
@@ -15120,7 +13812,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 20,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -15175,7 +13867,7 @@
         "best_triple_streak": 1
       },
       "combined_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 21,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -15208,7 +13900,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 20,
       "missed_attacks": 0,
       "stars": 57,
@@ -15283,7 +13975,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 20,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -15338,7 +14030,7 @@
         "best_triple_streak": 4
       },
       "combined_stats": {
-        "events": 17,
+        "events": 18,
         "attacks": 27,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -15371,7 +14063,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 20,
       "missed_attacks": 0,
       "stars": 54,
@@ -15446,7 +14138,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 20,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -15501,7 +14193,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 20,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -15534,7 +14226,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 20,
       "missed_attacks": 0,
       "stars": 46,
@@ -15609,7 +14301,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 20,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -15664,7 +14356,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 14,
+        "events": 15,
         "attacks": 23,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -15697,7 +14389,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 11,
+      "wars": 12,
       "attacks": 19,
       "missed_attacks": 3,
       "stars": 56,
@@ -15772,7 +14464,7 @@
       },
       "missed_wars": 2,
       "regular_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 19,
         "missed_attacks": 3,
         "missed_wars": 2,
@@ -15827,7 +14519,7 @@
         "best_triple_streak": 4
       },
       "combined_stats": {
-        "events": 18,
+        "events": 19,
         "attacks": 26,
         "missed_attacks": 3,
         "missed_wars": 2,
@@ -15860,7 +14552,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 11,
+      "wars": 12,
       "attacks": 19,
       "missed_attacks": 3,
       "stars": 51,
@@ -15935,7 +14627,7 @@
       },
       "missed_wars": 3,
       "regular_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 19,
         "missed_attacks": 3,
         "missed_wars": 3,
@@ -15990,7 +14682,7 @@
         "best_triple_streak": 7
       },
       "combined_stats": {
-        "events": 18,
+        "events": 19,
         "attacks": 26,
         "missed_attacks": 3,
         "missed_wars": 3,
@@ -16023,7 +14715,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 18,
       "missed_attacks": 2,
       "stars": 48,
@@ -16098,7 +14790,7 @@
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 18,
         "missed_attacks": 2,
         "missed_wars": 1,
@@ -16153,7 +14845,7 @@
         "best_triple_streak": 5
       },
       "combined_stats": {
-        "events": 17,
+        "events": 18,
         "attacks": 25,
         "missed_attacks": 2,
         "missed_wars": 1,
@@ -16186,7 +14878,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 18,
       "missed_attacks": 2,
       "stars": 50,
@@ -16261,7 +14953,7 @@
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 18,
         "missed_attacks": 2,
         "missed_wars": 1,
@@ -16316,7 +15008,7 @@
         "best_triple_streak": 3
       },
       "combined_stats": {
-        "events": 17,
+        "events": 18,
         "attacks": 25,
         "missed_attacks": 2,
         "missed_wars": 1,
@@ -16349,7 +15041,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 18,
       "missed_attacks": 2,
       "stars": 47,
@@ -16424,7 +15116,7 @@
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 18,
         "missed_attacks": 2,
         "missed_wars": 1,
@@ -16479,7 +15171,7 @@
         "best_triple_streak": 3
       },
       "combined_stats": {
-        "events": 17,
+        "events": 18,
         "attacks": 25,
         "missed_attacks": 2,
         "missed_wars": 1,
@@ -16675,7 +15367,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 8,
+      "wars": 9,
       "attacks": 16,
       "missed_attacks": 0,
       "stars": 43,
@@ -16750,7 +15442,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 8,
+        "events": 9,
         "attacks": 16,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -16805,7 +15497,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 8,
+        "events": 9,
         "attacks": 16,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -17001,7 +15693,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 15,
       "missed_attacks": 5,
       "stars": 34,
@@ -17076,7 +15768,7 @@
       },
       "missed_wars": 4,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 15,
         "missed_attacks": 5,
         "missed_wars": 4,
@@ -17131,7 +15823,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 15,
+        "events": 16,
         "attacks": 19,
         "missed_attacks": 6,
         "missed_wars": 5,
@@ -17164,7 +15856,7 @@
       "th": 16,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 9,
+      "wars": 10,
       "attacks": 14,
       "missed_attacks": 4,
       "stars": 29,
@@ -17239,7 +15931,7 @@
       },
       "missed_wars": 2,
       "regular_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 14,
         "missed_attacks": 4,
         "missed_wars": 2,
@@ -17294,7 +15986,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 14,
         "missed_attacks": 4,
         "missed_wars": 2,
@@ -17327,7 +16019,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 9,
+      "wars": 10,
       "attacks": 12,
       "missed_attacks": 6,
       "stars": 33,
@@ -17402,7 +16094,7 @@
       },
       "missed_wars": 3,
       "regular_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 12,
         "missed_attacks": 6,
         "missed_wars": 3,
@@ -17457,7 +16149,7 @@
         "best_triple_streak": 6
       },
       "combined_stats": {
-        "events": 16,
+        "events": 17,
         "attacks": 19,
         "missed_attacks": 6,
         "missed_wars": 3,
@@ -17490,7 +16182,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 6,
+      "wars": 7,
       "attacks": 12,
       "missed_attacks": 0,
       "stars": 32,
@@ -17565,7 +16257,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 6,
+        "events": 7,
         "attacks": 12,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -17620,7 +16312,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 17,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -17653,7 +16345,7 @@
       "th": 17,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 9,
+      "wars": 10,
       "attacks": 11,
       "missed_attacks": 7,
       "stars": 28,
@@ -17728,7 +16420,7 @@
       },
       "missed_wars": 4,
       "regular_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 11,
         "missed_attacks": 7,
         "missed_wars": 4,
@@ -17783,7 +16475,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 11,
         "missed_attacks": 7,
         "missed_wars": 4,
@@ -17816,7 +16508,7 @@
       "th": 16,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 5,
+      "wars": 6,
       "attacks": 10,
       "missed_attacks": 0,
       "stars": 27,
@@ -17891,7 +16583,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 5,
+        "events": 6,
         "attacks": 10,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -17946,7 +16638,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 5,
+        "events": 6,
         "attacks": 10,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -17979,7 +16671,7 @@
       "th": 16,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 9,
+      "wars": 10,
       "attacks": 10,
       "missed_attacks": 6,
       "stars": 26,
@@ -18054,7 +16746,7 @@
       },
       "missed_wars": 5,
       "regular_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 10,
         "missed_attacks": 6,
         "missed_wars": 5,
@@ -18109,7 +16801,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 10,
         "missed_attacks": 6,
         "missed_wars": 5,
@@ -18142,7 +16834,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 5,
+      "wars": 6,
       "attacks": 9,
       "missed_attacks": 1,
       "stars": 22,
@@ -18217,7 +16909,7 @@
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 5,
+        "events": 6,
         "attacks": 9,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -18272,7 +16964,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 5,
+        "events": 6,
         "attacks": 9,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -18468,7 +17160,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 3,
+      "wars": 4,
       "attacks": 5,
       "missed_attacks": 1,
       "stars": 12,
@@ -18543,7 +17235,7 @@
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 3,
+        "events": 4,
         "attacks": 5,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -18598,7 +17290,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 4,
         "attacks": 5,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -18794,7 +17486,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 1,
+      "wars": 2,
       "attacks": 2,
       "missed_attacks": 0,
       "stars": 6,
@@ -18869,7 +17561,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 1,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -18924,7 +17616,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 1,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -20261,7 +18953,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 3,
+      "wars": 4,
       "attacks": 0,
       "missed_attacks": 6,
       "stars": 0,
@@ -20336,7 +19028,7 @@
       },
       "missed_wars": 3,
       "regular_stats": {
-        "events": 3,
+        "events": 4,
         "attacks": 0,
         "missed_attacks": 6,
         "missed_wars": 3,
@@ -20391,7 +19083,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 4,
         "attacks": 0,
         "missed_attacks": 6,
         "missed_wars": 3,
@@ -25642,7 +24334,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 11,
+      "wars": 12,
       "attacks": 22,
       "missed_attacks": 0,
       "stars": 64,
@@ -25717,7 +24409,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 22,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -25772,7 +24464,7 @@
         "best_triple_streak": 3
       },
       "combined_stats": {
-        "events": 18,
+        "events": 19,
         "attacks": 29,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -25799,6 +24491,22 @@
         "best_triple_streak": 9
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -26705,7 +25413,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 11,
+      "wars": 12,
       "attacks": 22,
       "missed_attacks": 0,
       "stars": 56,
@@ -26780,7 +25488,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 22,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -26835,7 +25543,7 @@
         "best_triple_streak": 7
       },
       "combined_stats": {
-        "events": 18,
+        "events": 19,
         "attacks": 29,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -26862,6 +25570,22 @@
         "best_triple_streak": 14
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -27768,7 +26492,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 11,
+      "wars": 12,
       "attacks": 22,
       "missed_attacks": 0,
       "stars": 65,
@@ -27843,7 +26567,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 22,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -27898,7 +26622,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 18,
+        "events": 19,
         "attacks": 29,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -27925,6 +26649,22 @@
         "best_triple_streak": 16
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -28831,7 +27571,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 11,
+      "wars": 12,
       "attacks": 22,
       "missed_attacks": 0,
       "stars": 50,
@@ -28906,7 +27646,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 22,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -28961,7 +27701,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 22,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -28988,6 +27728,22 @@
         "best_triple_streak": 3
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -29626,7 +28382,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 20,
       "missed_attacks": 0,
       "stars": 52,
@@ -29701,7 +28457,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 20,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -29756,7 +28512,7 @@
         "best_triple_streak": 1
       },
       "combined_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 21,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -29783,6 +28539,22 @@
         "best_triple_streak": 11
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -30430,7 +29202,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 20,
       "missed_attacks": 0,
       "stars": 57,
@@ -30505,7 +29277,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 20,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -30560,7 +29332,7 @@
         "best_triple_streak": 4
       },
       "combined_stats": {
-        "events": 17,
+        "events": 18,
         "attacks": 27,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -30587,6 +29359,22 @@
         "best_triple_streak": 15
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -31462,7 +30250,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 20,
       "missed_attacks": 0,
       "stars": 54,
@@ -31537,7 +30325,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 20,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -31592,7 +30380,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 20,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -31619,6 +30407,22 @@
         "best_triple_streak": 17
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -32226,7 +31030,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 20,
       "missed_attacks": 0,
       "stars": 46,
@@ -32301,7 +31105,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 20,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -32356,7 +31160,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 14,
+        "events": 15,
         "attacks": 23,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -32383,6 +31187,22 @@
         "best_triple_streak": 4
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -33122,7 +31942,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 11,
+      "wars": 12,
       "attacks": 19,
       "missed_attacks": 3,
       "stars": 56,
@@ -33197,7 +32017,7 @@
       },
       "missed_wars": 2,
       "regular_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 19,
         "missed_attacks": 3,
         "missed_wars": 2,
@@ -33252,7 +32072,7 @@
         "best_triple_streak": 4
       },
       "combined_stats": {
-        "events": 18,
+        "events": 19,
         "attacks": 26,
         "missed_attacks": 3,
         "missed_wars": 2,
@@ -33279,6 +32099,22 @@
         "best_triple_streak": 21
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -34148,7 +32984,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 11,
+      "wars": 12,
       "attacks": 19,
       "missed_attacks": 3,
       "stars": 51,
@@ -34223,7 +33059,7 @@
       },
       "missed_wars": 3,
       "regular_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 19,
         "missed_attacks": 3,
         "missed_wars": 3,
@@ -34278,7 +33114,7 @@
         "best_triple_streak": 7
       },
       "combined_stats": {
-        "events": 18,
+        "events": 19,
         "attacks": 26,
         "missed_attacks": 3,
         "missed_wars": 3,
@@ -34305,6 +33141,22 @@
         "best_triple_streak": 9
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -35175,7 +34027,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 18,
       "missed_attacks": 2,
       "stars": 48,
@@ -35250,7 +34102,7 @@
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 18,
         "missed_attacks": 2,
         "missed_wars": 1,
@@ -35305,7 +34157,7 @@
         "best_triple_streak": 5
       },
       "combined_stats": {
-        "events": 17,
+        "events": 18,
         "attacks": 25,
         "missed_attacks": 2,
         "missed_wars": 1,
@@ -35332,6 +34184,22 @@
         "best_triple_streak": 10
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -36162,7 +35030,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 18,
       "missed_attacks": 2,
       "stars": 50,
@@ -36237,7 +35105,7 @@
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 18,
         "missed_attacks": 2,
         "missed_wars": 1,
@@ -36292,7 +35160,7 @@
         "best_triple_streak": 3
       },
       "combined_stats": {
-        "events": 17,
+        "events": 18,
         "attacks": 25,
         "missed_attacks": 2,
         "missed_wars": 1,
@@ -36319,6 +35187,22 @@
         "best_triple_streak": 15
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -37134,7 +36018,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 18,
       "missed_attacks": 2,
       "stars": 47,
@@ -37209,7 +36093,7 @@
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 18,
         "missed_attacks": 2,
         "missed_wars": 1,
@@ -37264,7 +36148,7 @@
         "best_triple_streak": 3
       },
       "combined_stats": {
-        "events": 17,
+        "events": 18,
         "attacks": 25,
         "missed_attacks": 2,
         "missed_wars": 1,
@@ -37291,6 +36175,22 @@
         "best_triple_streak": 9
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260928",
           "opponent_name": "W.V Clash",
@@ -38795,7 +37695,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 8,
+      "wars": 9,
       "attacks": 16,
       "missed_attacks": 0,
       "stars": 43,
@@ -38870,7 +37770,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 8,
+        "events": 9,
         "attacks": 16,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -38925,7 +37825,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 8,
+        "events": 9,
         "attacks": 16,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -38952,6 +37852,22 @@
         "best_triple_streak": 8
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -40064,7 +38980,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 10,
+      "wars": 11,
       "attacks": 15,
       "missed_attacks": 5,
       "stars": 34,
@@ -40139,7 +39055,7 @@
       },
       "missed_wars": 4,
       "regular_stats": {
-        "events": 10,
+        "events": 11,
         "attacks": 15,
         "missed_attacks": 5,
         "missed_wars": 4,
@@ -40194,7 +39110,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 15,
+        "events": 16,
         "attacks": 19,
         "missed_attacks": 6,
         "missed_wars": 5,
@@ -40221,6 +39137,22 @@
         "best_triple_streak": 4
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -40887,7 +39819,7 @@
       "th": 16,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 9,
+      "wars": 10,
       "attacks": 14,
       "missed_attacks": 4,
       "stars": 29,
@@ -40962,7 +39894,7 @@
       },
       "missed_wars": 2,
       "regular_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 14,
         "missed_attacks": 4,
         "missed_wars": 2,
@@ -41017,7 +39949,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 14,
         "missed_attacks": 4,
         "missed_wars": 2,
@@ -41044,6 +39976,22 @@
         "best_triple_streak": 2
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 16,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -41515,7 +40463,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 9,
+      "wars": 10,
       "attacks": 12,
       "missed_attacks": 6,
       "stars": 33,
@@ -41590,7 +40538,7 @@
       },
       "missed_wars": 3,
       "regular_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 12,
         "missed_attacks": 6,
         "missed_wars": 3,
@@ -41645,7 +40593,7 @@
         "best_triple_streak": 6
       },
       "combined_stats": {
-        "events": 16,
+        "events": 17,
         "attacks": 19,
         "missed_attacks": 6,
         "missed_wars": 3,
@@ -41672,6 +40620,22 @@
         "best_triple_streak": 10
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -42336,7 +41300,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 6,
+      "wars": 7,
       "attacks": 12,
       "missed_attacks": 0,
       "stars": 32,
@@ -42411,7 +41375,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 6,
+        "events": 7,
         "attacks": 12,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -42466,7 +41430,7 @@
         "best_triple_streak": 2
       },
       "combined_stats": {
-        "events": 11,
+        "events": 12,
         "attacks": 17,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -42493,6 +41457,22 @@
         "best_triple_streak": 5
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -43048,7 +42028,7 @@
       "th": 17,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 9,
+      "wars": 10,
       "attacks": 11,
       "missed_attacks": 7,
       "stars": 28,
@@ -43123,7 +42103,7 @@
       },
       "missed_wars": 4,
       "regular_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 11,
         "missed_attacks": 7,
         "missed_wars": 4,
@@ -43178,7 +42158,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 11,
         "missed_attacks": 7,
         "missed_wars": 4,
@@ -43205,6 +42185,22 @@
         "best_triple_streak": 3
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 17,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -43594,7 +42590,7 @@
       "th": 16,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 5,
+      "wars": 6,
       "attacks": 10,
       "missed_attacks": 0,
       "stars": 27,
@@ -43669,7 +42665,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 5,
+        "events": 6,
         "attacks": 10,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -43724,7 +42720,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 5,
+        "events": 6,
         "attacks": 10,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -43751,6 +42747,22 @@
         "best_triple_streak": 5
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 16,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -44068,7 +43080,7 @@
       "th": 16,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 9,
+      "wars": 10,
       "attacks": 10,
       "missed_attacks": 6,
       "stars": 26,
@@ -44143,7 +43155,7 @@
       },
       "missed_wars": 5,
       "regular_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 10,
         "missed_attacks": 6,
         "missed_wars": 5,
@@ -44198,7 +43210,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 9,
+        "events": 10,
         "attacks": 10,
         "missed_attacks": 6,
         "missed_wars": 5,
@@ -44225,6 +43237,22 @@
         "best_triple_streak": 6
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 16,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -44608,7 +43636,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 5,
+      "wars": 6,
       "attacks": 9,
       "missed_attacks": 1,
       "stars": 22,
@@ -44683,7 +43711,7 @@
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 5,
+        "events": 6,
         "attacks": 9,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -44738,7 +43766,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 5,
+        "events": 6,
         "attacks": 9,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -44765,6 +43793,22 @@
         "best_triple_streak": 3
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -45458,7 +44502,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 3,
+      "wars": 4,
       "attacks": 5,
       "missed_attacks": 1,
       "stars": 12,
@@ -45533,7 +44577,7 @@
       },
       "missed_wars": 1,
       "regular_stats": {
-        "events": 3,
+        "events": 4,
         "attacks": 5,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -45588,7 +44632,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 4,
         "attacks": 5,
         "missed_attacks": 1,
         "missed_wars": 1,
@@ -45615,6 +44659,22 @@
         "best_triple_streak": 3
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
@@ -46079,7 +45139,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 1,
+      "wars": 2,
       "attacks": 2,
       "missed_attacks": 0,
       "stars": 6,
@@ -46154,7 +45214,7 @@
       },
       "missed_wars": 0,
       "regular_stats": {
-        "events": 1,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -46209,7 +45269,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 1,
+        "events": 2,
         "attacks": 2,
         "missed_attacks": 0,
         "missed_wars": 0,
@@ -46236,6 +45296,22 @@
         "best_triple_streak": 2
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260924",
           "opponent_name": "✴mangekyou ✴",
@@ -47672,7 +46748,7 @@
       "th": 18,
       "currently_in_clan": true,
       "membership_status": "Current Member",
-      "wars": 3,
+      "wars": 4,
       "attacks": 0,
       "missed_attacks": 6,
       "stars": 0,
@@ -47747,7 +46823,7 @@
       },
       "missed_wars": 3,
       "regular_stats": {
-        "events": 3,
+        "events": 4,
         "attacks": 0,
         "missed_attacks": 6,
         "missed_wars": 3,
@@ -47802,7 +46878,7 @@
         "best_triple_streak": 0
       },
       "combined_stats": {
-        "events": 3,
+        "events": 4,
         "attacks": 0,
         "missed_attacks": 6,
         "missed_wars": 3,
@@ -47829,6 +46905,22 @@
         "best_triple_streak": 0
       },
       "war_history": [
+        {
+          "date": "20261002",
+          "opponent_name": "Metal Headz",
+          "team_size": 25,
+          "state": "preparation",
+          "state_label": "Preparation Day",
+          "result": null,
+          "our_stars": 0,
+          "their_stars": 0,
+          "th": 18,
+          "is_filler": false,
+          "expected_attacks": 2,
+          "attacks_used": 0,
+          "missed_attacks": 0,
+          "attacks": []
+        },
         {
           "date": "20260930",
           "opponent_name": "Shadow Realm",
