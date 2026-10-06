@@ -1,6 +1,6 @@
 {
   "schema_version": 16,
-  "generated_at": "2026-10-06T18:48:20.436874+00:00",
+  "generated_at": "2026-10-06T18:52:27.207848+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -58051,6 +58051,20 @@
         "position": 1
       },
       {
+        "name": "کلبه وحشت",
+        "wins": 2,
+        "losses": 0,
+        "ties": 0,
+        "battle_stars": 103,
+        "bonus_stars": 20,
+        "league_stars": 123,
+        "destruction": 242.06666666666666,
+        "wars_counted": 3,
+        "avg_destruction": 80.68888888888888,
+        "is_us": false,
+        "position": 2
+      },
+      {
         "name": "CobraNation4422",
         "wins": 2,
         "losses": 0,
@@ -58061,20 +58075,6 @@
         "destruction": 238.0,
         "wars_counted": 3,
         "avg_destruction": 79.33333333333333,
-        "is_us": false,
-        "position": 2
-      },
-      {
-        "name": "کلبه وحشت",
-        "wins": 2,
-        "losses": 0,
-        "ties": 0,
-        "battle_stars": 97,
-        "bonus_stars": 20,
-        "league_stars": 117,
-        "destruction": 228.73333333333335,
-        "wars_counted": 3,
-        "avg_destruction": 76.24444444444445,
         "is_us": false,
         "position": 3
       },
