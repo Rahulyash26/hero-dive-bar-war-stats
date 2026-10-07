@@ -1,6 +1,6 @@
 {
   "schema_version": 16,
-  "generated_at": "2026-10-07T23:37:30.675956+00:00",
+  "generated_at": "2026-10-07T23:42:40.496961+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -58635,6 +58635,20 @@
         "position": 2
       },
       {
+        "name": "CobraNation4422",
+        "wins": 3,
+        "losses": 0,
+        "ties": 0,
+        "battle_stars": 147,
+        "bonus_stars": 30,
+        "league_stars": 177,
+        "destruction": 347.46666666666664,
+        "wars_counted": 4,
+        "avg_destruction": 86.86666666666666,
+        "is_us": false,
+        "position": 3
+      },
+      {
         "name": "bossclaude",
         "wins": 1,
         "losses": 2,
@@ -58645,20 +58659,6 @@
         "destruction": 367.46666666666664,
         "wars_counted": 4,
         "avg_destruction": 91.86666666666666,
-        "is_us": false,
-        "position": 3
-      },
-      {
-        "name": "CobraNation4422",
-        "wins": 3,
-        "losses": 0,
-        "ties": 0,
-        "battle_stars": 144,
-        "bonus_stars": 30,
-        "league_stars": 174,
-        "destruction": 340.79999999999995,
-        "wars_counted": 4,
-        "avg_destruction": 85.19999999999999,
         "is_us": false,
         "position": 4
       },
@@ -58681,12 +58681,12 @@
         "wins": 1,
         "losses": 2,
         "ties": 0,
-        "battle_stars": 137,
+        "battle_stars": 140,
         "bonus_stars": 10,
-        "league_stars": 147,
-        "destruction": 338.26666666666665,
+        "league_stars": 150,
+        "destruction": 344.93333333333334,
         "wars_counted": 4,
-        "avg_destruction": 84.56666666666666,
+        "avg_destruction": 86.23333333333333,
         "is_us": false,
         "position": 6
       },
