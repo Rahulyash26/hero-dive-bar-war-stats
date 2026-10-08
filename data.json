@@ -1,6 +1,6 @@
 {
   "schema_version": 16,
-  "generated_at": "2026-10-08T01:25:56.396264+00:00",
+  "generated_at": "2026-10-08T01:33:15.130453+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -59092,13 +59092,27 @@
     "season": "2026-10-03",
     "state": "inWar",
     "league_name": "Master League I",
-    "position": 1,
+    "position": 2,
     "record": {
       "wins": 2,
       "losses": 1,
       "ties": 0
     },
     "standings": [
+      {
+        "name": "کلبه وحشت",
+        "wins": 3,
+        "losses": 0,
+        "ties": 0,
+        "battle_stars": 163,
+        "bonus_stars": 30,
+        "league_stars": 193,
+        "destruction": 384.8,
+        "wars_counted": 4,
+        "avg_destruction": 96.2,
+        "is_us": false,
+        "position": 1
+      },
       {
         "name": "Hero Dive Bar",
         "wins": 2,
@@ -59111,20 +59125,6 @@
         "wars_counted": 4,
         "avg_destruction": 99.38333333333333,
         "is_us": true,
-        "position": 1
-      },
-      {
-        "name": "کلبه وحشت",
-        "wins": 3,
-        "losses": 0,
-        "ties": 0,
-        "battle_stars": 160,
-        "bonus_stars": 30,
-        "league_stars": 190,
-        "destruction": 378.1333333333333,
-        "wars_counted": 4,
-        "avg_destruction": 94.53333333333333,
-        "is_us": false,
         "position": 2
       },
       {
