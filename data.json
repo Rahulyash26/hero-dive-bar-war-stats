@@ -1,6 +1,6 @@
 {
   "schema_version": 16,
-  "generated_at": "2026-10-08T05:19:45.306364+00:00",
+  "generated_at": "2026-10-08T05:29:54.755651+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -59156,6 +59156,20 @@
         "position": 4
       },
       {
+        "name": "DEPREDADORES 3",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "battle_stars": 155,
+        "bonus_stars": 10,
+        "league_stars": 165,
+        "destruction": 384.1333333333333,
+        "wars_counted": 4,
+        "avg_destruction": 96.03333333333333,
+        "is_us": false,
+        "position": 5
+      },
+      {
         "name": "TITAN TURK'S ®",
         "wins": 1,
         "losses": 2,
@@ -59166,20 +59180,6 @@
         "destruction": 364.1333333333333,
         "wars_counted": 4,
         "avg_destruction": 91.03333333333333,
-        "is_us": false,
-        "position": 5
-      },
-      {
-        "name": "DEPREDADORES 3",
-        "wins": 1,
-        "losses": 2,
-        "ties": 0,
-        "battle_stars": 152,
-        "bonus_stars": 10,
-        "league_stars": 162,
-        "destruction": 377.46666666666664,
-        "wars_counted": 4,
-        "avg_destruction": 94.36666666666666,
         "is_us": false,
         "position": 6
       },
