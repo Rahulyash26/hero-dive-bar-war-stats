@@ -1,6 +1,6 @@
 {
   "schema_version": 16,
-  "generated_at": "2026-10-08T07:49:09.401408+00:00",
+  "generated_at": "2026-10-08T07:51:12.944694+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -59512,6 +59512,20 @@
         "position": 6
       },
       {
+        "name": "Black Death 7",
+        "wins": 0,
+        "losses": 4,
+        "ties": 0,
+        "battle_stars": 146,
+        "bonus_stars": 0,
+        "league_stars": 146,
+        "destruction": 383.06666666666666,
+        "wars_counted": 5,
+        "avg_destruction": 76.61333333333333,
+        "is_us": false,
+        "position": 7
+      },
+      {
         "name": "ACE 98 BẤT BẠI",
         "wins": 1,
         "losses": 3,
@@ -59522,20 +59536,6 @@
         "destruction": 333.33333333333337,
         "wars_counted": 5,
         "avg_destruction": 66.66666666666667,
-        "is_us": false,
-        "position": 7
-      },
-      {
-        "name": "Black Death 7",
-        "wins": 0,
-        "losses": 4,
-        "ties": 0,
-        "battle_stars": 140,
-        "bonus_stars": 0,
-        "league_stars": 140,
-        "destruction": 369.73333333333335,
-        "wars_counted": 5,
-        "avg_destruction": 73.94666666666667,
         "is_us": false,
         "position": 8
       }
