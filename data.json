@@ -1,6 +1,6 @@
 {
   "schema_version": 15,
-  "generated_at": "2026-11-05T05:26:50.662558+00:00",
+  "generated_at": "2026-11-05T05:27:53.421983+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -49923,9 +49923,23 @@
         "position": 5
       },
       {
+        "name": "神風　空の王",
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "battle_stars": 73,
+        "bonus_stars": 10,
+        "league_stars": 83,
+        "destruction": 186.39999999999998,
+        "wars_counted": 2,
+        "avg_destruction": 93.19999999999999,
+        "is_us": false,
+        "position": 6
+      },
+      {
         "name": "Lobz",
         "wins": 0,
-        "losses": 1,
+        "losses": 2,
         "ties": 0,
         "battle_stars": 79,
         "bonus_stars": 0,
@@ -49933,20 +49947,6 @@
         "destruction": 184.93333333333334,
         "wars_counted": 3,
         "avg_destruction": 61.644444444444446,
-        "is_us": false,
-        "position": 6
-      },
-      {
-        "name": "神風　空の王",
-        "wins": 0,
-        "losses": 1,
-        "ties": 0,
-        "battle_stars": 73,
-        "bonus_stars": 0,
-        "league_stars": 73,
-        "destruction": 186.39999999999998,
-        "wars_counted": 2,
-        "avg_destruction": 93.19999999999999,
         "is_us": false,
         "position": 7
       },
@@ -50043,103 +50043,103 @@
       }
     ],
     "previous_round_misses": {
-      "round": 1,
+      "round": 2,
       "teams": [
         {
-          "name": "Fast",
-          "opponent_name": "GDZ warriors",
-          "is_us": false,
-          "attacks_used": 15,
-          "expected_attacks": 15,
-          "missed_attacks": 0,
-          "stars": 45,
-          "opponent_stars": 44,
-          "destruction": 100.0,
-          "opponent_destruction": 99.73333333333333
-        },
-        {
-          "name": "GDZ warriors",
+          "name": "***RAMPAGE***",
           "opponent_name": "Fast",
           "is_us": false,
           "attacks_used": 15,
           "expected_attacks": 15,
           "missed_attacks": 0,
           "stars": 44,
-          "opponent_stars": 45,
-          "destruction": 99.73333333333333,
-          "opponent_destruction": 100.0
+          "opponent_stars": 43,
+          "destruction": 99.6,
+          "opponent_destruction": 99.13333333333334
         },
         {
-          "name": "Hero Dive Bar",
-          "opponent_name": "Lobz",
-          "is_us": true,
+          "name": "Fast",
+          "opponent_name": "***RAMPAGE***",
+          "is_us": false,
           "attacks_used": 15,
           "expected_attacks": 15,
           "missed_attacks": 0,
           "stars": 43,
-          "opponent_stars": 40,
-          "destruction": 99.33333333333333,
-          "opponent_destruction": 91.8
+          "opponent_stars": 44,
+          "destruction": 99.13333333333334,
+          "opponent_destruction": 99.6
         },
         {
-          "name": "神風　空の王",
+          "name": "For GOD'S Glory",
+          "opponent_name": "Hero Dive Bar",
+          "is_us": false,
+          "attacks_used": 15,
+          "expected_attacks": 15,
+          "missed_attacks": 0,
+          "stars": 38,
+          "opponent_stars": 42,
+          "destruction": 92.53333333333333,
+          "opponent_destruction": 98.33333333333333
+        },
+        {
+          "name": "GDZ warriors",
           "opponent_name": "glip glops",
           "is_us": false,
           "attacks_used": 15,
           "expected_attacks": 15,
           "missed_attacks": 0,
-          "stars": 31,
-          "opponent_stars": 35,
-          "destruction": 88.6,
-          "opponent_destruction": 89.4
-        },
-        {
-          "name": "***RAMPAGE***",
-          "opponent_name": "For GOD'S Glory",
-          "is_us": false,
-          "attacks_used": 14,
-          "expected_attacks": 15,
-          "missed_attacks": 1,
-          "stars": 37,
-          "opponent_stars": 32,
-          "destruction": 89.8,
-          "opponent_destruction": 83.86666666666666
-        },
-        {
-          "name": "For GOD'S Glory",
-          "opponent_name": "***RAMPAGE***",
-          "is_us": false,
-          "attacks_used": 14,
-          "expected_attacks": 15,
-          "missed_attacks": 1,
-          "stars": 32,
-          "opponent_stars": 37,
-          "destruction": 83.86666666666666,
-          "opponent_destruction": 89.8
+          "stars": 39,
+          "opponent_stars": 36,
+          "destruction": 92.26666666666667,
+          "opponent_destruction": 88.8
         },
         {
           "name": "glip glops",
-          "opponent_name": "神風　空の王",
+          "opponent_name": "GDZ warriors",
           "is_us": false,
-          "attacks_used": 14,
+          "attacks_used": 15,
           "expected_attacks": 15,
-          "missed_attacks": 1,
-          "stars": 35,
-          "opponent_stars": 31,
-          "destruction": 89.4,
-          "opponent_destruction": 88.6
+          "missed_attacks": 0,
+          "stars": 36,
+          "opponent_stars": 39,
+          "destruction": 88.8,
+          "opponent_destruction": 92.26666666666667
+        },
+        {
+          "name": "Hero Dive Bar",
+          "opponent_name": "For GOD'S Glory",
+          "is_us": true,
+          "attacks_used": 15,
+          "expected_attacks": 15,
+          "missed_attacks": 0,
+          "stars": 42,
+          "opponent_stars": 38,
+          "destruction": 98.33333333333333,
+          "opponent_destruction": 92.53333333333333
         },
         {
           "name": "Lobz",
-          "opponent_name": "Hero Dive Bar",
+          "opponent_name": "神風　空の王",
           "is_us": false,
-          "attacks_used": 14,
+          "attacks_used": 15,
           "expected_attacks": 15,
-          "missed_attacks": 1,
-          "stars": 40,
-          "opponent_stars": 43,
-          "destruction": 91.8,
-          "opponent_destruction": 99.33333333333333
+          "missed_attacks": 0,
+          "stars": 39,
+          "opponent_stars": 42,
+          "destruction": 93.13333333333334,
+          "opponent_destruction": 97.8
+        },
+        {
+          "name": "神風　空の王",
+          "opponent_name": "Lobz",
+          "is_us": false,
+          "attacks_used": 15,
+          "expected_attacks": 15,
+          "missed_attacks": 0,
+          "stars": 42,
+          "opponent_stars": 39,
+          "destruction": 97.8,
+          "opponent_destruction": 93.13333333333334
         }
       ]
     },
