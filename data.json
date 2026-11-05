@@ -1,6 +1,6 @@
 {
   "schema_version": 15,
-  "generated_at": "2026-11-05T06:51:37.076440+00:00",
+  "generated_at": "2026-11-05T07:11:10.332393+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -50259,6 +50259,20 @@
         "position": 4
       },
       {
+        "name": "Lobz",
+        "wins": 0,
+        "losses": 2,
+        "ties": 0,
+        "battle_stars": 85,
+        "bonus_stars": 0,
+        "league_stars": 85,
+        "destruction": 198.26666666666668,
+        "wars_counted": 3,
+        "avg_destruction": 66.08888888888889,
+        "is_us": false,
+        "position": 5
+      },
+      {
         "name": "神風　空の王",
         "wins": 1,
         "losses": 1,
@@ -50270,7 +50284,7 @@
         "wars_counted": 3,
         "avg_destruction": 64.28888888888888,
         "is_us": false,
-        "position": 5
+        "position": 6
       },
       {
         "name": "glip glops",
@@ -50283,20 +50297,6 @@
         "destruction": 184.86666666666665,
         "wars_counted": 3,
         "avg_destruction": 61.62222222222221,
-        "is_us": false,
-        "position": 6
-      },
-      {
-        "name": "Lobz",
-        "wins": 0,
-        "losses": 2,
-        "ties": 0,
-        "battle_stars": 82,
-        "bonus_stars": 0,
-        "league_stars": 82,
-        "destruction": 191.6,
-        "wars_counted": 3,
-        "avg_destruction": 63.86666666666667,
         "is_us": false,
         "position": 7
       },
