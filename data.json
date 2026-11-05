@@ -1,6 +1,6 @@
 {
   "schema_version": 15,
-  "generated_at": "2026-11-05T13:29:09.645822+00:00",
+  "generated_at": "2026-11-05T13:32:14.989916+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -50377,6 +50377,20 @@
         "position": 3
       },
       {
+        "name": "神風　空の王",
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "battle_stars": 95,
+        "bonus_stars": 10,
+        "league_stars": 105,
+        "destruction": 239.13333333333333,
+        "wars_counted": 3,
+        "avg_destruction": 79.71111111111111,
+        "is_us": false,
+        "position": 4
+      },
+      {
         "name": "GDZ warriors",
         "wins": 1,
         "losses": 1,
@@ -50387,20 +50401,6 @@
         "destruction": 218.66666666666666,
         "wars_counted": 3,
         "avg_destruction": 72.88888888888889,
-        "is_us": false,
-        "position": 4
-      },
-      {
-        "name": "神風　空の王",
-        "wins": 1,
-        "losses": 1,
-        "ties": 0,
-        "battle_stars": 92,
-        "bonus_stars": 10,
-        "league_stars": 102,
-        "destruction": 232.46666666666664,
-        "wars_counted": 3,
-        "avg_destruction": 77.48888888888888,
         "is_us": false,
         "position": 5
       },
