@@ -1,6 +1,6 @@
 {
   "schema_version": 15,
-  "generated_at": "2026-11-05T05:23:44.821582+00:00",
+  "generated_at": "2026-11-05T05:24:47.475829+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -49867,9 +49867,23 @@
         "position": 1
       },
       {
+        "name": "***RAMPAGE***",
+        "wins": 2,
+        "losses": 0,
+        "ties": 0,
+        "battle_stars": 81,
+        "bonus_stars": 20,
+        "league_stars": 101,
+        "destruction": 189.39999999999998,
+        "wars_counted": 3,
+        "avg_destruction": 63.133333333333326,
+        "is_us": false,
+        "position": 2
+      },
+      {
         "name": "Fast",
         "wins": 1,
-        "losses": 0,
+        "losses": 1,
         "ties": 0,
         "battle_stars": 88,
         "bonus_stars": 10,
@@ -49878,30 +49892,16 @@
         "wars_counted": 2,
         "avg_destruction": 99.56666666666666,
         "is_us": false,
-        "position": 2
-      },
-      {
-        "name": "***RAMPAGE***",
-        "wins": 1,
-        "losses": 0,
-        "ties": 0,
-        "battle_stars": 81,
-        "bonus_stars": 10,
-        "league_stars": 91,
-        "destruction": 189.39999999999998,
-        "wars_counted": 3,
-        "avg_destruction": 63.133333333333326,
-        "is_us": false,
         "position": 3
       },
       {
         "name": "GDZ warriors",
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
         "ties": 0,
         "battle_stars": 83,
-        "bonus_stars": 0,
-        "league_stars": 83,
+        "bonus_stars": 10,
+        "league_stars": 93,
         "destruction": 192.0,
         "wars_counted": 3,
         "avg_destruction": 64.0,
@@ -49911,7 +49911,7 @@
       {
         "name": "glip glops",
         "wins": 1,
-        "losses": 0,
+        "losses": 1,
         "ties": 0,
         "battle_stars": 71,
         "bonus_stars": 10,
@@ -49931,8 +49931,8 @@
         "bonus_stars": 0,
         "league_stars": 79,
         "destruction": 184.93333333333334,
-        "wars_counted": 2,
-        "avg_destruction": 92.46666666666667,
+        "wars_counted": 3,
+        "avg_destruction": 61.644444444444446,
         "is_us": false,
         "position": 6
       },
@@ -49959,8 +49959,8 @@
         "bonus_stars": 0,
         "league_stars": 70,
         "destruction": 176.39999999999998,
-        "wars_counted": 2,
-        "avg_destruction": 88.19999999999999,
+        "wars_counted": 3,
+        "avg_destruction": 58.79999999999999,
         "is_us": false,
         "position": 8
       }
