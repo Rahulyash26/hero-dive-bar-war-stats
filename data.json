@@ -1,6 +1,6 @@
 {
   "schema_version": 15,
-  "generated_at": "2026-11-05T08:47:30.299165+00:00",
+  "generated_at": "2026-11-05T09:01:05.245388+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -50325,6 +50325,20 @@
         "position": 4
       },
       {
+        "name": "Lobz",
+        "wins": 0,
+        "losses": 2,
+        "ties": 0,
+        "battle_stars": 88,
+        "bonus_stars": 0,
+        "league_stars": 88,
+        "destruction": 204.93333333333334,
+        "wars_counted": 3,
+        "avg_destruction": 68.31111111111112,
+        "is_us": false,
+        "position": 5
+      },
+      {
         "name": "神風　空の王",
         "wins": 1,
         "losses": 1,
@@ -50335,20 +50349,6 @@
         "destruction": 199.5333333333333,
         "wars_counted": 3,
         "avg_destruction": 66.5111111111111,
-        "is_us": false,
-        "position": 5
-      },
-      {
-        "name": "Lobz",
-        "wins": 0,
-        "losses": 2,
-        "ties": 0,
-        "battle_stars": 85,
-        "bonus_stars": 0,
-        "league_stars": 85,
-        "destruction": 198.26666666666668,
-        "wars_counted": 3,
-        "avg_destruction": 66.08888888888889,
         "is_us": false,
         "position": 6
       },
