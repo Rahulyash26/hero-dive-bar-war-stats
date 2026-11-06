@@ -1,6 +1,6 @@
 {
   "schema_version": 15,
-  "generated_at": "2026-11-06T00:31:23.157111+00:00",
+  "generated_at": "2026-11-06T01:28:51.947126+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -50507,6 +50507,20 @@
         "position": 6
       },
       {
+        "name": "For GOD'S Glory",
+        "wins": 0,
+        "losses": 2,
+        "ties": 0,
+        "battle_stars": 102,
+        "bonus_stars": 0,
+        "league_stars": 102,
+        "destruction": 247.9333333333333,
+        "wars_counted": 3,
+        "avg_destruction": 82.64444444444443,
+        "is_us": false,
+        "position": 7
+      },
+      {
         "name": "Lobz",
         "wins": 0,
         "losses": 2,
@@ -50517,20 +50531,6 @@
         "destruction": 239.8,
         "wars_counted": 3,
         "avg_destruction": 79.93333333333334,
-        "is_us": false,
-        "position": 7
-      },
-      {
-        "name": "For GOD'S Glory",
-        "wins": 0,
-        "losses": 2,
-        "ties": 0,
-        "battle_stars": 96,
-        "bonus_stars": 0,
-        "league_stars": 96,
-        "destruction": 234.59999999999997,
-        "wars_counted": 3,
-        "avg_destruction": 78.19999999999999,
         "is_us": false,
         "position": 8
       }
