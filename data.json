@@ -1,6 +1,6 @@
 {
   "schema_version": 15,
-  "generated_at": "2026-11-07T03:37:42.430538+00:00",
+  "generated_at": "2026-11-07T03:43:46.663125+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -51081,12 +51081,12 @@
         "wins": 1,
         "losses": 2,
         "ties": 0,
-        "battle_stars": 140,
+        "battle_stars": 142,
         "bonus_stars": 10,
-        "league_stars": 150,
-        "destruction": 347.46666666666664,
+        "league_stars": 152,
+        "destruction": 353.4,
         "wars_counted": 4,
-        "avg_destruction": 86.86666666666666,
+        "avg_destruction": 88.35,
         "is_us": false,
         "position": 7
       },
