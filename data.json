@@ -1,6 +1,6 @@
 {
   "schema_version": 15,
-  "generated_at": "2026-11-08T20:18:27.868834+00:00",
+  "generated_at": "2026-11-08T20:20:31.562748+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -52059,7 +52059,7 @@
     "season": "2026-11-02",
     "state": "inWar",
     "league_name": "Master League I",
-    "position": 3,
+    "position": 4,
     "record": {
       "wins": 3,
       "losses": 2,
@@ -52095,6 +52095,20 @@
         "position": 2
       },
       {
+        "name": "GDZ warriors",
+        "wins": 4,
+        "losses": 1,
+        "ties": 0,
+        "battle_stars": 233,
+        "bonus_stars": 40,
+        "league_stars": 273,
+        "destruction": 545.2666666666667,
+        "wars_counted": 6,
+        "avg_destruction": 90.87777777777778,
+        "is_us": false,
+        "position": 3
+      },
+      {
         "name": "Hero Dive Bar",
         "wins": 3,
         "losses": 2,
@@ -52106,20 +52120,6 @@
         "wars_counted": 6,
         "avg_destruction": 93.78888888888889,
         "is_us": true,
-        "position": 3
-      },
-      {
-        "name": "GDZ warriors",
-        "wins": 4,
-        "losses": 1,
-        "ties": 0,
-        "battle_stars": 230,
-        "bonus_stars": 40,
-        "league_stars": 270,
-        "destruction": 538.6,
-        "wars_counted": 6,
-        "avg_destruction": 89.76666666666667,
-        "is_us": false,
         "position": 4
       },
       {
