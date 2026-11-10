@@ -1,6 +1,6 @@
 {
   "schema_version": 15,
-  "generated_at": "2026-11-10T02:59:54.965333+00:00",
+  "generated_at": "2026-11-10T03:27:10.101258+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -52453,6 +52453,20 @@
         "position": 4
       },
       {
+        "name": "glip glops",
+        "wins": 3,
+        "losses": 3,
+        "ties": 0,
+        "battle_stars": 257,
+        "bonus_stars": 30,
+        "league_stars": 287,
+        "destruction": 614.8000000000001,
+        "wars_counted": 7,
+        "avg_destruction": 87.82857142857144,
+        "is_us": false,
+        "position": 5
+      },
+      {
         "name": "For GOD'S Glory",
         "wins": 3,
         "losses": 3,
@@ -52463,20 +52477,6 @@
         "destruction": 625.8666666666666,
         "wars_counted": 7,
         "avg_destruction": 89.40952380952379,
-        "is_us": false,
-        "position": 5
-      },
-      {
-        "name": "glip glops",
-        "wins": 3,
-        "losses": 3,
-        "ties": 0,
-        "battle_stars": 252,
-        "bonus_stars": 30,
-        "league_stars": 282,
-        "destruction": 601.6,
-        "wars_counted": 7,
-        "avg_destruction": 85.94285714285715,
         "is_us": false,
         "position": 6
       },
