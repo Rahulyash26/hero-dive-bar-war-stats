@@ -1,6 +1,6 @@
 {
   "schema_version": 15,
-  "generated_at": "2026-11-10T03:40:38.758962+00:00",
+  "generated_at": "2026-11-10T03:51:23.649190+00:00",
   "dashboard_mode": "cwl",
   "clan": {
     "name": "Hero Dive Bar",
@@ -52411,6 +52411,20 @@
         "position": 1
       },
       {
+        "name": "GDZ warriors",
+        "wins": 5,
+        "losses": 1,
+        "ties": 0,
+        "battle_stars": 283,
+        "bonus_stars": 50,
+        "league_stars": 333,
+        "destruction": 660.5333333333333,
+        "wars_counted": 7,
+        "avg_destruction": 94.36190476190475,
+        "is_us": false,
+        "position": 2
+      },
+      {
         "name": "Fast",
         "wins": 4,
         "losses": 2,
@@ -52421,20 +52435,6 @@
         "destruction": 683.2,
         "wars_counted": 7,
         "avg_destruction": 97.60000000000001,
-        "is_us": false,
-        "position": 2
-      },
-      {
-        "name": "GDZ warriors",
-        "wins": 5,
-        "losses": 1,
-        "ties": 0,
-        "battle_stars": 280,
-        "bonus_stars": 50,
-        "league_stars": 330,
-        "destruction": 655.0,
-        "wars_counted": 7,
-        "avg_destruction": 93.57142857142857,
         "is_us": false,
         "position": 3
       },
